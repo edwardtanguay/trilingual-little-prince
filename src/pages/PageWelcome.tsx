@@ -1,9 +1,7 @@
-import { useTypedStoreState } from "../store/hooks"
+import notes from '../data/notes.triling.txt?raw';
 
 export const PageWelcome = () => {
-	const { message } = useTypedStoreState((state) => state.mainModel);
-
 	return (
-		<p>{message}</p>
+		<p>{notes}</p>
 	)
 }

@@ -1,7 +1,7 @@
 
 import { NavLink } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
-import * as tools from '../tools';
+import * as tools from '../qtools/qstr';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 
