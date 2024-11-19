@@ -10,15 +10,19 @@ export type SmartBookChapterLine = {
 		fr: string;
 		sp: string;
 		it: string;
-	}
-}
+	};
+};
 
 export type SmartBookChapter = {
 	number: number;
 	summary: string;
-	lines: SmartBookChapterLine[]
-}
+	lines: SmartBookChapterLine[];
+};
 
 export type SmartBook = {
-	chapters: SmartBookChapter[]
-}
+	chapters: SmartBookChapter[];
+};
+
+export const smartBookInitialValue = {
+	chapters: [],
+};

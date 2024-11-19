@@ -1,14 +1,16 @@
 import { Action, action, Thunk, thunk } from "easy-peasy";
-import { RawLineItem } from "../../types";
+import { RawLineItem, SmartBook, smartBookInitialValue } from "../../types";
 import notes from "../../data/notes.triling.txt?raw";
 import * as qstr from "../../qtools/qstr";
 
 export interface MainModel {
 	// state
 	rawLineItems: RawLineItem[];
+	smartBook: SmartBook;
 
 	// actions
 	buildRawLineItems: Action<this>;
+	buildSmartBook: Action<this>;
 
 	// thunks
 	initialize: Thunk<this>;
@@ -17,6 +19,7 @@ export interface MainModel {
 export const mainModel: MainModel = {
 	// state
 	rawLineItems: [],
+	smartBook: smartBookInitialValue,
 
 	// actions
 	buildRawLineItems: action((state) => {
@@ -44,6 +47,20 @@ export const mainModel: MainModel = {
 				}
 			}
 		}
+	}),
+	buildSmartBook: action((state) => {
+		state.smartBook.chapters = [
+			{
+				number: 1,
+				summary: "This is chapter 001.",
+				lines: [],
+			},
+			{
+				number: 2,
+				summary: "This is chapter 002.",
+				lines: [],
+			},
+		];
 	}),
 
 	// thunks
