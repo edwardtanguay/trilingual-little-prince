@@ -13,8 +13,8 @@ export const PageWelcome = () => {
 						{chapter.smartLines.map((smartLine, index) => {
 							return (
 								<div key={index} className='flex gap-3 mb-3'>
-									<div>{smartLine.number}</div>
-									<div>
+									<div className="font-mono w-[1rem] text-xs pt-[.3rem] opacity-50">{smartLine.number}</div>
+									<div className='w-fit'>
 										<div>{smartLine.rawTexts.fr}</div>
 										<div>{smartLine.rawTexts.sp}</div>
 										<div>{smartLine.rawTexts.it}</div>
