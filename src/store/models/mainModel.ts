@@ -21,7 +21,7 @@ export const mainModel: MainModel = {
 		state.lineItems.push({
 			chapter: 1,
 			lineNumber: 1,
-			rawText: "nnn",
+			rawText: "nnn111",
 		});
 		state.lineItems.push({
 			chapter: 2,
@@ -32,6 +32,7 @@ export const mainModel: MainModel = {
 
 	// thunks
 	initialize: thunk((actions) => {
-		actions.loadSiteData
+		console.log(11111, "in init");
+		actions.loadSiteData();
 	}),
 };
