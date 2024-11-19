@@ -1,8 +1,4 @@
-// import notes from '../data/notes.triling.txt?raw';
-// import * as qstr from '../qtools/qstr';
 import { useTypedStoreState } from '../store/hooks';
-
-// const lines = qstr.convertStringBlockToLines(notes)
 
 export const PageWelcome = () => {
 	const { lineItems } = useTypedStoreState(state => state.mainModel);

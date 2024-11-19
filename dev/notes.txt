@@ -4,8 +4,8 @@
 	- x lineItems
 - .. loadSiteData
 	- x dummy data
-	- .. show dummy data
-	- load read data from text file
+	- x show dummy data
+	- .. load read data from text file
 - display with three colors
 
 

@@ -1,5 +1,7 @@
 import { Action, action, Thunk, thunk } from "easy-peasy";
 import { LineItem } from "../../types";
+import notes from "../../data/notes.triling.txt?raw";
+import * as qstr from "../../qtools/qstr";
 
 export interface MainModel {
 	// state
@@ -18,16 +20,15 @@ export const mainModel: MainModel = {
 
 	// actions
 	loadSiteData: action((state) => {
-		state.lineItems.push({
-			chapter: 1,
-			lineNumber: 1,
-			rawText: "nnn111",
-		});
-		state.lineItems.push({
-			chapter: 2,
-			lineNumber: 1,
-			rawText: "nnn",
-		});
+		const lines = qstr.convertStringBlockToLines(notes);
+
+		for (const line of lines) {
+			state.lineItems.push({
+				chapter: 1,
+				lineNumber: 1,
+				rawText: line,
+			});
+		}
 	}),
 
 	// thunks
