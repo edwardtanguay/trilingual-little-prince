@@ -3,12 +3,16 @@
 	- x make type
 	- x lineItems
 - .. loadSiteData
+	- x dummy data
+	- .. show dummy data
+	- load read data from text file
 - display with three colors
 
 
 
 
 
-- infos
-	- examples easy-peasy: https://github.com/edwardtanguay/newtech2024/blob/dev/src/store/models/flashcardModel.ts
+- easy-peasy help
+	- model: https://github.com/edwardtanguay/newtech2024/blob/dev/src/store/models/flashcardModel.ts
+	- usage: https://github.com/edwardtanguay/newtech2024/blob/dev/src/pages/PageFlashcards.tsx
 

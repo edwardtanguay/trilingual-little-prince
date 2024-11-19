@@ -1,4 +1,4 @@
-import { Action, action } from "easy-peasy";
+import { Action, action, Thunk, thunk } from "easy-peasy";
 import { LineItem } from "../../types";
 
 export interface MainModel {
@@ -7,6 +7,9 @@ export interface MainModel {
 
 	// actions
 	loadSiteData: Action<this>;
+
+	// thunks
+	initialize: Thunk<this>;
 }
 
 export const mainModel: MainModel = {
@@ -25,5 +28,10 @@ export const mainModel: MainModel = {
 			lineNumber: 1,
 			rawText: "nnn",
 		});
+	}),
+
+	// thunks
+	initialize: thunk((actions) => {
+		actions.loadSiteData
 	}),
 };
