@@ -90,9 +90,9 @@ export const mainModel: MainModel = {
 						it: itRawText,
 					},
 					plainTexts: {
-						fr: frRawText + "plain",
-						sp: spRawText + "plain",
-						it: itRawText + "plain",
+						fr: qstr.reduceRawTextToPlainText(frRawText),
+						sp: qstr.reduceRawTextToPlainText(spRawText),
+						it: qstr.reduceRawTextToPlainText(itRawText),
 					},
 				});
 			}
