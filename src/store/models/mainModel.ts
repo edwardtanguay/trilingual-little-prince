@@ -5,10 +5,10 @@ import * as qstr from "../../qtools/qstr";
 
 export interface MainModel {
 	// state
-	lineItems: RawLineItem[];
+	rawLineItems: RawLineItem[];
 
 	// actions
-	loadSiteData: Action<this>;
+	buildRawLineItems: Action<this>;
 
 	// thunks
 	initialize: Thunk<this>;
@@ -16,10 +16,10 @@ export interface MainModel {
 
 export const mainModel: MainModel = {
 	// state
-	lineItems: [],
+	rawLineItems: [],
 
 	// actions
-	loadSiteData: action((state) => {
+	buildRawLineItems: action((state) => {
 		const lines = qstr.convertStringBlockToLines(notes);
 
 		let currentChapterNumber = 0;
@@ -32,7 +32,7 @@ export const mainModel: MainModel = {
 				currentLine = 1;
 			} else {
 				if (line.trim() !== "") {
-					state.lineItems.push({
+					state.rawLineItems.push({
 						chapter: currentChapterNumber,
 						lineNumber: currentLine,
 						rawText: line,
@@ -49,6 +49,6 @@ export const mainModel: MainModel = {
 	// thunks
 	initialize: thunk((actions) => {
 		console.log(11111, "in init");
-		actions.loadSiteData();
+		actions.buildRawLineItems();
 	}),
 };

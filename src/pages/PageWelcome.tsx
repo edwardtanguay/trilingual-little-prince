@@ -1,7 +1,7 @@
 import { useTypedStoreState } from '../store/hooks';
 
 export const PageWelcome = () => {
-	const { lineItems } = useTypedStoreState(state => state.mainModel);
+	const { rawLineItems: lineItems } = useTypedStoreState(state => state.mainModel);
 
 	return (
 		<>
