@@ -1,9 +1,14 @@
-- .. add some for chapter 002
-- make in store lineItems
-	- chapter: number
-	- lineCount: number
-	- rawText: string
-- loadSiteData
+- x add some for chapter 002
+- x make in store lineItems
+	- x make type
+	- x lineItems
+- .. loadSiteData
 - display with three colors
 
+
+
+
+
+- infos
+	- examples easy-peasy: https://github.com/edwardtanguay/newtech2024/blob/dev/src/store/models/flashcardModel.ts
 
