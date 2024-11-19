@@ -29,12 +29,14 @@ export const mainModel: MainModel = {
 				currentChapterNumber = 999;
 				currentLine = 1;
 			} else {
-				state.lineItems.push({
-					chapter: currentChapterNumber,
-					lineNumber: currentLine,
-					rawText: line,
-				});
-				currentLine++;
+				if (line.trim() !== "") {
+					state.lineItems.push({
+						chapter: currentChapterNumber,
+						lineNumber: currentLine,
+						rawText: line,
+					});
+					currentLine++;
+				}
 			}
 		}
 	}),
