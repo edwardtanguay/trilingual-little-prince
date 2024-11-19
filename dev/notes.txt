@@ -26,7 +26,7 @@
 - .. transform rawLineItems into SmartBook
 	- x mock smartbook
 	- x show mock smartbook
-	- .. loop through rawLineItems bulding smartbook
+	- .. loop through rawLineItems building smartbook
 
 - display with three colors
 

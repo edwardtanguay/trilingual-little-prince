@@ -11,6 +11,7 @@ export interface MainModel {
 	// actions
 	buildRawLineItems: Action<this>;
 	fillSmartBookWithChapterRawLines: Action<this>;
+	fillRestOfSmartBook: Action<this>;
 
 	// thunks
 	initialize: Thunk<this>;
@@ -65,7 +66,6 @@ export const mainModel: MainModel = {
 						number: currentChapterNumber,
 						summary: "",
 						smartLines: [],
-						// rawLineItems: structuredClone(rawLineItems),
 						rawLineItems: [...rawLineItems]
 					});
 				}
@@ -76,10 +76,20 @@ export const mainModel: MainModel = {
 			rawLineItems.push(rawLineItem);
 		}
 	}),
+	fillRestOfSmartBook: action((state) => {
+		const langs = ['fr', 'sp', 'it'];
+		for (const chapter of state.smartBook.chapters) {
+			const numberOfLines = chapter.rawLineItems.length / 3;
+			for (let i = 1; i <= numberOfLines; i++) {
+				console.log(11114, i);
+			}
+		}
+	}),
 
 	// thunks
 	initialize: thunk((actions) => {
 		actions.buildRawLineItems();
 		actions.fillSmartBookWithChapterRawLines();
+		actions.fillRestOfSmartBook()
 	}),
 };
