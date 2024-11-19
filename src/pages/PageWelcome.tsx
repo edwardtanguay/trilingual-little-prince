@@ -8,11 +8,17 @@ export const PageWelcome = () => {
 			<ul className='list-disc ml-6'>
 				{smartBook.chapters.map((chapter, index) => {
 					return (
-						<li key={index}>CHAPTER {chapter.number} - {chapter.rawLineItems.length}
+						<li key={index}>CHAPTER {chapter.number}
 							<ul>
-								{chapter.rawLineItems.map((rawLineItem, index) => {
+								{chapter.smartLines.map((smartLine, index) => {
 									return (
-										<li key={index} >{rawLineItem.lineNumber} - {rawLineItem.rawText}</li>
+										<li key={index} >{smartLine.number}
+											<ul>
+												<li>{smartLine.rawTexts.fr}</li>
+												<li>{smartLine.rawTexts.sp}</li>
+												<li>{smartLine.rawTexts.it}</li>
+											</ul>
+										</li>
 									)
 								})}
 							</ul>

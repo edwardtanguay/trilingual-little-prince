@@ -61,12 +61,11 @@ export const mainModel: MainModel = {
 			if (rawLineItem.chapter !== currentChapterNumber) {
 				// save chapter that was being saved, if necessary
 				if (rawLineItem.chapter !== 1) {
-					console.log(11113, rawLineItems);
 					state.smartBook.chapters.push({
 						number: currentChapterNumber,
 						summary: "",
 						smartLines: [],
-						rawLineItems: [...rawLineItems]
+						rawLineItems: [...rawLineItems],
 					});
 				}
 				//start new chapter
@@ -77,11 +76,17 @@ export const mainModel: MainModel = {
 		}
 	}),
 	fillRestOfSmartBook: action((state) => {
-		const langs = ['fr', 'sp', 'it'];
 		for (const chapter of state.smartBook.chapters) {
 			const numberOfLines = chapter.rawLineItems.length / 3;
 			for (let i = 1; i <= numberOfLines; i++) {
-				console.log(11114, i);
+				chapter.smartLines.push({
+					number: i,
+					rawTexts: {
+						fr: chapter.rawLineItems[i * 3 - 3].rawText,
+						sp: chapter.rawLineItems[i * 3 - 2].rawText,
+						it: chapter.rawLineItems[i * 3 - 1].rawText,
+					},
+				});
 			}
 		}
 	}),
@@ -90,6 +95,6 @@ export const mainModel: MainModel = {
 	initialize: thunk((actions) => {
 		actions.buildRawLineItems();
 		actions.fillSmartBookWithChapterRawLines();
-		actions.fillRestOfSmartBook()
+		actions.fillRestOfSmartBook();
 	}),
 };
