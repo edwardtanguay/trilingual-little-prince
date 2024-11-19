@@ -6,9 +6,22 @@
 	- x dummy data
 	- x show dummy data
 	- x load read data from text file
-	- .. group numbers: three lines for each number
-- rename to rawLineItems
-- make smartBook
+	- x group numbers: three lines for each number
+- x rename to rawLineItems
+- .. make smartBook
+	{
+		chapters:
+			number
+			summary
+			lines
+				{
+					number: 1
+					rawtext
+						fr
+						sp
+						it
+				}
+	}
 - display with three colors
 
 

@@ -1,11 +1,11 @@
 import { Action, action, Thunk, thunk } from "easy-peasy";
-import { LineItem } from "../../types";
+import { RawLineItem } from "../../types";
 import notes from "../../data/notes.triling.txt?raw";
 import * as qstr from "../../qtools/qstr";
 
 export interface MainModel {
 	// state
-	lineItems: LineItem[];
+	lineItems: RawLineItem[];
 
 	// actions
 	loadSiteData: Action<this>;
