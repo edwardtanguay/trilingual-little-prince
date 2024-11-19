@@ -23,15 +23,19 @@ export const mainModel: MainModel = {
 		const lines = qstr.convertStringBlockToLines(notes);
 
 		let currentChapterNumber = 0;
+		let currentLine = 0;
 		for (const line of lines) {
-			if (line.startsWith('Chapter ')) {
+			if (line.startsWith("Chapter ")) {
 				currentChapterNumber = 999;
+				currentLine = 1;
+			} else {
+				state.lineItems.push({
+					chapter: currentChapterNumber,
+					lineNumber: currentLine,
+					rawText: line,
+				});
+				currentLine++;
 			}
-			state.lineItems.push({
-				chapter: currentChapterNumber,
-				lineNumber: 1,
-				rawText: line,
-			});
 		}
 	}),
 
