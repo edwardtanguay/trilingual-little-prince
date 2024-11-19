@@ -60,21 +60,19 @@ export const mainModel: MainModel = {
 			if (rawLineItem.chapter !== currentChapterNumber) {
 				// save chapter that was being saved, if necessary
 				if (rawLineItem.chapter !== 1) {
-					console.log(11112, "create chapter " + rawLineItem.chapter);
 					console.log(11113, rawLineItems);
 					state.smartBook.chapters.push({
 						number: currentChapterNumber,
 						summary: "",
 						smartLines: [],
 						// rawLineItems: structuredClone(rawLineItems),
-						rawLineItems: [],
+						rawLineItems: [...rawLineItems]
 					});
 				}
 				//start new chapter
 				currentChapterNumber = rawLineItem.chapter;
 				rawLineItems = [];
 			}
-			console.log(11113, "pushing " + rawLineItem.rawText);
 			rawLineItems.push(rawLineItem);
 		}
 	}),
