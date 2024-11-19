@@ -29,10 +29,10 @@
 - x style with three colors
 
 
-- .. add links on subtitle
+- x add links on subtitle
 	- repo: https://github.com/edwardtanguay/trilingual-little-prince
 	- live: https://trilingual-little-prince.vercel.app
-- make plainTextItems
+- .. make plainTextItems
 
 
 - easy-peasy help

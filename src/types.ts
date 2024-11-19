@@ -11,6 +11,11 @@ export type SmartLine = {
 		sp: string;
 		it: string;
 	};
+	plainTexts: {
+		fr: string;
+		sp: string;
+		it: string;
+	}
 };
 
 export type SmartBookChapter = {

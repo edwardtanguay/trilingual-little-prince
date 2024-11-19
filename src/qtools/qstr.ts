@@ -166,3 +166,10 @@ export const breakIntoParts = (
 export const replaceAll = (text: string, search: string, replace: string) => {
 	return text.split(search).join(replace);
 };
+
+export const reduceRawTextToPlainText = (text: string): string => {
+	return text.replace(/\[.*?;.*?\]/g, (match) => {
+		const parts = match.slice(1, -1).split(";");
+		return parts[0];
+	});
+};

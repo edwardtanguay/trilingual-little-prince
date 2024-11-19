@@ -79,12 +79,20 @@ export const mainModel: MainModel = {
 		for (const chapter of state.smartBook.chapters) {
 			const numberOfLines = chapter.rawLineItems.length / 3;
 			for (let i = 1; i <= numberOfLines; i++) {
+				const frRawText = chapter.rawLineItems[i * 3 - 3].rawText;
+				const spRawText = chapter.rawLineItems[i * 3 - 2].rawText;
+				const itRawText = chapter.rawLineItems[i * 3 - 1].rawText;
 				chapter.smartLines.push({
 					number: i,
 					rawTexts: {
-						fr: chapter.rawLineItems[i * 3 - 3].rawText,
-						sp: chapter.rawLineItems[i * 3 - 2].rawText,
-						it: chapter.rawLineItems[i * 3 - 1].rawText,
+						fr: frRawText,
+						sp: spRawText,
+						it: itRawText,
+					},
+					plainTexts: {
+						fr: frRawText + "plain",
+						sp: spRawText + "plain",
+						it: itRawText + "plain",
 					},
 				});
 			}
