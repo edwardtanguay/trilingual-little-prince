@@ -26,7 +26,8 @@ export const mainModel: MainModel = {
 		let currentLine = 0;
 		for (const line of lines) {
 			if (line.startsWith("Chapter ")) {
-				currentChapterNumber = 999;
+				const parts = qstr.breakIntoParts(line, ' ');
+				currentChapterNumber = Number(parts[1]);
 				currentLine = 1;
 			} else {
 				if (line.trim() !== "") {

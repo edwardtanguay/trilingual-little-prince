@@ -107,3 +107,62 @@ export const trimBeginningLinesOfBlanks = (lines: string[]) => {
 	});
 	return newLines;
 };
+
+export const breakIntoParts = (
+	main: string,
+	delimiter: string = ",",
+	maximumNumberOfParts: number = 0
+) => {
+	const escapedDelimiter = `\\${delimiter}`;
+	const mask = "@@@MASK@@@";
+	if (qstr.isEmpty(main)) {
+		return [];
+	}
+
+	const maskedMain: string = qstr.replaceAll(main, escapedDelimiter, mask);
+	const roughParts: string[] = maskedMain.split(delimiter);
+	let parts: string[] = [];
+	roughParts.forEach((part: string) => {
+		let newPart: string = part;
+		newPart = newPart.trim();
+		parts.push(newPart);
+	});
+	if (maximumNumberOfParts !== 0 && maximumNumberOfParts < parts.length) {
+		const consolidatedParts: string[] = [];
+		parts.forEach((part, index) => {
+			if (index < maximumNumberOfParts - 1) {
+				consolidatedParts.push(part);
+			} else {
+				const current: string =
+					consolidatedParts[maximumNumberOfParts - 1];
+				let prefix: string = "";
+				if (current !== undefined) {
+					prefix = `${current};`;
+				}
+				consolidatedParts[maximumNumberOfParts - 1] = prefix + part;
+			}
+		});
+		parts = consolidatedParts;
+	}
+
+	// unmask
+	const unmaskedParts = [];
+	for (const part of parts) {
+		const unmaskedPart = qstr.replaceAll(part, mask, delimiter);
+		unmaskedParts.push(unmaskedPart);
+	}
+	parts = unmaskedParts;
+
+	return parts;
+};
+
+/**
+ * REPLACE ALL OCCURANCES IN A STRING:
+ *
+ * qstr.replaceAll("This is a tost.", "o", "e");
+ *
+ * "This is a test."
+ */
+export const replaceAll = (text: string, search: string, replace: string) => {
+	return text.split(search).join(replace);
+};
