@@ -10,7 +10,7 @@ export interface MainModel {
 
 	// actions
 	buildRawLineItems: Action<this>;
-	buildSmartBook: Action<this>;
+	fillSmartBookWithChapterRawLines: Action<this>;
 
 	// thunks
 	initialize: Thunk<this>;
@@ -48,25 +48,31 @@ export const mainModel: MainModel = {
 			}
 		}
 	}),
-	buildSmartBook: action((state) => {
-		state.smartBook.chapters = [
-			{
-				number: 1,
-				summary: "This is chapter 001.",
-				lines: [],
-			},
-			{
-				number: 2,
-				summary: "This is chapter 002.",
-				lines: [],
-			},
-		];
+	fillSmartBookWithChapterRawLines: action((state) => {
+		let currentChapterNumber = 0;
+		let rawLineItems = [];
+		for (const rawLineItem of state.rawLineItems) {
+			if (rawLineItem.chapter !== currentChapterNumber) {
+				// save chapter that was being saved, if necessary
+				if (rawLineItem.chapter !== 1) {
+					state.smartBook.chapters.push({
+						number: rawLineItem.chapter,
+						summary: "",
+						smartLines: [],
+						rawLineItems: structuredClone(rawLineItems),
+					});
+				}
+				//start new chapter
+				currentChapterNumber = rawLineItem.chapter;
+				rawLineItems = [];
+			}
+			rawLineItems.push(rawLineItem);
+		}
 	}),
 
 	// thunks
 	initialize: thunk((actions) => {
-		console.log(11111, "in init");
 		actions.buildRawLineItems();
-		actions.buildSmartBook();
+		// actions.fillSmartBookWithChapterRawLines();
 	}),
 };

@@ -4,7 +4,7 @@ export type RawLineItem = {
 	rawText: string;
 };
 
-export type SmartBookChapterLine = {
+export type SmartLine = {
 	number: number;
 	rawTexts: {
 		fr: string;
@@ -16,7 +16,8 @@ export type SmartBookChapterLine = {
 export type SmartBookChapter = {
 	number: number;
 	summary: string;
-	lines: SmartBookChapterLine[];
+	smartLines: SmartLine[];
+	rawLineItems: RawLineItem[]
 };
 
 export type SmartBook = {
