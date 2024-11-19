@@ -26,10 +26,13 @@
 	- x mock smartbook
 	- x show mock smartbook
 	- x loop through rawLineItems building smartbook
-- .. style with three colors
+- x style with three colors
 
 
-- add links on subtitle
+- .. add links on subtitle
+	- repo: https://github.com/edwardtanguay/trilingual-little-prince
+	- live: https://trilingual-little-prince.vercel.app
+- make plainTextItems
 
 
 - easy-peasy help
