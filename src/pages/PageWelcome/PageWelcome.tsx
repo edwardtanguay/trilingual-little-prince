@@ -1,5 +1,6 @@
 import React from 'react';
-import { useTypedStoreState } from '../store/hooks';
+import { useTypedStoreState } from '../../store/hooks';
+import './styles.scss';
 
 export const PageWelcome = () => {
 	const { smartBook } = useTypedStoreState(state => state.mainModel);
@@ -13,11 +14,11 @@ export const PageWelcome = () => {
 						{chapter.smartLines.map((smartLine, index) => {
 							return (
 								<div key={index} className='flex gap-3 mb-3'>
-									<div className="font-mono w-[1rem] text-xs pt-[.3rem] opacity-50">{smartLine.number}</div>
+									<div className="font-mono w-[.7rem] text-xs pt-[.3rem] opacity-50">{smartLine.number}</div>
 									<div className='w-fit'>
-										<div>{smartLine.rawTexts.fr}</div>
-										<div>{smartLine.rawTexts.sp}</div>
-										<div>{smartLine.rawTexts.it}</div>
+										<div className='lang-fr'>{smartLine.rawTexts.fr}</div>
+										<div className='lang-sp'>{smartLine.rawTexts.sp}</div>
+										<div className='lang-it'>{smartLine.rawTexts.it}</div>
 									</div>
 								</div>
 							)

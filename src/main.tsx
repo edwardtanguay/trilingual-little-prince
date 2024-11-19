@@ -2,7 +2,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 import "./index.scss";
-import { PageWelcome } from "./pages/PageWelcome.tsx";
+import { PageWelcome } from "./pages/PageWelcome/PageWelcome.tsx";
 import { PageAbout } from "./pages/PageAbout.tsx";
 import { Page404 } from "./pages/Page404.tsx";
 import { StoreProvider } from 'easy-peasy';
