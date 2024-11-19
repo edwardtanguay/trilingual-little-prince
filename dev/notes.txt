@@ -22,16 +22,14 @@
 						it
 				}
 	}
-
-- .. transform rawLineItems into SmartBook
+- x transform rawLineItems into SmartBook
 	- x mock smartbook
 	- x show mock smartbook
-	- .. loop through rawLineItems building smartbook
+	- x loop through rawLineItems building smartbook
+- .. style with three colors
 
-- display with three colors
 
-
-- add linkes on subtitle
+- add links on subtitle
 
 
 - easy-peasy help
