@@ -22,9 +22,13 @@ export const mainModel: MainModel = {
 	loadSiteData: action((state) => {
 		const lines = qstr.convertStringBlockToLines(notes);
 
+		let currentChapterNumber = 0;
 		for (const line of lines) {
+			if (line.startsWith('Chapter ')) {
+				currentChapterNumber = 999;
+			}
 			state.lineItems.push({
-				chapter: 1,
+				chapter: currentChapterNumber,
 				lineNumber: 1,
 				rawText: line,
 			});

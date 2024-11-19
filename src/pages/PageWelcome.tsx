@@ -8,7 +8,7 @@ export const PageWelcome = () => {
 			<ul className='list-disc ml-6'>
 				{lineItems.map((lineItem, index) => {
 					return (
-						<li key={index}>{lineItem.rawText}</li>
+						<li key={index}>{lineItem.chapter}/{lineItem.lineNumber}: {lineItem.rawText}</li>
 					)
 				})}
 			</ul>
