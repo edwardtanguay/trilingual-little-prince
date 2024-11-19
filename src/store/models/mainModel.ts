@@ -24,9 +24,10 @@ export const mainModel: MainModel = {
 
 		let currentChapterNumber = 0;
 		let currentLine = 0;
+		let count = 1;
 		for (const line of lines) {
 			if (line.startsWith("Chapter ")) {
-				const parts = qstr.breakIntoParts(line, ' ');
+				const parts = qstr.breakIntoParts(line, " ");
 				currentChapterNumber = Number(parts[1]);
 				currentLine = 1;
 			} else {
@@ -36,7 +37,10 @@ export const mainModel: MainModel = {
 						lineNumber: currentLine,
 						rawText: line,
 					});
-					currentLine++;
+					count++;
+					if (count % 3 === 1) {
+						currentLine++;
+					}
 				}
 			}
 		}

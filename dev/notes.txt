@@ -5,7 +5,10 @@
 - .. loadSiteData
 	- x dummy data
 	- x show dummy data
-	- .. load read data from text file
+	- x load read data from text file
+	- .. group numbers: three lines for each number
+- rename to rawLineItems
+- make smartBook
 - display with three colors
 
 
