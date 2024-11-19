@@ -1,0 +1,9 @@
+- .. add some for chapter 002
+- make in store lineItems
+	- chapter: number
+	- lineCount: number
+	- rawText: string
+- loadSiteData
+- display with three colors
+
+
