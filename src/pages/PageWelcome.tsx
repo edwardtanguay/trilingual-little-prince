@@ -1,14 +1,14 @@
 import { useTypedStoreState } from '../store/hooks';
 
 export const PageWelcome = () => {
-	const { rawLineItems: lineItems } = useTypedStoreState(state => state.mainModel);
+	const { smartBook } = useTypedStoreState(state => state.mainModel);
 
 	return (
 		<>
 			<ul className='list-disc ml-6'>
-				{lineItems.map((lineItem, index) => {
+				{smartBook.chapters.map((chapter, index) => {
 					return (
-						<li key={index}>{lineItem.chapter}/{lineItem.lineNumber}: {lineItem.rawText}</li>
+						<li key={index}>CHAPTER {chapter.number} - {chapter.summary}</li>
 					)
 				})}
 			</ul>

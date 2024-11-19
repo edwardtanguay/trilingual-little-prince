@@ -67,5 +67,6 @@ export const mainModel: MainModel = {
 	initialize: thunk((actions) => {
 		console.log(11111, "in init");
 		actions.buildRawLineItems();
+		actions.buildSmartBook();
 	}),
 };
