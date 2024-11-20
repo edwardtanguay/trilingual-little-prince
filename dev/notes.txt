@@ -39,3 +39,4 @@
 	- model: https://github.com/edwardtanguay/newtech2024/blob/dev/src/store/models/flashcardModel.ts
 	- usage: https://github.com/edwardtanguay/newtech2024/blob/dev/src/pages/PageFlashcards.tsx
 
+- c-tests

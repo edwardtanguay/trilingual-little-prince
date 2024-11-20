@@ -7,11 +7,12 @@ LEARN THESE 5 FIRST, AS THEY ARE PRETTY MUCH ALL YOU NEED:
 1. presente --> PRESENT
 
 2. passato prossimo --> RECENT PAST
-3. imperfetto --> HABITUAL PAST 
+3. passato remoto --> (preferite)
+4. imperfetto --> HABITUAL PAST 
 	
-4. futuro semplice --> FUTURE
+5. futuro semplice --> FUTURE
 
-5. condizionale presente --> CONDITIONAL 
+6. condizionale presente --> CONDITIONAL 
 
 - presente (PRESENT)
 	- a fact that is always true
@@ -69,7 +70,8 @@ LEARN THESE 5 FIRST, AS THEY ARE PRETTY MUCH ALL YOU NEED:
 
 avere;to have
 ho, hai, ha, abbiamo, avete, hanno
-ho avuto, hai avuto, ha avuto, abbiamo avuto, avete avuto, hanno avuto 
 avevo, avevi, aveva, avevamo, avevate, avevano, 
+ebbi, avesti, ebbe, avemmo, aveste, ebbero 
+ho avuto, hai avuto, ha avuto, abbiamo avuto, avete avuto, hanno avuto 
 avrò, avrai, avrà, avremo, avrete, avranno
 avrei, avresti, avrebbe, avremmo, avreste, avrebbero

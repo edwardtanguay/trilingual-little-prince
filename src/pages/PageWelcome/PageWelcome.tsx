@@ -16,7 +16,7 @@ export const PageWelcome = () => {
 								<div key={index} className='flex gap-3 mb-3'>
 									<div className="font-mono w-[.7rem] text-xs pt-[.3rem] opacity-50">{smartLine.number}</div>
 									<div className='w-fit'>
-										<div className='lang-fr'>{smartLine.plainTexts.fr}</div>
+										<div className='lang-fr'>{smartLine.rawTexts.fr}</div>
 										<div className='lang-sp'>{smartLine.plainTexts.sp}</div>
 										<div className='lang-it'>{smartLine.plainTexts.it}</div>
 									</div>
