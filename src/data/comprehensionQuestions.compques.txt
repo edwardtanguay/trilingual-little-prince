@@ -1,0 +1,94 @@
+0
+sp
+¿Quién es el autor del Principito?
+El autor es Antoine de Saint-Exupéry.
+
+0
+sp
+¿En qué año nació?
+Antoine de Saint-Exupéry nació en el año 1900.
+
+0
+sp
+¿Cuántos años vivió?
+Vivió 44 años, [ya que falleció;since he passed away] en 1944.
+
+0
+sp
+¿A quién le dedica su libro?
+El autor dedica el libro a su amigo Léon Werth, pero especialmente dice que se lo dedica cuando era niño.
+
+1
+sp
+¿Qué le pasó al narrador de la historia con 6 años?
+Con 6 años, [el narrador dibujó;the narrator drew] una boa [que se había tragado;that had swallowed] un elefante, pero los adultos no entendieron su dibujo y pensaron que era un sombrero. Esto lo desmotivó a seguir dibujando.
+
+1
+sp
+¿[Cuánto hace que;How long ago] pasó esta historia?
+Según el narrador, la historia ocurrió hace 6 años, desde el momento en que la está [contando;telling].
+
+2
+sp
+¿En qué lugar el aviador se encuentra con el Principito? ¿En qué continente?
+El aviador se encuentra con el Principito en el desierto del Sahara, que está en el continente africano.
+
+2
+sp
+¿Qué le pidió el Principito que le dibujase?
+El Principito le pidió que le dibujase [un cordero;a lamb].
+
+2
+sp
+¿Qué dibujo de los que le hizo le gustó más? ¿Por qué crees que fue ese?
+Le gustó más el dibujo de la caja con el cordero dentro, porque estimulaba su imaginación y le permitía visualizar al cordero a su manera. Esto refleja la importancia de la creatividad y la perspectiva infantil en el libro.
+
+2
+sp
+¿Qué le sucedió al narrador que lo llevó al desierto del Sahara?
+Su avión sufrió una avería y tuvo que aterrizar de emergencia en medio del desierto.
+
+2
+sp
+¿Cómo reaccionó el narrador al encontrarse con el Principito por primera vez?
+Estaba sorprendido y desconcertado, ya que no esperaba encontrarse a nadie en un lugar tan desolado.
+
+2
+sp
+¿Qué fue lo primero que pidió el Principito al narrador?
+Le pidió que le dibujara un cordero.
+
+2
+sp
+¿Por qué el narrador se sorprendió de la aparición del Principito?
+Porque era un niño que apareció de repente en un lugar inhóspito y no parecía tener miedo ni hambre.
+
+2
+sp
+¿Qué dibujo mostró el narrador al Principito para comprobar si lo entendía?
+Le mostró el dibujo de la boa que se había tragado un elefante.
+
+2
+sp
+¿Cómo reaccionó el Principito al dibujo de la boa con el elefante?
+Reconoció inmediatamente el dibujo y dijo que no quería un elefante dentro de una boa, sino un cordero.
+
+2
+sp
+¿Por qué el narrador no dibujó un cordero de inmediato?
+Porque estaba fuera de práctica con el dibujo desde su infancia y pensaba que no podía hacerlo bien.
+
+2
+sp
+¿Cómo resolvió el narrador el problema del dibujo del cordero?
+Dibujó una caja y le dijo al Principito que el cordero estaba dentro.
+
+2
+sp
+¿Qué dijo el Principito sobre la caja con el cordero dentro?
+Le gustó mucho y dijo que el cordero que imaginaba estaba justo como él lo quería.
+
+2
+sp
+¿Qué impresión causó el Principito en el narrador?
+Le pareció un niño curioso, misterioso y muy diferente a cualquier persona que había conocido antes.
