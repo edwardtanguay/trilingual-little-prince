@@ -22,6 +22,7 @@ export interface MainModel {
 	fillRestOfSmartBook: Action<this>;
 	loadFlashcards: Action<this>;
 	toggleFlashcard: Action<this, Flashcard>;
+	handleSearchBoxChange: Action<this, string>;
 
 	// thunks
 	initialize: Thunk<this>;
@@ -123,6 +124,10 @@ export const mainModel: MainModel = {
 		if (_flashcard) {
 			_flashcard.isShowing = !_flashcard.isShowing;
 		}
+	}),
+	handleSearchBoxChange: action((state, searchText) => {
+		console.log('handling');
+		state.filteredFlashcards = state.flashcards.filter(m => m.bulkSearch.includes(searchText))
 	}),
 
 	// thunks
