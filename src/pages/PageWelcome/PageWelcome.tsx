@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTypedStoreState } from '../../store/hooks';
+import { useTypedStoreState } from '../../store/easy-peasy-hooks';
 import './styles.scss';
 
 export const PageWelcome = () => {
