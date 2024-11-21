@@ -11,7 +11,7 @@ export const PageFlashcards = () => {
 						<p>{flashcard.idCode}</p>
 						<p>{flashcard.front}</p>
 						<p>{flashcard.back}</p>
-						<p>{flashcard.bulkSearch}</p>
+						<p>[{flashcard.bulkSearch}]</p>
 						<p>{flashcard.isShowing ? 'showing' : 'no showing'}</p>
 					</div>
 				)
