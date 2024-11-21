@@ -33,7 +33,15 @@ export const smartBookInitialValue = {
 	chapters: [],
 };
 
-export type Flashcard = {
+export type RawFlashcard = {
 	front: string;
 	back: string;
+};
+
+export type Flashcard = {
+	idCode: string;
+	front: string;
+	back: string;
+	bulkSearch: string;
+	isShowing: boolean;
 };
