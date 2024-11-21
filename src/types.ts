@@ -43,5 +43,4 @@ export type Flashcard = {
 	front: string;
 	back: string;
 	bulkSearch: string;
-	isShowing: boolean;
 };
