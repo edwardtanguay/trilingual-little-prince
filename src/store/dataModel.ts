@@ -25,6 +25,7 @@ export const getFlashcards = (): Flashcard[] => {
 			front: rawFlashcard.front,
 			back: rawFlashcard.back,
 			bulkSearch: ' ' + rawFlashcard.front + ' | ' + rawFlashcard.back + ' ', 
+			isShowing: false,
 		};
 		flashcards.push(flashcard);
 	}
