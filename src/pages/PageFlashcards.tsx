@@ -5,9 +5,9 @@ export const PageFlashcards = () => {
 
 	return (
 		<>
-			{flashcards.map((flashcard, index) => {
+			{flashcards.map((flashcard) => {
 				return (
-					<div key={index} className="mb-3">
+					<div key={flashcard.idCode} className="mb-3">
 						<p>{flashcard.idCode}</p>
 						<p>{flashcard.front}</p>
 						<p>{flashcard.back}</p>
