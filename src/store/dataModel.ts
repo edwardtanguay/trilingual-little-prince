@@ -15,6 +15,10 @@ const deleteDuplicates = (flashcards: Flashcard[]): Flashcard[] => {
 	});
 };
 
+const randomizeArray = (flashcards: Flashcard[]): Flashcard[] => {
+	return [...flashcards].sort(() => Math.random() - 0.5);
+};
+
 export const getFlashcards = (): Flashcard[] => {
 	let flashcards: Flashcard[] = [];
 	for (const rawFlashcard of rawFlashcards) {
@@ -24,11 +28,13 @@ export const getFlashcards = (): Flashcard[] => {
 			),
 			front: rawFlashcard.front,
 			back: rawFlashcard.back,
-			bulkSearch: ' ' + rawFlashcard.front + ' | ' + rawFlashcard.back + ' ', 
+			bulkSearch:
+				" " + rawFlashcard.front + " | " + rawFlashcard.back + " ",
 			isShowing: false,
 		};
 		flashcards.push(flashcard);
 	}
 	flashcards = deleteDuplicates(flashcards);
+	flashcards = randomizeArray(flashcards);
 	return flashcards;
 };
