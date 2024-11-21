@@ -20,6 +20,7 @@ export interface MainModel {
 	fillSmartBookWithChapterRawLines: Action<this>;
 	fillRestOfSmartBook: Action<this>;
 	loadFlashcards: Action<this>;
+	toggleFlashcard: Action<this, Flashcard>;
 
 	// thunks
 	initialize: Thunk<this>;
@@ -109,6 +110,16 @@ export const mainModel: MainModel = {
 	}),
 	loadFlashcards: action((state) => {
 		state.flashcards = dataModel.getFlashcards();
+	}),
+	toggleFlashcard: action((state, flashcard) => {
+		console.log(11111, "in toggle");
+		// flashcard.isShowing = !flashcard.isShowing;
+		const _flashcard = state.flashcards.find(
+			(m) => m.idCode === flashcard.idCode
+		);
+		if (_flashcard) {
+			_flashcard.isShowing = !_flashcard.isShowing;
+		}
 	}),
 
 	// thunks
