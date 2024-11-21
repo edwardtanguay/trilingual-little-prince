@@ -14,6 +14,7 @@ export interface MainModel {
 	rawLineItems: RawLineItem[];
 	smartBook: SmartBook;
 	flashcards: Flashcard[];
+	filteredFlashcards: Flashcard[];
 
 	// actions
 	buildRawLineItems: Action<this>;
@@ -31,6 +32,7 @@ export const mainModel: MainModel = {
 	rawLineItems: [],
 	smartBook: smartBookInitialValue,
 	flashcards: [],
+	filteredFlashcards: [],
 
 	// actions
 	buildRawLineItems: action((state) => {
@@ -110,6 +112,7 @@ export const mainModel: MainModel = {
 	}),
 	loadFlashcards: action((state) => {
 		state.flashcards = dataModel.getFlashcards();
+		state.filteredFlashcards = structuredClone(state.flashcards);
 	}),
 	toggleFlashcard: action((state, flashcard) => {
 		console.log(11111, "in toggle");
