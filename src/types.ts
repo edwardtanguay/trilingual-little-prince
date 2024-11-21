@@ -15,14 +15,14 @@ export type SmartLine = {
 		fr: string;
 		sp: string;
 		it: string;
-	}
+	};
 };
 
 export type SmartBookChapter = {
 	number: number;
 	summary: string;
 	smartLines: SmartLine[];
-	rawLineItems: RawLineItem[]
+	rawLineItems: RawLineItem[];
 };
 
 export type SmartBook = {
@@ -31,4 +31,9 @@ export type SmartBook = {
 
 export const smartBookInitialValue = {
 	chapters: [],
+};
+
+export type Flashcard = {
+	front: string;
+	back: string;
 };

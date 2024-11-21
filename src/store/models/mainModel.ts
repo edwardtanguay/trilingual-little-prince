@@ -1,12 +1,14 @@
 import { Action, action, Thunk, thunk } from "easy-peasy";
-import { RawLineItem, SmartBook, smartBookInitialValue } from "../../types";
+import { Flashcard, RawLineItem, SmartBook, smartBookInitialValue } from "../../types";
 import notes from "../../data/notes.triling.txt?raw";
 import * as qstr from "../../qtools/qstr";
+import _flashcards from '.././../data/flashcards.json';
 
 export interface MainModel {
 	// state
 	rawLineItems: RawLineItem[];
 	smartBook: SmartBook;
+	flashcards: Flashcard[]
 
 	// actions
 	buildRawLineItems: Action<this>;
@@ -21,6 +23,7 @@ export const mainModel: MainModel = {
 	// state
 	rawLineItems: [],
 	smartBook: smartBookInitialValue,
+	flashcards: _flashcards,
 
 	// actions
 	buildRawLineItems: action((state) => {
