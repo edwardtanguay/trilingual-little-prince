@@ -7,6 +7,7 @@ import { PageAbout } from "./pages/PageAbout.tsx";
 import { Page404 } from "./pages/Page404.tsx";
 import { StoreProvider } from 'easy-peasy';
 import { store } from './store/store.ts';
+import { PageFlashcards } from "./pages/PageFlashcards.tsx";
 
 const router = createBrowserRouter([
 	{
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
 			{
 				path: "/welcome",
 				element: <PageWelcome />,
+			},
+			{
+				path: "flashcards",
+				element: <PageFlashcards />,
 			},
 			{
 				path: "about",

@@ -11,6 +11,10 @@ const menuItems = [
 		title: 'Welcome'
 	},
 	{
+		idCode: 'flashcards',
+		title: 'Flashcards'
+	},
+	{
 		idCode: 'about',
 		title: 'About'
 	}
