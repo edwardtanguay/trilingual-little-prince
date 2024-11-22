@@ -18,6 +18,7 @@ export interface MainModel {
 
 	// computed state
 	filteredFlashcards: Computed<MainModel, Flashcard[]>;
+	flashcardNumberShowingMessage: Computed<MainModel, string>;
 
 	// actions
 	buildRawLineItems: Action<this>;
@@ -46,6 +47,14 @@ export const mainModel: MainModel = {
 			return state.flashcards.filter((m) =>
 				m.bulkSearch.includes(state.flashcardsSearchText)
 			);
+		}
+	}),
+	flashcardNumberShowingMessage: computed((state) => {
+		if (state.filteredFlashcards.length === state.flashcards.length) {
+			return `All <span class="font-bold">${state.flashcards.length}</span> flashcards are showing:`;
+		} else {
+			const verb = state.filteredFlashcards.length === 1 ? "is" : "are";
+			return `There ${verb} <span class="font-bold">${state.filteredFlashcards.length}</span> of ${state.flashcards.length} flashcards showing:`;
 		}
 	}),
 
@@ -139,6 +148,7 @@ export const mainModel: MainModel = {
 	}),
 	handleFlashcardSearchTextChange: action((state, searchText) => {
 		state.flashcardsSearchText = searchText;
+		state.flashcards.forEach((m) => m.isShowing = false);
 	}),
 
 	// thunks
