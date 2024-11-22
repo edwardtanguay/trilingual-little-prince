@@ -15,7 +15,7 @@ export interface MainModel {
 	smartBook: SmartBook;
 	flashcards: Flashcard[];
 	filteredFlashcards: Flashcard[];
-	tests: string[];
+	testMessages: string[];
 
 	// actions
 	buildRawLineItems: Action<this>;
@@ -35,7 +35,7 @@ export const mainModel: MainModel = {
 	smartBook: smartBookInitialValue,
 	flashcards: [],
 	filteredFlashcards: [],
-	tests: ["original001", "original002"],
+	testMessages: ["original001", "original002"],
 
 	// actions
 	buildRawLineItems: action((state) => {
