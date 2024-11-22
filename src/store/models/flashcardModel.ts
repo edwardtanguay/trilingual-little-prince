@@ -10,8 +10,8 @@ export interface FlashcardModel {
 	flashcardsSearchText: string;
 
 	// computed state
-	filteredFlashcards: Computed<FlashcardModel, Flashcard[]>;
-	flashcardNumberShowingMessage: Computed<FlashcardModel, string>;
+	filteredFlashcards: Computed<this, Flashcard[]>;
+	flashcardNumberShowingMessage: Computed<this, string>;
 
 	// actions
 	loadFlashcards: Action<this>;
