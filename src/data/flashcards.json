@@ -732,8 +732,8 @@
 		"back": "como hemos visto"
 	},
 	{
-		"front": "la variable habrá sido modificada",
-		"back": "the variable will have been modified"
+		"front": "the variable will have been modified",
+		"back": "la variable habrá sido modificada"
 	},
 	{
 		"front": "will be applied to the struct",

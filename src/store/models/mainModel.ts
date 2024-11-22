@@ -1,62 +1,31 @@
-import { Action, action, computed, Computed, Thunk, thunk } from "easy-peasy";
+import { Action, action, Thunk, thunk } from "easy-peasy";
 import {
-	Flashcard,
 	RawLineItem,
 	SmartBook,
 	smartBookInitialValue,
 } from "../../types";
 import notes from "../../data/notes.triling.txt?raw";
 import * as qstr from "../../qtools/qstr";
-import * as dataModel from "../dataModel";
+import { StoreModel } from "../store";
 
 export interface MainModel {
 	// state
 	rawLineItems: RawLineItem[];
 	smartBook: SmartBook;
-	flashcards: Flashcard[];
-	flashcardsSearchText: string;
-
-	// computed state
-	filteredFlashcards: Computed<MainModel, Flashcard[]>;
-	flashcardNumberShowingMessage: Computed<MainModel, string>;
 
 	// actions
 	buildRawLineItems: Action<this>;
 	fillSmartBookWithChapterRawLines: Action<this>;
 	fillRestOfSmartBook: Action<this>;
-	loadFlashcards: Action<this>;
-	toggleFlashcard: Action<this, Flashcard>;
-	handleFlashcardSearchTextChange: Action<this, string>;
 
 	// thunks
-	initialize: Thunk<this>;
+	initialize: Thunk<this, void, void, StoreModel>;
 }
 
 export const mainModel: MainModel = {
 	// state
 	rawLineItems: [],
 	smartBook: smartBookInitialValue,
-	flashcards: [],
-	flashcardsSearchText: "",
-
-	// computed state
-	filteredFlashcards: computed((state) => {
-		if (state.flashcardsSearchText.trim() === "") {
-			return state.flashcards;
-		} else {
-			return state.flashcards.filter((m) =>
-				m.bulkSearch.includes(state.flashcardsSearchText)
-			);
-		}
-	}),
-	flashcardNumberShowingMessage: computed((state) => {
-		if (state.filteredFlashcards.length === state.flashcards.length) {
-			return `All <span class="font-bold">${state.flashcards.length}</span> flashcards are showing:`;
-		} else {
-			const verb = state.filteredFlashcards.length === 1 ? "is" : "are";
-			return `There ${verb} <span class="font-bold">${state.filteredFlashcards.length}</span> of ${state.flashcards.length} flashcards showing:`;
-		}
-	}),
 
 	// actions
 	buildRawLineItems: action((state) => {
@@ -134,28 +103,12 @@ export const mainModel: MainModel = {
 			}
 		}
 	}),
-	loadFlashcards: action((state) => {
-		state.flashcards = dataModel.getFlashcards();
-		state.filteredFlashcards = structuredClone(state.flashcards);
-	}),
-	toggleFlashcard: action((state, flashcard) => {
-		const _flashcard = state.flashcards.find(
-			(m) => m.idCode === flashcard.idCode
-		);
-		if (_flashcard) {
-			_flashcard.isShowing = !_flashcard.isShowing;
-		}
-	}),
-	handleFlashcardSearchTextChange: action((state, searchText) => {
-		state.flashcardsSearchText = searchText;
-		state.flashcards.forEach((m) => m.isShowing = false);
-	}),
 
 	// thunks
-	initialize: thunk((actions) => {
+	initialize: thunk((actions, _, { getStoreActions}) => {
 		actions.buildRawLineItems();
 		actions.fillSmartBookWithChapterRawLines();
 		actions.fillRestOfSmartBook();
-		actions.loadFlashcards();
+		getStoreActions().flashcardModel.loadFlashcards();
 	}),
 };

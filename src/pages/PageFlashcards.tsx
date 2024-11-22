@@ -1,8 +1,8 @@
 import { useTypedStoreActions, useTypedStoreState } from "../store/easy-peasy-hooks";
 
 export const PageFlashcards = () => {
-	const { filteredFlashcards, flashcardsSearchText, flashcardNumberShowingMessage } = useTypedStoreState(state => state.mainModel);
-	const { toggleFlashcard, handleFlashcardSearchTextChange } = useTypedStoreActions(actions => actions.mainModel);
+	const { filteredFlashcards, flashcardsSearchText, flashcardNumberShowingMessage } = useTypedStoreState(state => state.flashcardModel);
+	const { toggleFlashcard, handleFlashcardSearchTextChange } = useTypedStoreActions(actions => actions.flashcardModel);
 
 	return (
 		<>
