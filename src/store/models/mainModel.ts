@@ -131,6 +131,7 @@ export const mainModel: MainModel = {
 		// state.filteredFlashcards = structuredClone(state.filteredFlashcards.slice(0, 3));
 		state.filteredFlashcards.push(state.filteredFlashcards[0]);
 		console.log(11112, "search handled");
+		console.log(11113, searchText);
 	}),
 
 	// thunks
