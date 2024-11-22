@@ -15,6 +15,7 @@ export interface MainModel {
 	smartBook: SmartBook;
 	flashcards: Flashcard[];
 	filteredFlashcards: Flashcard[];
+	messages: string[];
 
 	// actions
 	buildRawLineItems: Action<this>;
@@ -34,6 +35,7 @@ export const mainModel: MainModel = {
 	smartBook: smartBookInitialValue,
 	flashcards: [],
 	filteredFlashcards: [],
+	messages: ['original001', 'original002'],
 
 	// actions
 	buildRawLineItems: action((state) => {
@@ -126,8 +128,9 @@ export const mainModel: MainModel = {
 		}
 	}),
 	handleSearchBoxChange: action((state, searchText) => {
-		console.log('handling');
-		state.filteredFlashcards = state.flashcards.filter(m => m.bulkSearch.includes(searchText))
+		// state.filteredFlashcards = structuredClone(state.filteredFlashcards.slice(0, 3));
+		state.filteredFlashcards.push(state.filteredFlashcards[0])
+		console.log(11112, 'search handled');
 	}),
 
 	// thunks

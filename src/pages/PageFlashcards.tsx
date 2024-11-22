@@ -1,7 +1,7 @@
 import { useTypedStoreActions, useTypedStoreState } from "../store/easy-peasy-hooks";
 
 export const PageFlashcards = () => {
-	const { flashcards: filteredFlashcards } = useTypedStoreState(state => state.mainModel);
+	const { flashcards: filteredFlashcards, messages } = useTypedStoreState(state => state.mainModel);
 	const { toggleFlashcard, handleSearchBoxChange } = useTypedStoreActions(actions => actions.mainModel);
 
 	return (
@@ -9,6 +9,17 @@ export const PageFlashcards = () => {
 			<form>
 				<input type="text" onChange={(e) => handleSearchBoxChange(e.target.value)} className="w-[10rem] mb-3 text-2xl" />
 			</form>
+			<hr />
+			<p className="mb-3 mt-2 font-mono">There are {messages.length} messages.</p>
+			<ul className="font-mono mb-6 list-disc ml-6">
+				{messages.map((message, index) => {
+					return (
+						<li key={index}>{message}</li>
+					)
+				})}
+			</ul>
+			<hr />
+			<p className="mb-3">There are {filteredFlashcards.length} flashcards.</p>
 			{filteredFlashcards.map((filteredFlashcard) => {
 				return (
 					<div key={filteredFlashcard.idCode} className="mb-3 w-fit font-mono">
