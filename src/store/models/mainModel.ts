@@ -1,4 +1,4 @@
-import { Action, action, Thunk, thunk } from "easy-peasy";
+import { Action, action, computed, Computed, Thunk, thunk } from "easy-peasy";
 import {
 	Flashcard,
 	RawLineItem,
@@ -14,8 +14,10 @@ export interface MainModel {
 	rawLineItems: RawLineItem[];
 	smartBook: SmartBook;
 	flashcards: Flashcard[];
-	filteredFlashcards: Flashcard[];
-	testMessages: string[];
+	flashcardsSearchText: string;
+
+	// computed state
+	filteredFlashcards: Computed<MainModel, Flashcard[]>;
 
 	// actions
 	buildRawLineItems: Action<this>;
@@ -23,7 +25,7 @@ export interface MainModel {
 	fillRestOfSmartBook: Action<this>;
 	loadFlashcards: Action<this>;
 	toggleFlashcard: Action<this, Flashcard>;
-	handleSearchBoxChange: Action<this, string>;
+	handleFlashcardSearchTextChange: Action<this, string>;
 
 	// thunks
 	initialize: Thunk<this>;
@@ -34,8 +36,18 @@ export const mainModel: MainModel = {
 	rawLineItems: [],
 	smartBook: smartBookInitialValue,
 	flashcards: [],
-	filteredFlashcards: [],
-	testMessages: ["original001", "original002"],
+	flashcardsSearchText: "",
+
+	// computed state
+	filteredFlashcards: computed((state) => {
+		if (state.flashcardsSearchText.trim() === "") {
+			return state.flashcards;
+		} else {
+			return state.flashcards.filter((m) =>
+				m.bulkSearch.includes(state.flashcardsSearchText)
+			);
+		}
+	}),
 
 	// actions
 	buildRawLineItems: action((state) => {
@@ -118,8 +130,6 @@ export const mainModel: MainModel = {
 		state.filteredFlashcards = structuredClone(state.flashcards);
 	}),
 	toggleFlashcard: action((state, flashcard) => {
-		console.log(11111, "in toggle");
-		// flashcard.isShowing = !flashcard.isShowing;
 		const _flashcard = state.flashcards.find(
 			(m) => m.idCode === flashcard.idCode
 		);
@@ -127,11 +137,8 @@ export const mainModel: MainModel = {
 			_flashcard.isShowing = !_flashcard.isShowing;
 		}
 	}),
-	handleSearchBoxChange: action((state, searchText) => {
-		// state.filteredFlashcards = structuredClone(state.filteredFlashcards.slice(0, 3));
-		state.filteredFlashcards.push(state.filteredFlashcards[0]);
-		console.log(11112, "search handled");
-		console.log(11113, searchText);
+	handleFlashcardSearchTextChange: action((state, searchText) => {
+		state.flashcardsSearchText = searchText;
 	}),
 
 	// thunks
