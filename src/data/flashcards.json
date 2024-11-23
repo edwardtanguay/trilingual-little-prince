@@ -436,6 +436,46 @@
 		"back": "mediante nuestro navegador"
 	},
 	{
+		"front": "let's change it to no",
+		"back": "combiémoslo a no"
+	},
+	{
+		"front": "so we need to provide that name",
+		"back": "por lo que debemos proporcionar ese nombre"
+	},
+	{
+		"front": "what this function is about and what it does",
+		"back": "qué se trata esta función y qué hace"
+	},
+	{
+		"front": "I like that standard because",
+		"back": "me gusta esa estandár porque"
+	},
+	{
+		"front": "así es como lo hace",
+		"back": "this is how you do it"
+	},
+	{
+		"front": "let me save it",
+		"back": "déjeme guardarlo"
+	},
+	{
+		"front": "I'll explain it to you a little later",
+		"back": "explicártelo un poco más adelante"
+	},
+	{
+		"front": "check it out",
+		"back": "compruébalo"
+	},
+	{
+		"front": "security and storage",
+		"back": "seguridad y almacenamiento"
+	},
+	{
+		"front": "we want to add authentication",
+		"back": "queremos agregar autenticación"
+	},
+	{
 		"front": "it is quite similar to this tool",
 		"back": "es bastante parecida a esta herramientas"
 	},
@@ -1092,7 +1132,7 @@
 		"back": "si te fijas, como te estaba mencionando;note=fijar: to fasten, regular"
 	},
 	{
-		"front": "we are gong to completely ignore this part",
+		"front": "we are going to completely ignore this part",
 		"back": "vamos a ignorar por completo esta parte"
 	},
 	{
