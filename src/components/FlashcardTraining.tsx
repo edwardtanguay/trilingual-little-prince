@@ -18,17 +18,27 @@ export const FlashcardTraining = () => {
 		useState<TestingStatus>("firstTime");
 	const [answer, setAnswer] = useState("");
 	const [answerIsCorrect, setAnswerIsCorrect] = useState(false);
+	const [numberRight, setNumberRight] = useState(0);
+	const [numberWrong, setNumberWrong] = useState(0);
 
 	useEffect(() => {
 		setNextTestingFlashcard();
 	}, []);
 
-	const handleFlipFlashcard = () => {
-		if (testingStatus === "firstTime") {
-			setTestingStatus("lookingAtAnswer");
-		} else {
-			setTestingStatus("firstTime");
-			setAnswer("");
+	const handleMainButtonPress = () => {
+		switch (testingStatus) {
+			case "firstTime":
+				setTestingStatus("lookingAtAnswer");
+				if (answer === testingFlashcard.back) {
+					setNumberRight(numberRight + 1);
+				} else {
+					setNumberWrong(numberWrong + 1);
+				}
+				break;
+			case "lookingAtAnswer":
+				setTestingStatus("firstTime");
+				setAnswer("");
+				break;
 		}
 	};
 
@@ -51,8 +61,12 @@ export const FlashcardTraining = () => {
 			<div className="flex justify-between">
 				<p className="mb-3">{testingFlashcard.front}&nbsp;</p>
 				<div className="text-xs flex gap-3 min-w-[14rem] justify-end">
-					<p className="text-green-800">times got right: 0</p>
-					<p className="text-red-800">times got wrong: 0</p>
+					<p className="text-green-800">
+						times got right: {numberRight}
+					</p>
+					<p className="text-red-800">
+						times got wrong: {numberWrong}
+					</p>
 				</div>
 			</div>
 			<div className="flex gap-3 mb-2">
@@ -65,13 +79,13 @@ export const FlashcardTraining = () => {
 					autoFocus={true}
 					onKeyDown={(e) => {
 						if (e.key === "Enter") {
-							handleFlipFlashcard();
+							handleMainButtonPress();
 						}
 					}}
 				/>
 				<button
 					className="bg-slate-400 opacity-80 text-sm py-0 px-2 rounded hover:opacity-100 whitespace-nowrap"
-					onClick={() => handleFlipFlashcard()}
+					onClick={() => handleMainButtonPress()}
 				>
 					{testingStatus === "firstTime" ? (
 						<span>submit answer</span>
