@@ -17,13 +17,15 @@ export const PageFlashcards = () => {
 		<>
 			<FlashcardTraining />
 			<form>
+				<p className="text-sm">Search all flashcards:</p>
 				<input
 					type="text"
 					value={flashcardsSearchText}
+					placeholder="Spanish or English"
 					onChange={(e) =>
 						handleFlashcardSearchTextChange(e.target.value)
 					}
-					className="w-[10rem] mb-3 text-2xl"
+					className="w-[20rem] mb-3 text-2xl"
 				/>
 			</form>
 			<p
