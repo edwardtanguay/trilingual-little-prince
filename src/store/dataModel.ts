@@ -32,10 +32,13 @@ export const getFlashcards = (): Flashcard[] => {
 				" " + rawFlashcard.front + " | " + rawFlashcard.back + " ",
 			isShowing: false,
 		};
-		flashcards.push(flashcard);
+
+		// TODO: we are ignoring flashcards with notes at the moment, program this back in
+		if (!flashcard.back.includes(";")) {
+			flashcards.push(flashcard);
+		}
 	}
 	flashcards = deleteDuplicates(flashcards);
 	flashcards = randomizeArray(flashcards);
 	return flashcards;
 };
-
