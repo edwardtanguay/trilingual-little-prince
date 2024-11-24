@@ -28,7 +28,7 @@ export const FlashcardTraining = () => {
 			</div>
 			<div className="flex gap-3">
 				<input className="rounded w-full p-1" placeholder="spanish" />
-				<button className="bg-slate-400 opacity-80 text-sm py-0 px-2 rounded hover:opacity-100">
+				<button className="bg-slate-400 opacity-80 text-sm py-0 px-2 rounded hover:opacity-100" onClick={() => setNextTestingFlashcard()}>
 					submit
 				</button>
 			</div>
