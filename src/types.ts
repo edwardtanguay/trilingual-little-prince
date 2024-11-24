@@ -53,3 +53,8 @@ export const emptyFlashcard:Flashcard = {
 	bulkSearch: '',
 	isShowing: false
 }
+
+export type TestingStatus =
+	| "typingAnswer"
+	| "lookingAtWrongAnswer"
+	| "lookingAtRightAnswer";

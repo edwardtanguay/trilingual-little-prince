@@ -5,20 +5,14 @@ import {
 	useTypedStoreState,
 } from "../store/easy-peasy-hooks";
 
-type TestingStatus =
-	| "typingAnswer"
-	| "lookingAtWrongAnswer"
-	| "lookingAtRightAnswer";
 
 export const FlashcardTraining = () => {
-	const { testingFlashcard, answer, answerIsCorrect } = useTypedStoreState(
+	const { testingFlashcard, answer, answerIsCorrect, testingStatus } = useTypedStoreState(
 		(state) => state.flashcardModel
 	);
-	const { setNextTestingFlashcard, setAnswer, setAnswerIsCorrect } = useTypedStoreActions(
+	const { setNextTestingFlashcard, setAnswer, setAnswerIsCorrect, setTestingStatus } = useTypedStoreActions(
 		(actions) => actions.flashcardModel
 	);
-	const [testingStatus, setTestingStatus] =
-		useState<TestingStatus>("typingAnswer");
 	const [numberRight, setNumberRight] = useState(0);
 	const [numberWrong, setNumberWrong] = useState(0);
 

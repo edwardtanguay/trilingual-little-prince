@@ -1,5 +1,5 @@
 import { Action, action, computed, Computed } from "easy-peasy";
-import { emptyFlashcard, Flashcard } from "../../types";
+import { emptyFlashcard, Flashcard, TestingStatus } from "../../types";
 import * as dataModel from "../dataModel";
 
 export interface FlashcardModel {
@@ -9,6 +9,7 @@ export interface FlashcardModel {
 	testingFlashcard: Flashcard;
 	answer: string;
 	answerIsCorrect: boolean;
+	testingStatus: TestingStatus;
 
 	// computed state
 	filteredFlashcards: Computed<this, Flashcard[]>;
@@ -21,6 +22,7 @@ export interface FlashcardModel {
 	setNextTestingFlashcard: Action<this>;
 	setAnswer: Action<this, string>;
 	setAnswerIsCorrect: Action<this, boolean>;
+	setTestingStatus: Action<this, TestingStatus>;
 }
 
 export const flashcardModel: FlashcardModel = {
@@ -30,6 +32,7 @@ export const flashcardModel: FlashcardModel = {
 	testingFlashcard: emptyFlashcard,
 	answer: "",
 	answerIsCorrect: false,
+	testingStatus: "typingAnswer",
 
 	// computed state
 	filteredFlashcards: computed((state) => {
@@ -78,4 +81,8 @@ export const flashcardModel: FlashcardModel = {
 	setAnswerIsCorrect: action((state, answerIsCorrect) => {
 		state.answerIsCorrect = answerIsCorrect;
 	}),
+	setTestingStatus: action((state, testingSTatus) => {
+		state.testingStatus = testingSTatus;
+	}),
+
 };
