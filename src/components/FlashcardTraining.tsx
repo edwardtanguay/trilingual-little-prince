@@ -12,7 +12,7 @@ export const FlashcardTraining = () => {
 		answerIsCorrect,
 		testingStatus,
 		numberRight,
-		numberWrong
+		numberWrong,
 	} = useTypedStoreState((state) => state.flashcardModel);
 	const {
 		setNextTestingFlashcard,
@@ -20,7 +20,8 @@ export const FlashcardTraining = () => {
 		setAnswerIsCorrect,
 		setTestingStatus,
 		setNumberRight,
-		setNumberWrong
+		setNumberWrong,
+		addWrongAnswer
 	} = useTypedStoreActions((actions) => actions.flashcardModel);
 
 	useEffect(() => {
@@ -36,6 +37,7 @@ export const FlashcardTraining = () => {
 				} else {
 					setNumberWrong(numberWrong + 1);
 					setTestingStatus("lookingAtWrongAnswer");
+					addWrongAnswer(answer)
 				}
 				break;
 			case "lookingAtWrongAnswer":
