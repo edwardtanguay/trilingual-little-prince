@@ -5,7 +5,7 @@ import {
 	useTypedStoreState,
 } from "../store/easy-peasy-hooks";
 
-type TestingStatus = "firstTime" | "lookingAtAnswer";
+type TestingStatus = "typingAnswer" | "lookingAtAnswer" | "answerIsCorrect";
 
 export const FlashcardTraining = () => {
 	const { testingFlashcard } = useTypedStoreState(
@@ -15,7 +15,7 @@ export const FlashcardTraining = () => {
 		(actions) => actions.flashcardModel
 	);
 	const [testingStatus, setTestingStatus] =
-		useState<TestingStatus>("firstTime");
+		useState<TestingStatus>("typingAnswer");
 	const [answer, setAnswer] = useState("");
 	const [answerIsCorrect, setAnswerIsCorrect] = useState(false);
 	const [numberRight, setNumberRight] = useState(0);
@@ -27,16 +27,17 @@ export const FlashcardTraining = () => {
 
 	const handleMainButtonPress = () => {
 		switch (testingStatus) {
-			case "firstTime":
-				setTestingStatus("lookingAtAnswer");
+			case "typingAnswer":
 				if (answer === testingFlashcard.back) {
 					setNumberRight(numberRight + 1);
+					setTestingStatus("answerIsCorrect");
 				} else {
 					setNumberWrong(numberWrong + 1);
+					setTestingStatus("lookingAtAnswer");
 				}
 				break;
 			case "lookingAtAnswer":
-				setTestingStatus("firstTime");
+				setTestingStatus("typingAnswer");
 				setAnswer("");
 				break;
 		}
@@ -87,7 +88,7 @@ export const FlashcardTraining = () => {
 					className="bg-slate-400 opacity-80 text-sm py-0 px-2 rounded hover:opacity-100 whitespace-nowrap"
 					onClick={() => handleMainButtonPress()}
 				>
-					{testingStatus === "firstTime" ? (
+					{testingStatus === "typingAnswer" ? (
 						<span>submit answer</span>
 					) : (
 						<span>try again</span>
