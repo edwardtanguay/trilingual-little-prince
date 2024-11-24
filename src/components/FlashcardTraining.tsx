@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { ChangeEvent, useEffect, useState } from "react";
+import { ChangeEvent, useEffect } from "react";
 import {
 	useTypedStoreActions,
 	useTypedStoreState,
@@ -12,6 +12,7 @@ export const FlashcardTraining = () => {
 		answerIsCorrect,
 		testingStatus,
 		numberRight,
+		numberWrong
 	} = useTypedStoreState((state) => state.flashcardModel);
 	const {
 		setNextTestingFlashcard,
@@ -19,10 +20,8 @@ export const FlashcardTraining = () => {
 		setAnswerIsCorrect,
 		setTestingStatus,
 		setNumberRight,
+		setNumberWrong
 	} = useTypedStoreActions((actions) => actions.flashcardModel);
-
-	// TODO: replace with user object based on flashcard idCode
-	const [numberWrong, setNumberWrong] = useState(0);
 
 	useEffect(() => {
 		setNextTestingFlashcard();
