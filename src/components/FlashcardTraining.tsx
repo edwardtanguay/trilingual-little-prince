@@ -5,7 +5,7 @@ import {
 	useTypedStoreState,
 } from "../store/easy-peasy-hooks";
 
-// type TestingStatus = "firstTime" | "lookingAtAnswer";
+type TestingStatus = "firstTime" | "lookingAtAnswer";
 
 export const FlashcardTraining = () => {
 	const { testingFlashcard } = useTypedStoreState(
@@ -14,20 +14,36 @@ export const FlashcardTraining = () => {
 	const { setNextTestingFlashcard } = useTypedStoreActions(
 		(actions) => actions.flashcardModel
 	);
-	const [showingAnswer, setShowingAnswer] = useState(false);
+	const [testingStatus, setTestingStatus] =
+		useState<TestingStatus>("firstTime");
 	const [answer, setAnswer] = useState("");
+	const [answerIsCorrect, setAnswerIsCorrect] = useState(false);
 
 	useEffect(() => {
 		setNextTestingFlashcard();
 	}, []);
 
 	const handleFlipFlashcard = () => {
-		setShowingAnswer(true);
+		if (testingStatus === "firstTime") {
+			setTestingStatus("lookingAtAnswer");
+		} else {
+			setTestingStatus("firstTime");
+			setAnswer("");
+		}
 	};
 
 	const handleAnswerChange = (e: ChangeEvent<HTMLInputElement>) => {
 		const value = e.target.value;
 		setAnswer(value);
+		setAnswerIsCorrect(value === testingFlashcard.back);
+	};
+
+	const currentAnswerBackgroundColor = (): string => {
+		if (answer.trim() === "") {
+			return "#eee";
+		} else {
+			return answerIsCorrect ? "#ecf5e9" : "#f5ebee";
+		}
 	};
 
 	return (
@@ -43,8 +59,10 @@ export const FlashcardTraining = () => {
 				<input
 					value={answer}
 					className="rounded w-full p-1"
+					style={{ backgroundColor: currentAnswerBackgroundColor() }}
 					placeholder="spanish"
 					onChange={(e) => handleAnswerChange(e)}
+					autoFocus={true}
 					onKeyDown={(e) => {
 						if (e.key === "Enter") {
 							handleFlipFlashcard();
@@ -55,12 +73,16 @@ export const FlashcardTraining = () => {
 					className="bg-slate-400 opacity-80 text-sm py-0 px-2 rounded hover:opacity-100 whitespace-nowrap"
 					onClick={() => handleFlipFlashcard()}
 				>
-					submit answer
+					{testingStatus === "firstTime" ? (
+						<span>submit answer</span>
+					) : (
+						<span>try again</span>
+					)}
 				</button>
 			</div>
-			{showingAnswer && (
+			{testingStatus === "lookingAtAnswer" && (
 				<div>
-					<p className="text-orange-950 italic">
+					<p className="text-green-950 ml-1">
 						{testingFlashcard.back}
 					</p>
 				</div>

@@ -34,7 +34,7 @@ export const getFlashcards = (): Flashcard[] => {
 		};
 
 		// TODO: we are ignoring flashcards with notes at the moment, program this back in
-		if (!flashcard.back.includes(";")) {
+		if (!flashcard.back.includes(";") && !flashcard.back.includes("[")) {
 			flashcards.push(flashcard);
 		}
 	}
