@@ -62,7 +62,6 @@ export const FlashcardTraining = () => {
 
 	return (
 		<div className="bg-slate-300 mb-6 p-3 w-full rounded">
-			<p>{testingStatus}</p>
 			<div className="flex justify-between">
 				<p className="mb-3">{testingFlashcard.front}&nbsp;</p>
 				<div className="text-xs flex gap-3 min-w-[14rem] justify-end">
