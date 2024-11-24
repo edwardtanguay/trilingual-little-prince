@@ -14,6 +14,7 @@ export const FlashcardTraining = () => {
 		(actions) => actions.flashcardModel
 	);
 
+	// TODO: replace with user object based on flashcard idCode
 	const [numberRight, setNumberRight] = useState(0);
 	const [numberWrong, setNumberWrong] = useState(0);
 
