@@ -16,8 +16,9 @@ export const PageFlashcards = () => {
 	return (
 		<>
 			<FlashcardTraining />
+			<hr className="border-dashed border-slate-600 mt-[2rem] mb-6" />
 			<form>
-				<p className="text-sm">Search all flashcards:</p>
+				<p className="text-sm mb-1">Search and review flashcards as you learn:</p>
 				<input
 					type="text"
 					value={flashcardsSearchText}
@@ -25,7 +26,7 @@ export const PageFlashcards = () => {
 					onChange={(e) =>
 						handleFlashcardSearchTextChange(e.target.value)
 					}
-					className="w-[20rem] mb-3 text-2xl"
+					className="w-[20rem] mb-3 text-2xl p-1"
 				/>
 			</form>
 			<p
