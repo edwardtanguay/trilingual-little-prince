@@ -5,7 +5,10 @@ import {
 	useTypedStoreState,
 } from "../store/easy-peasy-hooks";
 
-type TestingStatus = "typingAnswer" | "lookingAtAnswer" | "answerIsCorrect";
+type TestingStatus =
+	| "typingAnswer"
+	| "lookingAtWrongAnswer"
+	| "lookingAtRightAnswer";
 
 export const FlashcardTraining = () => {
 	const { testingFlashcard } = useTypedStoreState(
@@ -30,13 +33,13 @@ export const FlashcardTraining = () => {
 			case "typingAnswer":
 				if (answer === testingFlashcard.back) {
 					setNumberRight(numberRight + 1);
-					setTestingStatus("answerIsCorrect");
+					setTestingStatus("lookingAtRightAnswer");
 				} else {
 					setNumberWrong(numberWrong + 1);
-					setTestingStatus("lookingAtAnswer");
+					setTestingStatus("lookingAtWrongAnswer");
 				}
 				break;
-			case "lookingAtAnswer":
+			case "lookingAtWrongAnswer":
 				setTestingStatus("typingAnswer");
 				setAnswer("");
 				break;
@@ -88,14 +91,18 @@ export const FlashcardTraining = () => {
 					className="bg-slate-400 opacity-80 text-sm py-0 px-2 rounded hover:opacity-100 whitespace-nowrap"
 					onClick={() => handleMainButtonPress()}
 				>
-					{testingStatus === "typingAnswer" ? (
+					{testingStatus === "typingAnswer" && (
 						<span>submit answer</span>
-					) : (
+					)}
+					{testingStatus === "lookingAtWrongAnswer" && (
 						<span>try again</span>
+					)}
+					{testingStatus === "lookingAtRightAnswer" && (
+						<span>next flashcard</span>
 					)}
 				</button>
 			</div>
-			{testingStatus === "lookingAtAnswer" && (
+			{testingStatus === "lookingAtWrongAnswer" && (
 				<div>
 					<p className="text-green-950 ml-1">
 						{testingFlashcard.back}
