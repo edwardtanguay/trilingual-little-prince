@@ -13,6 +13,7 @@ export const FlashcardTraining = () => {
 	const { setNextTestingFlashcard, setAnswer, setAnswerIsCorrect, setTestingStatus } = useTypedStoreActions(
 		(actions) => actions.flashcardModel
 	);
+
 	const [numberRight, setNumberRight] = useState(0);
 	const [numberWrong, setNumberWrong] = useState(0);
 
