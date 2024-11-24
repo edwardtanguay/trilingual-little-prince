@@ -45,3 +45,11 @@ export type Flashcard = {
 	bulkSearch: string;
 	isShowing: boolean;
 };
+
+export const emptyFlashcard:Flashcard = {
+	idCode: '',
+	front: '',
+	back: '',
+	bulkSearch: '',
+	isShowing: false
+}

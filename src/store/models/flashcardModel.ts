@@ -1,13 +1,12 @@
 import { Action, action, computed, Computed } from "easy-peasy";
-import {
-	Flashcard,
-} from "../../types";
+import { emptyFlashcard, Flashcard } from "../../types";
 import * as dataModel from "../dataModel";
 
 export interface FlashcardModel {
 	// state
 	flashcards: Flashcard[];
 	flashcardsSearchText: string;
+	testingFlashcard: Flashcard;
 
 	// computed state
 	filteredFlashcards: Computed<this, Flashcard[]>;
@@ -17,13 +16,14 @@ export interface FlashcardModel {
 	loadFlashcards: Action<this>;
 	toggleFlashcard: Action<this, Flashcard>;
 	handleFlashcardSearchTextChange: Action<this, string>;
-
+	setNextTestingFlashcard: Action<this>;
 }
 
 export const flashcardModel: FlashcardModel = {
 	// state
 	flashcards: [],
 	flashcardsSearchText: "",
+	testingFlashcard: emptyFlashcard,
 
 	// computed state
 	filteredFlashcards: computed((state) => {
@@ -59,7 +59,11 @@ export const flashcardModel: FlashcardModel = {
 	}),
 	handleFlashcardSearchTextChange: action((state, searchText) => {
 		state.flashcardsSearchText = searchText;
-		state.flashcards.forEach((m) => m.isShowing = false);
+		state.flashcards.forEach((m) => (m.isShowing = false));
 	}),
-
+	setNextTestingFlashcard: action((state) => {
+		const randomIndex = Math.floor(Math.random() * state.flashcards.length);
+		console.log(11111, randomIndex);
+		state.testingFlashcard = state.flashcards[randomIndex];
+	}),
 };

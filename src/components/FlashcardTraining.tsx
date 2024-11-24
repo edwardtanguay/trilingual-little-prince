@@ -1,13 +1,26 @@
-import { useTypedStoreState } from "../store/easy-peasy-hooks";
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect } from "react";
+import {
+	useTypedStoreActions,
+	useTypedStoreState,
+} from "../store/easy-peasy-hooks";
 
 export const FlashcardTraining = () => {
-	const { flashcards } = useTypedStoreState((state) => state.flashcardModel);
+	const { testingFlashcard } = useTypedStoreState(
+		(state) => state.flashcardModel
+	);
+	const { setNextTestingFlashcard } = useTypedStoreActions(
+		(actions) => actions.flashcardModel
+	);
 
-	const currentFlashcard = flashcards[1];
+	useEffect(() => {
+		setNextTestingFlashcard();
+	}, []);
+
 	return (
 		<div className="bg-slate-300 mb-6 p-3 w-full rounded">
 			<div className="flex justify-between">
-				<p className="mb-3">{currentFlashcard.front}</p>
+				<p className="mb-3">{testingFlashcard.front}&nbsp;</p>
 				<div className="text-xs flex gap-3 min-w-[14rem] justify-end">
 					<p className="text-green-800">times got right: 0</p>
 					<p className="text-red-800">times got wrong: 0</p>

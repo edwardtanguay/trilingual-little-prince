@@ -38,3 +38,4 @@ export const getFlashcards = (): Flashcard[] => {
 	flashcards = randomizeArray(flashcards);
 	return flashcards;
 };
+
