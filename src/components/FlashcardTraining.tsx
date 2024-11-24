@@ -8,7 +8,7 @@ export const FlashcardTraining = () => {
 		<div className="bg-slate-300 mb-6 p-3 w-full rounded">
 			<div className="flex justify-between">
 				<p className="mb-3">{currentFlashcard.front}</p>
-				<div className="text-xs flex gap-3">
+				<div className="text-xs flex gap-3 min-w-[14rem] justify-end">
 					<p className="text-green-800">times got right: 0</p>
 					<p className="text-red-800">times got wrong: 0</p>
 				</div>
