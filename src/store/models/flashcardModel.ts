@@ -10,6 +10,7 @@ export interface FlashcardModel {
 	answer: string;
 	answerIsCorrect: boolean;
 	testingStatus: TestingStatus;
+	numberRight: number;
 
 	// computed state
 	filteredFlashcards: Computed<this, Flashcard[]>;
@@ -23,6 +24,7 @@ export interface FlashcardModel {
 	setAnswer: Action<this, string>;
 	setAnswerIsCorrect: Action<this, boolean>;
 	setTestingStatus: Action<this, TestingStatus>;
+	setNumberRight: Action<this, number>;
 }
 
 export const flashcardModel: FlashcardModel = {
@@ -33,6 +35,7 @@ export const flashcardModel: FlashcardModel = {
 	answer: "",
 	answerIsCorrect: false,
 	testingStatus: "typingAnswer",
+	numberRight: 0,
 
 	// computed state
 	filteredFlashcards: computed((state) => {
@@ -84,5 +87,7 @@ export const flashcardModel: FlashcardModel = {
 	setTestingStatus: action((state, testingSTatus) => {
 		state.testingStatus = testingSTatus;
 	}),
-
+	setNumberRight: action((state, numberRight) => {
+		state.numberRight = numberRight;
+	}),
 };

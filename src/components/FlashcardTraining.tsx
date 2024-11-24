@@ -5,17 +5,23 @@ import {
 	useTypedStoreState,
 } from "../store/easy-peasy-hooks";
 
-
 export const FlashcardTraining = () => {
-	const { testingFlashcard, answer, answerIsCorrect, testingStatus } = useTypedStoreState(
-		(state) => state.flashcardModel
-	);
-	const { setNextTestingFlashcard, setAnswer, setAnswerIsCorrect, setTestingStatus } = useTypedStoreActions(
-		(actions) => actions.flashcardModel
-	);
+	const {
+		testingFlashcard,
+		answer,
+		answerIsCorrect,
+		testingStatus,
+		numberRight,
+	} = useTypedStoreState((state) => state.flashcardModel);
+	const {
+		setNextTestingFlashcard,
+		setAnswer,
+		setAnswerIsCorrect,
+		setTestingStatus,
+		setNumberRight,
+	} = useTypedStoreActions((actions) => actions.flashcardModel);
 
 	// TODO: replace with user object based on flashcard idCode
-	const [numberRight, setNumberRight] = useState(0);
 	const [numberWrong, setNumberWrong] = useState(0);
 
 	useEffect(() => {
@@ -35,7 +41,7 @@ export const FlashcardTraining = () => {
 				break;
 			case "lookingAtWrongAnswer":
 				setTestingStatus("typingAnswer");
-				setAnswer('');
+				setAnswer("");
 				break;
 		}
 	};
@@ -56,6 +62,7 @@ export const FlashcardTraining = () => {
 
 	return (
 		<div className="bg-slate-300 mb-6 p-3 w-full rounded">
+			<p>{testingStatus}</p>
 			<div className="flex justify-between">
 				<p className="mb-3">{testingFlashcard.front}&nbsp;</p>
 				<div className="text-xs flex gap-3 min-w-[14rem] justify-end">
