@@ -8,6 +8,7 @@ export interface FlashcardModel {
 	flashcardsSearchText: string;
 	testingFlashcard: Flashcard;
 	answer: string;
+	answerIsCorrect: boolean;
 
 	// computed state
 	filteredFlashcards: Computed<this, Flashcard[]>;
@@ -19,6 +20,7 @@ export interface FlashcardModel {
 	handleFlashcardSearchTextChange: Action<this, string>;
 	setNextTestingFlashcard: Action<this>;
 	setAnswer: Action<this, string>;
+	setAnswerIsCorrect: Action<this, boolean>;
 }
 
 export const flashcardModel: FlashcardModel = {
@@ -27,6 +29,7 @@ export const flashcardModel: FlashcardModel = {
 	flashcardsSearchText: "",
 	testingFlashcard: emptyFlashcard,
 	answer: "",
+	answerIsCorrect: false,
 
 	// computed state
 	filteredFlashcards: computed((state) => {
@@ -71,5 +74,8 @@ export const flashcardModel: FlashcardModel = {
 	}),
 	setAnswer: action((state, answer) => {
 		state.answer = answer;
+	}),
+	setAnswerIsCorrect: action((state, answerIsCorrect) => {
+		state.answerIsCorrect = answerIsCorrect;
 	}),
 };

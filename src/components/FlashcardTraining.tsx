@@ -11,16 +11,14 @@ type TestingStatus =
 	| "lookingAtRightAnswer";
 
 export const FlashcardTraining = () => {
-	const { testingFlashcard, answer } = useTypedStoreState(
+	const { testingFlashcard, answer, answerIsCorrect } = useTypedStoreState(
 		(state) => state.flashcardModel
 	);
-	const { setNextTestingFlashcard, setAnswer } = useTypedStoreActions(
+	const { setNextTestingFlashcard, setAnswer, setAnswerIsCorrect } = useTypedStoreActions(
 		(actions) => actions.flashcardModel
 	);
 	const [testingStatus, setTestingStatus] =
 		useState<TestingStatus>("typingAnswer");
-	// const [answer, setAnswer] = useState("");
-	const [answerIsCorrect, setAnswerIsCorrect] = useState(false);
 	const [numberRight, setNumberRight] = useState(0);
 	const [numberWrong, setNumberWrong] = useState(0);
 
