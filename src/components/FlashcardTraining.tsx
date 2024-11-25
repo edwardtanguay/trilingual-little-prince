@@ -145,15 +145,20 @@ export const FlashcardTraining = () => {
 							{testingFlashcardHistoryItem.attempts.map(
 								(attempt, index) => {
 									return (
-										<p
-											className={`${
-												attempt.status === "right"
-													? "text-green-800 ml-1"
-													: "text-red-800 ml-1"
-											}`}
-											key={index}
-										>
-											{attempt.answer}
+										<p key={index}>
+											<span className="text-slate-700">
+												{attempt.when}
+											</span>
+											<span
+												className={`${
+													attempt.status === "right"
+														? "text-green-800 ml-1"
+														: "text-red-800 ml-1"
+												}`}
+												key={index}
+											>
+												{attempt.answer}
+											</span>
 										</p>
 									);
 								}
