@@ -15,7 +15,6 @@ export const FlashcardTraining = () => {
 		answer,
 		answerIsCorrect,
 		testingStatus,
-		wrongAnswers,
 		user,
 		testingFlashcardHistoryItem,
 	} = useTypedStoreState((state) => state.flashcardModel);
@@ -24,7 +23,6 @@ export const FlashcardTraining = () => {
 		setAnswer,
 		setAnswerIsCorrect,
 		setTestingStatus,
-		addWrongAnswer,
 	} = useTypedStoreActions((actions) => actions.flashcardModel);
 
 	useEffect(() => {
@@ -52,7 +50,6 @@ export const FlashcardTraining = () => {
 					testingFlashcardHistoryItem.attempts.push(flashcardAttempt);
 					testingFlashcardHistoryItem.timesAnsweredWrong++;
 					setTestingStatus("lookingAtWrongAnswer");
-					addWrongAnswer(answer);
 				}
 				break;
 			case "lookingAtWrongAnswer":
@@ -145,19 +142,22 @@ export const FlashcardTraining = () => {
 					)}
 					{testingStatus === "lookingAtRightAnswer" && (
 						<div>
-							{wrongAnswers.map((wrongAnswer, index) => {
-								return (
-									<p
-										className="text-red-800 ml-1"
-										key={index}
-									>
-										{wrongAnswer}
-									</p>
-								);
-							})}
-							<p className="text-green-800 ml-1">
-								{testingFlashcard.back}
-							</p>
+							{testingFlashcardHistoryItem.attempts.map(
+								(attempt, index) => {
+									return (
+										<p
+											className={`${
+												attempt.status === "right"
+													? "text-green-800 ml-1"
+													: "text-red-800 ml-1"
+											}`}
+											key={index}
+										>
+											{attempt.answer}
+										</p>
+									);
+								}
+							)}
 						</div>
 					)}
 				</div>
