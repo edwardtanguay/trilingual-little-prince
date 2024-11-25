@@ -35,20 +35,27 @@ export const FlashcardTraining = () => {
 		switch (testingStatus) {
 			case "typingAnswer":
 				if (answer === testingFlashcard.back) {
+					const flashcardAttempt: FlashcardAttempt = {
+						when: qstr.getCurrentTimestamp(),
+						answer: answer,
+						status: "right",
+					};
+					testingFlashcardHistoryItem.attempts.push(flashcardAttempt);
 					testingFlashcardHistoryItem.timesAnsweredRight++;
 					setTestingStatus("lookingAtRightAnswer");
 				} else {
+					const flashcardAttempt: FlashcardAttempt = {
+						when: qstr.getCurrentTimestamp(),
+						answer: answer,
+						status: "wrong",
+					};
+					testingFlashcardHistoryItem.attempts.push(flashcardAttempt);
 					testingFlashcardHistoryItem.timesAnsweredWrong++;
 					setTestingStatus("lookingAtWrongAnswer");
 					addWrongAnswer(answer);
 				}
 				break;
 			case "lookingAtWrongAnswer":
-				const flashcardAttempt: FlashcardAttempt = {
-					when: qstr.getCurrentTimestamp(),
-					answer: answer
-				};
-				testingFlashcardHistoryItem.attempts.push(flashcardAttempt);
 				setTestingStatus("typingAnswer");
 				setAnswer("");
 				break;

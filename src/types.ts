@@ -62,6 +62,7 @@ export type TestingStatus =
 export type FlashcardAttempt = {
 	when: string;
 	answer: string;
+	status: "right" | "wrong";
 };
 
 export type FlashcardHistoryItem = {
