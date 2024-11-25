@@ -24,7 +24,6 @@ export const FlashcardTraining = () => {
 	}, []);
 
 	const getCurrentHistoryItem = () => {
-		console.log(11111, 'just got history item for: ' + testingFlashcard.idCode);
 		return user.flashcardHistory[testingFlashcard.idCode];
 	};
 

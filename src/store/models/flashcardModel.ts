@@ -112,20 +112,9 @@ export const flashcardModel: FlashcardModel = persist(
 				flashcardHistoryItem = structuredClone(
 					blankFlashcardHistoryItem
 				);
-				console.log(
-					222,
-					"just assigned BLANK for: " + state.testingFlashcard.idCode
-				);
-				console.log(222, flashcardHistoryItem);
 			}
 			state.user.flashcardHistory[state.testingFlashcard.idCode] =
 				flashcardHistoryItem;
-			console.log(
-				333,
-				"just assigned history item for: " +
-					state.testingFlashcard.idCode
-			);
-			console.log(333, flashcardHistoryItem);
 		}),
 		setAnswer: action((state, answer) => {
 			state.answer = answer;

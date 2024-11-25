@@ -8,7 +8,1343 @@
 		"back": "en gran medida"
 	},
 	{
+		"front": "this process will take some time",
+		"back": "este proceso tardará un tiempo"
+	},
+	{
 		"front": "so that it is capable",
 		"back": "para que sea capaz"
+	},
+	{
+		"front": "as we see, the binaries will be generated",
+		"back": "como vemos, se va a generar los binarios"
+	},
+	{
+		"front": "having built it on our machine",
+		"back": "al haberlo construido en nuestra máquina"
+	},
+	{
+		"front": "Go stands out for the small size of its binaries",
+		"back": "Go destaca por el pequeño tamaño de sus binarios"
+	},
+	{
+		"front": "since we would be forcing him to install Go",
+		"back": "puesto que le estaríamos obligando a instalar Go [gr. present conditional]"
+	},
+	{
+		"front": "but we can't deliver it to the user like this",
+		"back": "pero no podemos entregarla así al usuario"
+	},
+	{
+		"front": "let's start with a small application",
+		"back": "partamos de una pequeña aplicación"
+	},
+	{
+		"front": "in which they are going to be executed",
+		"back": "en el que se vayan a ejecutar [gr. subjunctive present]"
+	},
+	{
+		"front": "we usually run our programs directly from the source code",
+		"back": "solemos ejecutar nuestros programas directamente desde el código fuente"
+	},
+	{
+		"front": "common tasks such as counting requests",
+		"back": "tareas comunes como el conteo de peticiones"
+	},
+	{
+		"front": "we should see the message",
+		"back": "deberíamos ver el mensaje [gr. present conditional]"
+	},
+	{
+		"front": "this time, we should get the correct answer",
+		"back": "esta vez, deberíamos recibir la respuesta correcta [gr. present conditional]"
+	},
+	{
+		"front": "as expected, we have an error",
+		"back": "como era de esperar, tenemos un error"
+	},
+	{
+		"front": "whenever we returned an error previously",
+		"back": "siempre que devolviéramos un error anteriormente [gr. subjunctive imperfect 1]"
+	},
+	{
+		"front": "we will leave these set as they are",
+		"back": "dejaremos estos configurados como están"
+	},
+	{
+		"front": "in order to save it",
+		"back": "para guardarlo"
+	},
+	{
+		"front": "I will save that later",
+		"back": "lo guardaré más tarde"
+	},
+	{
+		"front": "it's right there",
+		"back": "está justo ahí"
+	},
+	{
+		"front": "as dark as it can be",
+		"back": "tan oscuro como puede ser"
+	},
+	{
+		"front": "click on the button",
+		"back": "haga clic en el botón"
+	},
+	{
+		"front": "click on the left side",
+		"back": "haga clic en el lado izquierdo"
+	},
+	{
+		"front": "on the one hand",
+		"back": "por un lado"
+	},
+	{
+		"front": "since we consider it an error",
+		"back": "puesto que lo consideramos un error"
+	},
+	{
+		"front": "we will return an error",
+		"back": "retornaremos un error"
+	},
+	{
+		"front": "by our web layer",
+		"back": "por nuestra capa web"
+	},
+	{
+		"front": "including the value",
+		"back": "incluyendo el valor"
+	},
+	{
+		"front": "the time that has elapsed",
+		"back": "el tiempo que ha transcurrido"
+	},
+	{
+		"front": "the first thing it does is get the current time",
+		"back": "lo primero que hace es obtener la hora actual"
+	},
+	{
+		"front": "that is in charge of counting the requests",
+		"back": "que se encargue de contar las peticiones"
+	},
+	{
+		"front": "that is in charge of counting the requests",
+		"back": "que se encargue de contar las peticiones [en-KAR-gay]"
+	},
+	{
+		"front": "although we could have used any other",
+		"back": "aunque podríamos haber utilizado cualquier otro"
+	},
+	{
+		"front": "we access the URL",
+		"back": "accedemos a la URL"
+	},
+	{
+		"front": "start the server on port 8080",
+		"back": "arranca el servidor en el puerto 8080"
+	},
+	{
+		"front": "in isolation",
+		"back": "de manera aislada"
+	},
+	{
+		"front": "will make a request",
+		"back": "hará una petition"
+	},
+	{
+		"front": "it will return the list",
+		"back": "devolverá la lista"
+	},
+	{
+		"front": "to test it",
+		"back": "para probarlo"
+	},
+	{
+		"front": "finally",
+		"back": "por último"
+	},
+	{
+		"front": "let's ask",
+		"back": "vamos a pedir"
+	},
+	{
+		"front": "I will store in the variable",
+		"back": "almacenaré en la variable"
+	},
+	{
+		"front": "he copies text in all at once, he doesn't type it",
+		"back": "copia el texto de una sola vez, no lo escribe"
+	},
+	{
+		"front": "by prompt we understand",
+		"back": "entendemos por prompt"
+	},
+	{
+		"front": "you can see on the last line",
+		"back": "puedes verlo en la última línea"
+	},
+	{
+		"front": "we will read the answer",
+		"back": "leeremos la respuesta"
+	},
+	{
+		"front": "the root directory",
+		"back": "el directorio raíz"
+	},
+	{
+		"front": "we will return to the subject",
+		"back": "volveremos al tema"
+	},
+	{
+		"front": "which is responsible for making the request to the API",
+		"back": "que se engarga de hacer la petición a la API"
+	},
+	{
+		"front": "in the following videos",
+		"back": "en siguientes vídeos [see-g|ee-EN-tays]"
+	},
+	{
+		"front": "wouldn't it be better to be able to do something like this",
+		"back": "no sería mejor ser capaces de hacer algo así"
+	},
+	{
+		"front": "tens, hundreds",
+		"back": "decenas, cientos"
+	},
+	{
+		"front": "text box",
+		"back": "caja de texto"
+	},
+	{
+		"front": "the mouse",
+		"back": "el ratón"
+	},
+	{
+		"front": "via our browser",
+		"back": "mediante nuestro navegador"
+	},
+	{
+		"front": "let's change it to no",
+		"back": "combiémoslo a no"
+	},
+	{
+		"front": "so we need to provide that name",
+		"back": "por lo que debemos proporcionar ese nombre"
+	},
+	{
+		"front": "what this function is about and what it does",
+		"back": "qué se trata esta función y qué hace"
+	},
+	{
+		"front": "I like that standard because",
+		"back": "me gusta esa estandár porque"
+	},
+	{
+		"front": "así es como lo hace",
+		"back": "this is how you do it"
+	},
+	{
+		"front": "let me save it",
+		"back": "déjeme guardarlo"
+	},
+	{
+		"front": "I'll explain it to you a little later",
+		"back": "explicártelo un poco más adelante"
+	},
+	{
+		"front": "GitLab provides us with some variables",
+		"back": "GitLab nos proporciona algunas variables"
+	},
+	{
+		"front": "we will return to our project",
+		"back": "volveremos a nuestro proyecto"
+	},
+	{
+		"front": "for everything else",
+		"back": "para todo lo demás"
+	},
+	{
+		"front": "I saved that earlier",
+		"back": "lo guardé antes"
+	},
+	{
+		"front": "it's right here",
+		"back": "está justo aquí"
+	},
+	{
+		"front": "we need to allow the user to upload files",
+		"back": "necesitamos permitir al usuario cargar archivos"
+	},
+	{
+		"front": "we will need to add some permissions",
+		"back": "necesitaremos agregar algunos permisos"
+	},
+	{
+		"front": "and we will have to check this box",
+		"back": "y tendremos que marcar esta casilla"
+	},
+	{
+		"front": "and then scroll down and then back up",
+		"back": "y luego desplácese hacia abajo y luego hacia arriba"
+	},
+	{
+		"front": "you can repeat the steps",
+		"back": "puedes repetir los pasos"
+	},
+	{
+		"front": "you'll want to copy this password",
+		"back": "querrás copiar esta contraseña"
+	},
+	{
+		"front": "you will have to regenerate it",
+		"back": "tendrás de regenerarlo"
+	},
+	{
+		"front": "make sure you save them because otherwise you will lose them",
+		"back": "asegúrate de guardarlos porque de lo contrario los perderás"
+	},
+	{
+		"front": "I am going to use it to paste some text into the input box",
+		"back": "voy a usarlo para pegar algo de texto en el cuadro de entrada"
+	},
+	{
+		"front": "just follow exactly what I do and you should be fine",
+		"back": "solo sigue exactamente lo que hago y deberías estar bien"
+	},
+	{
+		"front": "we didn't do anything with it",
+		"back": "no hicimos nada con él"
+	},
+	{
+		"front": "and I will delete some of these comments",
+		"back": "y borraré algunos de estos comentarios"
+	},
+	{
+		"front": "it may be tempting to create",
+		"back": "puede ser tentador crear"
+	},
+	{
+		"front": "let's go back",
+		"back": "regresemos"
+	},
+	{
+		"front": "I got to this page by browsing",
+		"back": "llegué a esta página navegando"
+	},
+	{
+		"front": "so we can move on",
+		"back": "así que podemos seguir adelante"
+	},
+	{
+		"front": "something starts to happen",
+		"back": "algo comienza a suceder"
+	},
+	{
+		"front": "belw the image",
+		"back": "debajo de la imagen"
+	},
+	{
+		"front": "so let's take a look",
+		"back": "así que echemos un vistazo"
+	},
+	{
+		"front": "that investment will pay for itself many times over",
+		"back": "esa inversión amortizará muchos veces"
+	},
+	{
+		"front": "it would be nice to find out",
+		"back": "sería bueno averiguarlo"
+	},
+	{
+		"front": "the next level",
+		"back": "el siguiente nivel"
+	},
+	{
+		"front": "each layer of testing",
+		"back": "cada capa de prueba"
+	},
+	{
+		"front": "if you have ever seen a documentary",
+		"back": "si alguna vez has visto un documental"
+	},
+	{
+		"front": "it's pretty easy to find out",
+		"back": "es bastante fácil averiguar"
+	},
+	{
+		"front": "due to the delta",
+		"back": "debido al delta"
+	},
+	{
+		"front": "both approaches",
+		"back": "ambos enfoques"
+	},
+	{
+		"front": "pr. 1930",
+		"back": "meel NOH-vay see-EN-troh TRAYN-tah"
+	},
+	{
+		"front": "in the last century",
+		"back": "en el siglo pasado"
+	},
+	{
+		"front": "click on the tab",
+		"back": "haga clic en la pestaña"
+	},
+	{
+		"front": "we will not cover in this course",
+		"back": "no cubriremos en este curso"
+	},
+	{
+		"front": "take a couple of minutes and",
+		"back": "tómate un par de minutos y"
+	},
+	{
+		"front": "a branch called main",
+		"back": "una rama llamada main"
+	},
+	{
+		"front": "a couple of things I want to point out",
+		"back": "un par de cosas que quiero señalar"
+	},
+	{
+		"front": "we will leave these unset",
+		"back": "dejaremos estos sin establecer"
+	},
+	{
+		"front": "work back and forth",
+		"back": "trabajar de un lado de otro"
+	},
+	{
+		"front": "the other thing that happens",
+		"back": "la otra cosa que sucede"
+	},
+	{
+		"front": "I'm testing a hunch",
+		"back": "pruebo una corazonada"
+	},
+	{
+		"front": "testing a hunch",
+		"back": "probando una corazonada"
+	},
+	{
+		"front": "app developer",
+		"back": "desarrollador de aplicaciones"
+	},
+	{
+		"front": "this is because it is very difficult to distinguish",
+		"back": "esto se debe a que es muy difícil distinguir"
+	},
+	{
+		"front": "it is assumed that",
+		"back": "se supone que"
+	},
+	{
+		"front": "this concept helps to emphasize",
+		"back": "Este concepto ayuda a enfatizar"
+	},
+	{
+		"front": "let's drink to software development",
+		"back": "brindemos por el desarrollo de software; [day-sah-ROY-yoh]"
+	},
+	{
+		"front": "it consists of the following parts",
+		"back": "es consta de las siguientes partes; [see-g|ee-EN-tays]"
+	},
+	{
+		"front": "so let's take a look at the general process",
+		"back": "así que echemos un vistazo el proceso general"
+	},
+	{
+		"front": "continuous delivery",
+		"back": "entrega continua"
+	},
+	{
+		"front": "to a large extent",
+		"back": "en gran medida"
+	},
+	{
+		"front": "check it out",
+		"back": "compruébalo"
+	},
+	{
+		"front": "security and storage",
+		"back": "seguridad y almacenamiento"
+	},
+	{
+		"front": "we want to add authentication",
+		"back": "queremos agregar autenticación"
+	},
+	{
+		"front": "so let's take a look at the readme file",
+		"back": "así que echemos un vistazo al archivo readme"
+	},
+	{
+		"front": "a very common thing to do",
+		"back": "algo muy común que se puede hacer"
+	},
+	{
+		"front": "it is quite similar to this tool",
+		"back": "es bastante parecida a esta herramientas"
+	},
+	{
+		"front": "that GitLab provides",
+		"back": "que provee GitLab"
+	},
+	{
+		"front": "the responsibility of each of them",
+		"back": "la responsabilidad de cada una de ellas"
+	},
+	{
+		"front": "and see where the changes occur",
+		"back": "y ver dónde se producen los cambios"
+	},
+	{
+		"front": "the first thing that may come to mind",
+		"back": "lo primero que nos puede venir a la cabeza"
+	},
+	{
+		"front": "a bunch of branches",
+		"back": "un montón de ramas"
+	},
+	{
+		"front": "you will get to this kind of drawings",
+		"back": "vais a llegar a este tipo de dibujos"
+	},
+	{
+		"front": "anyone who still had a downloaded repository",
+		"back": "cualquier persona que tuviera todavía un repositorio descargado"
+	},
+	{
+		"front": "in case the server was lost",
+		"back": "en caso de que se perdiera el servidor"
+	},
+	{
+		"front": "to upload them later",
+		"back": "para subirlas luego más tarde"
+	},
+	{
+		"front": "the windows and the advantages",
+		"back": "las ventanas y las ventajas"
+	},
+	{
+		"front": "this has certain advantages",
+		"back": "est tiene ciertas ventajas"
+	},
+	{
+		"front": "in such a way that",
+		"back": "de tal manera que"
+	},
+	{
+		"front": "if the server goes down",
+		"back": "si el servidor se cae"
+	},
+	{
+		"front": "performance issues",
+		"back": "los problemas de rendimiento"
+	},
+	{
+		"front": "you could go forward and backward",
+		"back": "podías ir adelante y atrás"
+	},
+	{
+		"front": "stored in a database",
+		"back": "almacenaba en una base de datos"
+	},
+	{
+		"front": "and I was checking the versions",
+		"back": "e iba revisando las versiones"
+	},
+	{
+		"front": "there will be many people you know who",
+		"back": "habrá mucha gente de la que conocéis que"
+	},
+	{
+		"front": "the initials of",
+		"back": "las siglas de"
+	},
+	{
+		"front": "pr. VCS",
+		"back": "OO-vay-say-ESS-ay"
+	},
+	{
+		"front": "a free or paid web service",
+		"back": "un servicio web gratuito o de pago"
+	},
+	{
+		"front": "your source code",
+		"back": "tu código fuente"
+	},
+	{
+		"front": "those who want to have a backup of their work",
+		"back": "aquellos que quieran tener un respaldo de su trabajo"
+	},
+	{
+		"front": "now let's move onto the terminal",
+		"back": "ahora pasemos a la terminal"
+	},
+	{
+		"front": "will return a result",
+		"back": "va a devolver un resultado"
+	},
+	{
+		"front": "just to give an example",
+		"back": "solo para dar un ejemplo"
+	},
+	{
+		"front": "but above all I hope this has been useful",
+		"back": "pero sobre todo espero que esto haya sido ùtil"
+	},
+	{
+		"front": "anyway, please give it a like so more people can see it",
+		"back": "de todos modos, dale me gusta para que más personas lo vean"
+	},
+	{
+		"front": "this is something you should keep in mind",
+		"back": "esto es algo que debes tener en cuenta"
+	},
+	{
+		"front": "this means that it can handle any character",
+		"back": "esto significa que puede manejar cualquier carácter"
+	},
+	{
+		"front": "the good news is that ink has no limitations",
+		"back": "la buena noticia es que ink no tiene limitaciones"
+	},
+	{
+		"front": "as the story grows, you may want to do things",
+		"back": "a medida que la historia crece, es posible que desees hacer cosas"
+	},
+	{
+		"front": "the variable cannot be changed after it has been declared for the first time",
+		"back": "la variable no se puede cambiar después de haber sido declarada por primera vez"
+	},
+	{
+		"front": "next, let's add a variable",
+		"back": "a continuación, agreguemos una variable"
+	},
+	{
+		"front": "there is nothing more to show",
+		"back": "no hay nada más que mostrar"
+	},
+	{
+		"front": "as you may have guessed",
+		"back": "como habrás adivinado"
+	},
+	{
+		"front": "this is because we need to activate it",
+		"back": "esto se debe a que necesitamos activarlo"
+	},
+	{
+		"front": "the text does not yet appear in the story",
+		"back": "el texto todavía no aparece en la historia"
+	},
+	{
+		"front": "if you go to the drop-down menu on the top left",
+		"back": "si vas al menu desplegable en la parte superior izquierda"
+	},
+	{
+		"front": "we will go to a new line",
+		"back": "iremos a una nueva línea"
+	},
+	{
+		"front": "to take a step back",
+		"back": "para retroceder un paso"
+	},
+	{
+		"front": "once downloaded, you can start the program",
+		"back": "una vez descargado, puedes iniciar el programa"
+	},
+	{
+		"front": "how can we see all the messages",
+		"back": "cómo podemos hacer para ver todos los mensajes"
+	},
+	{
+		"front": "since the goroutine might not have enough time",
+		"back": "ya que la gorutina podría no tener tiempo suficiente"
+	},
+	{
+		"front": "the keyword go",
+		"back": "la palabra clave go"
+	},
+	{
+		"front": "to perform tasks in the background",
+		"back": "para realizar tareas en segundo plano"
+	},
+	{
+		"front": "in a single thread of execution",
+		"back": "en un solo hilo de ejecución"
+	},
+	{
+		"front": "just once, as we expected",
+		"back": "una única vez, como esperábamos"
+	},
+	{
+		"front": "we can ensure that",
+		"back": "podemos asegurarnos que"
+	},
+	{
+		"front": "this is because",
+		"back": "esto se debe a que"
+	},
+	{
+		"front": "that has the protections inside",
+		"back": "que dentro tiene las protecciones"
+	},
+	{
+		"front": "a counter and a container //comparison",
+		"back": "un contador y un contenedor"
+	},
+	{
+		"front": "he works like a teacher but he doesn't know how to solve this problem //comparison",
+		"back": "él trabaja como profesor pero no sabe cómo solucionar este problema"
+	},
+	{
+		"front": "we see how to use",
+		"back": "vemos cómo utilizar"
+	},
+	{
+		"front": "a shared resource",
+		"back": "un recurso compartido"
+	},
+	{
+		"front": "a set of primitives",
+		"back": "un conjunto de primitivas"
+	},
+	{
+		"front": "instead of writing this code",
+		"back": "en lugar de escribir este código"
+	},
+	{
+		"front": "expensive operations",
+		"back": "operaciones costosas"
+	},
+	{
+		"front": "expensive operations",
+		"back": "operaciones costosas"
+	},
+	{
+		"front": "a single thread",
+		"back": "un solo hilo"
+	},
+	{
+		"front": "this way we can make sure that all goroutines have finished",
+		"back": "de esta manera, podemos asegurarnos que todas las gorutinas hayan finalizado"
+	},
+	{
+		"front": "an integer value",
+		"back": "un valor entero"
+	},
+	{
+		"front": "the shared resource can be a variable",
+		"back": "el recurso compartido puede ser una variable"
+	},
+	{
+		"front": "race conditions",
+		"back": "condiciones de carrera"
+	},
+	{
+		"front": "as it can lead to over coupling",
+		"back": "ya que puede llevar a un acoplamiento excesivo"
+	},
+	{
+		"front": "the only one that fails",
+		"back": "el único que falla"
+	},
+	{
+		"front": "after which the context will be cancelled",
+		"back": "tras el cual se cancelerá el contexto"
+	},
+	{
+		"front": "the text string",
+		"back": "la cadena de texto"
+	},
+	{
+		"front": "let's make sure that",
+		"back": "vamos a aseguarnos que"
+	},
+	{
+		"front": "when this time is up",
+		"back": "cuando se cumpla este tiempo; note=cumplir: to fulfill"
+	},
+	{
+		"front": "thirty, forty, fifty, sixty, seventy, eighty, ninety",
+		"back": "treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa"
+	},
+	{
+		"front": "the breakfast, the lunch, the dinner",
+		"back": "el desayuno, el almuerzo, la cena"
+	},
+	{
+		"front": "let's look at this with different examples",
+		"back": "veámoslo con diferentes ejemplos"
+	},
+	{
+		"front": "which begins when it is created",
+		"back": "que comienza cuando se crea"
+	},
+	{
+		"front": "freeing up resources if necessary",
+		"back": "liberando recursos si fuera necesario [gr. subjunctive imperfect 1]"
+	},
+	{
+		"front": "being able to define a time to cancel the operation",
+		"back": "pudiendo definir un tiempo para cancelar la operación"
+	},
+	{
+		"front": "as we have seen",
+		"back": "como hemos visto"
+	},
+	{
+		"front": "the variable will have been modified",
+		"back": "la variable habrá sido modificada"
+	},
+	{
+		"front": "will be applied to the struct",
+		"back": "se aplicarán a la struct"
+	},
+	{
+		"front": "this pointer will point to the memory address of the value",
+		"back": "este puntero apuntará a la dirección de memoria del valor"
+	},
+	{
+		"front": "let's store the value 17",
+		"back": "vamos a almacenar el valor 17"
+	},
+	{
+		"front": "an integer value",
+		"back": "un valor de tipo entero"
+	},
+	{
+		"front": "leaving the code much cleaner",
+		"back": "quedando el código mucho más limpio"
+	},
+	{
+		"front": "let's see this in an example",
+		"back": "veámoslo con un ejemplo"
+	},
+	{
+		"front": "if there is any error",
+		"back": "si hubiera algún error [gr. subjunctive imperfect 1]"
+	},
+	{
+		"front": "each of which modifies a field",
+		"back": "cada una de las cuales modifica un campo"
+	},
+	{
+		"front": "a function that receives a pointer",
+		"back": "una función que recibe un puntero"
+	},
+	{
+		"front": "which value corresponds to which field",
+		"back": "qué valor corresponde a qué campo"
+	},
+	{
+		"front": "if we were to add new fields",
+		"back": "si añadiésimos nuevos campos [gr. subjunctive imperfect 2]"
+	},
+	{
+		"front": "its wide range of packages",
+		"back": "su amplia gama de paquetes"
+	},
+	{
+		"front": "Go places a strong emphasis on testing",
+		"back": "Go pone un fuerte énfasis en las pruebas"
+	},
+	{
+		"front": "digital signatures",
+		"back": "firmas digitales"
+	},
+	{
+		"front": "the library provides many useful tools",
+		"back": "la librería proporciona muchas herramientas útiles"
+	},
+	{
+		"front": "to a large extent",
+		"back": "en gran medida"
+	},
+	{
+		"front": "high performance",
+		"back": "alto rendimiento"
+	},
+	{
+		"front": "the library is highly optimized",
+		"back": "la librería está altamente optimizada"
+	},
+	{
+		"front": "file management",
+		"back": "manejo de archivos"
+	},
+	{
+		"front": "above the current package",
+		"back": "por encima del paquete actual"
+	},
+	{
+		"front": "in such a way that",
+		"back": "de tal modo que"
+	},
+	{
+		"front": "higher layers of the application",
+		"back": "capas más altas de la aplicación"
+	},
+	{
+		"front": "therefore",
+		"back": "por tanto"
+	},
+	{
+		"front": "below it",
+		"back": "por debajo de él"
+	},
+	{
+		"front": "such as",
+		"back": "tales como"
+	},
+	{
+		"front": "deployment code",
+		"back": "código despliegue [des-SPLEE-gay]"
+	},
+	{
+		"front": "let's look at it with a small example",
+		"back": "veámoslo con un pequeño ejemplo"
+	},
+	{
+		"front": "and finally, I want to highlight the test directory",
+		"back": "y por último, quiero destacar el directorio de pruebas"
+	},
+	{
+		"front": "from outside the project",
+		"back": "desde fuera del proyecto"
+	},
+	{
+		"front": "pr. cmd",
+		"back": "[say ehm-MAY day]"
+	},
+	{
+		"front": "we can find it in the repository",
+		"back": "podemos encontrarlo en el repositorio"
+	},
+	{
+		"front": "a set of organizational patterns",
+		"back": "un conjunto de patrones de organización"
+	},
+	{
+		"front": "our hierarchy",
+		"back": "nuestra jerarquía"
+	},
+	{
+		"front": "which helps us",
+		"back": "lo cual nos ayuda"
+	},
+	{
+		"front": "which is a mistake",
+		"back": "lo cual es un error"
+	},
+	{
+		"front": "although it seems to make sense",
+		"back": "aunque parece tener sentido"
+	},
+	{
+		"front": "for this reason",
+		"back": "por ello"
+	},
+	{
+		"front": "in such a way that",
+		"back": "de tal forma de"
+	},
+	{
+		"front": "internal scope of the package",
+		"back": "ámbito interno del paquete"
+	},
+	{
+		"front": "we will have to expose the functions",
+		"back": "tendremos que exponer las funciones"
+	},
+	{
+		"front": "since it is an implementation detail",
+		"back": "ya que es un detalle de implementación"
+	},
+	{
+		"front": "we are hiding it on purpose",
+		"back": "lo estamos ocultando a propósito"
+	},
+	{
+		"front": "place the files in that directory",
+		"back": "colocar los archivos en ese directorio"
+	},
+	{
+		"front": "code coverage",
+		"back": "cobertura de código"
+	},
+	{
+		"front": "it's just the beginning",
+		"back": "es solo el principio"
+	},
+	{
+		"front": "you will immerse yourself in the code",
+		"back": "te sumergirás en el código"
+	},
+	{
+		"front": "provide you with an understanding",
+		"back": "brindarte una comprensión"
+	},
+	{
+		"front": "you are going to start",
+		"back": "vas a empezar"
+	},
+	{
+		"front": "optimized performance",
+		"back": "rendimiento optimizado"
+	},
+	{
+		"front": "new heights",
+		"back": "nuevas alturas"
+	},
+	{
+		"front": "for which we will need",
+		"back": "para lo cual necesitaremos"
+	},
+	{
+		"front": "but enough of theory",
+		"back": "pero basta de teoría"
+	},
+	{
+		"front": "if you click on the button",
+		"back": "si pulsas en el botón"
+	},
+	{
+		"front": "having everything under one roof",
+		"back": "teniendo todo bajo un mismo techo; pr=TAY-choh"
+	},
+	{
+		"front": "promote the reuse of components",
+		"back": "fomentar el reúso de componentes"
+	},
+	{
+		"front": "this makes more sense",
+		"back": "esto tiene más sentido"
+	},
+	{
+		"front": "hence the name",
+		"back": "de allí el nombre"
+	},
+	{
+		"front": "a set of tools",
+		"back": "un conjunto de herramientas"
+	},
+	{
+		"front": "and take your React skills to the next level",
+		"back": "y lleva tus habilidades con React"
+	},
+	{
+		"front": "deliver robust code with higher quality",
+		"back": "entregar código robusto con mejor calidad"
+	},
+	{
+		"front": "I will guide you through the setup",
+		"back": "te guiaré en la configuración; pr=GEE-ahr-ray"
+	},
+	{
+		"front": "that will help you save time",
+		"back": "que te ayudará a ahorrar tiempo"
+	},
+	{
+		"front": "test your app",
+		"back": "probar tu aplicación"
+	},
+	{
+		"front": "although we can also make use of some design patterns",
+		"back": "aunque también podemos echar mano de algunos patrones de diseño"
+	},
+	{
+		"front": "very close to reaching the end",
+		"back": "muy cerca de llegar al final"
+	},
+	{
+		"front": "dónde se va a encontrar",
+		"back": "where will you find it"
+	},
+	{
+		"front": "the moment we stop using this hook",
+		"back": "en el moment en que dejemos de utilizar este hook"
+	},
+	{
+		"front": "from that moment on we will continue listening",
+		"back": "a partir de eso momento vamos a seguir escuchando; pr=say-GEER"
+	},
+	{
+		"front": "we already have it enabled",
+		"back": "ya lo tenemos habilitado"
+	},
+	{
+		"front": "is not available yet",
+		"back": "no está disponible aún"
+	},
+	{
+		"front": "o sea",
+		"back": "that is"
+	},
+	{
+		"front": "to save us possible problems",
+		"back": "para ahorrarnos posibles problemas"
+	},
+	{
+		"front": "if not, it may cause you problems",
+		"back": "si no, te puede dar problemas"
+	},
+	{
+		"front": "I tried it inside Google Chrome",
+		"back": "yo probé dentro de Google Chrome"
+	},
+	{
+		"front": "upward and downward",
+		"back": "hacia arriba y hacia abajo"
+	},
+	{
+		"front": "every time the mouse moves",
+		"back": "cada vez que se mueva el mouse"
+	},
+	{
+		"front": "what I'm going to need is",
+		"back": "lo que voy a necesitar es"
+	},
+	{
+		"front": "I'm going to leave it empty",
+		"back": "lo voy a dejar el vacío; note=dejar is regular"
+	},
+	{
+		"front": "I'm going to take advantage of the situation",
+		"back": "voy a aprovechar la situación"
+	},
+	{
+		"front": "it counts as a React function",
+		"back": "cuenta como una función de React"
+	},
+	{
+		"front": "they are still at a very basic point",
+		"back": "todavía se encuentran en un punto muy basico"
+	},
+	{
+		"front": "which is based on this other component",
+		"back": "el cual está basado en este otro componente"
+	},
+	{
+		"front": "I'm showing you",
+		"back": "te estoy mostrando"
+	},
+	{
+		"front": "we no longer need to think so much about it",
+		"back": "ya no necesitamos pensar tanto en eso"
+	},
+	{
+		"front": "y lo estoy vinculando para que se ejecute este método",
+		"back": "and I'm binding it so that this method runs"
+	},
+	{
+		"front": "and that's all",
+		"back": "y eso es todo"
+	},
+	{
+		"front": "and I bring it to my functional component",
+		"back": "y lo traigo a mi componente funcional;pr=trah-EE-goh"
+	},
+	{
+		"front": "this is going to work for us",
+		"back": "esto nos va a funcionar"
+	},
+	{
+		"front": "if you notice, as I was mentioning to you",
+		"back": "si te fijas, como te estaba mencionando;note=fijar: to fasten, regular"
+	},
+	{
+		"front": "we are going to completely ignore this part",
+		"back": "vamos a ignorar por completo esta parte"
+	},
+	{
+		"front": "let's analyze the constructor part",
+		"back": "analicemos la parte del constructor"
+	},
+	{
+		"front": "we are still missing some parts",
+		"back": "aún nos faltan algunos partes"
+	},
+	{
+		"front": "in theory",
+		"back": "en teoria"
+	},
+	{
+		"front": "which makes these processes much easier",
+		"back": "que vuelve mucho más fáciles estos procesos;note=vuele present of volver, to return"
+	},
+	{
+		"front": "let's see the great advantages it has",
+		"back": "vayamos viendo las grandes ventajas que tiene; note=vayamos subjuctive of ir"
+	},
+	{
+		"front": "for which hooks were created",
+		"back": "por las cuales se crearon los hooks"
+	},
+	{
+		"front": "I wouldn't do this",
+		"back": "yo no hiciera esto;pr=JOE-no; alternative=yo no haría esto (conditional)"
+	},
+	{
+		"front": "if we look here",
+		"back": "si nos fijamos acá;note=fijar: to fasten, fix to a spot, regular"
+	},
+	{
+		"front": "another important detail is that",
+		"back": "otro detalle importante es que"
+	},
+	{
+		"front": "within the rest of the application",
+		"back": "dentro del resto de la aplicación"
+	},
+	{
+		"front": "inheritance is a concept of OOP",
+		"back": "la herencia es un concepto de OOP"
+	},
+	{
+		"front": "display it within the document",
+		"back": "desplegarla dentro del documento"
+	},
+	{
+		"front": "I'm going to come here",
+		"back": "yo voy a venir acá"
+	},
+	{
+		"front": "so for example",
+		"back": "así que, por ejemplo"
+	},
+	{
+		"front": "and it is referring us to this method that is here",
+		"back": "y nos la está refiriendo a este método que está acá"
+	},
+	{
+		"front": "is taking the scope of this class",
+		"back": "está tomando el alcance de esta clase"
+	},
+	{
+		"front": "this method does not exist yet",
+		"back": "aún no existe este método"
+	},
+	{
+		"front": "trace what the input was",
+		"back": "rastrear cuál fue el input"
+	},
+	{
+		"front": "is an empty text string",
+		"back": "es una cadena de texto vacía"
+	},
+	{
+		"front": "so let's get to work",
+		"back": "así que vamos a poner manos a la obra"
+	},
+	{
+		"front": "according to the selection that appears here",
+		"back": "según la selección que aparece acá"
+	},
+	{
+		"front": "state management",
+		"back": "el manejo del estado"
+	},
+	{
+		"front": "and we see what is going to be shown",
+		"back": "y vemos que se va a mostrar"
+	},
+	{
+		"front": "besides that",
+		"back": "además de eso"
+	},
+	{
+		"front": "memory leak",
+		"back": "fuga de memoria"
+	},
+	{
+		"front": "I have to press right click",
+		"back": "tengo que presionar clic derecho"
+	},
+	{
+		"front": "to debug",
+		"back": "depurar"
+	},
+	{
+		"front": "everything is ready now",
+		"back": "ya se encuentra todo listo"
+	},
+	{
+		"front": "I'll show you a couple quickly",
+		"back": "te voy a mostrar un par rápidamente"
+	},
+	{
+		"front": "fits the name",
+		"back": "calza con el nombre"
+	},
+	{
+		"front": "and search here",
+		"back": "y acá buscar"
+	},
+	{
+		"front": "debug mode",
+		"back": "el modo de depuración"
+	},
+	{
+		"front": "in case you don't",
+		"back": "en caso de que no"
+	},
+	{
+		"front": "you have to drag that folder",
+		"back": "tienes que arrastrar esa carpeta"
+	},
+	{
+		"front": "address the problems",
+		"back": "abordar los problemas"
+	},
+	{
+		"front": "the concept behind hooks",
+		"back": "el concepto que está detrás de los hooks"
+	},
+	{
+		"front": "conj: decir;present",
+		"back": "digo, dices, dice, decimos, decís, dicen"
+	},
+	{
+		"front": "conj: decir;preterite",
+		"back": "dije, dijiste, dijo, dijimos, dijisteis, dijeron"
+	},
+	{
+		"front": "just as his name says",
+		"back": "tal como su nombre el dice"
+	},
+	{
+		"front": "the same goes for events",
+		"back": "lo mismo ocurre con los eventos"
+	},
+	{
+		"front": "we replace it with a single line",
+		"back": "lo reemplazamos por una solo línea"
+	},
+	{
+		"front": "very similar",
+		"back": "muy parecidas"
+	},
+	{
+		"front": "what I'm showing you here",
+		"back": "que te estoy mostrando acá"
+	},
+	{
+		"front": "before starting I would like to talk to you about what they are",
+		"back": "antes de comenzar quisiera hablarte sobre qué son"
+	},
+	{
+		"front": "it will be a pleasure to be your instructor",
+		"back": "será un gusto ser tu instructor"
+	},
+	{
+		"front": "to debug and prevent possible errors",
+		"back": "a depurar y prevenir posibles errores"
+	},
+	{
+		"front": "stop using patterns unnecessarily complex",
+		"back": "dejar de usar patrones innecesariamente complejos"
 	}
 ]
