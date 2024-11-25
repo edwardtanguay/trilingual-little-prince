@@ -59,12 +59,12 @@ export type TestingStatus =
 	| "lookingAtWrongAnswer"
 	| "lookingAtRightAnswer";
 
-type FlashcardAttempt = {
+export type FlashcardAttempt = {
 	when: string;
 	answer: string;
 };
 
-type FlashcardHistoryItem = {
+export type FlashcardHistoryItem = {
 	attempts: FlashcardAttempt[];
 	notes: string;
 	timesAnsweredRight: number;
@@ -72,7 +72,7 @@ type FlashcardHistoryItem = {
 	rank: number;
 };
 
-type FlashcardHistory = {
+export type FlashcardHistory = {
 	[key: string]: FlashcardHistoryItem;
 };
 

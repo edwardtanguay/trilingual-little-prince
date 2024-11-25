@@ -3,6 +3,7 @@ import {
 	blankUser,
 	emptyFlashcard,
 	Flashcard,
+	// FlashcardHistoryItem,
 	TestingStatus,
 	User,
 } from "../../types";
@@ -24,6 +25,7 @@ export interface FlashcardModel {
 	// computed state
 	filteredFlashcards: Computed<this, Flashcard[]>;
 	flashcardNumberShowingMessage: Computed<this, string>;
+	userFullName: Computed<this, string>;
 
 	// actions
 	loadFlashcards: Action<this>;
@@ -36,6 +38,7 @@ export interface FlashcardModel {
 	setNumberRight: Action<this, number>;
 	setNumberWrong: Action<this, number>;
 	addWrongAnswer: Action<this, string>;
+	// getFlashcardHistoryItem: Action<this, string>;
 }
 
 export const flashcardModel: FlashcardModel = persist({
@@ -68,6 +71,9 @@ export const flashcardModel: FlashcardModel = persist({
 			const verb = state.filteredFlashcards.length === 1 ? "is" : "are";
 			return `There ${verb} <span class="font-bold">${state.filteredFlashcards.length}</span> of ${state.flashcards.length} flashcards showing:`;
 		}
+	}),
+	userFullName: computed(state => {
+		return state.user.firstName + ' ' + state.user.lastName;
 	}),
 
 	// actions
@@ -114,6 +120,10 @@ export const flashcardModel: FlashcardModel = persist({
 	addWrongAnswer: action((state, wrongAnswer) => {
 		state.wrongAnswers.push(wrongAnswer);
 	}),
+	// getFlashcardHistoryItem: action((state, flashcardIdCode) => {
+	// 	state.wrongAnswers.push(state.user.flashcardHistory[flashcardIdCode]);
+	// }),
+
 }, {
 	storage: 'localStorage',
 	allow: ['user']

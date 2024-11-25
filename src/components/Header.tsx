@@ -3,7 +3,7 @@ import { Nav } from "./Nav";
 import * as qstr from '../qtools/qstr';
 
 export const Header = () => {
-	const { user } = useTypedStoreState((state) => state.flashcardModel);
+	const { user, userFullName } = useTypedStoreState((state) => state.flashcardModel);
 
 	return (
 		<>
@@ -40,15 +40,15 @@ export const Header = () => {
 						</a>
 					</h2>
 				</div>
-				<div>
+				<div className="flex flex-col items-end">
 					<div className="flex gap-2">
-						<p className="text-[1.2rem] text-slate-800">
-							{user.firstName}
-						</p>
 						<img
 							src={`images/users/${user.idCode}.jpg`}
 							className="w-[1.8rem] h-[1.8rem] rounded-full "
 						/>
+						<p className="text-[1.2rem] text-slate-800">
+							{userFullName}
+						</p>
 					</div>
 					<p className="font-mono text-slate-700 text-[2.2rem] -mt-2">{qstr.showScore(user.totalScore)}</p>
 				</div>

@@ -3,6 +3,7 @@ import {
 	useTypedStoreActions,
 	useTypedStoreState,
 } from "../store/easy-peasy-hooks";
+import * as config from "../config";
 
 export const FlashcardTraining = () => {
 	const {
@@ -13,6 +14,7 @@ export const FlashcardTraining = () => {
 		numberRight,
 		numberWrong,
 		wrongAnswers,
+		user
 	} = useTypedStoreState((state) => state.flashcardModel);
 	const {
 		setNextTestingFlashcard,
@@ -51,7 +53,8 @@ export const FlashcardTraining = () => {
 	};
 
 	const handleAnswerChange = (e: ChangeEvent<HTMLInputElement>) => {
-		const value = e.target.value;
+		user.firstName = 'nnn';
+		const value = e.target.value.trim();
 		setAnswer(value);
 		setAnswerIsCorrect(value === testingFlashcard.back);
 	};
@@ -73,71 +76,80 @@ export const FlashcardTraining = () => {
 	};
 
 	return (
-		<div className="bg-slate-300 mb-6 p-3 w-full rounded">
-			<div className="flex justify-between">
-				<p className="mb-3">{testingFlashcard.front}&nbsp;</p>
-				<div className="text-xs flex gap-3 min-w-[14rem] justify-end">
-					<p className="text-green-800">
-						times got right: {numberRight}
-					</p>
-					<p className="text-red-800">
-						times got wrong: {numberWrong}
-					</p>
+		<>
+			<div className="bg-slate-300 mb-6 p-3 w-full rounded">
+				[{testingFlashcard.idCode}]
+				<div className="flex justify-between">
+					<p className="mb-3">{testingFlashcard.front}&nbsp;</p>
+					<div className="text-xs flex gap-3 min-w-[14rem] justify-end">
+						<p className="text-green-800">
+							times got right: {numberRight}
+						</p>
+						<p className="text-red-800">
+							times got wrong: {numberWrong}
+						</p>
+					</div>
 				</div>
+				<div className="flex gap-3 mb-2">
+					<input
+						value={answer}
+						className="rounded w-full p-1"
+						style={{
+							backgroundColor: currentAnswerBackgroundColor(),
+							color: currentAnswerTextColor(),
+						}}
+						placeholder="spanish"
+						onChange={(e) => handleAnswerChange(e)}
+						autoFocus={true}
+						onKeyDown={(e) => {
+							if (e.key === "Enter" && answer.trim() !== "") {
+								handleMainButtonPress();
+							}
+						}}
+					/>
+					<button
+						className="bg-slate-400 opacity-80 text-sm py-0 px-2 rounded hover:opacity-100 whitespace-nowrap"
+						onClick={() => handleMainButtonPress()}
+					>
+						{testingStatus === "typingAnswer" && (
+							<span>submit answer</span>
+						)}
+						{testingStatus === "lookingAtWrongAnswer" && (
+							<span>try again</span>
+						)}
+						{testingStatus === "lookingAtRightAnswer" && (
+							<span>next flashcard</span>
+						)}
+					</button>
+				</div>
+				{testingStatus === "lookingAtWrongAnswer" && (
+					<div>
+						<p className="text-green-950 ml-1">
+							{testingFlashcard.back}
+						</p>
+					</div>
+				)}
+				{testingStatus === "lookingAtRightAnswer" && (
+					<div>
+						{wrongAnswers.map((wrongAnswer, index) => {
+							return (
+								<p className="text-red-800 ml-1" key={index}>
+									{wrongAnswer}
+								</p>
+							);
+						})}
+						<p className="text-green-800 ml-1">
+							{testingFlashcard.back}
+						</p>
+					</div>
+				)}
 			</div>
-			<div className="flex gap-3 mb-2">
-				<input
-					value={answer}
-					className="rounded w-full p-1"
-					style={{
-						backgroundColor: currentAnswerBackgroundColor(),
-						color: currentAnswerTextColor(),
-					}}
-					placeholder="spanish"
-					onChange={(e) => handleAnswerChange(e)}
-					autoFocus={true}
-					onKeyDown={(e) => {
-						if (e.key === "Enter") {
-							handleMainButtonPress();
-						}
-					}}
-				/>
-				<button
-					className="bg-slate-400 opacity-80 text-sm py-0 px-2 rounded hover:opacity-100 whitespace-nowrap"
-					onClick={() => handleMainButtonPress()}
-				>
-					{testingStatus === "typingAnswer" && (
-						<span>submit answer</span>
-					)}
-					{testingStatus === "lookingAtWrongAnswer" && (
-						<span>try again</span>
-					)}
-					{testingStatus === "lookingAtRightAnswer" && (
-						<span>next flashcard</span>
-					)}
-				</button>
-			</div>
-			{testingStatus === "lookingAtWrongAnswer" && (
-				<div>
-					<p className="text-green-950 ml-1">
-						{testingFlashcard.back}
-					</p>
+			{config.devMode() && (
+				<div className="bg-gray-900 text-gray-300 p-3 rounded">
+					<p>user:</p>
+					<pre className="text-xs text-yellow-200">{JSON.stringify(user, null, 2)}</pre>
 				</div>
 			)}
-			{testingStatus === "lookingAtRightAnswer" && (
-				<div>
-					{wrongAnswers.map((wrongAnswer, index) => {
-						return (
-							<p className="text-red-800 ml-1" key={index}>
-								{wrongAnswer}
-							</p>
-						);
-					})}
-					<p className="text-green-800 ml-1">
-						{testingFlashcard.back}
-					</p>
-				</div>
-			)}
-		</div>
+		</>
 	);
 };
