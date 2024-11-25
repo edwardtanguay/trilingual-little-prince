@@ -72,6 +72,14 @@ export type FlashcardHistoryItem = {
 	rank: number;
 };
 
+export const blankFlashcardHistoryItem: FlashcardHistoryItem = {
+	attempts: [],
+	notes: "",
+	timesAnsweredRight: 0,
+	timesAnsweredWrong: 0,
+	rank: 2.5,
+};
+
 export type FlashcardHistory = {
 	[key: string]: FlashcardHistoryItem;
 };
@@ -89,22 +97,5 @@ export const blankUser = {
 	firstName: "Edward",
 	lastName: "Tanguay",
 	totalScore: 2342,
-	flashcardHistory: {
-		fc8273434: {
-			attempts: [
-				{
-					when: "2024-11-25 09:52:07",
-					answer: "en caso el servedor fue perdido",
-				},
-				{
-					when: "2024-11-25 09:53:08",
-					answer: "en caso el servidor era perdido",
-				},
-			],
-			timesAnsweredRight: 4,
-			timesAnsweredWrong: 12,
-			notes: "base verb: proveer, to provide, irregular",
-			rank: 4.1,
-		},
-	},
+	flashcardHistory: {},
 };

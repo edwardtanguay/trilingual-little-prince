@@ -1,8 +1,10 @@
 import { Action, action, computed, Computed, persist } from "easy-peasy";
 import {
+	blankFlashcardHistoryItem,
 	blankUser,
 	emptyFlashcard,
 	Flashcard,
+	FlashcardHistoryItem,
 	// FlashcardHistoryItem,
 	TestingStatus,
 	User,
@@ -26,6 +28,7 @@ export interface FlashcardModel {
 	filteredFlashcards: Computed<this, Flashcard[]>;
 	flashcardNumberShowingMessage: Computed<this, string>;
 	userFullName: Computed<this, string>;
+	testingFlashcardHistoryItem: Computed<this, FlashcardHistoryItem>;
 
 	// actions
 	loadFlashcards: Action<this>;
@@ -76,6 +79,9 @@ export const flashcardModel: FlashcardModel = persist(
 		userFullName: computed((state) => {
 			return state.user.firstName + " " + state.user.lastName;
 		}),
+		testingFlashcardHistoryItem: computed((state) => {
+			return state.user.flashcardHistory[state.testingFlashcard.idCode];
+		}),
 
 		// actions
 		loadFlashcards: action((state) => {
@@ -104,6 +110,13 @@ export const flashcardModel: FlashcardModel = persist(
 			state.numberWrong = 0;
 			state.testingStatus = "typingAnswer";
 			state.wrongAnswers = [];
+			let flashcardHistoryItem: FlashcardHistoryItem =
+				state.user.flashcardHistory[state.testingFlashcard.idCode];
+			if (!flashcardHistoryItem) {
+				flashcardHistoryItem = blankFlashcardHistoryItem;
+			}
+			state.user.flashcardHistory[state.testingFlashcard.idCode] =
+				flashcardHistoryItem;
 		}),
 		setAnswer: action((state, answer) => {
 			state.answer = answer;

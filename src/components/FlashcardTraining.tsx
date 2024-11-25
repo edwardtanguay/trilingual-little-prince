@@ -14,7 +14,8 @@ export const FlashcardTraining = () => {
 		numberRight,
 		numberWrong,
 		wrongAnswers,
-		user
+		user,
+		testingFlashcardHistoryItem
 	} = useTypedStoreState((state) => state.flashcardModel);
 	const {
 		setNextTestingFlashcard,
@@ -53,7 +54,7 @@ export const FlashcardTraining = () => {
 	};
 
 	const handleAnswerChange = (e: ChangeEvent<HTMLInputElement>) => {
-		const value = e.target.value.trim();
+		const value = e.target.value;
 		setAnswer(value);
 		setAnswerIsCorrect(value === testingFlashcard.back);
 	};
@@ -146,7 +147,13 @@ export const FlashcardTraining = () => {
 			{config.devMode() && (
 				<div className="bg-gray-900 text-gray-300 p-3 rounded">
 					<p>user:</p>
-					<pre className="text-xs text-yellow-200">{JSON.stringify(user, null, 2)}</pre>
+					<pre className="text-xs text-yellow-200">
+						{JSON.stringify(user, null, 2)}
+					</pre>
+					<p>testingFlashcardHistoryItem:</p>
+					<pre className="text-xs text-orange-400">
+						{JSON.stringify(testingFlashcardHistoryItem, null, 2)}
+					</pre>
 				</div>
 			)}
 		</>
