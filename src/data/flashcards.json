@@ -108,8 +108,8 @@
 		"back": "retornaremos un error"
 	},
 	{
-		"front": "by our web layer",
-		"back": "por nuestra capa web"
+		"front": "the information passes through our web layer before being sent to the server",
+		"back": "la información pasa por nuestra capa web antes de ser enviada al servidor"
 	},
 	{
 		"front": "including the value",
@@ -998,6 +998,62 @@
 	{
 		"front": "new heights",
 		"back": "nuevas alturas"
+	},
+	{
+		"front": "in case it happens",
+		"back": "en caso de que pase"
+	},
+	{
+		"front": "this is because it may be possible that the string is not a valid number",
+		"back": "esto se debe a que puede ser posible que la cadena no sea un número válido."
+	},
+	{
+		"front": "this can be done to make the data compatible",
+		"back": "eso se puede hacer para que los datos sean compatibles; sean = ser present subjuctive"
+	},
+	{
+		"front": "let's hit Enter",
+		"back": "vamos a darle Enter; \"le\" is just a filler pronoun"
+	},
+	{
+		"front": "double quotes",
+		"back": "las comillas dobles"
+	},
+	{
+		"front": "we place a backtick in front and at the end",
+		"back": "colocamos un backtick adelante y al final; colocar = to place, almost regular, preterite: yo coloqué"
+	},
+	{
+		"front": "we have achieved our goal",
+		"back": "hemos logrado nuestro objetivo"
+	},
+	{
+		"front": "as part of the task",
+		"back": "como parte de la tarea"
+	},
+	{
+		"front": "in the matter we have",
+		"back": "en el asunto tenemos"
+	},
+	{
+		"front": "we have been asked to send an email",
+		"back": "nos han solicitado enviar un correo electrónico"
+	},
+	{
+		"front": "the solution to common challenges",
+		"back": "la solución desafíos comunes"
+	},
+	{
+		"front": "although you may have encountered challenges",
+		"back": "aunque quizás te hayas encontrado con retos; hayas = present perfect subjunctive"
+	},
+	{
+		"front": "you have doubts",
+		"back": "te surgen dudas; literally \"doubts emerge for you\", surgir = arise, emerge, appear"
+	},
+	{
+		"front": "has it happened to you that while you are programming",
+		"back": "te ha pasado que mientras estás programando"
 	},
 	{
 		"front": "for which we will need",
