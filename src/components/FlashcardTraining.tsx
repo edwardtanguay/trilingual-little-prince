@@ -53,7 +53,6 @@ export const FlashcardTraining = () => {
 	};
 
 	const handleAnswerChange = (e: ChangeEvent<HTMLInputElement>) => {
-		user.firstName = 'nnn';
 		const value = e.target.value.trim();
 		setAnswer(value);
 		setAnswerIsCorrect(value === testingFlashcard.back);
