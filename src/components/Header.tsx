@@ -2,7 +2,7 @@ import { useTypedStoreState } from "../store/easy-peasy-hooks";
 import { Nav } from "./Nav";
 
 export const Header = () => {
-	const {user} = useTypedStoreState(state => state.flashcardModel)
+	const { user } = useTypedStoreState((state) => state.flashcardModel);
 
 	return (
 		<>
@@ -39,7 +39,13 @@ export const Header = () => {
 						</a>
 					</h2>
 				</div>
-				<div>{user.firstName}</div>
+				<div className="flex gap-2">
+					<p className="text-[1.3rem] text-slate-800">{user.firstName}</p>
+					<img
+						src={`images/users/${user.idCode}.jpg`}
+						className="w-[2rem] h-[2rem] rounded-full "
+					/>
+				</div>
 			</div>
 			<Nav />
 		</>
