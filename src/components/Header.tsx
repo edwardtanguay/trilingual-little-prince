@@ -1,6 +1,9 @@
+import { useTypedStoreState } from "../store/easy-peasy-hooks";
 import { Nav } from "./Nav";
 
 export const Header = () => {
+	const {user} = useTypedStoreState(state => state.flashcardModel)
+
 	return (
 		<>
 			<div className="flex justify-between">
@@ -36,7 +39,7 @@ export const Header = () => {
 						</a>
 					</h2>
 				</div>
-				<div>name</div>
+				<div>{user.firstName}</div>
 			</div>
 			<Nav />
 		</>
