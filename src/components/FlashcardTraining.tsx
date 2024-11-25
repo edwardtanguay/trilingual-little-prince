@@ -11,8 +11,6 @@ export const FlashcardTraining = () => {
 		answer,
 		answerIsCorrect,
 		testingStatus,
-		numberRight,
-		numberWrong,
 		wrongAnswers,
 		user,
 		testingFlashcardHistoryItem
@@ -22,8 +20,6 @@ export const FlashcardTraining = () => {
 		setAnswer,
 		setAnswerIsCorrect,
 		setTestingStatus,
-		setNumberRight,
-		setNumberWrong,
 		addWrongAnswer,
 	} = useTypedStoreActions((actions) => actions.flashcardModel);
 
@@ -35,10 +31,10 @@ export const FlashcardTraining = () => {
 		switch (testingStatus) {
 			case "typingAnswer":
 				if (answer === testingFlashcard.back) {
-					setNumberRight(numberRight + 1);
+					testingFlashcardHistoryItem.timesAnsweredRight++;
 					setTestingStatus("lookingAtRightAnswer");
 				} else {
-					setNumberWrong(numberWrong + 1);
+					testingFlashcardHistoryItem.timesAnsweredWrong++;
 					setTestingStatus("lookingAtWrongAnswer");
 					addWrongAnswer(answer);
 				}
@@ -83,10 +79,10 @@ export const FlashcardTraining = () => {
 					<p className="mb-3">{testingFlashcard.front}&nbsp;</p>
 					<div className="text-xs flex gap-3 min-w-[14rem] justify-end">
 						<p className="text-green-800">
-							times got right: {numberRight}
+							times got right: {testingFlashcardHistoryItem.timesAnsweredRight}
 						</p>
 						<p className="text-red-800">
-							times got wrong: {numberWrong}
+							times got wrong: {testingFlashcardHistoryItem.timesAnsweredWrong}
 						</p>
 					</div>
 				</div>
