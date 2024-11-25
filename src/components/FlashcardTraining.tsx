@@ -10,14 +10,8 @@ import * as qstr from "../qtools/qstr";
 import { FlashcardAttempt } from "../types";
 
 export const FlashcardTraining = () => {
-	const {
-		testingFlashcard,
-		answer,
-		answerIsCorrect,
-		testingStatus,
-		user,
-		testingFlashcardHistoryItem,
-	} = useTypedStoreState((state) => state.flashcardModel);
+	const { testingFlashcard, answer, answerIsCorrect, testingStatus, user } =
+		useTypedStoreState((state) => state.flashcardModel);
 	const {
 		setNextTestingFlashcard,
 		setAnswer,
@@ -29,6 +23,10 @@ export const FlashcardTraining = () => {
 		setNextTestingFlashcard();
 	}, []);
 
+	const getCurrentHistoryItem = () => {
+		return user.flashcardHistory[testingFlashcard.idCode];
+	};
+
 	const handleMainButtonPress = () => {
 		switch (testingStatus) {
 			case "typingAnswer":
@@ -38,8 +36,8 @@ export const FlashcardTraining = () => {
 						answer: answer,
 						status: "right",
 					};
-					testingFlashcardHistoryItem.attempts.push(flashcardAttempt);
-					testingFlashcardHistoryItem.timesAnsweredRight++;
+					getCurrentHistoryItem().attempts.push(flashcardAttempt);
+					getCurrentHistoryItem().timesAnsweredRight++;
 					setTestingStatus("lookingAtRightAnswer");
 				} else {
 					const flashcardAttempt: FlashcardAttempt = {
@@ -47,8 +45,8 @@ export const FlashcardTraining = () => {
 						answer: answer,
 						status: "wrong",
 					};
-					testingFlashcardHistoryItem.attempts.push(flashcardAttempt);
-					testingFlashcardHistoryItem.timesAnsweredWrong++;
+					getCurrentHistoryItem().attempts.push(flashcardAttempt);
+					getCurrentHistoryItem().timesAnsweredWrong++;
 					setTestingStatus("lookingAtWrongAnswer");
 				}
 				break;
@@ -86,18 +84,18 @@ export const FlashcardTraining = () => {
 
 	return (
 		<>
-			{testingFlashcardHistoryItem && (
+			{getCurrentHistoryItem() && (
 				<div className="bg-slate-300 mb-6 p-3 w-full rounded">
 					<div className="flex justify-between">
 						<p className="mb-3">{testingFlashcard.front}&nbsp;</p>
 						<div className="text-xs flex gap-3 min-w-[14rem] justify-end">
 							<p className="text-green-800">
 								times got right:{" "}
-								{testingFlashcardHistoryItem.timesAnsweredRight}
+								{getCurrentHistoryItem().timesAnsweredRight}
 							</p>
 							<p className="text-red-800">
 								times got wrong:{" "}
-								{testingFlashcardHistoryItem.timesAnsweredWrong}
+								{getCurrentHistoryItem().timesAnsweredWrong}
 							</p>
 						</div>
 					</div>
@@ -142,7 +140,7 @@ export const FlashcardTraining = () => {
 					)}
 					{testingStatus === "lookingAtRightAnswer" && (
 						<div>
-							{testingFlashcardHistoryItem.attempts.map(
+							{getCurrentHistoryItem().attempts.map(
 								(attempt, index) => {
 									return (
 										<p key={index} className="flex gap-3">
@@ -175,7 +173,7 @@ export const FlashcardTraining = () => {
 					</pre>
 					<p>testingFlashcardHistoryItem:</p>
 					<pre className="text-xs text-orange-400">
-						{JSON.stringify(testingFlashcardHistoryItem, null, 2)}
+						{JSON.stringify(getCurrentHistoryItem(), null, 2)}
 					</pre>
 				</div>
 			)}

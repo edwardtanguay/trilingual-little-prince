@@ -28,7 +28,6 @@ export interface FlashcardModel {
 	filteredFlashcards: Computed<this, Flashcard[]>;
 	flashcardNumberShowingMessage: Computed<this, string>;
 	userFullName: Computed<this, string>;
-	testingFlashcardHistoryItem: Computed<this, FlashcardHistoryItem>;
 
 	// actions
 	loadFlashcards: Action<this>;
@@ -78,9 +77,6 @@ export const flashcardModel: FlashcardModel = persist(
 		}),
 		userFullName: computed((state) => {
 			return state.user.firstName + " " + state.user.lastName;
-		}),
-		testingFlashcardHistoryItem: computed((state) => {
-			return state.user.flashcardHistory[state.testingFlashcard.idCode];
 		}),
 
 		// actions
