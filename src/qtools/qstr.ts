@@ -676,3 +676,7 @@ export const getIsoDateTimeFromString = (input: string): string => {
 	const match = input.match(regex);
 	return match ? match[0] : "";
 };
+
+export const showScore = (number: number): string => {
+  return number.toString().padStart(5, '0');
+};

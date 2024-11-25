@@ -1,5 +1,6 @@
 import { useTypedStoreState } from "../store/easy-peasy-hooks";
 import { Nav } from "./Nav";
+import * as qstr from '../qtools/qstr';
 
 export const Header = () => {
 	const { user } = useTypedStoreState((state) => state.flashcardModel);
@@ -39,12 +40,17 @@ export const Header = () => {
 						</a>
 					</h2>
 				</div>
-				<div className="flex gap-2">
-					<p className="text-[1.3rem] text-slate-800">{user.firstName}</p>
-					<img
-						src={`images/users/${user.idCode}.jpg`}
-						className="w-[2rem] h-[2rem] rounded-full "
-					/>
+				<div>
+					<div className="flex gap-2">
+						<p className="text-[1.2rem] text-slate-800">
+							{user.firstName}
+						</p>
+						<img
+							src={`images/users/${user.idCode}.jpg`}
+							className="w-[1.8rem] h-[1.8rem] rounded-full "
+						/>
+					</div>
+					<p className="font-mono text-slate-700 text-[2.2rem] -mt-2">{qstr.showScore(user.totalScore)}</p>
 				</div>
 			</div>
 			<Nav />
