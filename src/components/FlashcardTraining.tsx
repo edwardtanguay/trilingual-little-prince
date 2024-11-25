@@ -24,6 +24,7 @@ export const FlashcardTraining = () => {
 	}, []);
 
 	const getCurrentHistoryItem = () => {
+		console.log(11111, 'just got history item for: ' + testingFlashcard.idCode);
 		return user.flashcardHistory[testingFlashcard.idCode];
 	};
 
@@ -31,6 +32,7 @@ export const FlashcardTraining = () => {
 		switch (testingStatus) {
 			case "typingAnswer":
 				if (answer === testingFlashcard.back) {
+					// answer is right
 					const flashcardAttempt: FlashcardAttempt = {
 						when: qstr.getCurrentTimestamp(),
 						answer: answer,
@@ -39,7 +41,9 @@ export const FlashcardTraining = () => {
 					getCurrentHistoryItem().attempts.push(flashcardAttempt);
 					getCurrentHistoryItem().timesAnsweredRight++;
 					setTestingStatus("lookingAtRightAnswer");
+					user.totalScore += config.pointsForRightAnswer()
 				} else {
+					// answer is wrong
 					const flashcardAttempt: FlashcardAttempt = {
 						when: qstr.getCurrentTimestamp(),
 						answer: answer,
@@ -48,6 +52,7 @@ export const FlashcardTraining = () => {
 					getCurrentHistoryItem().attempts.push(flashcardAttempt);
 					getCurrentHistoryItem().timesAnsweredWrong++;
 					setTestingStatus("lookingAtWrongAnswer");
+					user.totalScore += config.pointsForWrongAnswer()
 				}
 				break;
 			case "lookingAtWrongAnswer":

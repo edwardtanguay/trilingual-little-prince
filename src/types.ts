@@ -97,6 +97,6 @@ export const blankUser = {
 	idCode: "edwardtanguay",
 	firstName: "Edward",
 	lastName: "Tanguay",
-	totalScore: 2342,
+	totalScore: 0,
 	flashcardHistory: {},
 };
