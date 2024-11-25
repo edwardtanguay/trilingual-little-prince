@@ -1,5 +1,11 @@
 import { Action, action, computed, Computed } from "easy-peasy";
-import { emptyFlashcard, Flashcard, TestingStatus } from "../../types";
+import {
+	blankUser,
+	emptyFlashcard,
+	Flashcard,
+	TestingStatus,
+	User,
+} from "../../types";
 import * as dataModel from "../dataModel";
 
 export interface FlashcardModel {
@@ -13,6 +19,7 @@ export interface FlashcardModel {
 	numberRight: number;
 	numberWrong: number;
 	wrongAnswers: string[];
+	user: User;
 
 	// computed state
 	filteredFlashcards: Computed<this, Flashcard[]>;
@@ -42,6 +49,7 @@ export const flashcardModel: FlashcardModel = {
 	numberRight: 0,
 	numberWrong: 0,
 	wrongAnswers: [],
+	user: blankUser,
 
 	// computed state
 	filteredFlashcards: computed((state) => {
