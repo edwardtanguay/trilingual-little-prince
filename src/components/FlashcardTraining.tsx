@@ -1,9 +1,13 @@
+/* eslint-disable no-case-declarations */
+/* eslint-disable react-hooks/exhaustive-deps */
 import { ChangeEvent, useEffect } from "react";
 import {
 	useTypedStoreActions,
 	useTypedStoreState,
 } from "../store/easy-peasy-hooks";
 import * as config from "../config";
+import * as qstr from "../qtools/qstr";
+import { FlashcardAttempt } from "../types";
 
 export const FlashcardTraining = () => {
 	const {
@@ -40,6 +44,11 @@ export const FlashcardTraining = () => {
 				}
 				break;
 			case "lookingAtWrongAnswer":
+				const flashcardAttempt: FlashcardAttempt = {
+					when: qstr.getCurrentTimestamp(),
+					answer: answer
+				};
+				testingFlashcardHistoryItem.attempts.push(flashcardAttempt);
 				setTestingStatus("typingAnswer");
 				setAnswer("");
 				break;
@@ -75,7 +84,6 @@ export const FlashcardTraining = () => {
 		<>
 			{testingFlashcardHistoryItem && (
 				<div className="bg-slate-300 mb-6 p-3 w-full rounded">
-					[{testingFlashcard.idCode}]
 					<div className="flex justify-between">
 						<p className="mb-3">{testingFlashcard.front}&nbsp;</p>
 						<div className="text-xs flex gap-3 min-w-[14rem] justify-end">

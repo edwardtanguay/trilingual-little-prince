@@ -174,7 +174,6 @@ export const reduceRawTextToPlainText = (text: string): string => {
 	});
 };
 
-
 //nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
 // Forces a string to be in title notation, e.g. First Name.
@@ -271,7 +270,6 @@ export const isUppercaseLetter = (character: string) => {
 export const forceAllMultipleSpacesToSingleSpace = (term: string) => {
 	return term.replace(/(\s)+/g, " ");
 };
-
 
 export const renderEnglishTitleCapitalization = (term: string) => {
 	let r = term;
@@ -406,7 +404,6 @@ export const convertForeignCharactersToStandardAscii = (term: string) => {
 	r = r.replace("Ä", "Ae");
 	return r;
 };
-
 
 export const getSingularPluralSyntaxVariations = (
 	itemTypeIdCode: string,
@@ -678,5 +675,17 @@ export const getIsoDateTimeFromString = (input: string): string => {
 };
 
 export const showScore = (number: number): string => {
-  return number.toString().padStart(5, '0');
+	return number.toString().padStart(5, "0");
+};
+
+export const getCurrentTimestamp = (): string => {
+	const now = new Date();
+	const year = now.getFullYear();
+	const month = (now.getMonth() + 1).toString().padStart(2, "0");
+	const day = now.getDate().toString().padStart(2, "0");
+	const hours = now.getHours().toString().padStart(2, "0");
+	const minutes = now.getMinutes().toString().padStart(2, "0");
+	const seconds = now.getSeconds().toString().padStart(2, "0");
+
+	return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 };
