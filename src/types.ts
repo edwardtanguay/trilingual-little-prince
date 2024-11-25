@@ -69,6 +69,7 @@ type FlashcardHistoryItem = {
 	notes: string;
 	timesAnsweredRight: number;
 	timesAnsweredWrong: number;
+	rank: number;
 };
 
 type FlashcardHistory = {
@@ -101,6 +102,7 @@ export const blankUser = {
 			timesAnsweredRight: 4,
 			timesAnsweredWrong: 12,
 			notes: "base verb: proveer, to provide, irregular",
+			rank: 4.1,
 		},
 	},
 };
