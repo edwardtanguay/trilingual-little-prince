@@ -77,6 +77,7 @@ type FlashcardHistory = {
 };
 
 export type User = {
+	idCode: string;
 	firstName: string;
 	lastName: string;
 	totalScore: number;
@@ -84,6 +85,7 @@ export type User = {
 };
 
 export const blankUser = {
+	idCode: 'edwardtanguay',
 	firstName: "Edward",
 	lastName: "Tanguay",
 	totalScore: 2342,
