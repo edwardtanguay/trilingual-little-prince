@@ -85,7 +85,7 @@ export type User = {
 };
 
 export const blankUser = {
-	idCode: 'edwardtanguay',
+	idCode: "edwardtanguay",
 	firstName: "Edward",
 	lastName: "Tanguay",
 	totalScore: 2342,

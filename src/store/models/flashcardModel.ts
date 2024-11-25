@@ -1,4 +1,4 @@
-import { Action, action, computed, Computed } from "easy-peasy";
+import { Action, action, computed, Computed, persist } from "easy-peasy";
 import {
 	blankUser,
 	emptyFlashcard,
@@ -38,7 +38,7 @@ export interface FlashcardModel {
 	addWrongAnswer: Action<this, string>;
 }
 
-export const flashcardModel: FlashcardModel = {
+export const flashcardModel: FlashcardModel = persist({
 	// state
 	flashcards: [],
 	flashcardsSearchText: "",
@@ -114,4 +114,7 @@ export const flashcardModel: FlashcardModel = {
 	addWrongAnswer: action((state, wrongAnswer) => {
 		state.wrongAnswers.push(wrongAnswer);
 	}),
-};
+}, {
+	storage: 'localStorage',
+	allow: ['user']
+});
