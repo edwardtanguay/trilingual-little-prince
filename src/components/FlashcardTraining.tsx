@@ -145,7 +145,7 @@ export const FlashcardTraining = () => {
 							{testingFlashcardHistoryItem.attempts.map(
 								(attempt, index) => {
 									return (
-										<p key={index}>
+										<p key={index} className="flex gap-3">
 											<span className="text-slate-700">
 												{attempt.when}
 											</span>
