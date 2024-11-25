@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { ChangeEvent, useEffect } from "react";
 import {
 	useTypedStoreActions,
@@ -13,6 +12,7 @@ export const FlashcardTraining = () => {
 		testingStatus,
 		numberRight,
 		numberWrong,
+		wrongAnswers,
 	} = useTypedStoreState((state) => state.flashcardModel);
 	const {
 		setNextTestingFlashcard,
@@ -21,7 +21,7 @@ export const FlashcardTraining = () => {
 		setTestingStatus,
 		setNumberRight,
 		setNumberWrong,
-		addWrongAnswer
+		addWrongAnswer,
 	} = useTypedStoreActions((actions) => actions.flashcardModel);
 
 	useEffect(() => {
@@ -37,12 +37,15 @@ export const FlashcardTraining = () => {
 				} else {
 					setNumberWrong(numberWrong + 1);
 					setTestingStatus("lookingAtWrongAnswer");
-					addWrongAnswer(answer)
+					addWrongAnswer(answer);
 				}
 				break;
 			case "lookingAtWrongAnswer":
 				setTestingStatus("typingAnswer");
 				setAnswer("");
+				break;
+			case "lookingAtRightAnswer":
+				setNextTestingFlashcard();
 				break;
 		}
 	};
@@ -58,6 +61,14 @@ export const FlashcardTraining = () => {
 			return "#eee";
 		} else {
 			return answerIsCorrect ? "#ecf5e9" : "#f5ebee";
+		}
+	};
+
+	const currentAnswerTextColor = (): string => {
+		if (answer.trim() === "") {
+			return "black";
+		} else {
+			return answerIsCorrect ? "darkgreen" : "darkred";
 		}
 	};
 
@@ -78,7 +89,10 @@ export const FlashcardTraining = () => {
 				<input
 					value={answer}
 					className="rounded w-full p-1"
-					style={{ backgroundColor: currentAnswerBackgroundColor() }}
+					style={{
+						backgroundColor: currentAnswerBackgroundColor(),
+						color: currentAnswerTextColor(),
+					}}
 					placeholder="spanish"
 					onChange={(e) => handleAnswerChange(e)}
 					autoFocus={true}
@@ -106,6 +120,20 @@ export const FlashcardTraining = () => {
 			{testingStatus === "lookingAtWrongAnswer" && (
 				<div>
 					<p className="text-green-950 ml-1">
+						{testingFlashcard.back}
+					</p>
+				</div>
+			)}
+			{testingStatus === "lookingAtRightAnswer" && (
+				<div>
+					{wrongAnswers.map((wrongAnswer, index) => {
+						return (
+							<p className="text-red-800 ml-1" key={index}>
+								{wrongAnswer}
+							</p>
+						);
+					})}
+					<p className="text-green-800 ml-1">
 						{testingFlashcard.back}
 					</p>
 				</div>

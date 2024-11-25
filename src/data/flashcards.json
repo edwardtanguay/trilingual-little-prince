@@ -1,213 +1,5 @@
 [
 	{
-		"front": "we will return to our project",
-		"back": "volveremos a nuestro proyecto"
-	},
-	{
-		"front": "for everything else",
-		"back": "para todo lo demás"
-	},
-	{
-		"front": "I saved that earlier",
-		"back": "lo guardé antes"
-	},
-	{
-		"front": "it's right here",
-		"back": "está justo aquí"
-	},
-	{
-		"front": "we need to allow the user to upload files",
-		"back": "necesitamos permitir al usuario cargar archivos"
-	},
-	{
-		"front": "we will need to add some permissions",
-		"back": "necesitaremos agregar algunos permisos"
-	},
-	{
-		"front": "and we will have to check this box",
-		"back": "y tendremos que marcar esta casilla"
-	},
-	{
-		"front": "and then scroll down and then back up",
-		"back": "y luego desplácese hacia abajo y luego hacia arriba"
-	},
-	{
-		"front": "you can repeat the steps",
-		"back": "puedes repetir los pasos"
-	},
-	{
-		"front": "you'll want to copy this password",
-		"back": "querrás copiar esta contraseña"
-	},
-	{
-		"front": "you will have to regenerate it",
-		"back": "tendrás de regenerarlo"
-	},
-	{
-		"front": "make sure you save them because otherwise you will lose them",
-		"back": "asegúrate de guardarlos porque de lo contrario los perderás"
-	},
-	{
-		"front": "I am going to use it to paste some text into the input box",
-		"back": "voy a usarlo para pegar algo de texto en el cuadro de entrada"
-	},
-	{
-		"front": "just follow exactly what I do and you should be fine",
-		"back": "solo sigue exactamente lo que hago y deberías estar bien"
-	},
-	{
-		"front": "we didn't do anything with it",
-		"back": "no hicimos nada con él"
-	},
-	{
-		"front": "and I will delete some of these comments",
-		"back": "y borraré algunos de estos comentarios"
-	},
-	{
-		"front": "it may be tempting to create",
-		"back": "puede ser tentador crear"
-	},
-	{
-		"front": "let's go back",
-		"back": "regresemos"
-	},
-	{
-		"front": "I got to this page by browsing",
-		"back": "llegué a esta página navegando"
-	},
-	{
-		"front": "so we can move on",
-		"back": "así que podemos seguir adelante"
-	},
-	{
-		"front": "something starts to happen",
-		"back": "algo comienza a suceder"
-	},
-	{
-		"front": "belw the image",
-		"back": "debajo de la imagen"
-	},
-	{
-		"front": "so let's take a look",
-		"back": "así que echemos un vistazo"
-	},
-	{
-		"front": "that investment will pay for itself many times over",
-		"back": "esa inversión amortizará muchos veces"
-	},
-	{
-		"front": "it would be nice to find out",
-		"back": "sería bueno averiguarlo"
-	},
-	{
-		"front": "the next level",
-		"back": "el siguiente nivel"
-	},
-	{
-		"front": "each layer of testing",
-		"back": "cada capa de prueba"
-	},
-	{
-		"front": "if you have ever seen a documentary",
-		"back": "si alguna vez has visto un documental"
-	},
-	{
-		"front": "it's pretty easy to find out",
-		"back": "es bastante fácil averiguar"
-	},
-	{
-		"front": "due to the delta",
-		"back": "debido al delta"
-	},
-	{
-		"front": "both approaches",
-		"back": "ambos enfoques"
-	},
-	{
-		"front": "pr. 1930",
-		"back": "meel NOH-vay see-EN-troh TRAYN-tah"
-	},
-	{
-		"front": "in the last century",
-		"back": "en el siglo pasado"
-	},
-	{
-		"front": "click on the tab",
-		"back": "haga clic en la pestaña"
-	},
-	{
-		"front": "we will not cover in this course",
-		"back": "no cubriremos en este curso"
-	},
-	{
-		"front": "take a couple of minutes and",
-		"back": "tómate un par de minutos y"
-	},
-	{
-		"front": "a branch called main",
-		"back": "una rama llamada main"
-	},
-	{
-		"front": "a couple of things I want to point out",
-		"back": "un par de cosas que quiero señalar"
-	},
-	{
-		"front": "we will leave these unset",
-		"back": "dejaremos estos sin establecer"
-	},
-	{
-		"front": "work back and forth",
-		"back": "trabajar de un lado de otro"
-	},
-	{
-		"front": "the other thing that happens",
-		"back": "la otra cosa que sucede"
-	},
-	{
-		"front": "I'm testing a hunch",
-		"back": "pruebo una corazonada"
-	},
-	{
-		"front": "testing a hunch",
-		"back": "probando una corazonada"
-	},
-	{
-		"front": "app developer",
-		"back": "desarrollador de aplicaciones"
-	},
-	{
-		"front": "this is because it is very difficult to distinguish",
-		"back": "esto se debe a que es muy difícil distinguir"
-	},
-	{
-		"front": "it is assumed that",
-		"back": "se supone que"
-	},
-	{
-		"front": "this concept helps to emphasize",
-		"back": "Este concepto ayuda a enfatizar"
-	},
-	{
-		"front": "let's drink to software development",
-		"back": "brindemos por el desarrollo de software; [day-sah-ROY-yoh]"
-	},
-	{
-		"front": "it consists of the following parts",
-		"back": "es consta de las siguientes partes; [see-g|ee-EN-tays]"
-	},
-	{
-		"front": "so let's take a look at the general process",
-		"back": "así que echemos un vistazo el proceso general"
-	},
-	{
-		"front": "continuous delivery",
-		"back": "entrega continua"
-	},
-	{
-		"front": "to a large extent",
-		"back": "en gran medida"
-	},
-	{
 		"front": "the file will be overwritten",
 		"back": "el archivo se sobrescribirá"
 	},
@@ -464,6 +256,218 @@
 		"back": "explicártelo un poco más adelante"
 	},
 	{
+		"front": "GitLab provides us with some variables",
+		"back": "GitLab nos proporciona algunas variables"
+	},
+	{
+		"front": "we will return to our project",
+		"back": "volveremos a nuestro proyecto"
+	},
+	{
+		"front": "for everything else",
+		"back": "para todo lo demás"
+	},
+	{
+		"front": "I saved that earlier",
+		"back": "lo guardé antes"
+	},
+	{
+		"front": "it's right here",
+		"back": "está justo aquí"
+	},
+	{
+		"front": "we need to allow the user to upload files",
+		"back": "necesitamos permitir al usuario cargar archivos"
+	},
+	{
+		"front": "we will need to add some permissions",
+		"back": "necesitaremos agregar algunos permisos"
+	},
+	{
+		"front": "and we will have to check this box",
+		"back": "y tendremos que marcar esta casilla"
+	},
+	{
+		"front": "and then scroll down and then back up",
+		"back": "y luego desplácese hacia abajo y luego hacia arriba"
+	},
+	{
+		"front": "you can repeat the steps",
+		"back": "puedes repetir los pasos"
+	},
+	{
+		"front": "you'll want to copy this password",
+		"back": "querrás copiar esta contraseña"
+	},
+	{
+		"front": "you will have to regenerate it",
+		"back": "tendrás de regenerarlo"
+	},
+	{
+		"front": "make sure you save them because otherwise you will lose them",
+		"back": "asegúrate de guardarlos porque de lo contrario los perderás"
+	},
+	{
+		"front": "I am going to use it to paste some text into the input box",
+		"back": "voy a usarlo para pegar algo de texto en el cuadro de entrada"
+	},
+	{
+		"front": "just follow exactly what I do and you should be fine",
+		"back": "solo sigue exactamente lo que hago y deberías estar bien"
+	},
+	{
+		"front": "we didn't do anything with it",
+		"back": "no hicimos nada con él"
+	},
+	{
+		"front": "and I will delete some of these comments",
+		"back": "y borraré algunos de estos comentarios"
+	},
+	{
+		"front": "it may be tempting to create",
+		"back": "puede ser tentador crear"
+	},
+	{
+		"front": "let's go back",
+		"back": "regresemos"
+	},
+	{
+		"front": "I got to this page by browsing",
+		"back": "llegué a esta página navegando"
+	},
+	{
+		"front": "so we can move on",
+		"back": "así que podemos seguir adelante"
+	},
+	{
+		"front": "something starts to happen",
+		"back": "algo comienza a suceder"
+	},
+	{
+		"front": "belw the image",
+		"back": "debajo de la imagen"
+	},
+	{
+		"front": "so let's take a look",
+		"back": "así que echemos un vistazo"
+	},
+	{
+		"front": "that investment will pay for itself many times over",
+		"back": "esa inversión amortizará muchos veces"
+	},
+	{
+		"front": "it would be nice to find out",
+		"back": "sería bueno averiguarlo"
+	},
+	{
+		"front": "the next level",
+		"back": "el siguiente nivel"
+	},
+	{
+		"front": "each layer of testing",
+		"back": "cada capa de prueba"
+	},
+	{
+		"front": "if you have ever seen a documentary",
+		"back": "si alguna vez has visto un documental"
+	},
+	{
+		"front": "it's pretty easy to find out",
+		"back": "es bastante fácil averiguar"
+	},
+	{
+		"front": "due to the delta",
+		"back": "debido al delta"
+	},
+	{
+		"front": "both approaches",
+		"back": "ambos enfoques"
+	},
+	{
+		"front": "pr. 1930",
+		"back": "meel NOH-vay see-EN-troh TRAYN-tah"
+	},
+	{
+		"front": "in the last century",
+		"back": "en el siglo pasado"
+	},
+	{
+		"front": "click on the tab",
+		"back": "haga clic en la pestaña"
+	},
+	{
+		"front": "we will not cover in this course",
+		"back": "no cubriremos en este curso"
+	},
+	{
+		"front": "take a couple of minutes and",
+		"back": "tómate un par de minutos y"
+	},
+	{
+		"front": "a branch called main",
+		"back": "una rama llamada main"
+	},
+	{
+		"front": "a couple of things I want to point out",
+		"back": "un par de cosas que quiero señalar"
+	},
+	{
+		"front": "we will leave these unset",
+		"back": "dejaremos estos sin establecer"
+	},
+	{
+		"front": "work back and forth",
+		"back": "trabajar de un lado de otro"
+	},
+	{
+		"front": "the other thing that happens",
+		"back": "la otra cosa que sucede"
+	},
+	{
+		"front": "I'm testing a hunch",
+		"back": "pruebo una corazonada"
+	},
+	{
+		"front": "testing a hunch",
+		"back": "probando una corazonada"
+	},
+	{
+		"front": "app developer",
+		"back": "desarrollador de aplicaciones"
+	},
+	{
+		"front": "this is because it is very difficult to distinguish",
+		"back": "esto se debe a que es muy difícil distinguir"
+	},
+	{
+		"front": "it is assumed that",
+		"back": "se supone que"
+	},
+	{
+		"front": "this concept helps to emphasize",
+		"back": "Este concepto ayuda a enfatizar"
+	},
+	{
+		"front": "let's drink to software development",
+		"back": "brindemos por el desarrollo de software; [day-sah-ROY-yoh]"
+	},
+	{
+		"front": "it consists of the following parts",
+		"back": "es consta de las siguientes partes; [see-g|ee-EN-tays]"
+	},
+	{
+		"front": "so let's take a look at the general process",
+		"back": "así que echemos un vistazo el proceso general"
+	},
+	{
+		"front": "continuous delivery",
+		"back": "entrega continua"
+	},
+	{
+		"front": "to a large extent",
+		"back": "en gran medida"
+	},
+	{
 		"front": "check it out",
 		"back": "compruébalo"
 	},
@@ -502,10 +506,6 @@
 	{
 		"front": "the first thing that may come to mind",
 		"back": "lo primero que nos puede venir a la cabeza"
-	},
-	{
-		"front": "that at first will be a bit crazy",
-		"back": "que al princípio serán un poco una locura"
 	},
 	{
 		"front": "a bunch of branches",
@@ -660,6 +660,26 @@
 		"back": "una vez descargado, puedes iniciar el programa"
 	},
 	{
+		"front": "how can we see all the messages",
+		"back": "cómo podemos hacer para ver todos los mensajes"
+	},
+	{
+		"front": "since the goroutine might not have enough time",
+		"back": "ya que la gorutina podría no tener tiempo suficiente"
+	},
+	{
+		"front": "the keyword go",
+		"back": "la palabra clave go"
+	},
+	{
+		"front": "to perform tasks in the background",
+		"back": "para realizar tareas en segundo plano"
+	},
+	{
+		"front": "in a single thread of execution",
+		"back": "en un solo hilo de ejecución"
+	},
+	{
 		"front": "just once, as we expected",
 		"back": "una única vez, como esperábamos"
 	},
@@ -749,7 +769,7 @@
 	},
 	{
 		"front": "when this time is up",
-		"back": "cuando se cumpla este tiempo"
+		"back": "cuando se cumpla este tiempo; note=cumplir: to fulfill"
 	},
 	{
 		"front": "thirty, forty, fifty, sixty, seventy, eighty, ninety",
@@ -1001,7 +1021,7 @@
 	},
 	{
 		"front": "promote the reuse of components",
-		"back": "fomentar el reùso de componentes"
+		"back": "fomentar el reúso de componentes"
 	},
 	{
 		"front": "this makes more sense",
@@ -1069,7 +1089,7 @@
 	},
 	{
 		"front": "to save us possible problems",
-		"back": "para ahorrarnos posibles problems"
+		"back": "para ahorrarnos posibles problemas"
 	},
 	{
 		"front": "if not, it may cause you problems",
@@ -1293,7 +1313,7 @@
 	},
 	{
 		"front": "conj: decir;preterite",
-		"back": "dije, dijiste, dijo, dijimos, dijiséis, dijeron"
+		"back": "dije, dijiste, dijo, dijimos, dijisteis, dijeron"
 	},
 	{
 		"front": "just as his name says",

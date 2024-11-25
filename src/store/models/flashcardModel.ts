@@ -81,8 +81,12 @@ export const flashcardModel: FlashcardModel = {
 	}),
 	setNextTestingFlashcard: action((state) => {
 		const randomIndex = Math.floor(Math.random() * state.flashcards.length);
-		console.log(11111, randomIndex);
 		state.testingFlashcard = state.flashcards[randomIndex];
+		state.answer = "";
+		state.numberRight = 0;
+		state.numberWrong = 0;
+		state.testingStatus = "typingAnswer";
+		state.wrongAnswers = [];
 	}),
 	setAnswer: action((state, answer) => {
 		state.answer = answer;
