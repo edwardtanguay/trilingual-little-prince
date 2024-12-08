@@ -40,7 +40,7 @@ export const Header = () => {
 						</a>
 					</h2>
 				</div>
-				<div className="flex flex-col items-end">
+				<div className="hidden flex flex-col items-end">
 					<div className="flex gap-2">
 						<img
 							src={`images/users/${user.idCode}.jpg`}
