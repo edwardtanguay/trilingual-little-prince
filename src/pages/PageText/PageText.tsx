@@ -2,7 +2,7 @@ import React from 'react';
 import { useTypedStoreState } from '../../store/easy-peasy-hooks';
 import './styles.scss';
 
-export const PageWelcome = () => {
+export const PageText = () => {
 	const { smartBook } = useTypedStoreState(state => state.mainModel);
 
 	return (

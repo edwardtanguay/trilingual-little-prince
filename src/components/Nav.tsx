@@ -7,8 +7,8 @@ import { useState } from "react";
 
 const menuItems = [
 	{
-		idCode: 'welcome',
-		title: 'Welcome'
+		idCode: 'text',
+		title: 'Text'
 	},
 	{
 		idCode: 'flashcards',
