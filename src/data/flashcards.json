@@ -292,42 +292,6 @@
 		"back": "queremos agregar autenticación"
 	},
 	{
-		"front": "so let's take a look at the readme file",
-		"back": "así que echemos un vistazo al archivo readme"
-	},
-	{
-		"front": "a very common thing to do",
-		"back": "algo muy común que se puede hacer"
-	},
-	{
-		"front": "let's change it to no",
-		"back": "combiémoslo a no"
-	},
-	{
-		"front": "so we need to provide that name",
-		"back": "por lo que debemos proporcionar ese nombre"
-	},
-	{
-		"front": "what this function is about and what it does",
-		"back": "qué se trata esta función y qué hace"
-	},
-	{
-		"front": "I like that standard because",
-		"back": "me gusta esa estandár porque"
-	},
-	{
-		"front": "así es como lo hace",
-		"back": "this is how you do it"
-	},
-	{
-		"front": "let me save it",
-		"back": "déjeme guardarlo"
-	},
-	{
-		"front": "I'll explain it to you a little later",
-		"back": "explicártelo un poco más adelante"
-	},
-	{
 		"front": "now let's move onto the terminal",
 		"back": "ahora pasemos a la terminal"
 	},
@@ -400,8 +364,40 @@
 		"back": "para retroceder un paso"
 	},
 	{
-		"front": "once downloaded, you can start the program",
-		"back": "una vez descargado, puedes iniciar el programa"
+		"front": "so let's take a look at the readme file",
+		"back": "así que echemos un vistazo al archivo readme"
+	},
+	{
+		"front": "a very common thing to do",
+		"back": "algo muy común que se puede hacer"
+	},
+	{
+		"front": "let's change it to no",
+		"back": "combiémoslo a no"
+	},
+	{
+		"front": "so we need to provide that name",
+		"back": "por lo que debemos proporcionar ese nombre"
+	},
+	{
+		"front": "what this function is about and what it does",
+		"back": "qué se trata esta función y qué hace"
+	},
+	{
+		"front": "I like that standard because",
+		"back": "me gusta esa estandár porque"
+	},
+	{
+		"front": "así es como lo hace",
+		"back": "this is how you do it"
+	},
+	{
+		"front": "let me save it",
+		"back": "déjeme guardarlo"
+	},
+	{
+		"front": "I'll explain it to you a little later",
+		"back": "explicártelo un poco más adelante"
 	},
 	{
 		"front": "the file will be overwritten",
@@ -968,92 +964,284 @@
 		"back": "nuevas alturas"
 	},
 	{
-		"front": "we subtract 1",
-		"back": "le restamos 1"
+		"front": "resource not found",
+		"back": "recurso no encontrado"
 	},
 	{
-		"front": "let's do that",
-		"back": "hagamos eso; hagamos = present subjunctive of hacer; conj=hacer"
+		"front": "I'm going to go to my code",
+		"back": "voy a irme a mi código"
 	},
 	{
-		"front": "we can do it through the index",
-		"back": "lo podemos hacer por medio del índice"
+		"front": "if there was an error",
+		"back": "si hubiera un error"
 	},
 	{
-		"front": "since this will be the one to whom the prize will be awarded",
-		"back": "dado que esta será al que se le entregue el premio; entregue = subjunctive present of entregar, almost regular (yo preterite: entregué); conj=entregar"
+		"front": "each request that arrives on the route",
+		"back": "cada solicitud que llegue a la ruta; pr=YAY-gay"
 	},
 	{
-		"front": "we have realized that there was a mistake",
-		"back": "nos hemos dado cuenta que hubo un error; dar = dado, dando; hubo = preterite of haber; rank=4.92"
+		"front": "after this",
+		"back": "luego de esto"
 	},
 	{
-		"front": "the winning numbers of a raffle",
-		"back": "los números ganadores de una rifa"
+		"front": "the first thing we are going to do is",
+		"back": "lo primero que vamos hacer es"
 	},
 	{
-		"front": "when you don't know the amount of arguments",
-		"back": "cuando desconozcas la cantidad de argumentos"
+		"front": "add, subtract and multiply",
+		"back": "sumar, restar y multiplicar"
 	},
 	{
-		"front": "to loop through this string array",
-		"back": "para recorrer este arreglo de string; rank=4.89"
+		"front": "do you know anything about it",
+		"back": "sabes algo al respecto"
 	},
 	{
-		"front": "in case it happens",
-		"back": "en caso de que pase"
+		"front": "let's do the test",
+		"back": "hagamos la prueba"
 	},
 	{
-		"front": "this is because it may be possible that the string is not a valid number",
-		"back": "esto se debe a que puede ser posible que la cadena no sea un número válido."
+		"front": "we look at how we can create a web server",
+		"back": "vemos cómo podemos crear un servidor web"
 	},
 	{
-		"front": "this can be done to make the data compatible",
-		"back": "eso se puede hacer para que los datos sean compatibles; sean = ser present subjuctive"
+		"front": "a high performance web framework",
+		"back": "un framework web de alto rendimiento"
 	},
 	{
-		"front": "let's hit Enter",
-		"back": "vamos a darle Enter; \"le\" is just a filler pronoun"
+		"front": "if there was an error",
+		"back": "si hubiera un error; conj=haber; hubiera = imperfect subjunctive of haber"
 	},
 	{
-		"front": "double quotes",
-		"back": "las comillas dobles"
+		"front": "it allows you to format the output with indents",
+		"back": "él permite formatear la salida con sangrías"
 	},
 	{
-		"front": "we place a backtick in front and at the end",
-		"back": "colocamos un backtick adelante y al final; colocar = to place, almost regular, preterite: yo coloqué"
+		"front": "we send the query",
+		"back": "enviamos la consulta"
 	},
 	{
-		"front": "we have achieved our goal",
-		"back": "hemos logrado nuestro objetivo"
+		"front": "let's go to the code",
+		"back": "vamos a irnos al código"
 	},
 	{
-		"front": "as part of the task",
-		"back": "como parte de la tarea"
+		"front": "the information that comes in this parameter",
+		"back": "la información que venga en esta parámetro; venga = subjunctive of venir; conj=venir"
 	},
 	{
-		"front": "in the matter we have",
-		"back": "en el asunto tenemos"
+		"front": "after the question mark",
+		"back": "después del signo de pregunta"
 	},
 	{
-		"front": "we have been asked to send an email",
-		"back": "nos han solicitado enviar un correo electrónico"
+		"front": "pr. alphabet, letters with standard pronunciations",
+		"back": "a, b, c, d, e, _, _, _, i, _, k, _, _, _, _, o, p, q, _, _, t, u, _, _, _, _, _"
 	},
 	{
-		"front": "the solution to common challenges",
-		"back": "la solución desafíos comunes"
+		"front": "pr. alphabet, letters with different pronuncations",
+		"back": "f = EFF-ay, g = HEH, h = AH-chah, j = HOH-ta, l = ELL-ay, m = EM-ay, n = EN-ay, n = EN-yeh, r = ERR-ay, s = ESS-ay, v = OO-veh, w = oo-veh-DUB-lay, x = EK-ees, y = ee-grey-EGG-ah, z = SET-ah"
 	},
 	{
-		"front": "although you may have encountered challenges",
-		"back": "aunque quizás te hayas encontrado con retos; hayas = present perfect subjunctive"
+		"front": "",
+		"back": "each %v will be replaced by a value from our map"
 	},
 	{
-		"front": "you have doubts",
-		"back": "te surgen dudas; literally \"doubts emerge for you\", surgir = arise, emerge, appear"
+		"front": "",
+		"back": "and our wish is to turn it into a string"
 	},
 	{
-		"front": "has it happened to you that while you are programming",
-		"back": "te ha pasado que mientras estás programando"
+		"front": "",
+		"back": "divided into five groups separated by hyphens"
+	},
+	{
+		"front": "",
+		"back": "we are going to go through the slice using a for loop"
+	},
+	{
+		"front": "",
+		"back": "so we want to remove it from the slice"
+	},
+	{
+		"front": "",
+		"back": "conj. dar present"
+	},
+	{
+		"front": "",
+		"back": "conj.dar preterite"
+	},
+	{
+		"front": "",
+		"back": "however, we realized that Thursday is a holiday"
+	},
+	{
+		"front": "",
+		"back": "and I click on Send"
+	},
+	{
+		"front": "",
+		"back": "I make sure it is a POST method"
+	},
+	{
+		"front": "",
+		"back": "let's set the header"
+	},
+	{
+		"front": "",
+		"back": "where we indicate that there was an error"
+	},
+	{
+		"front": "",
+		"back": "by means of an error"
+	},
+	{
+		"front": "",
+		"back": "but if everything is successful"
+	},
+	{
+		"front": "",
+		"back": "in case there was an error"
+	},
+	{
+		"front": "",
+		"back": "this helps us unpack the elements"
+	},
+	{
+		"front": "",
+		"back": "to check if we saved the file"
+	},
+	{
+		"front": "",
+		"back": "otherwise we will indicate that it does not exist"
+	},
+	{
+		"front": "",
+		"back": "and in square brackets"
+	},
+	{
+		"front": "",
+		"back": "let's see in the case of React"
+	},
+	{
+		"front": "",
+		"back": "conj. ver present"
+	},
+	{
+		"front": "",
+		"back": "conj. ver preterite"
+	},
+	{
+		"front": "",
+		"back": "it has a name associated with it"
+	},
+	{
+		"front": "",
+		"back": "two integers"
+	},
+	{
+		"front": "",
+		"back": "what we are going to do is place an if-statement here"
+	},
+	{
+		"front": "",
+		"back": "the last name"
+	},
+	{
+		"front": "",
+		"back": "we may not remember the name"
+	},
+	{
+		"front": "",
+		"back": "we subtract 1"
+	},
+	{
+		"front": "",
+		"back": "let's do that"
+	},
+	{
+		"front": "",
+		"back": "we can do it through the index"
+	},
+	{
+		"front": "",
+		"back": "since this will be the one to whom the prize will be awarded"
+	},
+	{
+		"front": "",
+		"back": "we have realized that there was a mistake"
+	},
+	{
+		"front": "",
+		"back": "the winning numbers of a raffle"
+	},
+	{
+		"front": "",
+		"back": "when you don't know the amount of arguments"
+	},
+	{
+		"front": "",
+		"back": "to loop through this string array"
+	},
+	{
+		"front": "",
+		"back": "in case it happens"
+	},
+	{
+		"front": "",
+		"back": "this is because it may be possible that the string is not a valid number"
+	},
+	{
+		"front": "",
+		"back": "this can be done to make the data compatible"
+	},
+	{
+		"front": "",
+		"back": "let's hit Enter"
+	},
+	{
+		"front": "",
+		"back": "double quotes"
+	},
+	{
+		"front": "",
+		"back": "we place a backtick in front and at the end"
+	},
+	{
+		"front": "",
+		"back": "we have achieved our goal"
+	},
+	{
+		"front": "",
+		"back": "as part of the task"
+	},
+	{
+		"front": "",
+		"back": "in the matter we have"
+	},
+	{
+		"front": "",
+		"back": "we have been asked to send an email"
+	},
+	{
+		"front": "",
+		"back": "the solution to common challenges"
+	},
+	{
+		"front": "",
+		"back": "although you may have encountered challenges"
+	},
+	{
+		"front": "",
+		"back": "you have doubts"
+	},
+	{
+		"front": "",
+		"back": "has it happened to you that while you are programming"
+	},
+	{
+		"front": "high performance",
+		"back": "alto rendimiento"
+	},
+	{
+		"front": "don't miss the opportunity to take your skills to the next level",
+		"back": "no te pierdas la oportunidad de llevar tus habilidades al siguiente nivel"
 	},
 	{
 		"front": "it is quite similar to this tool",

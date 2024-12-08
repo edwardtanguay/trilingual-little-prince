@@ -74,6 +74,182 @@ LEARN THESE 6 FIRST, AS THEY ARE PRETTY MUCH ALL YOU NEED:
 		- Mi daresti il biglietto per la partita? / Would you give me a ticket for the game?
 	- used to express politeness
 		- Vorrei un caffè. / I would like a coffee.
+
+
+===============================
+== PART 1
+avevo
+intitolato
+storie vissute
+vidi
+rappresentava
+
+c'era scritto
+it is written
+
+ingoiano [ingoiare]
+riescono [riuscire]
+
+dormono richiede [richiedere]
+sleep requires
+
+meditai 
+meditate
+
+riuscii [riuscire]
+succeed
+
+mostrai
+domandando
+spaventava
+risposero [rispondere]
+
+uno dovrebbe [dovere] 
+one should
+
+essere spaventato da un cappello 
+to be scared of a hat
+
+digeriva [digerire]
+
+affinché vedessero [vedere]
+disegnai
+si presentava
+mi risposero
+sia [essere]
+fu
+rinunziai
+avrebbe [avere] 
+potuto [potere] essere
+
+capiscono
+si stancano
+imparai
+ho volato
+è stata [stare]
+posso
+si perde
+ho incontrato
+ho vissuto [vivere]
+ho conosciuti [conoscere]
+ho osservati
+avevo 
+è migliorata
+incontravo
+sembrava
+aperta [aprire]
+ho conservato
+cercavo
+chiunque fosse [essere]
+rispondeva
+parlavo
+abbassavo
+era soddisfatto, avere incontrato
+
+== PART 2
+ho trascorso [trascorrere]
+ebbi [avere]
+si era rotta
+non avevo
+mi accinsi [accingere]
+era
+avevo
+dormii
+ero [essere]
+potete
+essere svegliato Mi disegni
+disegnami
+balzai
+come fossi [essere] 
+stato colpito [colpire]
+mi strofinai
+guardandomi
+vidi
+mi stava [stare] esaminando
+potete vedere
+riuscii
+è
+hanno dato
+avevo
+non ho mai imparato a disegnare
+guardavo
+dovete pensare
+mi trovavo
+non sembrava smarrito [smarrire]
+né tramortito [tramortire]
+dava
+potei [potere] parlare
+domandai
+fai [fare]
+ripeté [ripetere]
+si trattasse
+che mi sembrasse
+tirai
+ricordai
+si erano concentrati
+gli dissi [dire]
+non sapevo disegnare
+mi rispose
+Non avevo mai disegnato
+feci [fare]
+che avevo fatto
+fui sorpreso di sentirmi rispondere
+non voglio [volere]
+vivo
+ho bisogno
+disegnami
+feci
+lo guardò
+disse
+fammene un’altra
+feci
+mi sorrise [sorridere]
+===============================
+OTHER VERB FORMS:
+
+- il trapassato prossimo - past perfect tense
+	- examples
+		- io avevo mangiato / I had eaten
+		- tu avevi visto / you had seen
+- il trapassato remoto 
+	- il trapassato remoto is used mainly in written narratives or formal, historical storytelling, often alongside the passato remoto
+	- it expresses a past action that happened before another action that also occurred in the past
+	- trapassato remoto is more literary and less commonly used in spoken italian compared to the trapassato prossimo
+- il presente del congiuntivo - present subjunctive
+	- expresses doubt, desire, possibility, emotion, necessity, or uncertainty
+		- Spero che tu venga. / I hope that you come.
+		- Voglio che tu stia bene. / I want you to be well.
+- il gerundio - gerund 
+	- used to express an action that is ongoing or simultaneous to another action
+		- mangiando, ascolto la musica / while eating, i listen to music
+- il participio passato - past participle
+	- uses in passato prossimo
+		- Ho mangiato. / I have eaten.
+		- Abbiamo visto il film. / We have seen the movie.
+- il presente passivo
+	- Example with "essere" in the presente passivo:
+		- Io sono visto (I am seen)
+		- Tu sei ascoltato (You are listened to)
+		- Lui è amato (He is loved)
+		- Noi siamo aiutati (We are helped)
+		- Voi siete invitati (You all are invited)
+		- Loro sono rispettati (They are respected)
+- l'imperfetto passivo
+	- actions that were ongoing or habitual in the past, but in a passive voice
+		- Il libro era letto (The book was being read)
+		- La porta era chiusa (The door was closed)
+		- I progetti erano completati (The projects were being completed)
+		- Le lettere erano scritte ogni giorno (The letters were written every day) 
+- il passato prossimo passivo
+	- actions that were ongoing or habitual in the past, but in a passive voice
+		- Il libro era letto (The book was being read)
+		- La porta era chiusa (The door was closed)
+		- I progetti erano completati (The projects were being completed)
+		- Le lettere erano scritte ogni giorno (The letters were written every day)	 
+- il participio presente
+	- an action that is ongoing or in progress at the same time as the main action
+		- Leggendo il libro, ho imparato molte cose. (By reading the book, I learned a lot of things.)
+		- Parlando di politica, hanno passato ore insieme. (Talking about politics, they spent hours together.)
 ===============================
 
 avere; to have
@@ -91,8 +267,6 @@ ero, eri, era, eravamo, eravate, erano
 fui, fosti, fu, fummo, foste, furono
 sarò, sarai, sarà, saremo, sarete, saranno
 sarei, saresti, sarebbe, saremmo, sareste, sarebbero
-
-
 
 intitolare; to title
 intitolo, intitoli, intitola, intitoliamo, intitolate, intitolano
