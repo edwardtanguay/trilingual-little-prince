@@ -18,11 +18,10 @@ export const PageText = () => {
 	return (
 		<>
 			<ChapterNav currentChapterNumber={currentChapterNumber}/>
-			<p>showing chapter {currentChapterNumber}</p>
 			{smartBook.chapters.map((chapter, index) => {
 				return (
 					<React.Fragment key={index}>
-						<h2 className="text-2xl mb-3">
+						<h2 className="text-2xl mb-3 mt-3">
 							CHAPTER {chapter.number}
 						</h2>
 						{chapter.smartLines.map((smartLine, index) => {
