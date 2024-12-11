@@ -1,17 +1,23 @@
 import React from "react";
 import { useTypedStoreState } from "../../store/easy-peasy-hooks";
 import { useParams } from "react-router-dom";
+import * as qstr from '../../qtools/qstr';
 import "./styles.scss";
 import { ChapterNav } from "./ChapterNav";
 
 export const PageText = () => {
 	const { smartBook } = useTypedStoreState((state) => state.mainModel);
 
-	const { chapter: currentChapterNumber } = useParams();
+	const { chapter: _currentChapterNumber } = useParams();
+	let currentChapterNumber = qstr.forceToNumber(_currentChapterNumber);
+	const numberOfChapters = smartBook.chapters.length;
+	if (currentChapterNumber < 1 || currentChapterNumber > numberOfChapters) {
+		currentChapterNumber = 1;
+	}
 
 	return (
 		<>
-			<ChapterNav/>
+			<ChapterNav currentChapterNumber={currentChapterNumber}/>
 			<p>showing chapter {currentChapterNumber}</p>
 			{smartBook.chapters.map((chapter, index) => {
 				return (
