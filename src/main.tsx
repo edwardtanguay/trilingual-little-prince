@@ -31,6 +31,10 @@ const router = createBrowserRouter([
 				path: "/",
 				element: <Navigate to="/text/1" replace />,
 			},
+			{
+				path: "/text",
+				element: <Navigate to="/text/1" replace />,
+			},
 		],
 	},
 ]);

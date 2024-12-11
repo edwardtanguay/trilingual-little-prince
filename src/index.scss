@@ -6,6 +6,10 @@
 	h1 {
 		font-variant: small-caps;
 	}
+
+	.btn-normal {
+		@apply bg-gray-300 text-gray-700 py-1 px-3 rounded text-sm hover:bg-gray-400;
+	}
 }
 
 a.active {

@@ -1,7 +1,6 @@
 import React from "react";
 import { useTypedStoreState } from "../../store/easy-peasy-hooks";
 import { useParams } from "react-router-dom";
-import * as qstr from '../../qtools/qstr';
 import "./styles.scss";
 import { ChapterNav } from "./ChapterNav";
 
