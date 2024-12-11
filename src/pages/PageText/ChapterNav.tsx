@@ -9,7 +9,7 @@ export const ChapterNav = ({ currentChapterNumber }: IProps) => {
 	const { smartBook } = useTypedStoreState((state) => state.mainModel);
 
 	return (
-		<nav className="flex gap-3 bg-slate-500 px-4 py-2">
+		<nav className="flex gap-3 bg-slate-500 px-4 py-2 -mt-3">
 			{smartBook.chapters.map((chapter) => {
 				return (
 					<NavLink

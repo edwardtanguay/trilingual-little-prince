@@ -31,7 +31,7 @@ export const Nav = () => {
 		<>
 			{currentMenuItem && (
 				<nav>
-					<div className="md:hidden bg-slate-500 text-[1.2rem] px-4 py-2 content">
+					<div className="md:hidden bg-slate-500 text-[1.1rem] px-4 py-2 content">
 						<div className="flex justify-between">
 							<p><NavLink to={currentMenuItem.idCode}>{currentMenuItem.title}</NavLink></p>
 							<p className="mt-1 cursor-pointer" onClick={handleMenuToggle}><GiHamburgerMenu /></p>
