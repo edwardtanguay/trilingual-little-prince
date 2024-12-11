@@ -17,7 +17,13 @@ const router = createBrowserRouter([
 		children: [
 			{
 				path: "/text",
-				element: <PageText/>
+				element: <PageText />,
+				children: [
+					{
+						path: ":chapter",
+						element: <PageText />,
+					}
+				]
 			},
 			{
 				path: "flashcards",

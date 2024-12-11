@@ -689,3 +689,14 @@ export const getCurrentTimestamp = (): string => {
 
 	return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 };
+
+export const forceToNumber = (
+	strNumber: string | undefined,
+	defaultNumber: number = 1
+): number => {
+	let number = Number(strNumber);
+	if (Number.isNaN(number)) {
+		number = defaultNumber;
+	}
+	return number;
+};

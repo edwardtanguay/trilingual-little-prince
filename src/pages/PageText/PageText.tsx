@@ -1,31 +1,53 @@
-import React from 'react';
-import { useTypedStoreState } from '../../store/easy-peasy-hooks';
-import './styles.scss';
+import React from "react";
+import { useTypedStoreState } from "../../store/easy-peasy-hooks";
+import { useParams } from "react-router-dom";
+import * as qstr from '../../qtools/qstr';
+import "./styles.scss";
+import { ChapterNav } from "./ChapterNav";
 
 export const PageText = () => {
-	const { smartBook } = useTypedStoreState(state => state.mainModel);
+	const { smartBook } = useTypedStoreState((state) => state.mainModel);
+
+	const { chapter: _currentChapterNumber } = useParams();
+	let currentChapterNumber = qstr.forceToNumber(_currentChapterNumber);
+	const numberOfChapters = smartBook.chapters.length;
+	console.log(11111, numberOfChapters);
+	if (currentChapterNumber < 1 || currentChapterNumber > numberOfChapters) {
+		currentChapterNumber = 1;
+	}
 
 	return (
 		<>
+			<ChapterNav/>
 			{smartBook.chapters.map((chapter, index) => {
 				return (
 					<React.Fragment key={index}>
-						<h2 className='text-2xl mb-3'>CHAPTER {chapter.number}</h2>
+						<h2 className="text-2xl mb-3">
+							CHAPTER {chapter.number}
+						</h2>
 						{chapter.smartLines.map((smartLine, index) => {
 							return (
-								<div key={index} className='flex gap-3 mb-3'>
-									<div className="font-mono w-[.7rem] text-xs pt-[.3rem] opacity-50">{smartLine.number}</div>
-									<div className='w-fit'>
-										<div className='lang-fr'>{smartLine.plainTexts.fr}</div>
-										<div className='lang-sp'>{smartLine.plainTexts.sp}</div>
-										<div className='lang-it'>{smartLine.plainTexts.it}</div>
+								<div key={index} className="flex gap-3 mb-3">
+									<div className="font-mono w-[.7rem] text-xs pt-[.3rem] opacity-50">
+										{smartLine.number}
+									</div>
+									<div className="w-fit">
+										<div className="lang-fr">
+											{smartLine.plainTexts.fr}
+										</div>
+										<div className="lang-sp">
+											{smartLine.plainTexts.sp}
+										</div>
+										<div className="lang-it">
+											{smartLine.plainTexts.it}
+										</div>
 									</div>
 								</div>
-							)
+							);
 						})}
 					</React.Fragment>
-				)
+				);
 			})}
 		</>
-	)
-}
+	);
+};

@@ -21,7 +21,7 @@ export const Nav = () => {
 
 	const location = useLocation();
 	const pageIdCode = tools.chopLeft(location.pathname, '/');
-	const currentMenuItem = menuItems.find(m => m.idCode === pageIdCode);
+	const currentMenuItem = menuItems.find(m => pageIdCode.startsWith(m.idCode));
 
 	const handleMenuToggle = () => {
 		setShowMobileMenu(!showMobileMenu)
@@ -44,8 +44,7 @@ export const Nav = () => {
 											{(menuItem.idCode !== currentMenuItem.idCode && (
 												<div key={index}
 													className="mt-[.2rem]"
-												><NavLink to={menuItem.idCode}
-													onClick={() => setShowMobileMenu(false)}>{menuItem.title}</NavLink></div>
+												><NavLink to={menuItem.idCode} onClick={() => setShowMobileMenu(false)}>{menuItem.title}</NavLink></div>
 											))}
 										</div>
 									)
