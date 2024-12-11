@@ -23,6 +23,7 @@ export const PageChapters = () => {
 		<>
 			{chapter && (
 				<>
+					<p>current chapter: {currentChapterNumber}</p>
 					<ChapterNav currentChapterNumber={currentChapterNumber} />
 					<h2 className="text-2xl mb-3 mt-3">
 						CHAPTER {chapter.number}
