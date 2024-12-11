@@ -364,6 +364,10 @@
 		"back": "para retroceder un paso"
 	},
 	{
+		"front": "for your Python projects",
+		"back": "per i tuoi progetti Python"
+	},
+	{
 		"front": "so let's take a look at the readme file",
 		"back": "así que echemos un vistazo al archivo readme"
 	},
@@ -964,6 +968,26 @@
 		"back": "nuevas alturas"
 	},
 	{
+		"front": "timed out",
+		"back": "tiempo de espera agotado"
+	},
+	{
+		"front": "but if the connection was successful",
+		"back": "pero si la conexión fuera exitosa; fuera = subjunctive imperfect; conj=ser"
+	},
+	{
+		"front": "we have the following server",
+		"back": "tenemos el siguiente servidor"
+	},
+	{
+		"front": "it looks kind of weird",
+		"back": "se ve medio raro"
+	},
+	{
+		"front": "we have been asked to return a client's information through a service",
+		"back": "nos han solicitado devolver por medio de un servicio la information de una clienta"
+	},
+	{
 		"front": "resource not found",
 		"back": "recurso no encontrado"
 	},
@@ -1234,6 +1258,58 @@
 	{
 		"front": "",
 		"back": "has it happened to you that while you are programming"
+	},
+	{
+		"front": "since this documentation is interactive",
+		"back": "ya que esta documentación es interactiva; pr=jaw-KAY-stah"
+	},
+	{
+		"front": "if there are any",
+		"back": "en caso de haberlos"
+	},
+	{
+		"front": "the information will be displayed",
+		"back": "se desplegará la information"
+	},
+	{
+		"front": "by clicking on this box",
+		"back": "al darle clic a este recuadro"
+	},
+	{
+		"front": "next we see the endpoint route",
+		"back": "seguido vemos la ruta del endpoint"
+	},
+	{
+		"front": "if we click on it, it will open the file",
+		"back": "si le damos clic, abrirá el archivo"
+	},
+	{
+		"front": "which points to the file",
+		"back": "que apunta al archivo"
+	},
+	{
+		"front": "just below the title we find a url",
+		"back": "justo debajo del titulo encontramos una url"
+	},
+	{
+		"front": "first we come across the API name",
+		"back": "primero nos encontramos con el nombre de la API"
+	},
+	{
+		"front": "pr. --reload",
+		"back": "guión, guión, reload; pr=gee-UN"
+	},
+	{
+		"front": "we run it by executing the command",
+		"back": "lo corremos ejecutando el comando"
+	},
+	{
+		"front": "the solution we have created",
+		"back": "la solución que tenemos creada"
+	},
+	{
+		"front": "as it grows",
+		"back": "a medida que crece"
 	},
 	{
 		"front": "high performance",
