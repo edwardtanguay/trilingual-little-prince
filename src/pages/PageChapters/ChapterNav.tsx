@@ -13,7 +13,7 @@ export const ChapterNav = ({ currentChapterNumber }: IProps) => {
 			{smartBook.chapters.map((chapter) => {
 				return (
 					<NavLink
-						to={`/text/${chapter.number}`}
+						to={`/chapters/${chapter.number}`}
 						key={chapter.number}
 					>
 						<button className={`btn-normal ${currentChapterNumber === chapter.number ? 'chapterSelected' : 'chapterUnselected'}`}>

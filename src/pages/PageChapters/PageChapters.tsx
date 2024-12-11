@@ -1,11 +1,11 @@
 import React from "react";
 import { useTypedStoreState } from "../../store/easy-peasy-hooks";
 import { useParams } from "react-router-dom";
-import * as qstr from '../../qtools/qstr';
+import * as qstr from "../../qtools/qstr";
 import "./styles.scss";
 import { ChapterNav } from "./ChapterNav";
 
-export const PageText = () => {
+export const PageChapters = () => {
 	const { smartBook } = useTypedStoreState((state) => state.mainModel);
 
 	const { chapter: _currentChapterNumber } = useParams();
@@ -17,7 +17,7 @@ export const PageText = () => {
 
 	return (
 		<>
-			<ChapterNav currentChapterNumber={currentChapterNumber}/>
+			<ChapterNav currentChapterNumber={currentChapterNumber} />
 			{smartBook.chapters.map((chapter, index) => {
 				return (
 					<React.Fragment key={index}>
