@@ -1,3 +1,8 @@
+écrire un résumé du chapitre 4 du Petit Prince, en français
+escribe un resumen del capítulo 4 de El Principito, en español
+scrivi un riassunto del capitolo 4 del Piccolo Principe, in italiano
+
+
 - x add some for chapter 002
 - x make in store lineItems
 	- x make type
