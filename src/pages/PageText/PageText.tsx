@@ -8,17 +8,12 @@ import { ChapterNav } from "./ChapterNav";
 export const PageText = () => {
 	const { smartBook } = useTypedStoreState((state) => state.mainModel);
 
-	const { chapter: _currentChapterNumber } = useParams();
-	let currentChapterNumber = qstr.forceToNumber(_currentChapterNumber);
-	const numberOfChapters = smartBook.chapters.length;
-	console.log(11111, numberOfChapters);
-	if (currentChapterNumber < 1 || currentChapterNumber > numberOfChapters) {
-		currentChapterNumber = 1;
-	}
+	const { chapter: currentChapterNumber } = useParams();
 
 	return (
 		<>
 			<ChapterNav/>
+			<p>showing chapter {currentChapterNumber}</p>
 			{smartBook.chapters.map((chapter, index) => {
 				return (
 					<React.Fragment key={index}>

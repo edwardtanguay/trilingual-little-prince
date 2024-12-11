@@ -16,14 +16,8 @@ const router = createBrowserRouter([
 		element: <App />,
 		children: [
 			{
-				path: "/text",
+				path: "text/:chapter",
 				element: <PageText />,
-				children: [
-					{
-						path: ":chapter",
-						element: <PageText />,
-					}
-				]
 			},
 			{
 				path: "flashcards",
@@ -35,7 +29,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "/",
-				element: <Navigate to="/text" replace />,
+				element: <Navigate to="/text/1" replace />,
 			},
 		],
 	},

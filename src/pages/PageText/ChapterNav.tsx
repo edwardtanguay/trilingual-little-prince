@@ -7,7 +7,7 @@ export const ChapterNav = () => {
 	return (
 		<nav className="flex gap-3">
 			{smartBook.chapters.map((chapter) => {
-				return <NavLink to="/text/2" key={chapter.number}>Chapter&nbsp;{chapter.number}</NavLink>;
+				return <NavLink to={`/text/${chapter.number}`} key={chapter.number}>Chapter&nbsp;{chapter.number}</NavLink>;
 			})}
 		</nav>
 	);
