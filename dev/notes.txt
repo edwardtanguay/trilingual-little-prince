@@ -3,6 +3,15 @@ escribe un resumen del capítulo 4 de El Principito, en español
 scrivi un riassunto del capitolo 4 del Piccolo Principe, in italiano
 
 
+- words for punctuation
+	- question mark
+	- comma
+	- period
+	- dash
+	- hyphen
+	- semicolon
+
+
 - x add some for chapter 002
 - x make in store lineItems
 	- x make type

@@ -1260,6 +1260,30 @@
 		"back": "has it happened to you that while you are programming"
 	},
 	{
+		"front": "it will be as if we had sent a None",
+		"back": "será como hubiéramos enviado un None; conj=haber; hubiéramos = subjunctive imperfect"
+	},
+	{
+		"front": "if we leave it empty",
+		"back": "si lo dejamos vacío"
+	},
+	{
+		"front": "but we must write it",
+		"back": "sino que debemos escribirlo"
+	},
+	{
+		"front": "we no longer have options",
+		"back": "ya no nos salen opciones;conj=salen; salen = to leave, go out"
+	},
+	{
+		"front": "that have already been completed",
+		"back": "que ya hayan sido completados; pr=JAW-ha-jahn-SEE-doh"
+	},
+	{
+		"front": "an assigned value",
+		"back": "un valor asignado"
+	},
+	{
 		"front": "later in this course",
 		"back": "más adelante en este curso"
 	},
