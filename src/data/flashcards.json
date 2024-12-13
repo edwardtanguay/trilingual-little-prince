@@ -1260,6 +1260,18 @@
 		"back": "has it happened to you that while you are programming"
 	},
 	{
+		"front": "they should not be delivered by an endpoint",
+		"back": "no deben ser entregadas por un endpoint"
+	},
+	{
+		"front": "five hundred",
+		"back": "quinientos"
+	},
+	{
+		"front": "these parameters come as part of the route",
+		"back": "estos parámetros llegan como parte de la ruta"
+	},
+	{
 		"front": "it will be as if we had sent a None",
 		"back": "será como hubiéramos enviado un None; conj=haber; hubiéramos = subjunctive imperfect"
 	},
