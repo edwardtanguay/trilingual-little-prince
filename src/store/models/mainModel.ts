@@ -6,6 +6,7 @@ import {
 	smartBookInitialValue,
 } from "../../types";
 import notes from "../../data/notes.triling.txt?raw";
+import chapterSummaryFileText from "../../data/chapterSummaries.chapsum.txt?raw";
 import * as qstr from "../../qtools/qstr";
 import { StoreModel } from "../store";
 
@@ -124,6 +125,9 @@ export const mainModel: MainModel = {
 		}
 	}),
 	fillChapterSummaries: action((state) => {
+		const lines = qstr.convertStringBlockToLines(chapterSummaryFileText);
+		console.log(11112, chapterSummaryFileText);
+		console.log(11111, lines.length);
 		state.rawChapterSummaries.push({
 			chapterNumber: 1,
 			fr: "fr",
