@@ -10,8 +10,12 @@
 	.btn-normal {
 		@apply bg-gray-300 text-gray-700 py-1 px-3 rounded text-sm hover:bg-gray-400;
 	}
+
+	.smallcaps {
+		font-variant: small-caps;
+	}
 }
 
 a.active {
-	color: rgb(232, 232, 141);
+	color: rgb(77, 12, 12);
 }

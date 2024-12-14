@@ -7,20 +7,28 @@ export type RawLineItem = {
 export type SmartLine = {
 	number: number;
 	rawTexts: {
+		// È [esatto;pr=ez-ZAH-toh]! Ma perché
 		fr: string;
 		sp: string;
 		it: string;
 	};
 	plainTexts: {
+		// È esatto! Ma perché
 		fr: string;
 		sp: string;
 		it: string;
 	};
 };
 
+export type SmartBookChapterSummaries = {
+	fr: string;
+	sp: string;
+	it: string;
+}
+
 export type SmartBookChapter = {
 	number: number;
-	summary: string;
+	summaries: SmartBookChapterSummaries;
 	smartLines: SmartLine[];
 	rawLineItems: RawLineItem[];
 };
@@ -100,3 +108,10 @@ export const blankUser = {
 	totalScore: 0,
 	flashcardHistory: {},
 };
+
+export type RawChapterSummary = {
+	chapterNumber: number;
+	fr: string;
+	sp: string;
+	it: string;
+}

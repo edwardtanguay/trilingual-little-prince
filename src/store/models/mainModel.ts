@@ -1,20 +1,25 @@
 import { Action, action, Thunk, thunk } from "easy-peasy";
 import {
+	RawChapterSummary,
 	RawLineItem,
 	SmartBook,
 	smartBookInitialValue,
 } from "../../types";
 import notes from "../../data/notes.triling.txt?raw";
+import chapterSummaryFileText from "../../data/chapterSummaries.chapsum.txt?raw";
 import * as qstr from "../../qtools/qstr";
 import { StoreModel } from "../store";
+import { convertLineBlockToRawChapterSummary } from "../../appTools";
 
 export interface MainModel {
 	// state
 	rawLineItems: RawLineItem[];
 	smartBook: SmartBook;
+	rawChapterSummaries: RawChapterSummary[];
 
 	// actions
 	buildRawLineItems: Action<this>;
+	fillChapterSummaries: Action<this>;
 	fillSmartBookWithChapterRawLines: Action<this>;
 	fillRestOfSmartBook: Action<this>;
 
@@ -26,6 +31,7 @@ export const mainModel: MainModel = {
 	// state
 	rawLineItems: [],
 	smartBook: smartBookInitialValue,
+	rawChapterSummaries: [],
 
 	// actions
 	buildRawLineItems: action((state) => {
@@ -58,6 +64,7 @@ export const mainModel: MainModel = {
 		let currentChapterNumber = 0;
 		let rawLineItems: RawLineItem[] = [];
 		state.rawLineItems.push({
+			// TODO: resolve why we need chapter 999 here
 			chapter: 999,
 			lineNumber: 0,
 			rawText: "",
@@ -66,9 +73,24 @@ export const mainModel: MainModel = {
 			if (rawLineItem.chapter !== currentChapterNumber) {
 				// save chapter that was being saved, if necessary
 				if (rawLineItem.chapter !== 1) {
+					let fr = "";
+					let sp = "";
+					let it = "";
+					const rawChapterSummary = state.rawChapterSummaries.find(
+						(m) => m.chapterNumber === currentChapterNumber
+					);
+					if (rawChapterSummary) {
+						fr = rawChapterSummary.fr;
+						sp = rawChapterSummary.sp;
+						it = rawChapterSummary.it;
+					}
 					state.smartBook.chapters.push({
 						number: currentChapterNumber,
-						summary: "",
+						summaries: {
+							fr,
+							sp,
+							it,
+						},
 						smartLines: [],
 						rawLineItems: [...rawLineItems],
 					});
@@ -103,10 +125,19 @@ export const mainModel: MainModel = {
 			}
 		}
 	}),
+	fillChapterSummaries: action((state) => {
+		const lines = qstr.convertStringBlockToLines(chapterSummaryFileText);
+		const textBlocks = qstr.getTextBlocks(lines);
+		for (const textBlockLines of textBlocks) {
+			const rawChapterSummary = convertLineBlockToRawChapterSummary(textBlockLines);
+			state.rawChapterSummaries.push(rawChapterSummary);
+		}
+	}),
 
 	// thunks
-	initialize: thunk((actions, _, { getStoreActions}) => {
+	initialize: thunk((actions, _, { getStoreActions }) => {
 		actions.buildRawLineItems();
+		actions.fillChapterSummaries();
 		actions.fillSmartBookWithChapterRawLines();
 		actions.fillRestOfSmartBook();
 		getStoreActions().flashcardModel.loadFlashcards();

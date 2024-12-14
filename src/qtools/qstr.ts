@@ -700,3 +700,25 @@ export const forceToNumber = (
 	}
 	return number;
 };
+
+export const getTextBlocks = (lines: string[]): string[][] => {
+	const blocks: string[][] = [];
+	let currentBlock: string[] = [];
+
+	for (const line of lines) {
+		if (line.trim() === "") {
+			if (currentBlock.length > 0) {
+				blocks.push(currentBlock);
+				currentBlock = [];
+			}
+		} else {
+			currentBlock.push(line);
+		}
+	}
+
+	if (currentBlock.length > 0) {
+		blocks.push(currentBlock);
+	}
+
+	return blocks;
+};
