@@ -1260,6 +1260,18 @@
 		"back": "has it happened to you that while you are programming"
 	},
 	{
+		"front": "in which it is placed",
+		"back": "en el que se pone"
+	},
+	{
+		"front": "which is responsible for creating the elements",
+		"back": "que se encarga de crear los elementos"
+	},
+	{
+		"front": "to test the model",
+		"back": "para probar el modelo"
+	},
+	{
 		"front": "that is part of the body",
 		"back": "que hace parte del body"
 	},

@@ -2,6 +2,42 @@
 escribe un resumen del capítulo 5 de El Principito, en español
 scrivi un riassunto del capitolo 5 del Piccolo Principe, in italiano
 
+make ts arrow function parseTextIntoWordObjects(line:string) which takes e.g.
+
+This is a [good;gut] test? Yes.
+
+into
+
+[
+	{
+		text: "This"
+	},
+	{
+		text: "is"
+	},
+	{
+		text: "a"
+	},
+	{
+		text: "good",
+		note: "gut"
+	},
+	{
+		text: "test"
+	},
+	{
+		text: "?"
+	},
+	{
+		text: "Yes"
+	},
+	{
+		text: "."
+	}
+]
+
+
+
 
 - words for punctuation
 	- question mark
