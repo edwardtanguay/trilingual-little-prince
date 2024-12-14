@@ -1260,6 +1260,26 @@
 		"back": "has it happened to you that while you are programming"
 	},
 	{
+		"front": "that is part of the body",
+		"back": "que hace parte del body"
+	},
+	{
+		"front": "and add them to the list of items",
+		"back": "y los agregue a la lista de elementos"
+	},
+	{
+		"front": "they usually receive data through the body",
+		"back": "suelen recibir datos a través del body"
+	},
+	{
+		"front": "it is not always required that the request receives a body",
+		"back": "no siempre es requerido que la petición recibe un body"
+	},
+	{
+		"front": "who delivers the request to us",
+		"back": "que nos entrega la petición"
+	},
+	{
 		"front": "they should not be delivered by an endpoint",
 		"back": "no deben ser entregadas por un endpoint"
 	},

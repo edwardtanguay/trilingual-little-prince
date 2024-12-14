@@ -20,7 +20,7 @@ export type SmartLine = {
 	};
 };
 
-export type SmartBookSummaries = {
+export type SmartBookChapterSummaries = {
 	fr: string;
 	sp: string;
 	it: string;
@@ -28,7 +28,7 @@ export type SmartBookSummaries = {
 
 export type SmartBookChapter = {
 	number: number;
-	summaries: SmartBookSummaries;
+	summaries: SmartBookChapterSummaries;
 	smartLines: SmartLine[];
 	rawLineItems: RawLineItem[];
 };
@@ -108,3 +108,10 @@ export const blankUser = {
 	totalScore: 0,
 	flashcardHistory: {},
 };
+
+export type RawChapterSummary = {
+	chapterNumber: number;
+	fr: string;
+	sp: string;
+	it: string;
+}

@@ -1,5 +1,6 @@
 import { Action, action, Thunk, thunk } from "easy-peasy";
 import {
+	RawChapterSummary,
 	RawLineItem,
 	SmartBook,
 	smartBookInitialValue,
@@ -12,9 +13,11 @@ export interface MainModel {
 	// state
 	rawLineItems: RawLineItem[];
 	smartBook: SmartBook;
+	rawChapterSummaries: RawChapterSummary[];
 
 	// actions
 	buildRawLineItems: Action<this>;
+	fillChapterSummaries: Action<this>;
 	fillSmartBookWithChapterRawLines: Action<this>;
 	fillRestOfSmartBook: Action<this>;
 
@@ -26,6 +29,7 @@ export const mainModel: MainModel = {
 	// state
 	rawLineItems: [],
 	smartBook: smartBookInitialValue,
+	rawChapterSummaries: [],
 
 	// actions
 	buildRawLineItems: action((state) => {
@@ -58,6 +62,7 @@ export const mainModel: MainModel = {
 		let currentChapterNumber = 0;
 		let rawLineItems: RawLineItem[] = [];
 		state.rawLineItems.push({
+			// TODO: resolve why we need chapter 999 here
 			chapter: 999,
 			lineNumber: 0,
 			rawText: "",
@@ -66,12 +71,27 @@ export const mainModel: MainModel = {
 			if (rawLineItem.chapter !== currentChapterNumber) {
 				// save chapter that was being saved, if necessary
 				if (rawLineItem.chapter !== 1) {
+					let fr = "";
+					let sp = "";
+					let it = "";
+					const rawChapterSummary = state.rawChapterSummaries.find(
+						(m) => m.chapterNumber === currentChapterNumber
+					);
+					if (rawChapterSummary) {
+						fr = rawChapterSummary.fr;
+						sp = rawChapterSummary.sp;
+						it = rawChapterSummary.it;
+					} else {
+						fr = 'nn-fr',
+						sp = 'nn-sp',
+						it = 'nn-it'
+					}
 					state.smartBook.chapters.push({
 						number: currentChapterNumber,
 						summaries: {
-							fr: "nnn-fr",
-							sp: "nnn-es",
-							it: "nnn-it",
+							fr,
+							sp,
+							it,
 						},
 						smartLines: [],
 						rawLineItems: [...rawLineItems],
@@ -107,10 +127,25 @@ export const mainModel: MainModel = {
 			}
 		}
 	}),
+	fillChapterSummaries: action((state) => {
+		state.rawChapterSummaries.push({
+			chapterNumber: 1,
+			fr: "fr",
+			sp: "sp",
+			it: "it",
+		});
+		state.rawChapterSummaries.push({
+			chapterNumber: 2,
+			fr: "fr",
+			sp: "sp",
+			it: "it",
+		});
+	}),
 
 	// thunks
-	initialize: thunk((actions, _, { getStoreActions}) => {
+	initialize: thunk((actions, _, { getStoreActions }) => {
 		actions.buildRawLineItems();
+		actions.fillChapterSummaries();
 		actions.fillSmartBookWithChapterRawLines();
 		actions.fillRestOfSmartBook();
 		getStoreActions().flashcardModel.loadFlashcards();
