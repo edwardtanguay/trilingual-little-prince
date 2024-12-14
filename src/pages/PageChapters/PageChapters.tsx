@@ -26,11 +26,14 @@ export const PageChapters = () => {
 					<h2 className="text-2xl mb-3 mt-3">
 						CHAPTER {chapter.number}
 					</h2>
-					<div className="border-slate-500 border rounded px-3 pt-3 pb-2 mb-3 italic">
+					<fieldset className="border-slate-500 border rounded px-3 pt-1 pb-2 mb-3">
+						<legend className="smallcaps px-2">Summary</legend>
+						<div className="italic">
 						<div className="mb-2 lang-fr">{chapter.summaries.fr}</div>
 						<div className="mb-2 lang-sp">{chapter.summaries.sp}</div>
 						<div className="mb-2 lang-it">{chapter.summaries.it}</div>
-					</div>
+						</div>
+					</fieldset>
 					{chapter.smartLines.map((smartLine, index) => {
 						return (
 							<div key={index} className="flex gap-3 mb-3">
