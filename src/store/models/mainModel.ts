@@ -9,6 +9,7 @@ import notes from "../../data/notes.triling.txt?raw";
 import chapterSummaryFileText from "../../data/chapterSummaries.chapsum.txt?raw";
 import * as qstr from "../../qtools/qstr";
 import { StoreModel } from "../store";
+import { convertLineBlockToRawChapterSummary } from "../../appTools";
 
 export interface MainModel {
 	// state
@@ -126,20 +127,11 @@ export const mainModel: MainModel = {
 	}),
 	fillChapterSummaries: action((state) => {
 		const lines = qstr.convertStringBlockToLines(chapterSummaryFileText);
-		console.log(11112, chapterSummaryFileText);
-		console.log(11111, lines.length);
-		state.rawChapterSummaries.push({
-			chapterNumber: 1,
-			fr: "fr",
-			sp: "sp",
-			it: "it",
-		});
-		state.rawChapterSummaries.push({
-			chapterNumber: 2,
-			fr: "fr",
-			sp: "sp",
-			it: "it",
-		});
+		const textBlocks = qstr.getTextBlocks(lines);
+		for (const textBlockLines of textBlocks) {
+			const rawChapterSummary = convertLineBlockToRawChapterSummary(textBlockLines);
+			state.rawChapterSummaries.push(rawChapterSummary);
+		}
 	}),
 
 	// thunks
