@@ -81,10 +81,6 @@ export const mainModel: MainModel = {
 						fr = rawChapterSummary.fr;
 						sp = rawChapterSummary.sp;
 						it = rawChapterSummary.it;
-					} else {
-						fr = 'nn-fr',
-						sp = 'nn-sp',
-						it = 'nn-it'
 					}
 					state.smartBook.chapters.push({
 						number: currentChapterNumber,
