@@ -7,20 +7,28 @@ export type RawLineItem = {
 export type SmartLine = {
 	number: number;
 	rawTexts: {
+		// È [esatto;pr=ez-ZAH-toh]! Ma perché
 		fr: string;
 		sp: string;
 		it: string;
 	};
 	plainTexts: {
+		// È esatto! Ma perché
 		fr: string;
 		sp: string;
 		it: string;
 	};
 };
 
+export type SmartBookSummaries = {
+	fr: string;
+	sp: string;
+	it: string;
+}
+
 export type SmartBookChapter = {
 	number: number;
-	summary: string;
+	summaries: SmartBookSummaries;
 	smartLines: SmartLine[];
 	rawLineItems: RawLineItem[];
 };

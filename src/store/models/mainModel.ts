@@ -68,7 +68,11 @@ export const mainModel: MainModel = {
 				if (rawLineItem.chapter !== 1) {
 					state.smartBook.chapters.push({
 						number: currentChapterNumber,
-						summary: "",
+						summaries: {
+							fr: "nnn-fr",
+							sp: "nnn-es",
+							it: "nnn-it",
+						},
 						smartLines: [],
 						rawLineItems: [...rawLineItems],
 					});
