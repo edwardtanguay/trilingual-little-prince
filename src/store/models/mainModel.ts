@@ -121,6 +121,11 @@ export const mainModel: MainModel = {
 						sp: qstr.reduceRawTextToPlainText(spRawText),
 						it: qstr.reduceRawTextToPlainText(itRawText),
 					},
+					objects: {
+						fr: qstr.parseTextIntoSentenceItemObjects(frRawText),
+						sp: qstr.parseTextIntoSentenceItemObjects(frRawText),
+						it: qstr.parseTextIntoSentenceItemObjects(frRawText),
+					}
 				});
 			}
 		}

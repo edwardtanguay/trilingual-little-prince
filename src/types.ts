@@ -18,6 +18,11 @@ export type SmartLine = {
 		sp: string;
 		it: string;
 	};
+	objects: {
+		fr: SentenceItemObject[];
+		sp: SentenceItemObject[];
+		it: SentenceItemObject[];
+	}
 };
 
 export type SmartBookChapterSummaries = {
