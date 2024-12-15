@@ -35,11 +35,19 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 								{sio.kind === "dynamic" && (
 									<span>
 										{sio.prefix}
-										<span className="flashcardFront">
-											{sio.text}
-										</span>{" "}
+										{!sio.isOpen && (
+											<>
+												<span onClick={() => alert('ok')} className="flashcardFront">
+													{sio.text}
+												</span>{" "}
+												{sio.suffix}{" "}
+											</>
+										)}
 										{sio.isOpen && (
 											<>
+												<span className="flashcardFront">
+													{sio.text}
+												</span>{" "}
 												<span className="flashcardBack">
 													{sio.rawNote}
 												</span>
