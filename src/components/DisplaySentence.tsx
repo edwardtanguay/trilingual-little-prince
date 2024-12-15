@@ -31,10 +31,14 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 								<>
 									<span key={index}>
 										{sio.prefix}
-										{sio.text}
-										<span> ({sio.rawNote})</span>
+										<span className="font-bold">
+											{sio.text}{" "}
+										</span>
+										<span className="font-mono bg-yellow-200">
+											({sio.rawNote})
+										</span>
 										{sio.suffix}
-									</span>{" "}
+									</span>
 								</>
 							);
 						}
