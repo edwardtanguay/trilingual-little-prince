@@ -14,7 +14,7 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 			{displayMode === "raw" && <p>{smartLine.rawTexts[lang]}</p>}
 			{displayMode === "plain" && <p>{smartLine.plainTexts[lang]}</p>}
 			{displayMode === "objects" && (
-				<span className="displaySentence">
+				<>
 					{smartLine.objects[lang].map((sio, index) => {
 						return (
 							<span className="displaySentence">
@@ -47,7 +47,7 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 							</span>
 						);
 					})}
-				</span>
+				</>
 			)}
 		</div>
 	);
