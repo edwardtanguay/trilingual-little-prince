@@ -31,8 +31,7 @@ export const parseTextIntoSentenceItemObjects = (
 		if (rawText.startsWith("[") && rawText.endsWith("]")) {
 			parseAsDynamic(sio);
 		} else {
-			sio.kind = "simple";
-			sio.text = sio.rawText;
+			parseAsSimple(sio);
 		}
 		sios.push(sio);
 	}
@@ -40,7 +39,7 @@ export const parseTextIntoSentenceItemObjects = (
 };
 
 // sio.rawText = "[leggera;pr=lay-JER-ah]"
-export const parseAsDynamic = (sio: SentenceItemObject): void => {
+const parseAsDynamic = (sio: SentenceItemObject): void => {
 	const noBrackets = qstr.chopEnds(sio.rawText, "[", "]");
 	const parts = qstr.breakIntoParts(noBrackets, ";");
 	const text = parts[0];
@@ -49,3 +48,24 @@ export const parseAsDynamic = (sio: SentenceItemObject): void => {
 	sio.rawNote = rawNote;
 	sio.kind = "dynamic";
 };
+
+// sio.rawText = "notes"
+// sio.rawText = "notes,"
+// sio.rawText = "'notes'"
+// sio.rawText = "(notes"
+// sio.rawText = "notes)"
+const parseAsSimple = (sio: SentenceItemObject): void => {
+	sio.kind = "simple";
+	parsePrefix(sio);
+};
+
+const parsePrefix = (sio: SentenceItemObject): void => {
+	const prefixItems = ["'", '"', '(',];
+	for (const prefixItem of prefixItems) {
+		if (sio.rawText.startsWith(prefixItem)) {
+			sio.text = qstr.chopLeft(sio.rawText, prefixItem);
+			sio.prefix = prefixItem;
+			break;
+		}
+	}
+}
