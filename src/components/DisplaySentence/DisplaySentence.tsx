@@ -38,10 +38,14 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 										<span className="flashcardFront">
 											{sio.text}
 										</span>{" "}
-										<span className="flashcardBack">
-											{sio.rawNote}
-										</span>
-										{sio.suffix}{" "}
+										{sio.isOpen && (
+											<>
+												<span className="flashcardBack">
+													{sio.rawNote}
+												</span>
+												{sio.suffix}{" "}
+											</>
+										)}
 									</span>
 								)}
 							</span>
