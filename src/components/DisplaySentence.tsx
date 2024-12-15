@@ -1,3 +1,4 @@
+import React from "react";
 import { DisplayMode, LanguageAbbreviation, SmartLine } from "../types";
 
 interface IProps {
@@ -16,29 +17,27 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 					{smartLine.objects[lang].map((sio, index) => {
 						if (sio.kind === "simple") {
 							return (
-								<>
-									<span key={index}>
+								<React.Fragment key={index}>
+									<span>
 										{sio.prefix}
 										{sio.text}
 										{sio.suffix}
 									</span>{" "}
-								</>
+								</React.Fragment>
 							);
 						}
 						if (sio.kind === "dynamic") {
 							return (
-								<>
-									<span key={index}>
-										{sio.prefix}
-										<span className="font-bold">
-											{sio.text}{" "}
-										</span>
-										<span className="font-mono text-xs bg-yellow-200">
-											({sio.rawNote})
-										</span>
-										{sio.suffix}{" "}
+								<span key={index}>
+									{sio.prefix}
+									<span className="font-bold">
+										{sio.text}{" "}
 									</span>
-								</>
+									<span className="font-mono text-xs bg-yellow-200">
+										({sio.rawNote})
+									</span>
+									{sio.suffix}{" "}
+								</span>
 							);
 						}
 					})}
