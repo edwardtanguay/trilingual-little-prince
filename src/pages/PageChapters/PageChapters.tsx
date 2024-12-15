@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import * as qstr from "../../qtools/qstr";
 import "./styles.scss";
 import { ChapterNav } from "./ChapterNav";
+import { DisplaySentence } from "../../components/DisplaySentence";
 
 export const PageChapters = () => {
 	const { smartBook } = useTypedStoreState((state) => state.mainModel);
@@ -42,7 +43,7 @@ export const PageChapters = () => {
 								</div>
 								<div className="w-fit">
 									<div className="lang-fr">
-										{smartLine.plainTexts.fr}
+									<DisplaySentence smartLine={smartLine}/>
 									</div>
 									<div className="lang-sp">
 										{smartLine.plainTexts.sp}
