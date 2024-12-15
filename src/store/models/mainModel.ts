@@ -8,6 +8,7 @@ import {
 import notes from "../../data/notes.triling.txt?raw";
 import chapterSummaryFileText from "../../data/chapterSummaries.chapsum.txt?raw";
 import * as qstr from "../../qtools/qstr";
+import * as appTools from "../../appTools";
 import { StoreModel } from "../store";
 import { convertLineBlockToRawChapterSummary } from "../../appTools";
 
@@ -122,10 +123,16 @@ export const mainModel: MainModel = {
 						it: qstr.reduceRawTextToPlainText(itRawText),
 					},
 					objects: {
-						fr: qstr.parseTextIntoSentenceItemObjects(frRawText),
-						sp: qstr.parseTextIntoSentenceItemObjects(frRawText),
-						it: qstr.parseTextIntoSentenceItemObjects(frRawText),
-					}
+						fr: appTools.parseTextIntoSentenceItemObjects(
+							frRawText
+						),
+						sp: appTools.parseTextIntoSentenceItemObjects(
+							frRawText
+						),
+						it: appTools.parseTextIntoSentenceItemObjects(
+							frRawText
+						),
+					},
 				});
 			}
 		}
@@ -134,7 +141,8 @@ export const mainModel: MainModel = {
 		const lines = qstr.convertStringBlockToLines(chapterSummaryFileText);
 		const textBlocks = qstr.getTextBlocks(lines);
 		for (const textBlockLines of textBlocks) {
-			const rawChapterSummary = convertLineBlockToRawChapterSummary(textBlockLines);
+			const rawChapterSummary =
+				convertLineBlockToRawChapterSummary(textBlockLines);
 			state.rawChapterSummaries.push(rawChapterSummary);
 		}
 	}),

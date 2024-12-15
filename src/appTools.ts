@@ -56,16 +56,29 @@ const parseAsDynamic = (sio: SentenceItemObject): void => {
 // sio.rawText = "notes)"
 const parseAsSimple = (sio: SentenceItemObject): void => {
 	sio.kind = "simple";
+	sio.text = sio.rawText;
 	parsePrefix(sio);
+	parseSuffix(sio);
 };
 
 const parsePrefix = (sio: SentenceItemObject): void => {
-	const prefixItems = ["'", '"', '(',];
+	const prefixItems = ["'", '"', "("];
 	for (const prefixItem of prefixItems) {
 		if (sio.rawText.startsWith(prefixItem)) {
-			sio.text = qstr.chopLeft(sio.rawText, prefixItem);
+			sio.text = qstr.chopLeft(sio.text, prefixItem);
 			sio.prefix = prefixItem;
 			break;
 		}
 	}
-}
+};
+
+const parseSuffix = (sio: SentenceItemObject): void => {
+	const suffixItems = ["'", '"', ")", ".", ",", ";", "!", "?"];
+	for (const suffixItem of suffixItems) {
+		if (sio.rawText.endsWith(suffixItem)) {
+			sio.text = qstr.chopRight(sio.text, suffixItem);
+			sio.suffix = suffixItem;
+			break;
+		}
+	}
+};
