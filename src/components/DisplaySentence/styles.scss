@@ -1,6 +1,7 @@
 span.displaySentence.isOpen {
 	.flashcardFront {
 		font-weight: bold;
+		cursor: pointer;
 	}
 	.flashcardBack {
 		background-color: rgb(211, 211, 152);
@@ -14,7 +15,7 @@ span.displaySentence.isClosed {
 	.flashcardFront {
 		border-bottom: 1px dashed #777;
 		&:hover {
-			border-bottom: 1px dashed #555;
+			border-bottom: 1px dashed #333;
 			cursor: pointer;
 		}
 	}
