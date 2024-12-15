@@ -15,15 +15,29 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 			{displayMode === "objects" && (
 				<>
 					{smartLine.objects[lang].map((sio, index) => {
-						return (
-							<>
-								<span key={index}>
-									{sio.prefix}
-									{sio.text}
-									{sio.suffix}
-								</span>{" "}
-							</>
-						);
+						if (sio.kind === "simple") {
+							return (
+								<>
+									<span key={index}>
+										{sio.prefix}
+										{sio.text}
+										{sio.suffix}
+									</span>{" "}
+								</>
+							);
+						}
+						if (sio.kind === "dynamic") {
+							return (
+								<>
+									<span key={index}>
+										{sio.prefix}
+										{sio.text}
+										<span> ({sio.rawNote})</span>
+										{sio.suffix}
+									</span>{" "}
+								</>
+							);
+						}
 					})}
 					<DevDisplayObject obj={smartLine.objects[lang]} />
 				</>
