@@ -1,18 +1,12 @@
-span.displaySentence {
-	.isOpen {
-		.flashcardBack {
-			background-color: rgb(211, 211, 152);
-			font-size: 0.8rem;
-			border-radius: 0.2rem;
-			padding: 0 0.2rem 0.1rem 0.2rem;
-		}
-	}
-	.isClosed {
-		.flashcardBack {
-			background-color: red;
-			font-size: 0.8rem;
-			border-radius: 0.2rem;
-			padding: 0 0.2rem 0.1rem 0.2rem;
-		}
-	}
+span.displaySentence.isOpen .flashcardBack {
+	background-color: rgb(211, 211, 152);
+	font-size: 0.8rem;
+	border-radius: 0.2rem;
+	padding: 0 0.2rem 0.1rem 0.2rem;
+}
+span.displaySentence.isClosed .flashcardBack {
+	background-color: red;
+	font-size: 0.8rem;
+	border-radius: 0.2rem;
+	padding: 0 0.2rem 0.1rem 0.2rem;
 }
