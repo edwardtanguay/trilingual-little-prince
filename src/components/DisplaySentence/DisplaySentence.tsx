@@ -17,9 +17,14 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 				<>
 					{smartLine.objects[lang].map((sio, index) => {
 						return (
-							<span className="displaySentence">
+							<span
+								className={`displaySentence ${
+									sio.isOpen ? "isOpen" : "isClosed"
+								}`}
+								key={index}
+							>
 								{sio.kind === "simple" && (
-									<React.Fragment key={index}>
+									<React.Fragment>
 										<span>
 											{sio.prefix}
 											{sio.text}
@@ -28,12 +33,7 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 									</React.Fragment>
 								)}
 								{sio.kind === "dynamic" && (
-									<span
-										key={index}
-										className={`${
-											sio.isOpen ? "isOpen" : "isClosed"
-										}`}
-									>
+									<span>
 										{sio.prefix}
 										<span className="flashcardFront">
 											{sio.text}
