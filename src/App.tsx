@@ -1,11 +1,14 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "./components/Header";
 import { useTypedStoreActions } from "./store/easy-peasy-hooks";
+import * as qstr from './qtools/qstr';
 
 function App() {
 	const initialize = useTypedStoreActions(
 		(actions) => actions.mainModel.initialize
 	);
+
+	qstr.parseTextIntoSentenceItemObjects("I don't know a")
 
 	initialize();
 

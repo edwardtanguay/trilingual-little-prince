@@ -727,7 +727,7 @@ export const getTextBlocks = (lines: string[]): string[][] => {
 export const parseTextIntoSentenceItemObjects = (
 	line: string
 ): SentenceItemObject[] => {
-	const regex = /\[([^;]+);([^\]]+)\]|\w+|[^\s\w]/g;
+	const regex = /\[([^;]+);([^\]]+)\]|[a-zA-Z']+|["].+?["]|[^\s\w]/g;
 	const matches = line.matchAll(regex);
 	const sios = [];
 	for (const match of matches) {
