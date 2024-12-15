@@ -136,3 +136,5 @@ export const blankSentenceItemObject: SentenceItemObject = {
 };
 
 export type LanguageAbbreviation = "fr" | "sp" | "it";
+
+export type DisplayMode = "raw" | "plain" | "objects"

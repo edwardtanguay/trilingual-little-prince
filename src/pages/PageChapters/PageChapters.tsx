@@ -4,6 +4,7 @@ import * as qstr from "../../qtools/qstr";
 import "./styles.scss";
 import { ChapterNav } from "./ChapterNav";
 import { DisplaySentence } from "../../components/DisplaySentence";
+import * as config from "../../config";
 
 export const PageChapters = () => {
 	const { smartBook } = useTypedStoreState((state) => state.mainModel);
@@ -51,14 +52,17 @@ export const PageChapters = () => {
 									<DisplaySentence
 										smartLine={smartLine}
 										lang="fr"
+										displayMode={config.displayMode()}
 									/>
 									<DisplaySentence
 										smartLine={smartLine}
 										lang="sp"
+										displayMode={config.displayMode()}
 									/>
 									<DisplaySentence
 										smartLine={smartLine}
 										lang="it"
+										displayMode={config.displayMode()}
 									/>
 								</div>
 							</div>
