@@ -2,6 +2,7 @@ import { Action, action, Thunk, thunk } from "easy-peasy";
 import {
 	RawChapterSummary,
 	RawLineItem,
+	SentenceItemObject,
 	SmartBook,
 	smartBookInitialValue,
 } from "../../types";
@@ -23,6 +24,7 @@ export interface MainModel {
 	fillChapterSummaries: Action<this>;
 	fillSmartBookWithChapterRawLines: Action<this>;
 	fillRestOfSmartBook: Action<this>;
+	toggleSentenceState: Action<this, SentenceItemObject>;
 
 	// thunks
 	initialize: Thunk<this, void, void, StoreModel>;
@@ -145,6 +147,10 @@ export const mainModel: MainModel = {
 				convertLineBlockToRawChapterSummary(textBlockLines);
 			state.rawChapterSummaries.push(rawChapterSummary);
 		}
+	}),
+	toggleSentenceState: action((state, sio) => {
+		sio.isOpen = !sio.isOpen;
+		state.smartBook = {...state.smartBook}
 	}),
 
 	// thunks

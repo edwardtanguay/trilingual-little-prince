@@ -1,6 +1,7 @@
 import React from "react";
-import { DisplayMode, LanguageAbbreviation, SmartLine } from "../../types";
+import { DisplayMode, LanguageAbbreviation, SentenceItemObject, SmartLine } from "../../types";
 import "./styles.scss";
+import { useTypedStoreActions } from "../../store/easy-peasy-hooks";
 
 interface IProps {
 	smartLine: SmartLine;
@@ -9,6 +10,12 @@ interface IProps {
 }
 
 export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
+	const {toggleSentenceState} = useTypedStoreActions(actions => actions.mainModel);
+
+	const handleFlashcardToggle = (sio: SentenceItemObject) => {
+		toggleSentenceState(sio)
+	}
+
 	return (
 		<div className={`lang-${lang}`}>
 			{displayMode === "raw" && <p>{smartLine.rawTexts[lang]}</p>}
@@ -37,7 +44,7 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 										{sio.prefix}
 										{!sio.isOpen && (
 											<>
-												<span onClick={() => alert('ok')} className="flashcardFront">
+												<span onClick={() => handleFlashcardToggle(sio)} className="flashcardFront">
 													{sio.text}
 												</span>{" "}
 												{sio.suffix}{" "}
