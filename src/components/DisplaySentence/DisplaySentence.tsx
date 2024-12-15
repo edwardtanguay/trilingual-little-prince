@@ -1,5 +1,10 @@
 import React from "react";
-import { DisplayMode, LanguageAbbreviation, SentenceItemObject, SmartLine } from "../../types";
+import {
+	DisplayMode,
+	LanguageAbbreviation,
+	SentenceItemObject,
+	SmartLine,
+} from "../../types";
 import "./styles.scss";
 import { useTypedStoreActions } from "../../store/easy-peasy-hooks";
 
@@ -10,11 +15,13 @@ interface IProps {
 }
 
 export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
-	const {toggleSentenceState} = useTypedStoreActions(actions => actions.mainModel);
+	const { toggleSentenceState } = useTypedStoreActions(
+		(actions) => actions.mainModel
+	);
 
 	const handleFlashcardToggle = (sio: SentenceItemObject) => {
-		toggleSentenceState(sio)
-	}
+		toggleSentenceState(sio);
+	};
 
 	return (
 		<div className={`lang-${lang}`}>
@@ -42,20 +49,23 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 								{sio.kind === "dynamic" && (
 									<span>
 										{sio.prefix}
-											<>
-												<span onClick={() => handleFlashcardToggle(sio)} className="flashcardFront">
-													{sio.text}
-												</span>{" "}
-												{sio.suffix}{" "}
-											</>
+										<span
+											onClick={() =>
+												handleFlashcardToggle(sio)
+											}
+											className="flashcardFront"
+										>
+											{sio.text}
+										</span>
 										{sio.isOpen && (
 											<>
+											{' '}
 												<span className="flashcardBack">
 													{sio.rawNote}
 												</span>
-												{sio.suffix}{" "}
 											</>
 										)}
+										{sio.suffix}{" "}
 									</span>
 								)}
 							</span>
