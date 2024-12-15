@@ -1,5 +1,4 @@
 import { DisplayMode, LanguageAbbreviation, SmartLine } from "../types";
-import { DevDisplayObject } from "./DevDisplayObject";
 
 interface IProps {
 	smartLine: SmartLine;
@@ -34,7 +33,7 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 										<span className="font-bold">
 											{sio.text}{" "}
 										</span>
-										<span className="font-mono bg-yellow-200">
+										<span className="font-mono text-xs bg-yellow-200">
 											({sio.rawNote})
 										</span>
 										{sio.suffix}{" "}
@@ -43,7 +42,6 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 							);
 						}
 					})}
-					<DevDisplayObject obj={smartLine.objects[lang]} />
 				</>
 			)}
 		</div>

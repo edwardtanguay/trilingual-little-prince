@@ -29,10 +29,11 @@ export const parseTextIntoSentenceItemObjects = (
 		);
 		const rawText = match[0];
 		sio.rawText = rawText;
-		if (rawText.startsWith("[") && rawText.endsWith("]")) {
+		parseAsSimple(sio);
+		if (sio.text.startsWith("[") && sio.text.endsWith("]")) {
 			parseAsDynamic(sio);
-		} else {
-			parseAsSimple(sio);
+			// } else {
+			// 	parseAsSimple(sio);
 		}
 		sios.push(sio);
 	}
@@ -41,7 +42,7 @@ export const parseTextIntoSentenceItemObjects = (
 
 // sio.rawText = "[leggera;pr=lay-JER-ah]"
 const parseAsDynamic = (sio: SentenceItemObject): void => {
-	const noBrackets = qstr.chopEnds(sio.rawText, "[", "]");
+	const noBrackets = qstr.chopEnds(sio.text, "[", "]");
 	const parts = qstr.breakIntoParts(noBrackets, ";");
 	const text = parts[0];
 	const rawNote = parts[1];
