@@ -22,14 +22,14 @@ export type SmartLine = {
 		fr: SentenceItemObject[];
 		sp: SentenceItemObject[];
 		it: SentenceItemObject[];
-	}
+	};
 };
 
 export type SmartBookChapterSummaries = {
 	fr: string;
 	sp: string;
 	it: string;
-}
+};
 
 export type SmartBookChapter = {
 	number: number;
@@ -119,18 +119,20 @@ export type RawChapterSummary = {
 	fr: string;
 	sp: string;
 	it: string;
-}
+};
 
 export type SentenceItemObject = {
 	kind: "simple" | "dynamic";
 	rawNote: string; // the note that can be parsed, e.g. for [house;Haus] it would be "Haus", but for [saggiamente; pr=sah-jaw-MEN-tay] it would be "pr=sah-jaw-MEN-tay" which will be further parsed
 	text: string; // "this" or "." or "Hello" etc.
 	isOpen: boolean;
-}
+};
 
-export const blankSentenceItemObject:SentenceItemObject = {
+export const blankSentenceItemObject: SentenceItemObject = {
 	kind: "simple",
 	rawNote: "",
 	text: "",
 	isOpen: false,
-}
+};
+
+export type LanguageAbbreviation = "fr" | "sp" | "it";

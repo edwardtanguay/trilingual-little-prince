@@ -1,13 +1,14 @@
-import { SmartLine } from "../types";
+import { LanguageAbbreviation, SmartLine } from "../types";
 
 interface IProps {
 	smartLine: SmartLine;
+	lang: LanguageAbbreviation;
 }
 
-export const DisplaySentence = ({ smartLine }: IProps) => {
+export const DisplaySentence = ({ smartLine, lang }: IProps) => {
 	return (
-		<>
-			<p>{smartLine.plainTexts.fr}</p>
-		</>
+		<div className={`lang-${lang}`}>
+			<p>{smartLine.plainTexts[lang]}</p>
+		</div>
 	);
 };

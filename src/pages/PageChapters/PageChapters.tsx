@@ -30,9 +30,15 @@ export const PageChapters = () => {
 					<fieldset className="border-slate-500 border rounded px-3 pt-1 pb-2 mb-3">
 						<legend className="smallcaps px-2">Summary</legend>
 						<div className="italic">
-						<div className="mb-2 lang-fr">{chapter.summaries.fr}</div>
-						<div className="mb-2 lang-sp">{chapter.summaries.sp}</div>
-						<div className="mb-2 lang-it">{chapter.summaries.it}</div>
+							<div className="mb-2 lang-fr">
+								{chapter.summaries.fr}
+							</div>
+							<div className="mb-2 lang-sp">
+								{chapter.summaries.sp}
+							</div>
+							<div className="mb-2 lang-it">
+								{chapter.summaries.it}
+							</div>
 						</div>
 					</fieldset>
 					{chapter.smartLines.map((smartLine, index) => {
@@ -42,15 +48,18 @@ export const PageChapters = () => {
 									{smartLine.number}
 								</div>
 								<div className="w-fit">
-									<div className="lang-fr">
-									<DisplaySentence smartLine={smartLine}/>
-									</div>
-									<div className="lang-sp">
-										{smartLine.plainTexts.sp}
-									</div>
-									<div className="lang-it">
-										{smartLine.plainTexts.it}
-									</div>
+									<DisplaySentence
+										smartLine={smartLine}
+										lang="fr"
+									/>
+									<DisplaySentence
+										smartLine={smartLine}
+										lang="sp"
+									/>
+									<DisplaySentence
+										smartLine={smartLine}
+										lang="it"
+									/>
 								</div>
 							</div>
 						);
