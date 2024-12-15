@@ -11,6 +11,17 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 		<div className={`lang-${lang}`}>
 			{displayMode === "raw" && <p>{smartLine.rawTexts[lang]}</p>}
 			{displayMode === "plain" && <p>{smartLine.plainTexts[lang]}</p>}
+			{displayMode === "objects" && (
+				<>
+					{smartLine.objects[lang].map((sio, index) => {
+						return (
+							<>
+								<span key={index}>nnn</span>{" "}
+							</>
+						);
+					})}
+				</>
+			)}
 		</div>
 	);
 };
