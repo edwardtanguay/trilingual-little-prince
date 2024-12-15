@@ -1,5 +1,6 @@
 import React from "react";
-import { DisplayMode, LanguageAbbreviation, SmartLine } from "../types";
+import { DisplayMode, LanguageAbbreviation, SmartLine } from "../../types";
+import "./styles.scss";
 
 interface IProps {
 	smartLine: SmartLine;
@@ -13,7 +14,7 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 			{displayMode === "raw" && <p>{smartLine.rawTexts[lang]}</p>}
 			{displayMode === "plain" && <p>{smartLine.plainTexts[lang]}</p>}
 			{displayMode === "objects" && (
-				<>
+				<span className="displaySentence">
 					{smartLine.objects[lang].map((sio, index) => {
 						if (sio.kind === "simple") {
 							return (
@@ -33,15 +34,15 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 									<span className="font-bold">
 										{sio.text}{" "}
 									</span>
-									<span className="font-mono text-xs bg-yellow-200">
-										({sio.rawNote})
+									<span className="flashcardHighlight">
+										{sio.rawNote}
 									</span>
 									{sio.suffix}{" "}
 								</span>
 							);
 						}
 					})}
-				</>
+				</span>
 			)}
 		</div>
 	);

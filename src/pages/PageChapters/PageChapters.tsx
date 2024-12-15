@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import * as qstr from "../../qtools/qstr";
 import "./styles.scss";
 import { ChapterNav } from "./ChapterNav";
-import { DisplaySentence } from "../../components/DisplaySentence";
+import { DisplaySentence } from "../../components/DisplaySentence/DisplaySentence";
 import * as config from "../../config";
 
 export const PageChapters = () => {
