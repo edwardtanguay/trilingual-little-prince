@@ -1260,6 +1260,26 @@
 		"back": "has it happened to you that while you are programming"
 	},
 	{
+		"front": "we must wait for the instruction to be fulfilled",
+		"back": "debemos esperar que la instrucción se cumple"
+	},
+	{
+		"front": "since the function only returns a dictionary",
+		"back": "puesto que la función solo retorna un diccionario; puesto = past participle of poner (irregular); conj=poner"
+	},
+	{
+		"front": "another may be being processed at the same time",
+		"back": "otra puede estar siendo procesada al mismo tiempo"
+	},
+	{
+		"front": "that has been created",
+		"back": "que a sido creada"
+	},
+	{
+		"front": "and therefore",
+		"back": "y por ende"
+	},
+	{
 		"front": "in which it is placed",
 		"back": "en el que se pone"
 	},
