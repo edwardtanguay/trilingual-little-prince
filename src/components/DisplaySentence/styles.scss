@@ -13,9 +13,9 @@ span.displaySentence.isOpen {
 
 span.displaySentence.isClosed {
 	.flashcardFront {
-		border-bottom: 1px dashed #777;
+		border-bottom: 1px dashed #555;
 		&:hover {
-			border-bottom: 1px dashed #333;
+			border-bottom: 1px solid #555;
 			cursor: pointer;
 		}
 	}
