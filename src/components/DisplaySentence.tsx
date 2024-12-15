@@ -37,7 +37,7 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 										<span className="font-mono bg-yellow-200">
 											({sio.rawNote})
 										</span>
-										{sio.suffix}
+										{sio.suffix}{" "}
 									</span>
 								</>
 							);

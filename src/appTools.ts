@@ -19,7 +19,8 @@ export const convertLineBlockToRawChapterSummary = (
 export const parseTextIntoSentenceItemObjects = (
 	line: string
 ): SentenceItemObject[] => {
-	const regex = /\[[^\]]+\]|[^\s]+/g;
+	// const regex = /\[[^\]]+\]|[^\s]+/g;
+	const regex = /[.,;:"'()]*\[[^\]]+\][.,;:"')]?|\S+/g;
 	const matches = line.matchAll(regex);
 	const sios: SentenceItemObject[] = [];
 	for (const match of matches) {
