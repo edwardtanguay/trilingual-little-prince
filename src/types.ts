@@ -138,7 +138,7 @@ export const blankSentenceItemObject: SentenceItemObject = {
 	text: "",
 	suffix: "",
 	rawNote: "",
-	isOpen: false,
+	isOpen: true,
 };
 
 export type LanguageAbbreviation = "fr" | "sp" | "it";
