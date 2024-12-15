@@ -13,5 +13,5 @@ export const pointsForRightAnswer = (): number => {
 };
 
 export const displayMode = (): DisplayMode => {
-	return "plain";
+	return "objects";
 };
