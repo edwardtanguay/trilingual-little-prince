@@ -29,6 +29,17 @@ export const chopLeft = (main: string, textToChop: string) => {
 	return main;
 };
 
+export const chopEnds = (
+	main: string,
+	textToLeftChop: string,
+	textToRightChop: string
+): string => {
+	let t = main;
+	t = qstr.chopLeft(t, textToLeftChop);
+	t = qstr.chopRight(t, textToRightChop);
+	return t;
+};
+
 export const convertStringBlockToLines = (
 	stringBlock: string,
 	trimLines = true

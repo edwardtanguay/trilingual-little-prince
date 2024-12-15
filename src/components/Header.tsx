@@ -1,9 +1,11 @@
 import { useTypedStoreState } from "../store/easy-peasy-hooks";
 import { Nav } from "./Nav";
-import * as qstr from '../qtools/qstr';
+import * as qstr from "../qtools/qstr";
 
 export const Header = () => {
-	const { user, userFullName } = useTypedStoreState((state) => state.flashcardModel);
+	const { user, userFullName } = useTypedStoreState(
+		(state) => state.flashcardModel
+	);
 
 	return (
 		<>
@@ -42,15 +44,17 @@ export const Header = () => {
 				</div>
 				<div className="hidden flex flex-col items-end">
 					<div className="flex gap-2">
-						<img
+						{/* <img
 							src={`images/users/${user.idCode}.jpg`}
 							className="w-[1.8rem] h-[1.8rem] rounded-full "
-						/>
+						/> */}
 						<p className="text-[1.2rem] text-slate-800">
 							{userFullName}
 						</p>
 					</div>
-					<p className="font-mono text-slate-700 text-[2.2rem] -mt-2">{qstr.showScore(user.totalScore)}</p>
+					<p className="font-mono text-slate-700 text-[2.2rem] -mt-2">
+						{qstr.showScore(user.totalScore)}
+					</p>
 				</div>
 			</div>
 			<Nav />

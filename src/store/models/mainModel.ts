@@ -2,12 +2,14 @@ import { Action, action, Thunk, thunk } from "easy-peasy";
 import {
 	RawChapterSummary,
 	RawLineItem,
+	SentenceItemObject,
 	SmartBook,
 	smartBookInitialValue,
 } from "../../types";
 import notes from "../../data/notes.triling.txt?raw";
 import chapterSummaryFileText from "../../data/chapterSummaries.chapsum.txt?raw";
 import * as qstr from "../../qtools/qstr";
+import * as appTools from "../../appTools";
 import { StoreModel } from "../store";
 import { convertLineBlockToRawChapterSummary } from "../../appTools";
 
@@ -22,6 +24,7 @@ export interface MainModel {
 	fillChapterSummaries: Action<this>;
 	fillSmartBookWithChapterRawLines: Action<this>;
 	fillRestOfSmartBook: Action<this>;
+	toggleSentenceState: Action<this, SentenceItemObject>;
 
 	// thunks
 	initialize: Thunk<this, void, void, StoreModel>;
@@ -121,6 +124,17 @@ export const mainModel: MainModel = {
 						sp: qstr.reduceRawTextToPlainText(spRawText),
 						it: qstr.reduceRawTextToPlainText(itRawText),
 					},
+					objects: {
+						fr: appTools.parseTextIntoSentenceItemObjects(
+							frRawText
+						),
+						sp: appTools.parseTextIntoSentenceItemObjects(
+							spRawText
+						),
+						it: appTools.parseTextIntoSentenceItemObjects(
+							itRawText
+						),
+					},
 				});
 			}
 		}
@@ -129,9 +143,14 @@ export const mainModel: MainModel = {
 		const lines = qstr.convertStringBlockToLines(chapterSummaryFileText);
 		const textBlocks = qstr.getTextBlocks(lines);
 		for (const textBlockLines of textBlocks) {
-			const rawChapterSummary = convertLineBlockToRawChapterSummary(textBlockLines);
+			const rawChapterSummary =
+				convertLineBlockToRawChapterSummary(textBlockLines);
 			state.rawChapterSummaries.push(rawChapterSummary);
 		}
+	}),
+	toggleSentenceState: action((state, sio) => {
+		sio.isOpen = !sio.isOpen;
+		state.smartBook = {...state.smartBook}
 	}),
 
 	// thunks
