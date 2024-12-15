@@ -16,7 +16,7 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 					{smartLine.objects[lang].map((sio, index) => {
 						return (
 							<>
-								<span key={index}>nnn</span>{" "}
+								<span key={index}>{sio.text}</span>{" "}
 							</>
 						);
 					})}
