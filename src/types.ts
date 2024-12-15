@@ -123,15 +123,21 @@ export type RawChapterSummary = {
 
 export type SentenceItemObject = {
 	kind: "simple" | "dynamic";
-	rawNote: string; // the note that can be parsed, e.g. for [house;Haus] it would be "Haus", but for [saggiamente; pr=sah-jaw-MEN-tay] it would be "pr=sah-jaw-MEN-tay" which will be further parsed
+	rawText: string;
+	prefix: string;
 	text: string; // "this" or "." or "Hello" etc.
+	suffix: string;
+	rawNote: string; // the note that can be parsed, e.g. for [house;Haus] it would be "Haus", but for [saggiamente; pr=sah-jaw-MEN-tay] it would be "pr=sah-jaw-MEN-tay" which will be further parsed
 	isOpen: boolean;
 };
 
 export const blankSentenceItemObject: SentenceItemObject = {
 	kind: "simple",
-	rawNote: "",
+	rawText: "",
+	prefix: "",
 	text: "",
+	suffix: "",
+	rawNote: "",
 	isOpen: false,
 };
 
