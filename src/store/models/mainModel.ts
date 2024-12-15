@@ -127,10 +127,10 @@ export const mainModel: MainModel = {
 							frRawText
 						),
 						sp: appTools.parseTextIntoSentenceItemObjects(
-							frRawText
+							spRawText
 						),
 						it: appTools.parseTextIntoSentenceItemObjects(
-							frRawText
+							itRawText
 						),
 					},
 				});

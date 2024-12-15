@@ -1,8 +1,12 @@
 Chapter 1
 
+This is a test. And [another;the note] test, that is a comma.
+sss
+iii
+
 Lorsque j’avais six ans j’ai vu, une fois, une magnifique image, dans un livre sur la [Forêt Vierge;primeval forest] qui s’appelait « [Histoires Vécues;True Stories] ».
 Cuando yo tenía seis años vi en el libro sobre la [selva;jungle] virgen: Historias vividas, una grandiosa [estampa;print].
-Un [tempo lontano;long time ago], quando [avevo;had] sei anni, in un libro [sulle;about] foreste primordiali, intitolato “[Storie vissute;stories lived] della natura”, [vidi; I saw] un magnifico disegno.
+Un [tempo lontano;long time ago], quando [avevo;had] sei anni, in un libro [sulle;about] foreste primordiali, intitolato "[Storie vissute;stories lived] della natura", [vidi; I saw] un magnifico disegno.
 
 Ça représentait un serpent boa qui avalait un fauve. 
 Representaba una serpiente boa comiéndose a una fiera.
@@ -13,11 +17,11 @@ He aquí la copia del dibujo.
 Eccovi la copia del disegno.
 
 On disait dans le livre : « Les serpents boas avalent leur proie tout entière, sans la mâcher.
-En el libro se afirmaba: “La serpiente boa se traga su presa entera, sin masticarla.
+En el libro se afirmaba: "La serpiente boa se traga su presa entera, sin masticarla.
 C'era scritto: "I boa ingoiano la loro preda tutta intera, senza masticarla. 
 
 Ensuite ils ne peuvent plus bouger et ils dorment pendant les six mois de leur digestion. »
-Luego, como no puede moverse, duerme durante los seis meses que dura su digestión”.
+Luego, como no puede moverse, duerme durante los seis meses que dura su digestión".
 Dopo di che non riescono più a muoversi e dormono durante i sei mesi che la digestione richiede".
 
 J’ai alors beaucoup réfléchi sur les aventures de la jungle et, à mon tour, j’ai réussi, avec un crayon de couleur, à tracer mon premier dessin.
@@ -34,7 +38,7 @@ Mostrai il mio capolavoro alle persone grandi, domandando se il disegno li spave
 
 Elles m’ont répondu : « Pourquoi un chapeau ferait-il peur ? »
 –¿Por qué habría de asustarme un sombrero? –me respondieron.
-Ma mi risposero: “ Spaventare? perché mai, uno dovrebbe essere spaventato da un cappello?”
+Ma mi risposero: " Spaventare? perché mai, uno dovrebbe essere spaventato da un cappello?"
 
 Mon dessin ne représentait pas un chapeau. 
 Mi dibujo no era un sombrero. 
@@ -106,7 +110,7 @@ Quando ne incontravo uno che mi sembrava di mente aperta, tentavo l’esperiment
 
 Je voulais savoir si elle était vraiment compréhensive. Mais toujours elle me répondait : « C’est un chapeau. »
 Quería saber si era verdaderamente un ser comprensivo pero siempre contestaban: "Es un sombrero".
-Cercavo di capire così se era veramente una persona comprensiva. Ma, chiunque fosse, uomo o donna, mi rispondeva: “è un cappello”.
+Cercavo di capire così se era veramente una persona comprensiva. Ma, chiunque fosse, uomo o donna, mi rispondeva: "è un cappello".
 
 Alors je ne lui parlais ni de serpents boas, ni de forêts vierges, ni d’étoiles.
 Me abstenía entonces de hablarles de la serpiente boa, de la selva virgen y de las estrellas. 
@@ -148,7 +152,7 @@ Potete immaginare il mio stupore di essere svegliato all’alba da una strana vo
 
 – S’il vous plaît... dessine-moi un mouton !  – Hein !  – Dessine-moi un mouton...
 –¡Por favor... píntame un cordero!  –¿Eh?  –¡Píntame un cordero!
-“Mi disegni, per favore, una pecora?” “Cosa?” “Disegnami una pecora”.
+"Mi disegni, per favore, una pecora?" "Cosa?" "Disegnami una pecora".
 
 J’ai sauté sur mes pieds comme [si j’avais été frappé par la foudre;if i had been struck by lightning]. J’ai bien frotté mes yeux. J’ai bien regardé.
 Me puse en pie [de un brinco;in one leap] y [frotándome los ojos;rubbing my eyes] miré a mí alrededor.
@@ -184,7 +188,7 @@ Quando finalmente potei parlare gli domandai:
 
 – Mais... qu’est-ce que tu fais là ?  Et il me répéta alors, tout doucement, comme une chose très sérieuse : – S’il vous plaît... dessine-moi un mouton...
 –Pero... ¿qué haces tú aquí?  Y él repitió suave y lentamente, como algo muy importante: –¡Por favor... píntame un cordero!
-“Ma che cosa fai qui?” Con tutta risposta, egli ripeté lentamente come si trattasse di cosa di molta importanza: “Per piacere, disegnami una pecora…”
+"Ma che cosa fai qui?" Con tutta risposta, egli ripeté lentamente come si trattasse di cosa di molta importanza: "Per piacere, disegnami una pecora…"
 
 Quand le mystère est trop impressionnant, on n’ose pas désobéir. 
 Cuando el misterio es tan impresionante, uno no se atreve a contravenir.
@@ -200,7 +204,7 @@ Ma poi ricordai che i miei studi si erano concentrati sulla geografia, sulla sto
 
 Il me répondit : – Ça ne fait rien. Dessine-moi un mouton.
 –No importa, ¡Píntame un cordero!
-Mi rispose: “Non importa. Disegnami una pecora…”
+Mi rispose: "Non importa. Disegnami una pecora…"
 
 Comme je n’avais jamais dessiné un mouton je refis, pour lui, l’un des deux seuls dessins dont j’étais capable. Celui du boa fermé. Et je fus stupéfait d’entendre le petit bonhomme me répondre :
 Como nunca había dibujado un cordero, repetí uno de los dos únicos dibujos que era capaz de realizar: el de la boa cerrada. Y quedé absorto al oírle decir:
@@ -208,7 +212,7 @@ Non avevo mai disegnato una pecora e allora feci per lui uno di quei disegni che
 
 – Non ! Non ! Je ne veux pas d’un éléphant dans un boa.
 –¡No, no! No quiero un elefante dentro de una serpiente.
-“No, no, no! Non voglio l’elefante dentro il boa.
+"No, no, no! Non voglio l’elefante dentro il boa.
 
 Un boa c’est très dangereux, et un éléphant c’est très [encombrant;cumbersome]. 
 La serpiente es muy peligrosa y el elefante ocupa mucho sitio.
@@ -216,19 +220,19 @@ Il boa è molto pericoloso e l’elefante molto ingombrante.
 
 Chez moi c’est tout petit. J’ai besoin d’un mouton. Dessine-moi un mouton.
 En mi tierra todo es muy pequeñito. Necesito un cordero.
-Dove vivo io tutto è molto piccolo. Ho bisogno di una pecora: disegnami una pecora”.
+Dove vivo io tutto è molto piccolo. Ho bisogno di una pecora: disegnami una pecora".
 
 Alors j’ai dessiné.  Il regarda attentivement, puis : – Non ! Celui-là est déjà très malade. Fais-en un autre.
 ¡Por favor, píntame un cordero! Dibujé un cordero. Lo miró atentamente y dijo: –Éste está muy enfermo. Por favor haz otro.
-Feci il disegno.Lo guardò attentamente, e poi disse: “No! Questa pecora è malaticcia. Fammene un’altra”.
+Feci il disegno.Lo guardò attentamente, e poi disse: "No! Questa pecora è malaticcia. Fammene un’altra".
 
 Je dessinai : Mon ami sourit gentiment, avec indulgence : – Tu vois bien… ce n’est pas un mouton, c’est un bélier. Il a des cornes…
 Volví a dibujar.  Mi amigo sonrió gentilmente, con indulgencia, y dijo: –¿Ves? Esto no es un cordero, es un carnero. Tiene cuernos…
-Feci un altro disegno. Il mio amico mi sorrise gentilmente, con indulgenza. “Lo puoi vedere da te”, disse, “che questa non è una pecora. è un ariete. Ha le corna”.
+Feci un altro disegno. Il mio amico mi sorrise gentilmente, con indulgenza. "Lo puoi vedere da te", disse, "che questa non è una pecora. è un ariete. Ha le corna".
 
 [Je refis;I redid] donc encore mon dessin : Mais il fut refusé, comme les précédents : – Celui-là est trop vieux. Je veux un mouton qui vive longtemps
 Realice nuevamente otro dibujo y también fue rechazado como los anteriores.  –Es demasiado viejo. Quiero un cordero que viva mucho tiempo.
-Rifeci il disegno una terza volta, ma fu rifiutato come i precedenti.  “Questa è troppo vecchia. Voglio una pecora che possa vivere a lungo”.
+Rifeci il disegno una terza volta, ma fu rifiutato come i precedenti.  "Questa è troppo vecchia. Voglio una pecora che possa vivere a lungo".
 
 Alors, faute de patience, comme [j’avais hâte de commencer;I was eager to start] le démontage de mon moteur, [je griffonnai;I scribbled] ce dessin-ci. Et je lançai :
 Ya impaciente y deseoso de comenzar a desmontar el motor, tracé rápidamente este dibujo, se lo enseñé, y dije:
@@ -236,7 +240,7 @@ Questa volta la mia pazienza era esaurita, avevo fretta di rimettere a posto il 
 
 – Ça c’est la caisse. Le mouton que tu veux est dedans.
 –Esta es la caja. El cordero que quieres está adentro.
-“Questa è soltanto la sua cassetta. La pecora che volevi sta dentro”.
+"Questa è soltanto la sua cassetta. La pecora che volevi sta dentro".
 
 Mais je fus bien surpris de voir s’illuminer le visage de mon jeune juge :
 Me sorprendí al ver iluminado el rostro de mi joven juez:
@@ -244,15 +248,15 @@ Fui molto sorpreso di vedere il viso del mio piccolo giudice illuminarsi.
 
 – C’est tout à fait comme ça que je le voulais ! Crois-tu qu’il faille beaucoup d’herbe à ce mouton ?
 –¡Oh, es exactamente como yo lo quería! ¿Crees que se necesite mucha hierba para este cordero?
-“Questo è proprio quello che volevo. Pensi che questa pecora dovrà avere una gran quantità d’erba?”
+"Questo è proprio quello che volevo. Pensi che questa pecora dovrà avere una gran quantità d’erba?"
 
 – Pourquoi ?  – Parce que chez moi c’est tout petit… – Ça suffira sûrement. Je t’ai donné un tout petit mouton.
 –¿Por qué?  –Porque en mi tierra todo es muy pequeño… –Será suficiente. El corderito que te he dado también es pequeño.
-“Perché?” “Perché dove vivo io, tutto è molto piccolo…” “Ci sarà certamente abbastanza erba per lei, è molto piccola la pecora che ti ho data”.
+"Perché?" "Perché dove vivo io, tutto è molto piccolo…" "Ci sarà certamente abbastanza erba per lei, è molto piccola la pecora che ti ho data".
 
 [Il pencha la tête;he tilted his head] vers le dessin : – Pas si petit que ça... Tiens ! Il s’est endormi... 
 Se inclinó hacia el dibujo y exclamó: –¡Bueno, no tanto...! ¡Ah, se ha quedado dormido!
-Si chinò sul disegno: “Non così piccola che – oh, guarda! – si è messa a dormire…”
+Si chinò sul disegno: "Non così piccola che – oh, guarda! – si è messa a dormire…"
 
 Et c’est ainsi que je fis la connaissance du petit prince.
 Y así fue como conocí al principito.
@@ -278,7 +282,7 @@ Così, quando vide per la prima volta il mio aeroplano (non lo disegnerò perch�
 
 – Qu’est-ce que c’est que cette chose-là ?
 –¿Qué cosa es esa?
-“Che cos'è questa cosa?”
+"Che cos'è questa cosa?"
 
 – Ce n’est pas une chose. Ça vole. C’est un avion. C’est mon avion.
 –Esa no es una cosa. Es un avión, vuela. Es mi avión.
@@ -419,7 +423,7 @@ Si a una persona mayor le decimos: "Hay una casa preciosa de ladrillos rosas, co
 Se voi dite ai grandi: "Ho visto una bella casa in mattoni rosa, con dei gerani alle finestre, e dei colombi sul tetto"" loro non arrivano a immaginarsela. Bisogna dire: "Ho visto una casa di centomila lire", e allora esclamano: "Com'è bella".
 
 Ainsi, si vous leur dites : « La preuve que le petit prince a existé c’est qu’il était ravissant, qu’il riait, et qu’il voulait un mouton. Quand on veut un mouton, c’est la preuve qu’on existe » elles hausseront les épaules et vous traiteront d’enfant !
-Si les decimos: "La prueba de que el principito ha existido es que reía, era encantador y quería un cordero”. No lo entienden ni lo creen, aunque “querer un cordero” sea una prueba irrebatible de existencia; las personas mayores se encogerán de hombros y nos dirán que nos comportamos como niños.
+Si les decimos: "La prueba de que el principito ha existido es que reía, era encantador y quería un cordero". No lo entienden ni lo creen, aunque "querer un cordero" sea una prueba irrebatible de existencia; las personas mayores se encogerán de hombros y nos dirán que nos comportamos como niños.
 Così se voi gli dite: "La prova che il piccolo principe è esistito, sta nel fatto che era bellissimo, che rideva e che voleva una pecora. Quando uno vuole una pecora è la prova che esiste".
 
 Mais si vous leur dites : « La planète d’où il venait est l’astéroïde B 612 » alors elles seront convaincues, et elles vous laisseront tranquille avec leurs questions. 

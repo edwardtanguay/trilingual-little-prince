@@ -5,7 +5,6 @@ import "./styles.scss";
 import { ChapterNav } from "./ChapterNav";
 import { DisplaySentence } from "../../components/DisplaySentence";
 import * as config from "../../config";
-import { DevDisplayObject } from "../../components/DevDisplayObject";
 
 export const PageChapters = () => {
 	const { smartBook } = useTypedStoreState((state) => state.mainModel);
@@ -29,7 +28,6 @@ export const PageChapters = () => {
 					<h2 className="text-2xl mb-3 mt-3">
 						CHAPTER {chapter.number}
 					</h2>
-					<DevDisplayObject obj={smartBook} />
 					<fieldset className="border-slate-500 border rounded px-3 pt-1 pb-2 mb-3">
 						<legend className="smallcaps px-2">Summary</legend>
 						<div className="italic">
