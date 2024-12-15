@@ -1,3 +1,4 @@
+import { blankSentenceItemObject, SentenceItemObject } from "../types";
 import * as qstr from "./qstr";
 
 /**
@@ -721,4 +722,29 @@ export const getTextBlocks = (lines: string[]): string[][] => {
 	}
 
 	return blocks;
+};
+
+export const parseTextIntoSentenceItemObjects = (
+	line: string
+): SentenceItemObject[] => {
+	const regex = /\[([^;]+);([^\]]+)\]|\w+|[^\s\w]/g;
+	const matches = line.matchAll(regex);
+	const sios = [];
+	for (const match of matches) {
+		const sio: SentenceItemObject = structuredClone(
+			blankSentenceItemObject
+		);
+		const rawText = match[0];
+		const dynamicText = match[1];
+		const dynamicNote = match[2];
+		if (dynamicText) {
+			sio.kind = "dynamic";
+			sio.text = dynamicText;
+			sio.rawNote = dynamicNote;
+		} else {
+			sio.text = rawText;
+		}
+		sios.push(sio);
+	}
+	return sios;
 };
