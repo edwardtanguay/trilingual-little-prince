@@ -116,9 +116,16 @@ export const blankUser = {
 
 export type ChapterSummary = {
 	chapterNumber: number;
-	fr: string;
-	sp: string;
-	it: string;
+	rawTexts: {
+		fr: string;
+		sp: string;
+		it: string;
+	};
+	objects: {
+		fr: SentenceItemObject[];
+		sp: SentenceItemObject[];
+		it: SentenceItemObject[];
+	};
 };
 
 export type SentenceItemObject = {

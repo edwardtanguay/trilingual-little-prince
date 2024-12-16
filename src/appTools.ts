@@ -10,9 +10,16 @@ export const convertLineBlockToChapterSummary = (
 ): ChapterSummary => {
 	return {
 		chapterNumber: Number(lines[0]),
-		fr: lines[2],
-		sp: lines[4],
-		it: lines[6],
+		rawTexts: {
+			fr: lines[2],
+			sp: lines[4],
+			it: lines[6],
+		},
+		objects: {
+			fr: [],
+			sp: [],
+			it: [],
+		},
 	};
 };
 

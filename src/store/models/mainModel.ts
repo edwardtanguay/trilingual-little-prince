@@ -83,9 +83,9 @@ export const mainModel: MainModel = {
 						(m) => m.chapterNumber === currentChapterNumber
 					);
 					if (chapterSummary) {
-						fr = chapterSummary.fr;
-						sp = chapterSummary.sp;
-						it = chapterSummary.it;
+						fr = chapterSummary.rawTexts.fr;
+						sp = chapterSummary.rawTexts.sp;
+						it = chapterSummary.rawTexts.it;
 					}
 					state.smartBook.chapters.push({
 						number: currentChapterNumber,
