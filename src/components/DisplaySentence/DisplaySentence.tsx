@@ -3,14 +3,13 @@ import {
 	DisplayMode,
 	LanguageAbbreviation,
 	SentenceItemObject,
-	SmartBookChapterSummary,
 	SmartLine,
 } from "../../types";
 import "./styles.scss";
 import { useTypedStoreActions } from "../../store/easy-peasy-hooks";
 
 interface IProps {
-	smartLine: SmartLine | SmartBookChapterSummary;
+	smartLine: SmartLine;
 	lang: LanguageAbbreviation;
 	displayMode: DisplayMode;
 }

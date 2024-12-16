@@ -90,10 +90,16 @@ export const mainModel: MainModel = {
 					state.smartBook.chapters.push({
 						number: currentChapterNumber,
 						summaries: {
+							number: 0,
 							rawTexts: {
 								fr,
 								sp,
 								it,
+							},
+							plainTexts: {
+								fr: "",
+								sp: "",
+								it: "",
 							},
 							objects: {
 								fr: appTools.parseTextIntoSentenceItemObjects(
