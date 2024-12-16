@@ -26,9 +26,16 @@ export type SmartLine = {
 };
 
 export type SmartBookChapterSummary = {
-	fr: string;
-	sp: string;
-	it: string;
+	rawTexts: {
+		fr: string;
+		sp: string;
+		it: string;
+	};
+	objects: {
+		fr: SentenceItemObject[];
+		sp: SentenceItemObject[];
+		it: SentenceItemObject[];
+	}
 };
 
 export type SmartBookChapter = {

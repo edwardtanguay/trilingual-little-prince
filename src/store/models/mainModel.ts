@@ -90,9 +90,16 @@ export const mainModel: MainModel = {
 					state.smartBook.chapters.push({
 						number: currentChapterNumber,
 						summaries: {
-							fr,
-							sp,
-							it,
+							rawTexts: {
+								fr,
+								sp,
+								it,
+							},
+							objects: {
+								fr: [],
+								sp: [],
+								it: [],
+							},
 						},
 						smartLines: [],
 						rawLineItems: [...rawLineItems],
@@ -150,7 +157,7 @@ export const mainModel: MainModel = {
 	}),
 	toggleSentenceState: action((state, sio) => {
 		sio.isOpen = !sio.isOpen;
-		state.smartBook = {...state.smartBook}
+		state.smartBook = { ...state.smartBook };
 	}),
 
 	// thunks
