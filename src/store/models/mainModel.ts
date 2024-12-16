@@ -96,9 +96,15 @@ export const mainModel: MainModel = {
 								it,
 							},
 							objects: {
-								fr: [],
-								sp: [],
-								it: [],
+								fr: appTools.parseTextIntoSentenceItemObjects(
+									fr
+								),
+								sp: appTools.parseTextIntoSentenceItemObjects(
+									sp
+								),
+								it: appTools.parseTextIntoSentenceItemObjects(
+									it
+								),
 							},
 						},
 						smartLines: [],
