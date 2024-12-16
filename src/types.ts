@@ -114,7 +114,7 @@ export const blankUser = {
 	flashcardHistory: {},
 };
 
-export type RawChapterSummary = {
+export type ChapterSummary = {
 	chapterNumber: number;
 	fr: string;
 	sp: string;

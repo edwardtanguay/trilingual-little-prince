@@ -1,13 +1,13 @@
 import {
 	blankSentenceItemObject,
-	RawChapterSummary,
+	ChapterSummary,
 	SentenceItemObject,
 } from "./types";
 import * as qstr from "./qtools/qstr";
 
-export const convertLineBlockToRawChapterSummary = (
+export const convertLineBlockToChapterSummary = (
 	lines: string[]
-): RawChapterSummary => {
+): ChapterSummary => {
 	return {
 		chapterNumber: Number(lines[0]),
 		fr: lines[2],

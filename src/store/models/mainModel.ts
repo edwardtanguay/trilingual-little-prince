@@ -1,6 +1,6 @@
 import { Action, action, Thunk, thunk } from "easy-peasy";
 import {
-	RawChapterSummary,
+	ChapterSummary,
 	RawLineItem,
 	SentenceItemObject,
 	SmartBook,
@@ -11,13 +11,13 @@ import chapterSummaryFileText from "../../data/chapterSummaries.chapsum.txt?raw"
 import * as qstr from "../../qtools/qstr";
 import * as appTools from "../../appTools";
 import { StoreModel } from "../store";
-import { convertLineBlockToRawChapterSummary } from "../../appTools";
+import { convertLineBlockToChapterSummary } from "../../appTools";
 
 export interface MainModel {
 	// state
 	rawLineItems: RawLineItem[];
 	smartBook: SmartBook;
-	rawChapterSummaries: RawChapterSummary[];
+	chapterSummaries: ChapterSummary[];
 
 	// actions
 	buildRawLineItems: Action<this>;
@@ -34,7 +34,7 @@ export const mainModel: MainModel = {
 	// state
 	rawLineItems: [],
 	smartBook: smartBookInitialValue,
-	rawChapterSummaries: [],
+	chapterSummaries: [],
 
 	// actions
 	buildRawLineItems: action((state) => {
@@ -79,13 +79,13 @@ export const mainModel: MainModel = {
 					let fr = "";
 					let sp = "";
 					let it = "";
-					const rawChapterSummary = state.rawChapterSummaries.find(
+					const chapterSummary = state.chapterSummaries.find(
 						(m) => m.chapterNumber === currentChapterNumber
 					);
-					if (rawChapterSummary) {
-						fr = rawChapterSummary.fr;
-						sp = rawChapterSummary.sp;
-						it = rawChapterSummary.it;
+					if (chapterSummary) {
+						fr = chapterSummary.fr;
+						sp = chapterSummary.sp;
+						it = chapterSummary.it;
 					}
 					state.smartBook.chapters.push({
 						number: currentChapterNumber,
@@ -143,14 +143,14 @@ export const mainModel: MainModel = {
 		const lines = qstr.convertStringBlockToLines(chapterSummaryFileText);
 		const textBlocks = qstr.getTextBlocks(lines);
 		for (const textBlockLines of textBlocks) {
-			const rawChapterSummary =
-				convertLineBlockToRawChapterSummary(textBlockLines);
-			state.rawChapterSummaries.push(rawChapterSummary);
+			const chapterSummary =
+				convertLineBlockToChapterSummary(textBlockLines);
+			state.chapterSummaries.push(chapterSummary);
 		}
 	}),
 	toggleSentenceState: action((state, sio) => {
 		sio.isOpen = !sio.isOpen;
-		state.smartBook = {...state.smartBook}
+		state.smartBook = { ...state.smartBook };
 	}),
 
 	// thunks
