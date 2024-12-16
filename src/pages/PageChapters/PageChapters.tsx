@@ -32,7 +32,11 @@ export const PageChapters = () => {
 						<legend className="smallcaps px-2">Summary</legend>
 						<div className="italic">
 							<div className="mb-2 lang-fr">
-								{chapter.summaries.rawTexts.fr}
+								<DisplaySentence
+									smartLine={chapter.summaries}
+									lang="fr"
+									displayMode={config.displayMode()}
+								/>
 							</div>
 							<div className="mb-2 lang-sp">
 								{chapter.summaries.rawTexts.sp}
