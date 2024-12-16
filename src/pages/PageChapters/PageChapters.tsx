@@ -31,7 +31,7 @@ export const PageChapters = () => {
 					<fieldset className="border-slate-500 border rounded px-3 pt-1 pb-2 mb-3">
 						<legend className="smallcaps px-2">Summary</legend>
 						<div className="italic">
-							<div className="mb-2 lang-fr">
+							<div className="mb-2">
 								<DisplaySentence
 									smartLine={chapter.summaries}
 									lang="fr"
@@ -39,10 +39,18 @@ export const PageChapters = () => {
 								/>
 							</div>
 							<div className="mb-2 lang-sp">
-								{chapter.summaries.rawTexts.sp}
+								<DisplaySentence
+									smartLine={chapter.summaries}
+									lang="sp"
+									displayMode={config.displayMode()}
+								/>
 							</div>
 							<div className="mb-2 lang-it">
-								{chapter.summaries.rawTexts.it}
+								<DisplaySentence
+									smartLine={chapter.summaries}
+									lang="it"
+									displayMode={config.displayMode()}
+								/>
 							</div>
 						</div>
 					</fieldset>
