@@ -1260,6 +1260,14 @@
 		"back": "has it happened to you that while you are programming"
 	},
 	{
+		"front": "since what we want to see is how it works",
+		"back": "puesto que lo que queremos ver es su funcionamiento"
+	},
+	{
+		"front": "the function is going to be called",
+		"back": "la función se va a llamar"
+	},
+	{
 		"front": "we must wait for the instruction to be fulfilled",
 		"back": "debemos esperar que la instrucción se cumple"
 	},

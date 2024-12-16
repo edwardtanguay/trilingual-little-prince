@@ -59,8 +59,15 @@ export const DisplaySentence = ({ smartLine, lang, displayMode }: IProps) => {
 										</span>
 										{sio.isOpen && (
 											<>
-											{' '}
-												<span className="flashcardBack">
+												{" "}
+												<span
+													onClick={() =>
+														handleFlashcardToggle(
+															sio
+														)
+													}
+													className="flashcardBack"
+												>
 													{sio.rawNote}
 												</span>
 											</>

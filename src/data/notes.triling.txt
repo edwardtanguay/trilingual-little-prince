@@ -492,9 +492,9 @@ Può darsi che io sia un po' come i grandi. Devo essere invecchiato.
 
 Chapter 5
 
-Chaque jour j’apprenais quelque chose sur la planète, sur le départ, sur le voyage. Ça venait tout doucement, au hasard des réflexions. 
-Cada día, lentamente y al azar de las reflexiones, aprendía algo nuevo sobre el planeta, sobre la partida y sobre el viaje del principito. 
-Ogni giorno imparavo qualche cosa sul pianeta, sulla partenza, sul viaggio. Veniva da sé, per qualche riflessione.
+Chaque jour j’apprenais quelque chose sur la planète, sur le départ, sur le voyage. Ça venait tout [doucement;slowly], au hasard des réflexions. 
+Cada día, lentamente y [al azar;random] de las reflexiones, aprendía algo nuevo sobre el planeta, sobre la partida y sobre el viaje del principito. 
+Ogni giorno [imparavo qualche cosa;I was learning something] sul pianeta, sulla partenza, sul viaggio. [Veniva da sé;It came by itself], per qualche riflessione.
 
 C’est ainsi que, le troisième jour, je connus le drame des baobabs.
 Fue así como, al tercer día, conocí el drama de los baobabs.
