@@ -25,7 +25,7 @@ export type SmartLine = {
 	};
 };
 
-export type SmartBookChapterSummaries = {
+export type SmartBookChapterSummary = {
 	fr: string;
 	sp: string;
 	it: string;
@@ -33,7 +33,7 @@ export type SmartBookChapterSummaries = {
 
 export type SmartBookChapter = {
 	number: number;
-	summaries: SmartBookChapterSummaries;
+	summaries: SmartBookChapterSummary;
 	smartLines: SmartLine[];
 	rawLineItems: RawLineItem[];
 };
