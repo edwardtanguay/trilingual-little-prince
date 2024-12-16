@@ -90,9 +90,28 @@ export const mainModel: MainModel = {
 					state.smartBook.chapters.push({
 						number: currentChapterNumber,
 						summaries: {
-							fr,
-							sp,
-							it,
+							number: 0,
+							rawTexts: {
+								fr,
+								sp,
+								it,
+							},
+							plainTexts: {
+								fr: "",
+								sp: "",
+								it: "",
+							},
+							objects: {
+								fr: appTools.parseTextIntoSentenceItemObjects(
+									fr
+								),
+								sp: appTools.parseTextIntoSentenceItemObjects(
+									sp
+								),
+								it: appTools.parseTextIntoSentenceItemObjects(
+									it
+								),
+							},
 						},
 						smartLines: [],
 						rawLineItems: [...rawLineItems],
@@ -150,7 +169,7 @@ export const mainModel: MainModel = {
 	}),
 	toggleSentenceState: action((state, sio) => {
 		sio.isOpen = !sio.isOpen;
-		state.smartBook = {...state.smartBook}
+		state.smartBook = { ...state.smartBook };
 	}),
 
 	// thunks

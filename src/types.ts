@@ -25,15 +25,9 @@ export type SmartLine = {
 	};
 };
 
-export type SmartBookChapterSummaries = {
-	fr: string;
-	sp: string;
-	it: string;
-};
-
 export type SmartBookChapter = {
 	number: number;
-	summaries: SmartBookChapterSummaries;
+	summaries: SmartLine;
 	smartLines: SmartLine[];
 	rawLineItems: RawLineItem[];
 };
