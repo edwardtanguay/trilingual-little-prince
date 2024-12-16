@@ -497,10 +497,10 @@ Cada día, lentamente y [al azar;random] de las reflexiones, aprendía algo nuev
 Ogni giorno [imparavo qualche cosa;I was learning something] sul pianeta, sulla partenza, sul viaggio. [Veniva da sé;It came by itself], per qualche riflessione.
 
 C’est ainsi que, le troisième jour, je connus le drame des baobabs.
-Fue así como, al tercer día, conocí el drama de los baobabs.
+[Fue así como;That's how it was], al tercer día, conocí el drama de los baobabs.
 Fu così che al terzo giorno conobbi il dramma dei baobab.
 
-Cette fois-ci encore ce fut grâce au mouton, car brusquement le petit prince m’interrogea, comme pris d’un doute grave :
+Cette fois-ci encore ce fut grâce au mouton, car brusquement le petit prince m’interrogea, [comme pris d’un doute grave; as if seized by a serious doubt] :
 Fue también por el cordero y preocupado por una profunda duda, cuando el principito me preguntó:
 Anche questa volta fu merito della pecora, perché bruscamente il piccolo principe mi interrogò, come preso da un grave dubbio:
 
@@ -509,7 +509,7 @@ Anche questa volta fu merito della pecora, perché bruscamente il piccolo princi
 "È proprio vero che le pecore mangiano gli arbusti?" "Si, è vero".  "Ah! Sono contento".
 
 Je ne compris pas pourquoi il était si important que les moutons mangeassent les arbustes.
-No comprendí qué importancia tenía para él que los corderos se [comieran;preterite;conj=comer] los arbustos.
+No comprendí qué importancia tenía para él que los corderos se [comieran;preterite of comer;conj=comer] los arbustos.
 Non capii perché era così importante che le pecore mangiassero gli arbusti.
 
 Mais le petit prince ajouta : – Par conséquent ils mangent aussi les baobabs ?
@@ -521,8 +521,8 @@ Le hice comprender que los baobabs no son arbustos, sino árboles tan grandes co
 Feci osservare al piccolo principe che i baobab non sono degli arbusti, ma degli alberi grandi come chiese e che se anche non avesse portato con sé una mandria di elefanti, non sarebbe venuto a capo di un solo baobab.
 
 L’idée du troupeau d’éléphants fit rire le petit prince : – Il faudrait les mettre les uns sur les autres…
-Esto del rebaño de elefantes hizo reír mucho al principito.  –Habría que ponerlos unos sobre otros…
-L'idea della mandria di elefanti fece ridere il piccolo principe: "Bisognerebbe metterli gli uni su gli altri..."
+Esto del rebaño de elefantes [hizo reír mucho al principito;made the little prince laugh a lot].  –Habría que ponerlos unos sobre otros…
+L'idea della [mandria di elefanti;a herd of elephants] fece ridere il piccolo principe: "Bisognerebbe metterli gli uni su gli altri..."
 
 Mais il remarqua avec sagesse : – Les baobabs, avant de grandir, ça commence par être petit.
 Y luego [añadió; añadir, regular; conj=añadir] juiciosamente: –Los baobabs comienzan por ser muy pequeñitos.
