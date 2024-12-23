@@ -1,1930 +1,3915 @@
 [
 	{
+		"language": "es",
 		"front": "GitLab provides us with some variables",
-		"back": "GitLab nos proporciona algunas variables"
+		"back": "GitLab nos proporciona algunas variables",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "we will return to our project",
-		"back": "volveremos a nuestro proyecto"
+		"back": "volveremos a nuestro proyecto",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "for everything else",
-		"back": "para todo lo demás"
+		"back": "para todo lo demás",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "I saved that earlier",
-		"back": "lo guardé antes"
+		"back": "lo guardé antes",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "it's right here",
-		"back": "está justo aquí"
+		"back": "está justo aquí",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "we need to allow the user to upload files",
-		"back": "necesitamos permitir al usuario cargar archivos"
+		"back": "necesitamos permitir al usuario cargar archivos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "we will need to add some permissions",
-		"back": "necesitaremos agregar algunos permisos"
+		"back": "necesitaremos agregar algunos permisos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "and we will have to check this box",
-		"back": "y tendremos que marcar esta casilla"
+		"back": "y tendremos que marcar esta casilla",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "and then scroll down and then back up",
-		"back": "y luego desplácese hacia abajo y luego hacia arriba"
+		"back": "y luego desplácese hacia abajo y luego hacia arriba",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "you can repeat the steps",
-		"back": "puedes repetir los pasos"
+		"back": "puedes repetir los pasos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "you'll want to copy this password",
-		"back": "querrás copiar esta contraseña"
+		"back": "querrás copiar esta contraseña",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "you will have to regenerate it",
-		"back": "tendrás de regenerarlo"
+		"back": "tendrás de regenerarlo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "make sure you save them because otherwise you will lose them",
-		"back": "asegúrate de guardarlos porque de lo contrario los perderás"
+		"back": "asegúrate de guardarlos porque de lo contrario los perderás",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "I am going to use it to paste some text into the input box",
-		"back": "voy a usarlo para pegar algo de texto en el cuadro de entrada"
+		"back": "voy a usarlo para pegar algo de texto en el cuadro de entrada",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "just follow exactly what I do and you should be fine",
-		"back": "solo sigue exactamente lo que hago y deberías estar bien"
+		"back": "solo sigue exactamente lo que hago y deberías estar bien",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "we didn't do anything with it",
-		"back": "no hicimos nada con él"
+		"back": "no hicimos nada con él",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "and I will delete some of these comments",
-		"back": "y borraré algunos de estos comentarios"
+		"back": "y borraré algunos de estos comentarios",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "it may be tempting to create",
-		"back": "puede ser tentador crear"
+		"back": "puede ser tentador crear",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "let's go back",
-		"back": "regresemos"
+		"back": "regresemos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "I got to this page by browsing",
-		"back": "llegué a esta página navegando"
+		"back": "llegué a esta página navegando",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "so we can move on",
-		"back": "así que podemos seguir adelante"
+		"back": "así que podemos seguir adelante",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "something starts to happen",
-		"back": "algo comienza a suceder"
+		"back": "algo comienza a suceder",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "below the image",
-		"back": "debajo de la imagen"
+		"back": "debajo de la imagen",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "so let's take a look",
-		"back": "así que echemos un vistazo"
+		"back": "así que echemos un vistazo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "that investment will pay for itself many times over",
-		"back": "esa inversión amortizará muchos veces"
+		"back": "esa inversión amortizará muchos veces",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "it would be nice to find out",
-		"back": "sería bueno averiguarlo"
+		"back": "sería bueno averiguarlo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "the next level",
-		"back": "el siguiente nivel"
+		"back": "el siguiente nivel",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "each layer of testing",
-		"back": "cada capa de prueba"
+		"back": "cada capa de prueba",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "if you have ever seen a documentary",
-		"back": "si alguna vez has visto un documental"
+		"back": "si alguna vez has visto un documental",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "it's pretty easy to find out",
-		"back": "es bastante fácil averiguar"
+		"back": "es bastante fácil averiguar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "due to the delta",
-		"back": "debido al delta"
+		"back": "debido al delta",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "both approaches",
-		"back": "ambos enfoques"
+		"back": "ambos enfoques",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "pr. 1930",
-		"back": "meel NOH-vay see-EN-troh TRAYN-tah"
+		"back": "meel NOH-vay see-EN-troh TRAYN-tah",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "in the last century",
-		"back": "en el siglo pasado"
+		"back": "en el siglo pasado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "click on the tab",
-		"back": "haga clic en la pestaña"
+		"back": "haga clic en la pestaña",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "we will not cover in this course",
-		"back": "no cubriremos en este curso"
+		"back": "no cubriremos en este curso",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "take a couple of minutes and",
-		"back": "tómate un par de minutos y"
+		"back": "tómate un par de minutos y",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "a branch called main",
-		"back": "una rama llamada main"
+		"back": "una rama llamada main",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "a couple of things I want to point out",
-		"back": "un par de cosas que quiero señalar"
+		"back": "un par de cosas que quiero señalar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "we will leave these unset",
-		"back": "dejaremos estos sin establecer"
+		"back": "dejaremos estos sin establecer",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "work back and forth",
-		"back": "trabajar de un lado de otro"
+		"back": "trabajar de un lado de otro",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "the other thing that happens",
-		"back": "la otra cosa que sucede"
+		"back": "la otra cosa que sucede",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "I'm testing a hunch",
-		"back": "pruebo una corazonada"
+		"back": "pruebo una corazonada",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "testing a hunch",
-		"back": "probando una corazonada"
+		"back": "probando una corazonada",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "app developer",
-		"back": "desarrollador de aplicaciones"
+		"back": "desarrollador de aplicaciones",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "this is because it is very difficult to distinguish",
-		"back": "esto se debe a que es muy difícil distinguir"
+		"back": "esto se debe a que es muy difícil distinguir",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "it is assumed that",
-		"back": "se supone que"
+		"back": "se supone que",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "this concept helps to emphasize",
-		"back": "Este concepto ayuda a enfatizar"
+		"back": "Este concepto ayuda a enfatizar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "let's drink to software development",
-		"back": "brindemos por el desarrollo de software; [day-sah-ROY-yoh]"
+		"back": "brindemos por el desarrollo de software",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "[day-sah-ROY-yoh]"
 	},
 	{
+		"language": "es",
 		"front": "it consists of the following parts",
-		"back": "es consta de las siguientes partes; [see-g|ee-EN-tays]"
+		"back": "es consta de las siguientes partes",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "[see-g|ee-EN-tays]"
 	},
 	{
+		"language": "es",
 		"front": "so let's take a look at the general process",
-		"back": "así que echemos un vistazo el proceso general"
+		"back": "así que echemos un vistazo el proceso general",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "continuous delivery",
-		"back": "entrega continua"
+		"back": "entrega continua",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "to a large extent",
-		"back": "en gran medida"
+		"back": "en gran medida",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "I'll guide you through everything",
-		"back": "voy a guiarte a través de todo"
+		"back": "voy a guiarte a través de todo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "on the side",
-		"back": "en el costado"
+		"back": "en el costado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "for now, keep in mind that",
-		"back": "por ahora, ten en cuenta que; ten = tu, tenga = usted, conj=tener"
+		"back": "por ahora, ten en cuenta que",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "ten = tu, tenga = usted, conj=tener"
 	},
 	{
+		"language": "es",
 		"front": "as a starting point",
-		"back": "como punto de partida"
+		"back": "como punto de partida",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "why would we do that",
-		"back": "por que haríamos eso; hacer uses -har for future and conditional"
+		"back": "por que haríamos eso",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "hacer uses -har for future and conditional"
 	},
 	{
+		"language": "es",
 		"front": "that sounds a little strange",
-		"back": "eso suena un poco raro"
+		"back": "eso suena un poco raro",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "that will guide you through a simple tutorial",
-		"back": "que te guiará a través de un tutorial sencillo; conj=guiar; pr=gee-ahr-RAH"
+		"back": "que te guiará a través de un tutorial sencillo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "conj=guiar; pr=gee-ahr-RAH"
 	},
 	{
+		"language": "es",
 		"front": "your name and surname",
-		"back": "tu nombre y apellido; pr=ah-pay-YEE-doh"
+		"back": "tu nombre y apellido",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=ah-pay-YEE-doh"
 	},
 	{
+		"language": "es",
 		"front": "conf. pedir present",
-		"back": "pido, pides, pide, pedimos, pedís, piden; rank=4.9"
+		"back": "pido, pides, pide, pedimos, pedís, piden",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "rank=4.9"
 	},
 	{
+		"language": "es",
 		"front": "conj. pedir preterite",
-		"back": "pedí, pediste, pidió, pedimos, pidisteis, pidieron; rank=4.9"
+		"back": "pedí, pediste, pidió, pedimos, pidisteis, pidieron",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "rank=4.9"
 	},
 	{
+		"language": "es",
 		"front": "I don't know what to do",
-		"back": "no sé qué hacer"
+		"back": "no sé qué hacer",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "once you have created your account, do the following",
-		"back": "una vez que hayas creado tu cuenta, haz lo siguiente; hayas = present perfect subjunctive, conj=crear, haz = tu, haga = usted"
+		"back": "una vez que hayas creado tu cuenta, haz lo siguiente",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "hayas = present perfect subjunctive, conj=crear, haz = tu, haga = usted"
 	},
 	{
+		"language": "es",
 		"front": "conj. ver present",
-		"back": "veo, ves, ve, vemos, veis, ven; rank=4.9"
+		"back": "veo, ves, ve, vemos, veis, ven",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "rank=4.9"
 	},
 	{
+		"language": "es",
 		"front": "conj. ver preterite",
-		"back": "vi, viste, vio, vimos, visteis, vieron; rank=4.9"
+		"back": "vi, viste, vio, vimos, visteis, vieron",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "rank=4.9"
 	},
 	{
+		"language": "es",
 		"front": "so if you are ready",
-		"back": "así que si estás listo"
+		"back": "así que si estás listo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "as your site grows",
-		"back": "a medida que tu sitio crece; crecer = to grow, regular but you crezco"
+		"back": "a medida que tu sitio crece",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "crecer = to grow, regular but you crezco"
 	},
 	{
+		"language": "es",
 		"front": "create your own work from scratch",
-		"back": "crea tu propio trabajo desde cero; crea = tu, cree = usted"
+		"back": "crea tu propio trabajo desde cero",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "crea = tu, cree = usted"
 	},
 	{
-		"front": "check it out",
-		"back": "compruébalo"
+		"language": "nl",
+		"front": "once the download is complete",
+		"back": "zodra de download is voltooid",
+		"whenCreated": "2024-12-22 18:57:39",
+		"extras": "pr=FOHL-toyd"
 	},
 	{
-		"front": "security and storage",
-		"back": "seguridad y almacenamiento"
+		"language": "nl",
+		"front": "can be incredibly useful",
+		"back": "kan ongelooflijk nuttig zijn",
+		"whenCreated": "2024-12-22 18:56:39",
+		"extras": ""
 	},
 	{
-		"front": "we want to add authentication",
-		"back": "queremos agregar autenticación"
+		"language": "nl",
+		"front": "but note that these are not supported",
+		"back": "maar houd er rekening mee dat deze niet worden ondersteund",
+		"whenCreated": "2024-12-22 18:53:32",
+		"extras": "pr=RAY-ken-ing; pr=DAY-zeh; pr=AHN-der-STOW-nt"
 	},
 	{
-		"front": "now let's move onto the terminal",
-		"back": "ahora pasemos a la terminal"
+		"language": "nl",
+		"front": "the type of hard drive",
+		"back": "het type harde schijf",
+		"whenCreated": "2024-12-22 18:35:24",
+		"extras": "pr=\"TEE-peh HAR-deh s*IGHF\""
 	},
 	{
-		"front": "will return a result",
-		"back": "va a devolver un resultado"
+		"language": "nl",
+		"front": "a smooth experience",
+		"back": "een soepele ervaring",
+		"whenCreated": "2024-12-22 18:08:41",
+		"extras": ""
 	},
 	{
-		"front": "just to give an example",
-		"back": "solo para dar un ejemplo"
+		"language": "nl",
+		"front": "first of all",
+		"back": "ten eerste",
+		"whenCreated": "2024-12-21 21:59:29",
+		"extras": ""
 	},
 	{
-		"front": "but above all I hope this has been useful",
-		"back": "pero sobre todo espero que esto haya sido ùtil"
+		"language": "nl",
+		"front": "depending on your equipment choices",
+		"back": "afhankelijk van je apparatuurkeuzes",
+		"whenCreated": "2024-12-21 21:58:05",
+		"extras": "pr=af-HAHN-kel-lik; pr=KÖZ-ess"
 	},
 	{
-		"front": "anyway, please give it a like so more people can see it",
-		"back": "de todos modos, dale me gusta para que más personas lo vean"
+		"language": "nl",
+		"front": "because it is maintained by a dedicated community",
+		"back": "omdat het wordt onderhouden door een toegewijde gemeenschap",
+		"whenCreated": "2024-12-21 03:07:53",
+		"extras": "pr=TOO-*eh-wigh-deh; pr=*eh-MAYN-s*ahp"
 	},
 	{
-		"front": "this is something you should keep in mind",
-		"back": "esto es algo que debes tener en cuenta"
+		"language": "nl",
+		"front": "OBS can be used on both Apple and Windows",
+		"back": "OBS kan worden gebruikt op zowel Apple en Windows",
+		"whenCreated": "2024-12-21 03:05:49",
+		"extras": ""
 	},
 	{
-		"front": "this means that it can handle any character",
-		"back": "esto significa que puede manejar cualquier carácter"
+		"language": "nl",
+		"front": "it is completely free to use",
+		"back": "het is volledig gratis te gebruiken",
+		"whenCreated": "2024-12-21 03:00:00",
+		"extras": ""
 	},
 	{
-		"front": "the good news is that ink has no limitations",
-		"back": "la buena noticia es que ink no tiene limitaciones"
+		"language": "nl",
+		"front": "let's get started",
+		"back": "laten we aan de slag gaan",
+		"whenCreated": "2024-12-21 02:57:32",
+		"extras": ""
 	},
 	{
-		"front": "as the story grows, you may want to do things",
-		"back": "a medida que la historia crece, es posible que desees hacer cosas"
+		"language": "nl",
+		"front": "to improve your broadcast",
+		"back": "om je uitzending te verbeteren",
+		"whenCreated": "2024-12-21 02:56:13",
+		"extras": ""
 	},
 	{
-		"front": "the variable cannot be changed after it has been declared for the first time",
-		"back": "la variable no se puede cambiar después de haber sido declarada por primera vez"
+		"language": "it",
+		"front": "so, in any case",
+		"back": "quindi, in ogni caso",
+		"whenCreated": "2024-12-17 18:32:06",
+		"extras": "pr=OHN-yee-KAH-zoh"
 	},
 	{
-		"front": "next, let's add a variable",
-		"back": "a continuación, agreguemos una variable"
-	},
-	{
-		"front": "there is nothing more to show",
-		"back": "no hay nada más que mostrar"
-	},
-	{
-		"front": "as you may have guessed",
-		"back": "como habrás adivinado"
-	},
-	{
-		"front": "this is because we need to activate it",
-		"back": "esto se debe a que necesitamos activarlo"
-	},
-	{
-		"front": "the text does not yet appear in the story",
-		"back": "el texto todavía no aparece en la historia"
-	},
-	{
-		"front": "if you go to the drop-down menu on the top left",
-		"back": "si vas al menu desplegable en la parte superior izquierda"
-	},
-	{
-		"front": "we will go to a new line",
-		"back": "iremos a una nueva línea"
-	},
-	{
-		"front": "to take a step back",
-		"back": "para retroceder un paso"
-	},
-	{
-		"front": "for your Python projects",
-		"back": "per i tuoi progetti Python"
-	},
-	{
-		"front": "so let's take a look at the readme file",
-		"back": "así que echemos un vistazo al archivo readme"
-	},
-	{
-		"front": "a very common thing to do",
-		"back": "algo muy común que se puede hacer"
-	},
-	{
-		"front": "let's change it to no",
-		"back": "combiémoslo a no"
-	},
-	{
-		"front": "so we need to provide that name",
-		"back": "por lo que debemos proporcionar ese nombre"
-	},
-	{
-		"front": "what this function is about and what it does",
-		"back": "qué se trata esta función y qué hace"
-	},
-	{
-		"front": "I like that standard because",
-		"back": "me gusta esa estandár porque"
-	},
-	{
-		"front": "así es como lo hace",
-		"back": "this is how you do it"
-	},
-	{
-		"front": "let me save it",
-		"back": "déjeme guardarlo"
-	},
-	{
-		"front": "I'll explain it to you a little later",
-		"back": "explicártelo un poco más adelante"
-	},
-	{
-		"front": "the file will be overwritten",
-		"back": "el archivo se sobrescribirá"
-	},
-	{
-		"front": "to a large extent",
-		"back": "en gran medida"
-	},
-	{
-		"front": "this process will take some time",
-		"back": "este proceso tardará un tiempo"
-	},
-	{
-		"front": "so that it is capable",
-		"back": "para que sea capaz"
-	},
-	{
-		"front": "as we see, the binaries will be generated",
-		"back": "como vemos, se va a generar los binarios"
-	},
-	{
-		"front": "having built it on our machine",
-		"back": "al haberlo construido en nuestra máquina"
-	},
-	{
-		"front": "Go stands out for the small size of its binaries",
-		"back": "Go destaca por el pequeño tamaño de sus binarios"
-	},
-	{
-		"front": "since we would be forcing him to install Go",
-		"back": "puesto que le estaríamos obligando a instalar Go [gr. present conditional]"
-	},
-	{
-		"front": "but we can't deliver it to the user like this",
-		"back": "pero no podemos entregarla así al usuario"
-	},
-	{
-		"front": "let's start with a small application",
-		"back": "partamos de una pequeña aplicación"
-	},
-	{
-		"front": "in which they are going to be executed",
-		"back": "en el que se vayan a ejecutar [gr. subjunctive present]"
-	},
-	{
-		"front": "we usually run our programs directly from the source code",
-		"back": "solemos ejecutar nuestros programas directamente desde el código fuente"
-	},
-	{
-		"front": "common tasks such as counting requests",
-		"back": "tareas comunes como el conteo de peticiones"
-	},
-	{
-		"front": "we should see the message",
-		"back": "deberíamos ver el mensaje [gr. present conditional]"
-	},
-	{
-		"front": "this time, we should get the correct answer",
-		"back": "esta vez, deberíamos recibir la respuesta correcta [gr. present conditional]"
-	},
-	{
-		"front": "as expected, we have an error",
-		"back": "como era de esperar, tenemos un error"
-	},
-	{
-		"front": "whenever we returned an error previously",
-		"back": "siempre que devolviéramos un error anteriormente [gr. subjunctive imperfect 1]"
-	},
-	{
-		"front": "we will leave these set as they are",
-		"back": "dejaremos estos configurados como están"
-	},
-	{
-		"front": "in order to save it",
-		"back": "para guardarlo"
-	},
-	{
-		"front": "I will save that later",
-		"back": "lo guardaré más tarde"
-	},
-	{
-		"front": "it's right there",
-		"back": "está justo ahí"
-	},
-	{
-		"front": "as dark as it can be",
-		"back": "tan oscuro como puede ser"
-	},
-	{
-		"front": "click on the button",
-		"back": "haga clic en el botón"
-	},
-	{
-		"front": "click on the left side",
-		"back": "haga clic en el lado izquierdo"
-	},
-	{
-		"front": "on the one hand",
-		"back": "por un lado"
-	},
-	{
-		"front": "since we consider it an error",
-		"back": "puesto que lo consideramos un error"
-	},
-	{
-		"front": "we will return an error",
-		"back": "retornaremos un error"
-	},
-	{
-		"front": "the information passes through our web layer before being sent to the server",
-		"back": "la información pasa por nuestra capa web antes de ser enviada al servidor"
-	},
-	{
-		"front": "including the value",
-		"back": "incluyendo el valor"
-	},
-	{
-		"front": "the time that has elapsed",
-		"back": "el tiempo que ha transcurrido"
-	},
-	{
-		"front": "the first thing it does is get the current time",
-		"back": "lo primero que hace es obtener la hora actual"
-	},
-	{
-		"front": "that is in charge of counting the requests",
-		"back": "que se encargue de contar las peticiones"
-	},
-	{
-		"front": "that is in charge of counting the requests",
-		"back": "que se encargue de contar las peticiones [en-KAR-gay]"
-	},
-	{
-		"front": "although we could have used any other",
-		"back": "aunque podríamos haber utilizado cualquier otro"
-	},
-	{
-		"front": "we access the URL",
-		"back": "accedemos a la URL"
-	},
-	{
-		"front": "start the server on port 8080",
-		"back": "arranca el servidor en el puerto 8080"
-	},
-	{
-		"front": "in isolation",
-		"back": "de manera aislada"
-	},
-	{
-		"front": "will make a request",
-		"back": "hará una petition"
-	},
-	{
-		"front": "it will return the list",
-		"back": "devolverá la lista"
-	},
-	{
-		"front": "to test it",
-		"back": "para probarlo"
-	},
-	{
-		"front": "finally",
-		"back": "por último"
-	},
-	{
-		"front": "let's ask",
-		"back": "vamos a pedir"
-	},
-	{
-		"front": "I will store in the variable",
-		"back": "almacenaré en la variable"
-	},
-	{
-		"front": "he copies text in all at once, he doesn't type it",
-		"back": "copia el texto de una sola vez, no lo escribe"
-	},
-	{
-		"front": "by prompt we understand",
-		"back": "entendemos por prompt"
-	},
-	{
-		"front": "you can see on the last line",
-		"back": "puedes verlo en la última línea"
-	},
-	{
-		"front": "we will read the answer",
-		"back": "leeremos la respuesta"
-	},
-	{
-		"front": "the root directory",
-		"back": "el directorio raíz"
-	},
-	{
-		"front": "we will return to the subject",
-		"back": "volveremos al tema"
-	},
-	{
-		"front": "which is responsible for making the request to the API",
-		"back": "que se engarga de hacer la petición a la API"
-	},
-	{
-		"front": "in the following videos",
-		"back": "en siguientes vídeos [see-g|ee-EN-tays]"
-	},
-	{
-		"front": "wouldn't it be better to be able to do something like this",
-		"back": "no sería mejor ser capaces de hacer algo así"
-	},
-	{
-		"front": "tens, hundreds",
-		"back": "decenas, cientos"
-	},
-	{
-		"front": "text box",
-		"back": "caja de texto"
-	},
-	{
-		"front": "the mouse",
-		"back": "el ratón"
-	},
-	{
-		"front": "how can we see all the messages",
-		"back": "cómo podemos hacer para ver todos los mensajes"
-	},
-	{
-		"front": "since the goroutine might not have enough time",
-		"back": "ya que la gorutina podría no tener tiempo suficiente"
-	},
-	{
-		"front": "the keyword go",
-		"back": "la palabra clave go"
-	},
-	{
-		"front": "to perform tasks in the background",
-		"back": "para realizar tareas en segundo plano"
-	},
-	{
-		"front": "in a single thread of execution",
-		"back": "en un solo hilo de ejecución"
-	},
-	{
-		"front": "just once, as we expected",
-		"back": "una única vez, como esperábamos"
-	},
-	{
-		"front": "we can ensure that",
-		"back": "podemos asegurarnos que"
-	},
-	{
-		"front": "this is because",
-		"back": "esto se debe a que"
-	},
-	{
-		"front": "that has the protections inside",
-		"back": "que dentro tiene las protecciones"
-	},
-	{
-		"front": "a counter and a container //comparison",
-		"back": "un contador y un contenedor"
-	},
-	{
-		"front": "he works like a teacher but he doesn't know how to solve this problem //comparison",
-		"back": "él trabaja como profesor pero no sabe cómo solucionar este problema"
-	},
-	{
-		"front": "we see how to use",
-		"back": "vemos cómo utilizar"
-	},
-	{
-		"front": "a shared resource",
-		"back": "un recurso compartido"
-	},
-	{
-		"front": "a set of primitives",
-		"back": "un conjunto de primitivas"
-	},
-	{
-		"front": "instead of writing this code",
-		"back": "en lugar de escribir este código"
-	},
-	{
-		"front": "expensive operations",
-		"back": "operaciones costosas"
-	},
-	{
-		"front": "expensive operations",
-		"back": "operaciones costosas"
-	},
-	{
-		"front": "a single thread",
-		"back": "un solo hilo"
-	},
-	{
-		"front": "this way we can make sure that all goroutines have finished",
-		"back": "de esta manera, podemos asegurarnos que todas las gorutinas hayan finalizado"
-	},
-	{
-		"front": "an integer value",
-		"back": "un valor entero"
-	},
-	{
-		"front": "the shared resource can be a variable",
-		"back": "el recurso compartido puede ser una variable"
-	},
-	{
-		"front": "race conditions",
-		"back": "condiciones de carrera"
-	},
-	{
-		"front": "as it can lead to over coupling",
-		"back": "ya que puede llevar a un acoplamiento excesivo"
-	},
-	{
-		"front": "the only one that fails",
-		"back": "el único que falla"
-	},
-	{
-		"front": "after which the context will be cancelled",
-		"back": "tras el cual se cancelerá el contexto"
-	},
-	{
-		"front": "the text string",
-		"back": "la cadena de texto"
-	},
-	{
-		"front": "let's make sure that",
-		"back": "vamos a aseguarnos que"
-	},
-	{
-		"front": "when this time is up",
-		"back": "cuando se cumpla este tiempo; note=cumplir: to fulfill"
-	},
-	{
-		"front": "thirty, forty, fifty, sixty, seventy, eighty, ninety",
-		"back": "treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa"
-	},
-	{
-		"front": "the breakfast, the lunch, the dinner",
-		"back": "el desayuno, el almuerzo, la cena"
-	},
-	{
-		"front": "let's look at this with different examples",
-		"back": "veámoslo con diferentes ejemplos"
-	},
-	{
-		"front": "which begins when it is created",
-		"back": "que comienza cuando se crea"
-	},
-	{
-		"front": "freeing up resources if necessary",
-		"back": "liberando recursos si fuera necesario [gr. subjunctive imperfect 1]"
-	},
-	{
-		"front": "being able to define a time to cancel the operation",
-		"back": "pudiendo definir un tiempo para cancelar la operación"
-	},
-	{
-		"front": "as we have seen",
-		"back": "como hemos visto"
-	},
-	{
-		"front": "the variable will have been modified",
-		"back": "la variable habrá sido modificada"
-	},
-	{
-		"front": "will be applied to the struct",
-		"back": "se aplicarán a la struct"
-	},
-	{
-		"front": "this pointer will point to the memory address of the value",
-		"back": "este puntero apuntará a la dirección de memoria del valor"
-	},
-	{
-		"front": "let's store the value 17",
-		"back": "vamos a almacenar el valor 17"
-	},
-	{
-		"front": "an integer value",
-		"back": "un valor de tipo entero"
-	},
-	{
-		"front": "leaving the code much cleaner",
-		"back": "quedando el código mucho más limpio"
-	},
-	{
-		"front": "let's see this in an example",
-		"back": "veámoslo con un ejemplo"
-	},
-	{
-		"front": "if there is any error",
-		"back": "si hubiera algún error [gr. subjunctive imperfect 1]"
-	},
-	{
-		"front": "each of which modifies a field",
-		"back": "cada una de las cuales modifica un campo"
-	},
-	{
-		"front": "a function that receives a pointer",
-		"back": "una función que recibe un puntero"
-	},
-	{
-		"front": "which value corresponds to which field",
-		"back": "qué valor corresponde a qué campo"
-	},
-	{
-		"front": "if we were to add new fields",
-		"back": "si añadiésimos nuevos campos [gr. subjunctive imperfect 2]"
-	},
-	{
-		"front": "its wide range of packages",
-		"back": "su amplia gama de paquetes"
-	},
-	{
-		"front": "Go places a strong emphasis on testing",
-		"back": "Go pone un fuerte énfasis en las pruebas"
-	},
-	{
-		"front": "digital signatures",
-		"back": "firmas digitales"
-	},
-	{
-		"front": "the library provides many useful tools",
-		"back": "la librería proporciona muchas herramientas útiles"
-	},
-	{
-		"front": "to a large extent",
-		"back": "en gran medida"
-	},
-	{
-		"front": "high performance",
-		"back": "alto rendimiento"
-	},
-	{
-		"front": "the library is highly optimized",
-		"back": "la librería está altamente optimizada"
-	},
-	{
-		"front": "file management",
-		"back": "manejo de archivos"
-	},
-	{
-		"front": "above the current package",
-		"back": "por encima del paquete actual"
-	},
-	{
-		"front": "in such a way that",
-		"back": "de tal modo que"
-	},
-	{
-		"front": "higher layers of the application",
-		"back": "capas más altas de la aplicación"
-	},
-	{
-		"front": "therefore",
-		"back": "por tanto"
-	},
-	{
-		"front": "below it",
-		"back": "por debajo de él"
-	},
-	{
-		"front": "such as",
-		"back": "tales como"
-	},
-	{
-		"front": "deployment code",
-		"back": "código despliegue [des-SPLEE-gay]"
-	},
-	{
-		"front": "let's look at it with a small example",
-		"back": "veámoslo con un pequeño ejemplo"
-	},
-	{
-		"front": "and finally, I want to highlight the test directory",
-		"back": "y por último, quiero destacar el directorio de pruebas"
-	},
-	{
-		"front": "from outside the project",
-		"back": "desde fuera del proyecto"
-	},
-	{
-		"front": "pr. cmd",
-		"back": "[say ehm-MAY day]"
-	},
-	{
-		"front": "we can find it in the repository",
-		"back": "podemos encontrarlo en el repositorio"
-	},
-	{
-		"front": "a set of organizational patterns",
-		"back": "un conjunto de patrones de organización"
-	},
-	{
-		"front": "our hierarchy",
-		"back": "nuestra jerarquía"
-	},
-	{
-		"front": "which helps us",
-		"back": "lo cual nos ayuda"
-	},
-	{
-		"front": "which is a mistake",
-		"back": "lo cual es un error"
-	},
-	{
-		"front": "although it seems to make sense",
-		"back": "aunque parece tener sentido"
-	},
-	{
-		"front": "for this reason",
-		"back": "por ello"
-	},
-	{
-		"front": "in such a way that",
-		"back": "de tal forma de"
-	},
-	{
-		"front": "internal scope of the package",
-		"back": "ámbito interno del paquete"
-	},
-	{
-		"front": "we will have to expose the functions",
-		"back": "tendremos que exponer las funciones"
-	},
-	{
-		"front": "since it is an implementation detail",
-		"back": "ya que es un detalle de implementación"
-	},
-	{
-		"front": "we are hiding it on purpose",
-		"back": "lo estamos ocultando a propósito"
-	},
-	{
-		"front": "place the files in that directory",
-		"back": "colocar los archivos en ese directorio"
-	},
-	{
-		"front": "code coverage",
-		"back": "cobertura de código"
-	},
-	{
-		"front": "it's just the beginning",
-		"back": "es solo el principio"
-	},
-	{
-		"front": "you will immerse yourself in the code",
-		"back": "te sumergirás en el código"
-	},
-	{
-		"front": "provide you with an understanding",
-		"back": "brindarte una comprensión"
-	},
-	{
-		"front": "you are going to start",
-		"back": "vas a empezar"
-	},
-	{
-		"front": "optimized performance",
-		"back": "rendimiento optimizado"
-	},
-	{
-		"front": "new heights",
-		"back": "nuevas alturas"
-	},
-	{
-		"front": "timed out",
-		"back": "tiempo de espera agotado"
-	},
-	{
-		"front": "but if the connection was successful",
-		"back": "pero si la conexión fuera exitosa; fuera = subjunctive imperfect; conj=ser"
-	},
-	{
-		"front": "we have the following server",
-		"back": "tenemos el siguiente servidor"
-	},
-	{
-		"front": "it looks kind of weird",
-		"back": "se ve medio raro"
-	},
-	{
-		"front": "we have been asked to return a client's information through a service",
-		"back": "nos han solicitado devolver por medio de un servicio la information de una clienta"
-	},
-	{
-		"front": "resource not found",
-		"back": "recurso no encontrado"
-	},
-	{
-		"front": "I'm going to go to my code",
-		"back": "voy a irme a mi código"
-	},
-	{
-		"front": "if there was an error",
-		"back": "si hubiera un error"
-	},
-	{
-		"front": "each request that arrives on the route",
-		"back": "cada solicitud que llegue a la ruta; pr=YAY-gay"
-	},
-	{
-		"front": "after this",
-		"back": "luego de esto"
-	},
-	{
-		"front": "the first thing we are going to do is",
-		"back": "lo primero que vamos hacer es"
-	},
-	{
-		"front": "add, subtract and multiply",
-		"back": "sumar, restar y multiplicar"
-	},
-	{
-		"front": "do you know anything about it",
-		"back": "sabes algo al respecto"
-	},
-	{
-		"front": "let's do the test",
-		"back": "hagamos la prueba"
-	},
-	{
-		"front": "we look at how we can create a web server",
-		"back": "vemos cómo podemos crear un servidor web"
-	},
-	{
-		"front": "a high performance web framework",
-		"back": "un framework web de alto rendimiento"
-	},
-	{
-		"front": "if there was an error",
-		"back": "si hubiera un error; conj=haber; hubiera = imperfect subjunctive of haber"
-	},
-	{
-		"front": "it allows you to format the output with indents",
-		"back": "él permite formatear la salida con sangrías"
-	},
-	{
-		"front": "we send the query",
-		"back": "enviamos la consulta"
-	},
-	{
-		"front": "let's go to the code",
-		"back": "vamos a irnos al código"
-	},
-	{
-		"front": "the information that comes in this parameter",
-		"back": "la información que venga en esta parámetro; venga = subjunctive of venir; conj=venir"
-	},
-	{
-		"front": "after the question mark",
-		"back": "después del signo de pregunta"
-	},
-	{
-		"front": "pr. alphabet, letters with standard pronunciations",
-		"back": "a, b, c, d, e, _, _, _, i, _, k, _, _, _, _, o, p, q, _, _, t, u, _, _, _, _, _"
-	},
-	{
-		"front": "pr. alphabet, letters with different pronuncations",
-		"back": "f = EFF-ay, g = HEH, h = AH-chah, j = HOH-ta, l = ELL-ay, m = EM-ay, n = EN-ay, n = EN-yeh, r = ERR-ay, s = ESS-ay, v = OO-veh, w = oo-veh-DUB-lay, x = EK-ees, y = ee-grey-EGG-ah, z = SET-ah"
-	},
-	{
-		"front": "",
-		"back": "each %v will be replaced by a value from our map"
-	},
-	{
-		"front": "",
-		"back": "and our wish is to turn it into a string"
-	},
-	{
-		"front": "",
-		"back": "divided into five groups separated by hyphens"
-	},
-	{
-		"front": "",
-		"back": "we are going to go through the slice using a for loop"
-	},
-	{
-		"front": "",
-		"back": "so we want to remove it from the slice"
-	},
-	{
-		"front": "",
-		"back": "conj. dar present"
-	},
-	{
-		"front": "",
-		"back": "conj.dar preterite"
-	},
-	{
-		"front": "",
-		"back": "however, we realized that Thursday is a holiday"
-	},
-	{
-		"front": "",
-		"back": "and I click on Send"
-	},
-	{
-		"front": "",
-		"back": "I make sure it is a POST method"
-	},
-	{
-		"front": "",
-		"back": "let's set the header"
-	},
-	{
-		"front": "",
-		"back": "where we indicate that there was an error"
-	},
-	{
-		"front": "",
-		"back": "by means of an error"
-	},
-	{
-		"front": "",
-		"back": "but if everything is successful"
-	},
-	{
-		"front": "",
-		"back": "in case there was an error"
-	},
-	{
-		"front": "",
-		"back": "this helps us unpack the elements"
-	},
-	{
-		"front": "",
-		"back": "to check if we saved the file"
-	},
-	{
-		"front": "",
-		"back": "otherwise we will indicate that it does not exist"
-	},
-	{
-		"front": "",
-		"back": "and in square brackets"
-	},
-	{
-		"front": "",
-		"back": "let's see in the case of React"
-	},
-	{
-		"front": "",
-		"back": "conj. ver present"
-	},
-	{
-		"front": "",
-		"back": "conj. ver preterite"
-	},
-	{
-		"front": "",
-		"back": "it has a name associated with it"
-	},
-	{
-		"front": "",
-		"back": "two integers"
-	},
-	{
-		"front": "",
-		"back": "what we are going to do is place an if-statement here"
-	},
-	{
-		"front": "",
-		"back": "the last name"
-	},
-	{
-		"front": "",
-		"back": "we may not remember the name"
-	},
-	{
-		"front": "",
-		"back": "we subtract 1"
-	},
-	{
-		"front": "",
-		"back": "let's do that"
-	},
-	{
-		"front": "",
-		"back": "we can do it through the index"
-	},
-	{
-		"front": "",
-		"back": "since this will be the one to whom the prize will be awarded"
-	},
-	{
-		"front": "",
-		"back": "we have realized that there was a mistake"
-	},
-	{
-		"front": "",
-		"back": "the winning numbers of a raffle"
-	},
-	{
-		"front": "",
-		"back": "when you don't know the amount of arguments"
-	},
-	{
-		"front": "",
-		"back": "to loop through this string array"
-	},
-	{
-		"front": "",
-		"back": "in case it happens"
-	},
-	{
-		"front": "",
-		"back": "this is because it may be possible that the string is not a valid number"
-	},
-	{
-		"front": "",
-		"back": "this can be done to make the data compatible"
-	},
-	{
-		"front": "",
-		"back": "let's hit Enter"
-	},
-	{
-		"front": "",
-		"back": "double quotes"
-	},
-	{
-		"front": "",
-		"back": "we place a backtick in front and at the end"
-	},
-	{
-		"front": "",
-		"back": "we have achieved our goal"
-	},
-	{
-		"front": "",
-		"back": "as part of the task"
-	},
-	{
-		"front": "",
-		"back": "in the matter we have"
-	},
-	{
-		"front": "",
-		"back": "we have been asked to send an email"
-	},
-	{
-		"front": "",
-		"back": "the solution to common challenges"
-	},
-	{
-		"front": "",
-		"back": "although you may have encountered challenges"
-	},
-	{
-		"front": "",
-		"back": "you have doubts"
-	},
-	{
-		"front": "",
-		"back": "has it happened to you that while you are programming"
-	},
-	{
-		"front": "since we can get metadata",
-		"back": "puesto que podemos obtener metadatos"
-	},
-	{
-		"front": "instead of defining the file",
-		"back": "en vez de definir el archivo"
-	},
-	{
-		"front": "delivers a 404 code",
-		"back": "entrega una código 404"
-	},
-	{
-		"front": "the element associated with the file you want to upload",
-		"back": "el elemento asociado al archivo que se quiere subir"
-	},
-	{
-		"front": "whose name will be stored",
-		"back": "cuyo nombre será almacenado"
-	},
-	{
-		"front": "storage service",
-		"back": "servicio de almacenamiento"
-	},
-	{
-		"front": "since what we want to see is how it works",
-		"back": "puesto que lo que queremos ver es su funcionamiento"
-	},
-	{
-		"front": "the function is going to be called",
-		"back": "la función se va a llamar"
-	},
-	{
-		"front": "we must wait for the instruction to be fulfilled",
-		"back": "debemos esperar que la instrucción se cumple"
-	},
-	{
-		"front": "since the function only returns a dictionary",
-		"back": "puesto que la función solo retorna un diccionario; puesto = past participle of poner (irregular); conj=poner"
-	},
-	{
-		"front": "another may be being processed at the same time",
-		"back": "otra puede estar siendo procesada al mismo tiempo"
-	},
-	{
-		"front": "that has been created",
-		"back": "que a sido creada"
-	},
-	{
-		"front": "and therefore",
-		"back": "y por ende"
-	},
-	{
-		"front": "in which it is placed",
-		"back": "en el que se pone"
-	},
-	{
-		"front": "which is responsible for creating the elements",
-		"back": "que se encarga de crear los elementos"
-	},
-	{
-		"front": "to test the model",
-		"back": "para probar el modelo"
-	},
-	{
-		"front": "that is part of the body",
-		"back": "que hace parte del body"
-	},
-	{
-		"front": "and add them to the list of items",
-		"back": "y los agregue a la lista de elementos"
-	},
-	{
-		"front": "they usually receive data through the body",
-		"back": "suelen recibir datos a través del body"
-	},
-	{
-		"front": "it is not always required that the request receives a body",
-		"back": "no siempre es requerido que la petición recibe un body"
-	},
-	{
-		"front": "who delivers the request to us",
-		"back": "que nos entrega la petición"
-	},
-	{
-		"front": "they should not be delivered by an endpoint",
-		"back": "no deben ser entregadas por un endpoint"
-	},
-	{
-		"front": "five hundred",
-		"back": "quinientos"
-	},
-	{
-		"front": "these parameters come as part of the route",
-		"back": "estos parámetros llegan como parte de la ruta"
-	},
-	{
-		"front": "it will be as if we had sent a None",
-		"back": "será como hubiéramos enviado un None; conj=haber; hubiéramos = subjunctive imperfect"
-	},
-	{
-		"front": "if we leave it empty",
-		"back": "si lo dejamos vacío"
-	},
-	{
-		"front": "but we must write it",
-		"back": "sino que debemos escribirlo"
-	},
-	{
-		"front": "we no longer have options",
-		"back": "ya no nos salen opciones;conj=salen; salen = to leave, go out"
-	},
-	{
-		"front": "that have already been completed",
-		"back": "que ya hayan sido completados; pr=JAW-ha-jahn-SEE-doh"
-	},
-	{
-		"front": "an assigned value",
-		"back": "un valor asignado"
-	},
-	{
-		"front": "later in this course",
-		"back": "más adelante en este curso"
-	},
-	{
-		"front": "neither of them meets the objective",
-		"back": "ninguno de los dos cumple con el objetivo;cumplir = to fulfill, carry out, reach (an age); conj=cumplir"
-	},
-	{
-		"front": "since this endpoint",
-		"back": "ya que este endpoint;pr=JAW-kay-ES-tah"
-	},
-	{
-		"front": "the endpoint allows the sending and receiving of data",
-		"back": "el endpoint permite el envío y el recepción de datos"
-	},
-	{
-		"front": "it is recommended to have a defined structure",
-		"back": "se recomienda tener una estructura definida; conj=recomendar; recomienda = simple present"
-	},
-	{
-		"front": "since this documentation is interactive",
-		"back": "ya que esta documentación es interactiva; pr=jaw-KAY-stah"
-	},
-	{
-		"front": "if there are any",
-		"back": "en caso de haberlos"
-	},
-	{
-		"front": "the information will be displayed",
-		"back": "se desplegará la information"
-	},
-	{
-		"front": "by clicking on this box",
-		"back": "al darle clic a este recuadro"
-	},
-	{
-		"front": "next we see the endpoint route",
-		"back": "seguido vemos la ruta del endpoint"
-	},
-	{
-		"front": "if we click on it, it will open the file",
-		"back": "si le damos clic, abrirá el archivo"
-	},
-	{
-		"front": "which points to the file",
-		"back": "que apunta al archivo"
-	},
-	{
-		"front": "just below the title we find a url",
-		"back": "justo debajo del titulo encontramos una url"
-	},
-	{
-		"front": "first we come across the API name",
-		"back": "primero nos encontramos con el nombre de la API"
-	},
-	{
-		"front": "pr. --reload",
-		"back": "guión, guión, reload; pr=gee-UN"
-	},
-	{
-		"front": "we run it by executing the command",
-		"back": "lo corremos ejecutando el comando"
-	},
-	{
-		"front": "the solution we have created",
-		"back": "la solución que tenemos creada"
-	},
-	{
-		"front": "as it grows",
-		"back": "a medida que crece"
-	},
-	{
-		"front": "high performance",
-		"back": "alto rendimiento"
-	},
-	{
-		"front": "don't miss the opportunity to take your skills to the next level",
-		"back": "no te pierdas la oportunidad de llevar tus habilidades al siguiente nivel"
-	},
-	{
-		"front": "it is quite similar to this tool",
-		"back": "es bastante parecida a esta herramientas"
-	},
-	{
-		"front": "that GitLab provides",
-		"back": "que provee GitLab"
-	},
-	{
-		"front": "the responsibility of each of them",
-		"back": "la responsabilidad de cada una de ellas"
-	},
-	{
-		"front": "and see where the changes occur",
-		"back": "y ver dónde se producen los cambios"
-	},
-	{
-		"front": "the first thing that may come to mind",
-		"back": "lo primero que nos puede venir a la cabeza"
-	},
-	{
-		"front": "a bunch of branches",
-		"back": "un montón de ramas"
-	},
-	{
-		"front": "you will get to this kind of drawings",
-		"back": "vais a llegar a este tipo de dibujos"
-	},
-	{
-		"front": "anyone who still had a downloaded repository",
-		"back": "cualquier persona que tuviera todavía un repositorio descargado"
-	},
-	{
-		"front": "in case the server was lost",
-		"back": "en caso de que se perdiera el servidor"
-	},
-	{
-		"front": "to upload them later",
-		"back": "para subirlas luego más tarde"
-	},
-	{
-		"front": "the windows and the advantages",
-		"back": "las ventanas y las ventajas"
-	},
-	{
-		"front": "this has certain advantages",
-		"back": "est tiene ciertas ventajas"
-	},
-	{
-		"front": "in such a way that",
-		"back": "de tal manera que"
-	},
-	{
-		"front": "if the server goes down",
-		"back": "si el servidor se cae"
-	},
-	{
-		"front": "performance issues",
-		"back": "los problemas de rendimiento"
-	},
-	{
-		"front": "you could go forward and backward",
-		"back": "podías ir adelante y atrás"
-	},
-	{
-		"front": "stored in a database",
-		"back": "almacenaba en una base de datos"
-	},
-	{
-		"front": "and I was checking the versions",
-		"back": "e iba revisando las versiones"
-	},
-	{
-		"front": "there will be many people you know who",
-		"back": "habrá mucha gente de la que conocéis que"
-	},
-	{
-		"front": "the initials of",
-		"back": "las siglas de"
-	},
-	{
-		"front": "pr. VCS",
-		"back": "OO-vay-say-ESS-ay"
-	},
-	{
-		"front": "a free or paid web service",
-		"back": "un servicio web gratuito o de pago"
-	},
-	{
-		"front": "your source code",
-		"back": "tu código fuente"
-	},
-	{
-		"front": "those who want to have a backup of their work",
-		"back": "aquellos que quieran tener un respaldo de su trabajo"
-	},
-	{
-		"front": "on your own or with your team",
-		"back": "por tu cuenta o con tu equipo de trabajo"
-	},
-	{
-		"front": "now you have a repository ready",
-		"back": "ahora ya cuentas con un repositorio listo"
-	},
-	{
-		"front": "as we saw previously",
-		"back": "como vimos previamente"
-	},
-	{
-		"front": "this application as such",
-		"back": "esta aplicación como tal"
-	},
-	{
-		"front": "but you can see how",
-		"back": "pero puedes darte cuenta como"
-	},
-	{
-		"front": "it is required to maintain control",
-		"back": "se requiere mantener un control"
-	},
-	{
-		"front": "for which we will need",
-		"back": "para lo cual necesitaremos"
-	},
-	{
-		"front": "but enough of theory",
-		"back": "pero basta de teoría"
-	},
-	{
-		"front": "if you click on the button",
-		"back": "si pulsas en el botón"
-	},
-	{
-		"front": "having everything under one roof",
-		"back": "teniendo todo bajo un mismo techo; pr=TAY-choh"
-	},
-	{
-		"front": "promote the reuse of components",
-		"back": "fomentar el reúso de componentes"
-	},
-	{
-		"front": "this makes more sense (with tomar)",
-		"back": "esto toma más coherencia"
-	},
-	{
-		"front": "this makes more sense (with tener)",
-		"back": "esto tiene más sentido"
-	},
-	{
-		"front": "hence the name",
-		"back": "de allí el nombre"
-	},
-	{
-		"front": "a set of tools",
-		"back": "un conjunto de herramientas"
-	},
-	{
-		"front": "and take your React skills to the next level",
-		"back": "y lleva tus habilidades con React"
-	},
-	{
-		"front": "deliver robust code with higher quality",
-		"back": "entregar código robusto con mejor calidad"
-	},
-	{
-		"front": "I will guide you through the setup",
-		"back": "te guiaré en la configuración; pr=GEE-ahr-ray"
-	},
-	{
-		"front": "that will help you save time",
-		"back": "que te ayudará a ahorrar tiempo"
-	},
-	{
-		"front": "test your app",
-		"back": "probar tu aplicación"
-	},
-	{
-		"front": "very close to reaching the end",
-		"back": "muy cerca de llegar al final"
-	},
-	{
-		"front": "dónde se va a encontrar",
-		"back": "where will you find it"
-	},
-	{
-		"front": "the moment we stop using this hook",
-		"back": "en el moment en que dejemos de utilizar este hook"
-	},
-	{
-		"front": "from that moment on we will continue listening",
-		"back": "a partir de eso momento vamos a seguir escuchando; pr=say-GEER"
-	},
-	{
-		"front": "we already have it enabled",
-		"back": "ya lo tenemos habilitado"
-	},
-	{
-		"front": "is not available yet",
-		"back": "no está disponible aún"
-	},
-	{
-		"front": "that is",
-		"back": "o sea"
-	},
-	{
-		"front": "to save us possible problems",
-		"back": "para ahorrarnos posibles problemas"
-	},
-	{
-		"front": "if not, it may cause you problems",
-		"back": "si no, te puede dar problemas"
-	},
-	{
-		"front": "I tried it inside Google Chrome",
-		"back": "yo probé dentro de Google Chrome"
-	},
-	{
-		"front": "upward and downward",
-		"back": "hacia arriba y hacia abajo"
-	},
-	{
-		"front": "every time the mouse moves",
-		"back": "cada vez que se mueva el mouse"
-	},
-	{
-		"front": "what I'm going to need is",
-		"back": "lo que voy a necesitar es"
-	},
-	{
-		"front": "I'm going to leave it empty",
-		"back": "lo voy a dejar el vacío; note=dejar is regular"
-	},
-	{
-		"front": "I'm going to take advantage of the situation",
-		"back": "voy a aprovechar la situación"
-	},
-	{
-		"front": "it counts as a React function",
-		"back": "cuenta como una función de React"
-	},
-	{
-		"front": "they are still at a very basic point",
-		"back": "todavía se encuentran en un punto muy basico"
-	},
-	{
-		"front": "which is based on this other component",
-		"back": "el cual está basado en este otro componente"
-	},
-	{
-		"front": "I'm showing you",
-		"back": "te estoy mostrando"
-	},
-	{
-		"front": "we no longer need to think so much about it",
-		"back": "ya no necesitamos pensar tanto en eso"
-	},
-	{
-		"front": "and I'm binding it so that this method runs",
-		"back": "y lo estoy vinculando para que se ejecute este método"
-	},
-	{
-		"front": "and that's all",
-		"back": "y eso es todo"
-	},
-	{
-		"front": "and I bring it to my functional component",
-		"back": "y lo traigo a mi componente funcional;pr=trah-EE-goh"
-	},
-	{
-		"front": "this is going to work for us",
-		"back": "esto nos va a funcionar"
-	},
-	{
-		"front": "if you notice, as I was mentioning to you",
-		"back": "si te fijas, como te estaba mencionando;note=fijar: to fasten, regular"
-	},
-	{
-		"front": "we are going to completely ignore this part",
-		"back": "vamos a ignorar por completo esta parte"
-	},
-	{
-		"front": "let's analyze the constructor part",
-		"back": "analicemos la parte del constructor"
-	},
-	{
-		"front": "we are still missing some parts",
-		"back": "aún nos faltan algunos partes"
-	},
-	{
-		"front": "in theory",
-		"back": "en teoria"
-	},
-	{
-		"front": "which makes these processes much easier",
-		"back": "que vuelve mucho más fáciles estos procesos;note=vuele present of volver, to return"
-	},
-	{
-		"front": "let's see the great advantages it has",
-		"back": "vayamos viendo las grandes ventajas que tiene; note=vayamos subjuctive of ir"
-	},
-	{
-		"front": "for which hooks were created",
-		"back": "por las cuales se crearon los hooks"
-	},
-	{
-		"front": "I wouldn't do this",
-		"back": "yo no hiciera esto;pr=JOE-no; alternative=yo no haría esto (conditional)"
-	},
-	{
-		"front": "if we look here",
-		"back": "si nos fijamos acá;note=fijar: to fasten, fix to a spot, regular"
-	},
-	{
-		"front": "another important detail is that",
-		"back": "otro detalle importante es que"
-	},
-	{
-		"front": "within the rest of the application",
-		"back": "dentro del resto de la aplicación"
-	},
-	{
-		"front": "inheritance is a concept of OOP",
-		"back": "la herencia es un concepto de OOP"
-	},
-	{
-		"front": "display it within the document",
-		"back": "desplegarla dentro del documento"
-	},
-	{
-		"front": "I'm going to come here",
-		"back": "yo voy a venir acá"
-	},
-	{
+		"language": "it",
 		"front": "so for example",
-		"back": "así que, por ejemplo"
+		"back": "quindi, ad esempio",
+		"whenCreated": "2024-12-17 18:29:07",
+		"extras": "pr=ay-ZEM-pee-oh (not SEM)"
 	},
 	{
+		"language": "it",
+		"front": "but it's also very easy",
+		"back": "ma è anche molto facile",
+		"whenCreated": "2024-12-17 18:27:32",
+		"extras": "pr=FAH-chee-lay"
+	},
+	{
+		"language": "it",
+		"front": "Therefore",
+		"back": "quindi",
+		"whenCreated": "2024-12-17 17:47:04",
+		"extras": "pr=QUEEN-dee"
+	},
+	{
+		"language": "it",
+		"front": "of fundamental networking concepts",
+		"back": "dei concetti fondamentali di rete",
+		"whenCreated": "2024-12-17 17:43:36",
+		"extras": "pr=day-kon-CHET-tee; pr=RAY-teh"
+	},
+	{
+		"language": "it",
+		"front": "and finally",
+		"back": "e infine",
+		"whenCreated": "2024-12-17 17:42:03",
+		"extras": "pr=in-FEE-nah"
+	},
+	{
+		"language": "it",
+		"front": "that you knew",
+		"back": "che tu conoscessi",
+		"whenCreated": "2024-12-17 17:37:47",
+		"extras": "pr=kon-oh-SHEH-see"
+	},
+	{
+		"language": "it",
+		"front": "and at the end of the course",
+		"back": "e alla fine del corso",
+		"whenCreated": "2024-12-17 17:28:03",
+		"extras": "pr=KOR'-soh (not zoh)"
+	},
+	{
+		"language": "it",
+		"front": "in recent years",
+		"back": "negli ultimi anni",
+		"whenCreated": "2024-12-17 17:23:50",
+		"extras": "pr=nehleeoo-tee-mee"
+	},
+	{
+		"language": "it",
+		"front": "for React developers",
+		"back": "per gli sviluppatori di React",
+		"whenCreated": "2024-12-17 17:25:27",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "and for this reason",
+		"back": "e per questo motivo",
+		"whenCreated": "2024-12-17 17:26:10",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "check it out",
+		"back": "compruébalo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "security and storage",
+		"back": "seguridad y almacenamiento",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we want to add authentication",
+		"back": "queremos agregar autenticación",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "now let's move onto the terminal",
+		"back": "ahora pasemos a la terminal",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "will return a result",
+		"back": "va a devolver un resultado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "just to give an example",
+		"back": "solo para dar un ejemplo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "but above all I hope this has been useful",
+		"back": "pero sobre todo espero que esto haya sido ùtil",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "anyway, please give it a like so more people can see it",
+		"back": "de todos modos, dale me gusta para que más personas lo vean",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this is something you should keep in mind",
+		"back": "esto es algo que debes tener en cuenta",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this means that it can handle any character",
+		"back": "esto significa que puede manejar cualquier carácter",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the good news is that ink has no limitations",
+		"back": "la buena noticia es que ink no tiene limitaciones",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "as the story grows, you may want to do things",
+		"back": "a medida que la historia crece, es posible que desees hacer cosas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the variable cannot be changed after it has been declared for the first time",
+		"back": "la variable no se puede cambiar después de haber sido declarada por primera vez",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "next, let's add a variable",
+		"back": "a continuación, agreguemos una variable",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "there is nothing more to show",
+		"back": "no hay nada más que mostrar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "as you may have guessed",
+		"back": "como habrás adivinado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this is because we need to activate it",
+		"back": "esto se debe a que necesitamos activarlo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the text does not yet appear in the story",
+		"back": "el texto todavía no aparece en la historia",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if you go to the drop-down menu on the top left",
+		"back": "si vas al menu desplegable en la parte superior izquierda",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we will go to a new line",
+		"back": "iremos a una nueva línea",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "to take a step back",
+		"back": "para retroceder un paso",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "once downloaded, you can start the program",
+		"back": "una vez descargado, puedes iniciar el programa",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "for your Python projects",
+		"back": "per i tuoi progetti Python",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "so let's take a look at the readme file",
+		"back": "así que echemos un vistazo al archivo readme",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a very common thing to do",
+		"back": "algo muy común que se puede hacer",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's change it to no",
+		"back": "combiémoslo a no",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "so we need to provide that name",
+		"back": "por lo que debemos proporcionar ese nombre",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "what this function is about and what it does",
+		"back": "qué se trata esta función y qué hace",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "I like that standard because",
+		"back": "me gusta esa estandár porque",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this is how you do it",
+		"back": "así es como lo hace",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let me save it",
+		"back": "déjeme guardarlo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "I'll explain it to you a little later",
+		"back": "explicártelo un poco más adelante",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the file will be overwritten",
+		"back": "el archivo se sobrescribirá",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "to a large extent",
+		"back": "en gran medida",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this process will take some time",
+		"back": "este proceso tardará un tiempo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "so that it is capable",
+		"back": "para que sea capaz",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "as we see, the binaries will be generated",
+		"back": "como vemos, se va a generar los binarios",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "having built it on our machine",
+		"back": "al haberlo construido en nuestra máquina",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "Go stands out for the small size of its binaries",
+		"back": "Go destaca por el pequeño tamaño de sus binarios",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "since we would be forcing him to install Go",
+		"back": "puesto que le estaríamos obligando a instalar Go [gr. present conditional]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "but we can't deliver it to the user like this",
+		"back": "pero no podemos entregarla así al usuario",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's start with a small application",
+		"back": "partamos de una pequeña aplicación",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in which they are going to be executed",
+		"back": "en el que se vayan a ejecutar [gr. subjunctive present]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we usually run our programs directly from the source code",
+		"back": "solemos ejecutar nuestros programas directamente desde el código fuente",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "common tasks such as counting requests",
+		"back": "tareas comunes como el conteo de peticiones",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we should see the message",
+		"back": "deberíamos ver el mensaje [gr. present conditional]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this time, we should get the correct answer",
+		"back": "esta vez, deberíamos recibir la respuesta correcta [gr. present conditional]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "as expected, we have an error",
+		"back": "como era de esperar, tenemos un error",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "whenever we returned an error previously",
+		"back": "siempre que devolviéramos un error anteriormente [gr. subjunctive imperfect 1]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we will leave these set as they are",
+		"back": "dejaremos estos configurados como están",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in order to save it",
+		"back": "para guardarlo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "I will save that later",
+		"back": "lo guardaré más tarde",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it's right there",
+		"back": "está justo ahí",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "as dark as it can be",
+		"back": "tan oscuro como puede ser",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "click on the button",
+		"back": "haga clic en el botón",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "click on the left side",
+		"back": "haga clic en el lado izquierdo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "on the one hand",
+		"back": "por un lado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "since we consider it an error",
+		"back": "puesto que lo consideramos un error",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we will return an error",
+		"back": "retornaremos un error",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the information passes through our web layer before being sent to the server",
+		"back": "la información pasa por nuestra capa web antes de ser enviada al servidor",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "including the value",
+		"back": "incluyendo el valor",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the time that has elapsed",
+		"back": "el tiempo que ha transcurrido",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the first thing it does is get the current time",
+		"back": "lo primero que hace es obtener la hora actual",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "that is in charge of counting the requests",
+		"back": "que se encargue de contar las peticiones",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "that is in charge of counting the requests",
+		"back": "que se encargue de contar las peticiones [en-KAR-gay]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "although we could have used any other",
+		"back": "aunque podríamos haber utilizado cualquier otro",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we access the URL",
+		"back": "accedemos a la URL",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "start the server on port 8080",
+		"back": "arranca el servidor en el puerto 8080",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in isolation",
+		"back": "de manera aislada",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "will make a request",
+		"back": "hará una petition",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it will return the list",
+		"back": "devolverá la lista",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "to test it",
+		"back": "para probarlo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "finally",
+		"back": "por último",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's ask",
+		"back": "vamos a pedir",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "I will store in the variable",
+		"back": "almacenaré en la variable",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "he copies text in all at once, he doesn't type it",
+		"back": "copia el texto de una sola vez, no lo escribe",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "by prompt we understand",
+		"back": "entendemos por prompt",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "you can see on the last line",
+		"back": "puedes verlo en la última línea",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we will read the answer",
+		"back": "leeremos la respuesta",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the root directory",
+		"back": "el directorio raíz",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we will return to the subject",
+		"back": "volveremos al tema",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which is responsible for making the request to the API",
+		"back": "que se engarga de hacer la petición a la API",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in the following videos",
+		"back": "en siguientes vídeos [see-g|ee-EN-tays]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "wouldn't it be better to be able to do something like this",
+		"back": "no sería mejor ser capaces de hacer algo así",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "tens, hundreds",
+		"back": "decenas, cientos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "text box",
+		"back": "caja de texto",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the mouse",
+		"back": "el ratón",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "via our browser",
+		"back": "mediante nuestro navegador",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "how can we see all the messages",
+		"back": "cómo podemos hacer para ver todos los mensajes",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "since the goroutine might not have enough time",
+		"back": "ya que la gorutina podría no tener tiempo suficiente",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the keyword go",
+		"back": "la palabra clave go",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "to perform tasks in the background",
+		"back": "para realizar tareas en segundo plano",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in a single thread of execution",
+		"back": "en un solo hilo de ejecución",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "just once, as we expected",
+		"back": "una única vez, como esperábamos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we can ensure that",
+		"back": "podemos asegurarnos que",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this is because",
+		"back": "esto se debe a que",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "that has the protections inside",
+		"back": "que dentro tiene las protecciones",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a counter and a container //comparison",
+		"back": "un contador y un contenedor",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "he works like a teacher but he doesn't know how to solve this problem //comparison",
+		"back": "él trabaja como profesor pero no sabe cómo solucionar este problema",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we see how to use",
+		"back": "vemos cómo utilizar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a shared resource",
+		"back": "un recurso compartido",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a set of primitives",
+		"back": "un conjunto de primitivas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "instead of writing this code",
+		"back": "en lugar de escribir este código",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "expensive operations",
+		"back": "operaciones costosas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "expensive operations",
+		"back": "operaciones costosas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a single thread",
+		"back": "un solo hilo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this way we can make sure that all goroutines have finished",
+		"back": "de esta manera, podemos asegurarnos que todas las gorutinas hayan finalizado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "an integer value",
+		"back": "un valor entero",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the shared resource can be a variable",
+		"back": "el recurso compartido puede ser una variable",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "race conditions",
+		"back": "condiciones de carrera",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "as it can lead to over coupling",
+		"back": "ya que puede llevar a un acoplamiento excesivo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the only one that fails",
+		"back": "el único que falla",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "after which the context will be cancelled",
+		"back": "tras el cual se cancelerá el contexto",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the text string",
+		"back": "la cadena de texto",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's make sure that",
+		"back": "vamos a aseguarnos que",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "when this time is up",
+		"back": "cuando se cumpla este tiempo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "note=cumplir: to fulfill"
+	},
+	{
+		"language": "es",
+		"front": "thirty, forty, fifty, sixty, seventy, eighty, ninety",
+		"back": "treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the breakfast, the lunch, the dinner",
+		"back": "el desayuno, el almuerzo, la cena",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's look at this with different examples",
+		"back": "veámoslo con diferentes ejemplos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which begins when it is created",
+		"back": "que comienza cuando se crea",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "freeing up resources if necessary",
+		"back": "liberando recursos si fuera necesario [gr. subjunctive imperfect 1]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "being able to define a time to cancel the operation",
+		"back": "pudiendo definir un tiempo para cancelar la operación",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "as we have seen",
+		"back": "como hemos visto",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the variable will have been modified",
+		"back": "la variable habrá sido modificada",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "will be applied to the struct",
+		"back": "se aplicarán a la struct",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this pointer will point to the memory address of the value",
+		"back": "este puntero apuntará a la dirección de memoria del valor",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's store the value 17",
+		"back": "vamos a almacenar el valor 17",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "an integer value",
+		"back": "un valor de tipo entero",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "leaving the code much cleaner",
+		"back": "quedando el código mucho más limpio",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's see this in an example",
+		"back": "veámoslo con un ejemplo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if there is any error",
+		"back": "si hubiera algún error [gr. subjunctive imperfect 1]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "each of which modifies a field",
+		"back": "cada una de las cuales modifica un campo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a function that receives a pointer",
+		"back": "una función que recibe un puntero",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which value corresponds to which field",
+		"back": "qué valor corresponde a qué campo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if we were to add new fields",
+		"back": "si añadiésimos nuevos campos [gr. subjunctive imperfect 2]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "its wide range of packages",
+		"back": "su amplia gama de paquetes",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "Go places a strong emphasis on testing",
+		"back": "Go pone un fuerte énfasis en las pruebas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "digital signatures",
+		"back": "firmas digitales",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the library provides many useful tools",
+		"back": "la librería proporciona muchas herramientas útiles",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "to a large extent",
+		"back": "en gran medida",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "high performance",
+		"back": "alto rendimiento",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the library is highly optimized",
+		"back": "la librería está altamente optimizada",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "file management",
+		"back": "manejo de archivos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "above the current package",
+		"back": "por encima del paquete actual",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in such a way that",
+		"back": "de tal modo que",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "higher layers of the application",
+		"back": "capas más altas de la aplicación",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "therefore",
+		"back": "por tanto",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "below it",
+		"back": "por debajo de él",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "such as",
+		"back": "tales como",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "deployment code",
+		"back": "código despliegue [des-SPLEE-gay]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's look at it with a small example",
+		"back": "veámoslo con un pequeño ejemplo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and finally, I want to highlight the test directory",
+		"back": "y por último, quiero destacar el directorio de pruebas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "from outside the project",
+		"back": "desde fuera del proyecto",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "pr. cmd",
+		"back": "[say ehm-MAY day]",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we can find it in the repository",
+		"back": "podemos encontrarlo en el repositorio",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a set of organizational patterns",
+		"back": "un conjunto de patrones de organización",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "our hierarchy",
+		"back": "nuestra jerarquía",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which helps us",
+		"back": "lo cual nos ayuda",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which is a mistake",
+		"back": "lo cual es un error",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "although it seems to make sense",
+		"back": "aunque parece tener sentido",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "for this reason",
+		"back": "por ello",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in such a way that",
+		"back": "de tal forma de",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "internal scope of the package",
+		"back": "ámbito interno del paquete",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we will have to expose the functions",
+		"back": "tendremos que exponer las funciones",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "since it is an implementation detail",
+		"back": "ya que es un detalle de implementación",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we are hiding it on purpose",
+		"back": "lo estamos ocultando a propósito",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "place the files in that directory",
+		"back": "colocar los archivos en ese directorio",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "code coverage",
+		"back": "cobertura de código",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it's just the beginning",
+		"back": "es solo el principio",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "you will immerse yourself in the code",
+		"back": "te sumergirás en el código",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "provide you with an understanding",
+		"back": "brindarte una comprensión",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "you are going to start",
+		"back": "vas a empezar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "optimized performance",
+		"back": "rendimiento optimizado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "new heights",
+		"back": "nuevas alturas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "timed out",
+		"back": "tiempo de espera agotado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "but if the connection was successful",
+		"back": "pero si la conexión fuera exitosa",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "fuera = subjunctive imperfect; conj=ser"
+	},
+	{
+		"language": "es",
+		"front": "we have the following server",
+		"back": "tenemos el siguiente servidor",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it looks kind of weird",
+		"back": "se ve medio raro",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we have been asked to return a client's information through a service",
+		"back": "nos han solicitado devolver por medio de un servicio la information de una clienta",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "resource not found",
+		"back": "recurso no encontrado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "I'm going to go to my code",
+		"back": "voy a irme a mi código",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if there was an error",
+		"back": "si hubiera un error",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "each request that arrives on the route",
+		"back": "cada solicitud que llegue a la ruta",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=YAY-gay"
+	},
+	{
+		"language": "es",
+		"front": "after this",
+		"back": "luego de esto",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the first thing we are going to do is",
+		"back": "lo primero que vamos hacer es",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "add, subtract and multiply",
+		"back": "sumar, restar y multiplicar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "do you know anything about it",
+		"back": "sabes algo al respecto",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's do the test",
+		"back": "hagamos la prueba",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we look at how we can create a web server",
+		"back": "vemos cómo podemos crear un servidor web",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a high performance web framework",
+		"back": "un framework web de alto rendimiento",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if there was an error",
+		"back": "si hubiera un error",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "conj=haber; hubiera = imperfect subjunctive of haber"
+	},
+	{
+		"language": "es",
+		"front": "it allows you to format the output with indents",
+		"back": "él permite formatear la salida con sangrías",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we send the query",
+		"back": "enviamos la consulta",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's go to the code",
+		"back": "vamos a irnos al código",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the information that comes in this parameter",
+		"back": "la información que venga en esta parámetro",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "venga = subjunctive of venir; conj=venir"
+	},
+	{
+		"language": "es",
+		"front": "after the question mark",
+		"back": "después del signo de pregunta",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "pr. alphabet, letters with standard pronunciations",
+		"back": "a, b, c, d, e, _, _, _, i, _, k, _, _, _, _, o, p, q, _, _, t, u, _, _, _, _, _",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "pr. alphabet, letters with different pronuncations",
+		"back": "f = EFF-ay, g = HEH, h = AH-chah, j = HOH-ta, l = ELL-ay, m = EM-ay, n = EN-ay, n = EN-yeh, r = ERR-ay, s = ESS-ay, v = OO-veh, w = oo-veh-DUB-lay, x = EK-ees, y = ee-grey-EGG-ah, z = SET-ah",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "each %v will be replaced by a value from our map",
+		"back": "cada %v va a ser sustituido por un valor de nuestro mapa",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and our wish is to turn it into a string",
+		"back": "y nuestro deseo es lo convertirlo en un string",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "divided into five groups separated by hyphens",
+		"back": "divididos en cinco grupos separados por guiones",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=gee-OH-nays"
+	},
+	{
+		"language": "es",
+		"front": "we are going to go through the slice using a for loop",
+		"back": "vamos a recorrer el slice por medio de un for",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "so we want to remove it from the slice",
+		"back": "por lo que deseamos lo eliminar del slice",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "conj=desear; deseamos is present desear, to wish, regular"
+	},
+	{
+		"language": "es",
+		"front": "conj. dar present",
+		"back": "doy das da damos dais dan",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "conj.dar preterite",
+		"back": "di diste dio dimos disteis dieron",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "however, we realized that Thursday is a holiday",
+		"back": "sin embargo, nos dimos cuenta que el día jueves es feriado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "conj=dar; dimos is preterite of dar"
+	},
+	{
+		"language": "es",
+		"front": "and I click on Send",
+		"back": "y le doy clic en Enviar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "question=what does the \"le\" do here"
+	},
+	{
+		"language": "es",
+		"front": "I make sure it is a POST method",
+		"back": "me aseguro que sea un método POST",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's set the header",
+		"back": "vamos a setear el header",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "where we indicate that there was an error",
+		"back": "donde indicamos que hubo un error",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "hubo = preterite of haber; conj=haber"
+	},
+	{
+		"language": "es",
+		"front": "by means of an error",
+		"back": "por medio de un error",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "but if everything is successful",
+		"back": "pero si todo es exitoso",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in case there was an error",
+		"back": "en caso de que existiera un error",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "conj=existir, existiera = imperfect subjunctive of existir"
+	},
+	{
+		"language": "es",
+		"front": "this helps us unpack the elements",
+		"back": "esto nos ayuda a desempaquetar los elementos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "to check if we saved the file",
+		"back": "para comprobar si guardamos el archivo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "otherwise we will indicate that it does not exist",
+		"back": "caso contrario vamos a indicar que no existe",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and in square brackets",
+		"back": "y entre paréntesis cuadrados",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's see in the case of React",
+		"back": "veamos en el caso de React",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "veamos = imperitive and subjunctive present"
+	},
+	{
+		"language": "es",
+		"front": "conj. ver present",
+		"back": "veo, ves, ve, vemos, veis, ven",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "conj. ver preterite",
+		"back": "vi viste vio vimos visteis vieron",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it has a name associated with it",
+		"back": "tiene asociada un nombre",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "two integers",
+		"back": "dos numeros enteros",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "what we are going to do is place an if-statement here",
+		"back": "lo que vamos a hacer es colocar una declaración if aquí",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the last name",
+		"back": "el apellido",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we may not remember the name",
+		"back": "tal vez no recordemos el nombre",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "conj=recordar; recordemos is present subjunctive of recordar, regular but o\u003eue"
+	},
+	{
+		"language": "es",
+		"front": "we subtract 1",
+		"back": "le restamos 1",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's do that",
+		"back": "hagamos eso",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "hagamos = present subjunctive of hacer; conj=hacer"
+	},
+	{
+		"language": "es",
+		"front": "we can do it through the index",
+		"back": "lo podemos hacer por medio del índice",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "since this will be the one to whom the prize will be awarded",
+		"back": "dado que esta será al que se le entregue el premio",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "entregue = subjunctive present of entregar, almost regular (yo preterite: entregué); conj=entregar"
+	},
+	{
+		"language": "es",
+		"front": "we have realized that there was a mistake",
+		"back": "nos hemos dado cuenta que hubo un error",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "dar = dado, dando; hubo = preterite of haber; rank=4.92"
+	},
+	{
+		"language": "es",
+		"front": "the winning numbers of a raffle",
+		"back": "los números ganadores de una rifa",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "when you don't know the amount of arguments",
+		"back": "cuando desconozcas la cantidad de argumentos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "to loop through this string array",
+		"back": "para recorrer este arreglo de string",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "rank=4.89"
+	},
+	{
+		"language": "es",
+		"front": "in case it happens",
+		"back": "en caso de que pase",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this is because it may be possible that the string is not a valid number",
+		"back": "esto se debe a que puede ser posible que la cadena no sea un número válido.",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this can be done to make the data compatible",
+		"back": "eso se puede hacer para que los datos sean compatibles",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "sean = ser present subjuctive"
+	},
+	{
+		"language": "es",
+		"front": "let's hit Enter",
+		"back": "vamos a darle Enter",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "\"le\" is just a filler pronoun"
+	},
+	{
+		"language": "es",
+		"front": "double quotes",
+		"back": "las comillas dobles",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we place a backtick in front and at the end",
+		"back": "colocamos un backtick adelante y al final",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "colocar = to place, almost regular, preterite: yo coloqué"
+	},
+	{
+		"language": "es",
+		"front": "we have achieved our goal",
+		"back": "hemos logrado nuestro objetivo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "as part of the task",
+		"back": "como parte de la tarea",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in the matter we have",
+		"back": "en el asunto tenemos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we have been asked to send an email",
+		"back": "nos han solicitado enviar un correo electrónico",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the solution to common challenges",
+		"back": "la solución desafíos comunes",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "although you may have encountered challenges",
+		"back": "aunque quizás te hayas encontrado con retos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "hayas = present perfect subjunctive"
+	},
+	{
+		"language": "es",
+		"front": "you have doubts",
+		"back": "te surgen dudas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "literally \"doubts emerge for you\", surgir = arise, emerge, appear"
+	},
+	{
+		"language": "es",
+		"front": "has it happened to you that while you are programming",
+		"back": "te ha pasado que mientras estás programando",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we are indicating that",
+		"back": "estamos indicando que",
+		"whenCreated": "2024-12-21 21:45:15",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "with the time it has taken to be executed",
+		"back": "con el tiempo que se ha demorado en ser ejecutado",
+		"whenCreated": "2024-12-21 11:30:55",
+		"extras": "conj=demorar; demorar = to delay, regular"
+	},
+	{
+		"language": "es",
+		"front": "let's calculate how long the request takes",
+		"back": "vamos a calcular cuánto se demora la petición",
+		"whenCreated": "2024-12-21 11:24:06",
+		"extras": "conj=demorar; demorar = to delay, regular"
+	},
+	{
+		"language": "es",
+		"front": "he must always do three things",
+		"back": "el siempre debe hace tres cosas",
+		"whenCreated": "2024-12-21 11:20:25",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this will be in charge of making the request",
+		"back": "esta se va encargar de hacer la petición",
+		"whenCreated": "2024-12-21 11:06:36",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's implement it",
+		"back": "vamos a implementarlo",
+		"whenCreated": "2024-12-21 11:02:27",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "since if the id is not found",
+		"back": "ya que si no se encuentra el id",
+		"whenCreated": "2024-12-21 02:08:11",
+		"extras": "pr=JAH-kay-see"
+	},
+	{
+		"language": "es",
+		"front": "where we are going to raise an exception",
+		"back": "donde vamos a levantar una excepción",
+		"whenCreated": "2024-12-21 02:06:30",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the status codes that an API returns",
+		"back": "los códigos de estado que una API retorna",
+		"whenCreated": "2024-12-21 01:58:38",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we can check it and it should bring us a list",
+		"back": "lo podemos comprobar y este nos debería traer una lista",
+		"whenCreated": "2024-12-19 11:21:16",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "when we ran the server, a file called todo.db was created",
+		"back": "cuando corrimos el servidor, se ha creado un archivo llamada todo.db",
+		"whenCreated": "2024-12-19 11:18:26",
+		"extras": "conj=correr; corrimos = preterite; preterite for both -er and -ir verbs is -imos"
+	},
+	{
+		"language": "es",
+		"front": "that we are labeling",
+		"back": "que estamos etiquetando",
+		"whenCreated": "2024-12-18 10:47:08",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we are going to use the \"id\" key",
+		"back": "vamos a usar la llave \"id\"",
+		"whenCreated": "2024-12-18 10:45:12",
+		"extras": "pr=JAW-veh"
+	},
+	{
+		"language": "es",
+		"front": "and no longer belongs to the default section",
+		"back": "y que ya no pertenece a la sección default",
+		"whenCreated": "2024-12-18 10:37:56",
+		"extras": "pr=ee-kay-JAW-noh"
+	},
+	{
+		"language": "es",
+		"front": "along with attribute we just defined",
+		"back": "junto con atributo que acabamos de definir",
+		"whenCreated": "2024-12-18 10:24:32",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "with the help of tags",
+		"back": "con la ayuda de los tags",
+		"whenCreated": "2024-12-18 10:14:06",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the quotation marks and the commas",
+		"back": "las comillas y las comas",
+		"whenCreated": "2024-12-17 19:08:56",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we leave the empty quotes",
+		"back": "dejamos las comillas vacias",
+		"whenCreated": "2024-12-17 19:08:04",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "that belong to them",
+		"back": "que les pertenezcan",
+		"whenCreated": "2024-12-17 19:03:15",
+		"extras": "conj=pertenecer; pertenezcan = present subjunctive (instead of present indicative: pertenecen)"
+	},
+	{
+		"language": "es",
+		"front": "let's remove the extra lines",
+		"back": "vamos a quitar los líneas que sobran",
+		"whenCreated": "2024-12-17 18:55:25",
+		"extras": "rank=4.8"
+	},
+	{
+		"language": "es",
+		"front": "and we change app for router",
+		"back": "y cambiamos app por router",
+		"whenCreated": "2024-12-17 18:52:55",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "indicates an error",
+		"back": "señala un error",
+		"whenCreated": "2024-12-17 18:49:17",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "This, in turn, allows the project to be more organized",
+		"back": "esto, a su vez, permite que el proyecto sea más organizado",
+		"whenCreated": "2024-12-17 18:42:41",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "since we can get metadata",
+		"back": "puesto que podemos obtener metadatos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "instead of defining the file",
+		"back": "en vez de definir el archivo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "delivers a 404 code",
+		"back": "entrega una código 404",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the element associated with the file you want to upload",
+		"back": "el elemento asociado al archivo que se quiere subir",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "whose name will be stored",
+		"back": "cuyo nombre será almacenado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "storage service",
+		"back": "servicio de almacenamiento",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "since what we want to see is how it works",
+		"back": "puesto que lo que queremos ver es su funcionamiento",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the function is going to be called",
+		"back": "la función se va a llamar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we must wait for the instruction to be fulfilled",
+		"back": "debemos esperar que la instrucción se cumple",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "since the function only returns a dictionary",
+		"back": "puesto que la función solo retorna un diccionario",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "puesto = past participle of poner (irregular); conj=poner"
+	},
+	{
+		"language": "es",
+		"front": "another may be being processed at the same time",
+		"back": "otra puede estar siendo procesada al mismo tiempo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "that has been created",
+		"back": "que a sido creada",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and therefore",
+		"back": "y por ende",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in which it is placed",
+		"back": "en el que se pone",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which is responsible for creating the elements",
+		"back": "que se encarga de crear los elementos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "to test the model",
+		"back": "para probar el modelo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "that is part of the body",
+		"back": "que hace parte del body",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and add them to the list of items",
+		"back": "y los agregue a la lista de elementos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "they usually receive data through the body",
+		"back": "suelen recibir datos a través del body",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it is not always required that the request receives a body",
+		"back": "no siempre es requerido que la petición recibe un body",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "who delivers the request to us",
+		"back": "que nos entrega la petición",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "they should not be delivered by an endpoint",
+		"back": "no deben ser entregadas por un endpoint",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "five hundred",
+		"back": "quinientos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "these parameters come as part of the route",
+		"back": "estos parámetros llegan como parte de la ruta",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it will be as if we had sent a None",
+		"back": "será como hubiéramos enviado un None",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "conj=haber; hubiéramos = subjunctive imperfect"
+	},
+	{
+		"language": "es",
+		"front": "if we leave it empty",
+		"back": "si lo dejamos vacío",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "but we must write it",
+		"back": "sino que debemos escribirlo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we no longer have options",
+		"back": "ya no nos salen opciones",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "conj=salen; salen = to leave, go out"
+	},
+	{
+		"language": "es",
+		"front": "that have already been completed",
+		"back": "que ya hayan sido completados",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=JAW-ha-jahn-SEE-doh"
+	},
+	{
+		"language": "es",
+		"front": "an assigned value",
+		"back": "un valor asignado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "later in this course",
+		"back": "más adelante en este curso",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "neither of them meets the objective",
+		"back": "ninguno de los dos cumple con el objetivo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "cumplir = to fulfill, carry out, reach (an age); conj=cumplir"
+	},
+	{
+		"language": "es",
+		"front": "since this endpoint",
+		"back": "ya que este endpoint",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=JAW-kay-ES-tah"
+	},
+	{
+		"language": "es",
+		"front": "the endpoint allows the sending and receiving of data",
+		"back": "el endpoint permite el envío y el recepción de datos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it is recommended to have a defined structure",
+		"back": "se recomienda tener una estructura definida",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "conj=recomendar; recomienda = simple present"
+	},
+	{
+		"language": "es",
+		"front": "since this documentation is interactive",
+		"back": "ya que esta documentación es interactiva",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=jaw-KAY-stah"
+	},
+	{
+		"language": "es",
+		"front": "if there are any",
+		"back": "en caso de haberlos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the information will be displayed",
+		"back": "se desplegará la information",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "by clicking on this box",
+		"back": "al darle clic a este recuadro",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "next we see the endpoint route",
+		"back": "seguido vemos la ruta del endpoint",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if we click on it, it will open the file",
+		"back": "si le damos clic, abrirá el archivo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which points to the file",
+		"back": "que apunta al archivo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "just below the title we find a url",
+		"back": "justo debajo del titulo encontramos una url",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "first we come across the API name",
+		"back": "primero nos encontramos con el nombre de la API",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "pr. --reload",
+		"back": "guión, guión, reload",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=gee-UN"
+	},
+	{
+		"language": "es",
+		"front": "we run it by executing the command",
+		"back": "lo corremos ejecutando el comando",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the solution we have created",
+		"back": "la solución que tenemos creada",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "as it grows",
+		"back": "a medida que crece",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "high performance",
+		"back": "alto rendimiento",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "don't miss the opportunity to take your skills to the next level",
+		"back": "no te pierdas la oportunidad de llevar tus habilidades al siguiente nivel",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it is quite similar to this tool",
+		"back": "es bastante parecida a esta herramientas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "that GitLab provides",
+		"back": "que provee GitLab",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the responsibility of each of them",
+		"back": "la responsabilidad de cada una de ellas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and see where the changes occur",
+		"back": "y ver dónde se producen los cambios",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the first thing that may come to mind",
+		"back": "lo primero que nos puede venir a la cabeza",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a bunch of branches",
+		"back": "un montón de ramas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "you will get to this kind of drawings",
+		"back": "vais a llegar a este tipo de dibujos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "anyone who still had a downloaded repository",
+		"back": "cualquier persona que tuviera todavía un repositorio descargado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in case the server was lost",
+		"back": "en caso de que se perdiera el servidor",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "to upload them later",
+		"back": "para subirlas luego más tarde",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the windows and the advantages",
+		"back": "las ventanas y las ventajas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this has certain advantages",
+		"back": "est tiene ciertas ventajas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in such a way that",
+		"back": "de tal manera que",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if the server goes down",
+		"back": "si el servidor se cae",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "performance issues",
+		"back": "los problemas de rendimiento",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "you could go forward and backward",
+		"back": "podías ir adelante y atrás",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "stored in a database",
+		"back": "almacenaba en una base de datos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and I was checking the versions",
+		"back": "e iba revisando las versiones",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "there will be many people you know who",
+		"back": "habrá mucha gente de la que conocéis que",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the initials of",
+		"back": "las siglas de",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "pr. VCS",
+		"back": "OO-vay-say-ESS-ay",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a free or paid web service",
+		"back": "un servicio web gratuito o de pago",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "your source code",
+		"back": "tu código fuente",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "those who want to have a backup of their work",
+		"back": "aquellos que quieran tener un respaldo de su trabajo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it is important to highlight that",
+		"back": "es importante resaltar que",
+		"whenCreated": "2024-12-23 18:17:51",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and see what happened",
+		"back": "y ver qué es lo que sucedió",
+		"whenCreated": "2024-12-23 18:12:01",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we run it by typing mypy",
+		"back": "lo corremos escribiendo mypy",
+		"whenCreated": "2024-12-23 18:07:10",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we also saw how to write",
+		"back": "también vimos cómo escribir",
+		"whenCreated": "2024-12-23 17:12:06",
+		"extras": "vimos = preterite; vemos = present"
+	},
+	{
+		"language": "es",
+		"front": "hyphen, greater-than",
+		"back": "guión, mayor que",
+		"whenCreated": "2024-12-23 15:12:22",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in brackets",
+		"back": "entre corchetes",
+		"whenCreated": "2024-12-23 13:45:58",
+		"extras": "pr=kor-CHAY-tahs"
+	},
+	{
+		"language": "es",
+		"front": "it is composed of",
+		"back": "está compuesta de",
+		"whenCreated": "2024-12-23 13:39:37",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the following list of surnames",
+		"back": "la siguiente lista de apellidos",
+		"whenCreated": "2024-12-23 11:44:52",
+		"extras": "pr=ah-peh-GEE-dohs"
+	},
+	{
+		"language": "es",
+		"front": "Python has the mypy library",
+		"back": "Python cuenta con la librería mypy",
+		"whenCreated": "2024-12-23 11:25:25",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "as if it were statically typed",
+		"back": "como si fuese tipado estático",
+		"whenCreated": "2024-12-23 11:17:05",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "concepts related to the typing of a language",
+		"back": "conceptos relacionados al tipado de un lenguaje",
+		"whenCreated": "2024-12-23 11:00:46",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if we click on the button",
+		"back": "si hacemos clic en el botón",
+		"whenCreated": "2024-12-23 10:57:44",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's open a course page",
+		"back": "abramos la página de un curso",
+		"whenCreated": "2024-12-23 08:19:13",
+		"extras": "conj=abrir; abramos = affirmative imperitive"
+	},
+	{
+		"language": "es",
+		"front": "managing databases with an ORM",
+		"back": "el manejo de bases de datos con un ORM",
+		"whenCreated": "2024-12-23 08:13:28",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in work environments",
+		"back": "en entornos laborales",
+		"whenCreated": "2024-12-23 08:12:05",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we will cover advanced topics",
+		"back": "abordaremos temas avanzados",
+		"whenCreated": "2024-12-23 08:11:06",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "take your Python skills to the next level",
+		"back": "llevar tu habilidades en Python al siguiente nivel",
+		"whenCreated": "2024-12-23 08:10:01",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "on your own or with your team",
+		"back": "por tu cuenta o con tu equipo de trabajo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "now you have a repository ready",
+		"back": "ahora ya cuentas con un repositorio listo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "as we saw previously",
+		"back": "como vimos previamente",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this application as such",
+		"back": "esta aplicación como tal",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "but you can see how",
+		"back": "pero puedes darte cuenta como",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it is required to maintain control",
+		"back": "se requiere mantener un control",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "for which we will need",
+		"back": "para lo cual necesitaremos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "but enough of theory",
+		"back": "pero basta de teoría",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if you click on the button",
+		"back": "si pulsas en el botón",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "having everything under one roof",
+		"back": "teniendo todo bajo un mismo techo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=TAY-choh"
+	},
+	{
+		"language": "es",
+		"front": "promote the reuse of components",
+		"back": "fomentar el reúso de componentes",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this makes more sense (with tomar)",
+		"back": "esto toma más coherencia",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this makes more sense (with tener)",
+		"back": "esto tiene más sentido",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "hence the name",
+		"back": "de allí el nombre",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a set of tools",
+		"back": "un conjunto de herramientas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and take your React skills to the next level",
+		"back": "y lleva tus habilidades con React",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "deliver robust code with higher quality",
+		"back": "entregar código robusto con mejor calidad",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "I will guide you through the setup",
+		"back": "te guiaré en la configuración",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=GEE-ahr-ray"
+	},
+	{
+		"language": "es",
+		"front": "that will help you save time",
+		"back": "que te ayudará a ahorrar tiempo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "test your app",
+		"back": "probar tu aplicación",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "although we can also make use of some design patterns",
+		"back": "aunque también podemos echar mano de algunos patrones de diseño",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "very close to reaching the end",
+		"back": "muy cerca de llegar al final",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "dónde se va a encontrar",
+		"back": "where will you find it",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the moment we stop using this hook",
+		"back": "en el moment en que dejemos de utilizar este hook",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "from that moment on we will continue listening",
+		"back": "a partir de eso momento vamos a seguir escuchando",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=say-GEER"
+	},
+	{
+		"language": "es",
+		"front": "we already have it enabled",
+		"back": "ya lo tenemos habilitado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "is not available yet",
+		"back": "no está disponible aún",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "that is",
+		"back": "o sea",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "to save us possible problems",
+		"back": "para ahorrarnos posibles problemas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if not, it may cause you problems",
+		"back": "si no, te puede dar problemas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "I tried it inside Google Chrome",
+		"back": "yo probé dentro de Google Chrome",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "upward and downward",
+		"back": "hacia arriba y hacia abajo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "every time the mouse moves",
+		"back": "cada vez que se mueva el mouse",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "what I'm going to need is",
+		"back": "lo que voy a necesitar es",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "I'm going to leave it empty",
+		"back": "lo voy a dejar el vacío",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "note=dejar is regular"
+	},
+	{
+		"language": "es",
+		"front": "I'm going to take advantage of the situation",
+		"back": "voy a aprovechar la situación",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it counts as a React function",
+		"back": "cuenta como una función de React",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "they are still at a very basic point",
+		"back": "todavía se encuentran en un punto muy basico",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which is based on this other component",
+		"back": "el cual está basado en este otro componente",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "I'm showing you",
+		"back": "te estoy mostrando",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we no longer need to think so much about it",
+		"back": "ya no necesitamos pensar tanto en eso",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and I'm binding it so that this method runs",
+		"back": "y lo estoy vinculando para que se ejecute este método",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and that's all",
+		"back": "y eso es todo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and I bring it to my functional component",
+		"back": "y lo traigo a mi componente funcional",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=trah-EE-goh"
+	},
+	{
+		"language": "es",
+		"front": "this is going to work for us",
+		"back": "esto nos va a funcionar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if you notice, as I was mentioning to you",
+		"back": "si te fijas, como te estaba mencionando",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "note=fijar: to fasten, regular"
+	},
+	{
+		"language": "es",
+		"front": "we are going to completely ignore this part",
+		"back": "vamos a ignorar por completo esta parte",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "let's analyze the constructor part",
+		"back": "analicemos la parte del constructor",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we are still missing some parts",
+		"back": "aún nos faltan algunos partes",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in theory",
+		"back": "en teoria",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which makes these processes much easier",
+		"back": "que vuelve mucho más fáciles estos procesos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "note=vuele present of volver, to return"
+	},
+	{
+		"language": "es",
+		"front": "let's see the great advantages it has",
+		"back": "vayamos viendo las grandes ventajas que tiene",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "note=vayamos subjuctive of ir"
+	},
+	{
+		"language": "es",
+		"front": "for which hooks were created",
+		"back": "por las cuales se crearon los hooks",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "I wouldn't do this",
+		"back": "yo no hiciera esto",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "pr=JOE-no; alternative=yo no haría esto (conditional)"
+	},
+	{
+		"language": "es",
+		"front": "if we look here",
+		"back": "si nos fijamos acá",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": "note=fijar: to fasten, fix to a spot, regular"
+	},
+	{
+		"language": "es",
+		"front": "another important detail is that",
+		"back": "otro detalle importante es que",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "within the rest of the application",
+		"back": "dentro del resto de la aplicación",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "inheritance is a concept of OOP",
+		"back": "la herencia es un concepto de OOP",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "display it within the document",
+		"back": "desplegarla dentro del documento",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "I'm going to come here",
+		"back": "yo voy a venir acá",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "so for example",
+		"back": "así que, por ejemplo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
 		"front": "and it is referring us to this method that is here",
-		"back": "y nos la está refiriendo a este método que está acá"
+		"back": "y nos la está refiriendo a este método que está acá",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "is taking the scope of this class",
-		"back": "está tomando el alcance de esta clase"
+		"back": "está tomando el alcance de esta clase",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "this method does not exist yet",
-		"back": "aún no existe este método"
+		"back": "aún no existe este método",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "trace what the input was",
-		"back": "rastrear cuál fue el input"
+		"back": "rastrear cuál fue el input",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "is an empty text string",
-		"back": "es una cadena de texto vacía"
+		"back": "es una cadena de texto vacía",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "so let's get to work",
-		"back": "así que vamos a poner manos a la obra"
+		"back": "así que vamos a poner manos a la obra",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "according to the selection that appears here",
-		"back": "según la selección que aparece acá"
+		"back": "según la selección que aparece acá",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "state management",
-		"back": "el manejo del estado"
+		"back": "el manejo del estado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "and we see what is going to be shown",
-		"back": "y vemos que se va a mostrar"
+		"back": "y vemos que se va a mostrar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "besides that",
-		"back": "además de eso"
+		"back": "además de eso",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "memory leak",
-		"back": "fuga de memoria"
+		"back": "fuga de memoria",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "I have to press right click",
-		"back": "tengo que presionar clic derecho"
+		"back": "tengo que presionar clic derecho",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "to debug",
-		"back": "depurar"
+		"back": "depurar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "everything is ready now",
-		"back": "ya se encuentra todo listo"
+		"back": "ya se encuentra todo listo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "I'll show you a couple quickly",
-		"back": "te voy a mostrar un par rápidamente"
+		"back": "te voy a mostrar un par rápidamente",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "fits the name",
-		"back": "calza con el nombre"
+		"back": "calza con el nombre",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "and search here",
-		"back": "y acá buscar"
+		"back": "y acá buscar",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "debug mode",
-		"back": "el modo de depuración"
+		"back": "el modo de depuración",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "in case you don't",
-		"back": "en caso de que no"
+		"back": "en caso de que no",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "you have to drag that folder",
-		"back": "tienes que arrastrar esa carpeta"
+		"back": "tienes que arrastrar esa carpeta",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "address the problems",
-		"back": "abordar los problemas"
+		"back": "abordar los problemas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "the concept behind hooks",
-		"back": "el concepto que está detrás de los hooks"
+		"back": "el concepto que está detrás de los hooks",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "conj: decir;present",
-		"back": "digo, dices, dice, decimos, decís, dicen"
+		"back": "digo, dices, dice, decimos, decís, dicen",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "conj: decir;preterite",
-		"back": "dije, dijiste, dijo, dijimos, dijisteis, dijeron"
+		"back": "dije, dijiste, dijo, dijimos, dijisteis, dijeron",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "just as his name says",
-		"back": "tal como su nombre el dice"
+		"back": "tal como su nombre el dice",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "the same goes for events",
-		"back": "lo mismo ocurre con los eventos"
+		"back": "lo mismo ocurre con los eventos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "we replace it with a single line",
-		"back": "lo reemplazamos por una solo línea"
+		"back": "lo reemplazamos por una solo línea",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "very similar",
-		"back": "muy parecidas"
+		"back": "muy parecidas",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "what I'm showing you here",
-		"back": "que te estoy mostrando acá"
+		"back": "que te estoy mostrando acá",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "before starting I would like to talk to you about what they are",
-		"back": "antes de comenzar quisiera hablarte sobre qué son"
+		"back": "antes de comenzar quisiera hablarte sobre qué son",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "it will be a pleasure to be your instructor",
-		"back": "será un gusto ser tu instructor"
+		"back": "será un gusto ser tu instructor",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "to debug and prevent possible errors",
-		"back": "a depurar y prevenir posibles errores"
+		"back": "a depurar y prevenir posibles errores",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
 	},
 	{
+		"language": "es",
 		"front": "stop using patterns unnecessarily complex",
-		"back": "dejar de usar patrones innecesariamente complejos"
+		"back": "dejar de usar patrones innecesariamente complejos",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "GitHub Actions is everything that revolves around CI and CD",
+		"back": "GitHub Actions est tout ce qui gravite autour de la CI et la CD",
+		"whenCreated": "2024-12-18 09:59:01",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "a license that is affixed to the project",
+		"back": "une licence qui est apposée sur le projet",
+		"whenCreated": "2024-12-18 09:56:24",
+		"extras": "rank=4.88"
+	},
+	{
+		"language": "fr",
+		"front": "so if you are not comfortable with GitHub",
+		"back": "donc si vous n'êtes pas à l'aise avec GitHub",
+		"whenCreated": "2024-12-18 09:54:12",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "a company that offers hosting services",
+		"back": "une entreprise qui propose des services d'hébergement",
+		"whenCreated": "2024-12-18 09:48:56",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "since in fact",
+		"back": "puisqu'en effet",
+		"whenCreated": "2024-12-18 09:43:10",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "if you want to make your deployments easier",
+		"back": "si vous souhaitez faciliter vos déploiements",
+		"whenCreated": "2024-12-18 09:25:31",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "the development of business applications",
+		"back": "le développement d'applications métier",
+		"whenCreated": "2024-12-18 09:24:01",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "it is strongly recommended to have prior knowledge of GitHub",
+		"back": "il est vivement recommandé de connaître préalable GitHub",
+		"whenCreated": "2024-12-18 09:22:14",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "note however that in order to approach this training",
+		"back": "notez toutefois qu'afin d'aborder cette formation",
+		"whenCreated": "2024-12-18 09:18:57",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "the implementation of tools",
+		"back": "la mise en place d'outils",
+		"whenCreated": "2024-12-18 09:13:10",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "this in order to make your projects more reliable",
+		"back": "cela afin de fiabiliser vos projets",
+		"whenCreated": "2024-12-18 09:16:07",
+		"extras": ""
 	}
 ]
