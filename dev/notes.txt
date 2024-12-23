@@ -1,6 +1,6 @@
-écrire un résumé du chapitre 5 du Petit Prince, en français
-escribe un resumen del capítulo 5 de El Principito, en español
-scrivi un riassunto del capitolo 5 del Piccolo Principe, in italiano
+écrire un résumé du chapitre 6 du Petit Prince, en français
+escribe un resumen del capítulo 6  de El Principito, en español
+scrivi un riassunto del capitolo 6  del Piccolo Principe, in italiano
 
 make ts arrow function parseTextIntoWordObjects(line:string) which takes e.g.
 
