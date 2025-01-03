@@ -371,6 +371,202 @@
 		"extras": ""
 	},
 	{
+		"language": "it",
+		"front": "this means you will be able to submit your data",
+		"back": "ciò significa che sarai in grado di inviare i tuoi dati",
+		"whenCreated": "2025-01-02 07:56:41",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "this form collects information",
+		"back": "questo modulo raccoglie informazioni",
+		"whenCreated": "2025-01-02 07:48:46",
+		"extras": "pr=rah-KOH-lee-eh"
+	},
+	{
+		"language": "it",
+		"front": "and I'll leave you enough space",
+		"back": "e ti lascerò abbastanza spazio",
+		"whenCreated": "2025-01-02 07:46:50",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "physical exercise",
+		"back": "l'esercizio fisico",
+		"whenCreated": "2025-01-02 07:43:43",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "during the course, we will build a project",
+		"back": "durante il corso, costruiremo un progetto",
+		"whenCreated": "2025-01-02 07:41:44",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "for science projects",
+		"back": "per i progetti di scienza",
+		"whenCreated": "2025-01-01 09:36:19",
+		"extras": "pr=SHENT-sa"
+	},
+	{
+		"language": "it",
+		"front": "where each framework excels",
+		"back": "dove eccelle ogni framework",
+		"whenCreated": "2025-01-01 09:25:56",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "it's light, keeps the core simple",
+		"back": "è leggero, mantiene el nucleo semplice",
+		"whenCreated": "2025-01-01 08:17:17",
+		"extras": "pr=leh-JER-oh; pr=SEM-plih-cheh"
+	},
+	{
+		"language": "it",
+		"front": "right for your project",
+		"back": "giusto per il tuo progetto",
+		"whenCreated": "2025-01-01 08:14:54",
+		"extras": "pr=[JOOS-toh]"
+	},
+	{
+		"language": "it",
+		"front": "sono entrambi framework popolari",
+		"back": "they are both popular frameworks",
+		"whenCreated": "2025-01-01 08:09:56",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "so why choose Flask",
+		"back": "allora perché scegliere Flask",
+		"whenCreated": "2024-12-31 17:43:59",
+		"extras": "pr=sheh-lee-AIR-eh"
+	},
+	{
+		"language": "it",
+		"front": "check out the documentation",
+		"back": "dai un'occhiata alla documentazione",
+		"whenCreated": "2024-12-31 17:39:59",
+		"extras": "pr=oon-oh-key-AH-ta"
+	},
+	{
+		"language": "it",
+		"front": "on a large scale",
+		"back": "su larga scala",
+		"whenCreated": "2024-12-31 17:38:49",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "with just a few lines",
+		"back": "con solo poche righe",
+		"whenCreated": "2024-12-31 17:36:52",
+		"extras": "pr=POH-keh"
+	},
+	{
+		"language": "it",
+		"front": "as your project grows",
+		"back": "mentre il tuo progetto cresce",
+		"whenCreated": "2024-12-31 17:26:26",
+		"extras": "pr=CRAY-sha"
+	},
+	{
+		"language": "it",
+		"front": "Flask can handle it all",
+		"back": "Flask è in grado di gestire tutto",
+		"whenCreated": "2024-12-31 16:49:36",
+		"extras": "pr=jess-TEER-eh"
+	},
+	{
+		"language": "it",
+		"front": "you can add",
+		"back": "puoi aggiungere",
+		"whenCreated": "2024-12-31 16:43:20",
+		"extras": "pr=[poo-OH-ee ah-JOON-jer-eh]"
+	},
+	{
+		"language": "it",
+		"front": "five lines of code",
+		"back": "cinque righe di codice",
+		"whenCreated": "2024-12-31 16:42:00",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "here are some key features of Flask",
+		"back": "ecco alcune caratteristiche chiave di Flask",
+		"whenCreated": "2024-12-31 16:37:55",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "this means you can decide",
+		"back": "ciò significa che puoi decidere",
+		"whenCreated": "2024-12-31 16:30:23",
+		"extras": "pr=[chow, kay, POH-ee, day-CHEE-deh-reh]"
+	},
+	{
+		"language": "it",
+		"front": "it's light, easy",
+		"back": "è leggero, facile",
+		"whenCreated": "2024-12-31 16:16:06",
+		"extras": "pr=[leh-JEH-oh FAH-chee-lay\t]"
+	},
+	{
+		"language": "it",
+		"front": "if you can write",
+		"back": "se sei in grado di scrivere",
+		"whenCreated": "2024-12-31 15:31:35",
+		"extras": "pr=[seh SAY]; pr=SKREE-veh-reh"
+	},
+	{
+		"language": "it",
+		"front": "here's what I recommend",
+		"back": "ecco cosa ti consiglio",
+		"whenCreated": "2024-12-31 15:21:19",
+		"extras": "pr=con-SEE-leeoh"
+	},
+	{
+		"language": "it",
+		"front": "it's pretty simple",
+		"back": "è piuttosto semplice",
+		"whenCreated": "2024-12-31 15:13:42",
+		"extras": "pr=[eh pee-oo-TOH-sto SEM-plih-cheh]"
+	},
+	{
+		"language": "it",
+		"front": "in this course",
+		"back": "in questo corso",
+		"whenCreated": "2024-12-31 14:53:30",
+		"extras": "pr=KWEH-stoh"
+	},
+	{
+		"language": "it",
+		"front": "easy to maintain",
+		"back": "facili da mantenere",
+		"whenCreated": "2024-12-30 11:44:18",
+		"extras": "pr=[FAH-chee-lee da man-ten-NAIR-eh]"
+	},
+	{
+		"language": "it",
+		"front": "software development",
+		"back": "sviluppo del software",
+		"whenCreated": "2024-12-30 11:37:38",
+		"extras": "pr=zvee-LOOP-oh"
+	},
+	{
+		"language": "it",
+		"front": "in our programs",
+		"back": "nei nostri programmi",
+		"whenCreated": "2024-12-30 11:39:12",
+		"extras": "pr=nay"
+	},
+	{
 		"language": "es",
 		"front": "I'll guide you through everything",
 		"back": "voy a guiarte a través de todo",
@@ -668,27 +864,6 @@
 		"language": "es",
 		"front": "we want to add authentication",
 		"back": "queremos agregar autenticación",
-		"whenCreated": "2024-12-01 00:00:00",
-		"extras": ""
-	},
-	{
-		"language": "es",
-		"front": "now let's move onto the terminal",
-		"back": "ahora pasemos a la terminal",
-		"whenCreated": "2024-12-01 00:00:00",
-		"extras": ""
-	},
-	{
-		"language": "es",
-		"front": "will return a result",
-		"back": "va a devolver un resultado",
-		"whenCreated": "2024-12-01 00:00:00",
-		"extras": ""
-	},
-	{
-		"language": "es",
-		"front": "just to give an example",
-		"back": "solo para dar un ejemplo",
 		"whenCreated": "2024-12-01 00:00:00",
 		"extras": ""
 	},
@@ -3060,6 +3235,468 @@
 	},
 	{
 		"language": "es",
+		"front": "now let's move onto the terminal",
+		"back": "ahora pasemos a la terminal",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "will return a result",
+		"back": "va a devolver un resultado",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "just to give an example",
+		"back": "solo para dar un ejemplo",
+		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "instead of leaving the number five by default",
+		"back": "en vez de dejar el número cinco por defecto",
+		"whenCreated": "2024-12-30 10:58:52",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "but what if we wanted to add a parameter to it",
+		"back": "pero qué pasaría si quisiéramos agregarle un parámetro",
+		"whenCreated": "2024-12-30 10:49:14",
+		"extras": "conj=querer; pasaría = conditional; quisiéramos = imperfect subjunctive 1; rank=4.93"
+	},
+	{
+		"language": "es",
+		"front": "the loop function",
+		"back": "la función recorrer ciclo",
+		"whenCreated": "2024-12-30 10:46:34",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which iterates over a range of five",
+		"back": "que itera sobre un rango de cinco",
+		"whenCreated": "2024-12-30 10:43:49",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "that measures time",
+		"back": "que mide el tiempo",
+		"whenCreated": "2024-12-30 10:42:59",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the more optimized the code is, the better the performance will be",
+		"back": "cuanto más optimizado esté el código, mejor será el rendimiento",
+		"whenCreated": "2024-12-29 19:21:51",
+		"extras": "the adjective \"cuanto\" (without accent) describes the noun \"más\";esté is subjunctive of estar"
+	},
+	{
+		"language": "es",
+		"front": "the time it took",
+		"back": "el tiempo que ha tardado",
+		"whenCreated": "2024-12-29 19:09:43",
+		"extras": "conj=tardar; tardar = regular verb"
+	},
+	{
+		"language": "es",
+		"front": "how long did the test take",
+		"back": "cuánto tiempo demoró la prueba",
+		"whenCreated": "2024-12-29 18:52:01",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "how long it took",
+		"back": "cuánto tiempo se demoró",
+		"whenCreated": "2024-12-29 18:50:01",
+		"extras": "conj=demorar; demorar = to delay, to take (time), regular verb"
+	},
+	{
+		"language": "es",
+		"front": "when software doesn't receive updates, it becomes vulnerable to attacks",
+		"back": "cuando un software no recibe actualizaciones, se vuelve vulnerable a ataques",
+		"whenCreated": "2024-12-29 18:45:49",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "where time is measured again",
+		"back": "donde se vuelve a medir el tiempo",
+		"whenCreated": "2024-12-29 18:44:31",
+		"extras": "conj=volver; volver = return, become; when followed by \"a medir\" it means \"to do something again\"; conj=medir; medir = to measure, irregular; mido = I measure"
+	},
+	{
+		"language": "es",
+		"front": "which indicates that",
+		"back": "lo que indica que",
+		"whenCreated": "2024-12-29 16:05:51",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which will be called 001",
+		"back": "que se va a llamar 001",
+		"whenCreated": "2024-12-29 16:02:47",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "not the received function but the wrapper function",
+		"back": "no la función recibida sino la función wrapper",
+		"whenCreated": "2024-12-29 16:00:34",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in the following code",
+		"back": "en el siguiente código",
+		"whenCreated": "2024-12-29 15:54:31",
+		"extras": "pr=see-g|ee-EN-tay"
+	},
+	{
+		"language": "es",
+		"front": "design pattern",
+		"back": "patron de diseño",
+		"whenCreated": "2024-12-29 15:51:06",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "are those that receive a function as a parameter",
+		"back": "son aquellas que reciben una función como parámetro",
+		"whenCreated": "2024-12-29 15:40:29",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if something goes wrong, go directly to tech support",
+		"back": "si algo sale mal, vaya directamente al soporte técnico",
+		"whenCreated": "2024-12-29 02:38:06",
+		"extras": "vaya = affirmative imperitive for Usted; conj=ir; familiar form = ve / no vayas"
+	},
+	{
+		"language": "es",
+		"front": "each value that is added",
+		"back": "cada valor que se vaya agregando",
+		"whenCreated": "2024-12-29 02:36:22",
+		"extras": "conj=ir; vaya = subjunctive of ir"
+	},
+	{
+		"language": "es",
+		"front": "let's check if it meets the conditions",
+		"back": "revisemos que si cumple con las condiciones",
+		"whenCreated": "2024-12-29 02:27:05",
+		"extras": "conj=revisar; revisemos is affirmative imperitive (subjunctive); revisamos = we check"
+	},
+	{
+		"language": "es",
+		"front": "and that is where the items that are added will be saved",
+		"back": "y es ahí donde se van a guardar los elementos que sean agregadas",
+		"whenCreated": "2024-12-29 02:21:47",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "to be responsible for adding",
+		"back": "que se encargue de agregar",
+		"whenCreated": "2024-12-29 02:13:28",
+		"extras": "conj=encargar; encargue is subjunctive; encargar = entrust / order; se encargar = take charge / handle"
+	},
+	{
+		"language": "es",
+		"front": "for it to be a closure, there must be a nested function",
+		"back": "para que sea un closure, debe haber una función anidada",
+		"whenCreated": "2024-12-28 22:34:26",
+		"extras": "rank=4.9"
+	},
+	{
+		"language": "es",
+		"front": "therefore, it has access to the variables",
+		"back": "por lo tanto, tiene acceso a las variables",
+		"whenCreated": "2024-12-28 22:29:38",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "since we have seen what a scope is",
+		"back": "ya que hemos visto qué es un scope",
+		"whenCreated": "2024-12-28 22:05:32",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "outside of any function",
+		"back": "por fuera de cualquier función",
+		"whenCreated": "2024-12-28 22:02:23",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "if remote access were denied, try to check if the server is offline",
+		"back": "si el acceso remoto fuere denegado, intenta verificar si el servidor está fuera de línea",
+		"whenCreated": "2024-12-28 21:58:47",
+		"extras": "note the difference between \"fuere\" and \"fuera\""
+	},
+	{
+		"language": "es",
+		"front": "outside the function",
+		"back": "por fuera de la función",
+		"whenCreated": "2024-12-28 21:56:11",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "when defining a variable",
+		"back": "al definir una variable",
+		"whenCreated": "2024-12-28 21:55:06",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "belongs to the local scope of that function",
+		"back": "pertenece al scope local de esa función",
+		"whenCreated": "2024-12-28 21:16:36",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "any variable that is created",
+		"back": "cualquier variable que sea creada",
+		"whenCreated": "2024-12-28 21:15:19",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we refer to scope",
+		"back": "nos referimos a scope",
+		"whenCreated": "2024-12-28 13:33:58",
+		"extras": "this is reflexive, the same as \"nosotros nos referimos a scope\""
+	},
+	{
+		"language": "es",
+		"front": "funciones anidadas",
+		"back": "nested functions",
+		"whenCreated": "2024-12-28 13:32:40",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "before understanding what we are referring to",
+		"back": "antes de entender a qué hacemos referencia",
+		"whenCreated": "2024-12-28 13:31:59",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "Paco has traveled 20 units",
+		"back": "Paco ha recorrido 20 unidades",
+		"whenCreated": "2024-12-27 13:25:56",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this time the number 20 has been printed",
+		"back": "esta vez se ha impreso el número 20",
+		"whenCreated": "2024-12-27 13:19:12",
+		"extras": "conj=imprimir; both imprimido and impreso are past participles of imprimir"
+	},
+	{
+		"language": "es",
+		"front": "whose constructor receives name and age",
+		"back": "cuyo constructor recibe nombre y edad",
+		"whenCreated": "2024-12-27 13:05:07",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "double underscore at the beginning and end",
+		"back": "doble guion bajo al inicio y al final",
+		"whenCreated": "2024-12-27 13:02:49",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "one that belongs to this",
+		"back": "uno que pertenece a esto",
+		"whenCreated": "2024-12-27 12:40:56",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "the code is a little more readable and easier to understand",
+		"back": "el código es un poco más legible y facíl de entender",
+		"whenCreated": "2024-12-25 15:34:07",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "since inherited classes can take advantage of functions that already exist in the parent class",
+		"back": "ya que las clases heredadas pueden aprovechar funciones que ya existen en la clase padre",
+		"whenCreated": "2024-12-25 15:32:44",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it is important to highlight that",
+		"back": "es importante resaltar que",
+		"whenCreated": "2024-12-25 15:30:32",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "arguments required by the parent class",
+		"back": "argumentos requeridos por la clase padre",
+		"whenCreated": "2024-12-25 15:25:45",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "we can override the characteristics",
+		"back": "podemos sobrescribir las características",
+		"whenCreated": "2024-12-25 15:22:40",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "with the class statement",
+		"back": "con la sentencia class",
+		"whenCreated": "2024-12-25 15:13:32",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "it also has two methods",
+		"back": "también cuenta con dos métodos",
+		"whenCreated": "2024-12-25 15:09:10",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "they have methods of the class from which they are created",
+		"back": "tienen métodos de la clase a partir de la cual son creadas",
+		"whenCreated": "2024-12-25 14:46:22",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this time we got an error",
+		"back": "esta vez nos ha salido un error",
+		"whenCreated": "2024-12-24 08:55:29",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "name, surname and age",
+		"back": "nombre, apellido y edad",
+		"whenCreated": "2024-12-24 08:51:30",
+		"extras": "pr=ah-peh-JEE-doh"
+	},
+	{
+		"language": "es",
+		"front": "they depend on the object being created",
+		"back": "dependen del objeto que está siendo creado",
+		"whenCreated": "2024-12-24 08:48:40",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and we are going to assign the value 5 to this one",
+		"back": "y a esta le vamos a asignar el valor 5",
+		"whenCreated": "2024-12-24 08:44:07",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "that are being represented in the code",
+		"back": "que se están representando en el código",
+		"whenCreated": "2024-12-24 08:42:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "through which objects are constructed",
+		"back": "a través de los cuales se construyen los objetos",
+		"whenCreated": "2024-12-24 08:39:02",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this is called cloud storage",
+		"back": "a esto se le llama almacenamiento en la nube",
+		"whenCreated": "2024-12-24 08:37:43",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this is called open source",
+		"back": "a esto se le dice código abierto",
+		"whenCreated": "2024-12-24 08:37:05",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "this is called machine learning",
+		"back": "a esto se le llama machine learning",
+		"whenCreated": "2024-12-24 08:36:25",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "classes are plans or templates",
+		"back": "las clases son los planos o plantillas",
+		"whenCreated": "2024-12-24 08:34:56",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "these are known as methods",
+		"back": "a esto se le conoce como métodos",
+		"whenCreated": "2024-12-24 08:33:49",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "hence",
+		"back": "por lo que",
+		"whenCreated": "2024-12-24 08:07:07",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "and add it to the total",
+		"back": "y se la suma al total",
+		"whenCreated": "2024-12-24 08:06:07",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "in addition, each object has behaviors",
+		"back": "además, cada objeto tiene comportamientos",
+		"whenCreated": "2024-12-24 08:02:43",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which is known as a class",
+		"back": "al que se le conoce como clase",
+		"whenCreated": "2024-12-24 08:00:59",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "with which we will work",
+		"back": "con los cuales vamos a trabajar",
+		"whenCreated": "2024-12-24 07:58:37",
+		"extras": ""
+	},
+	{
+		"language": "es",
 		"front": "it is important to highlight that",
 		"back": "es importante resaltar que",
 		"whenCreated": "2024-12-23 18:17:51",
@@ -3833,6 +4470,34 @@
 		"front": "stop using patterns unnecessarily complex",
 		"back": "dejar de usar patrones innecesariamente complejos",
 		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "I define the first route",
+		"back": "je définis le premiere route",
+		"whenCreated": "2024-12-30 08:42:25",
+		"extras": "présent and passé simple: je définis"
+	},
+	{
+		"language": "fr",
+		"front": "since we will add more as we go along",
+		"back": "puisqu'on va en ajouter au fur et à mesure",
+		"whenCreated": "2024-12-30 08:37:39",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "as is customary on Python projects",
+		"back": "comme il est d'usage sur les projets Python",
+		"whenCreated": "2024-12-30 08:20:38",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "you will learn how to sketch and structure your web applications",
+		"back": "tu apprendras à esquisser et à structurer tes applications web",
+		"whenCreated": "2024-12-30 08:18:20",
 		"extras": ""
 	},
 	{
