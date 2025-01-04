@@ -372,6 +372,41 @@
 	},
 	{
 		"language": "it",
+		"front": "so we are all ready",
+		"back": "quindi siamo tutti pronti",
+		"whenCreated": "2025-01-03 07:47:34",
+		"extras": "pr=[pronti like \"own\"]"
+	},
+	{
+		"language": "it",
+		"front": "so this will activate our virtual environment",
+		"back": "quindi questo attiverà il nostro ambiente virtuale",
+		"whenCreated": "2025-01-03 07:41:32",
+		"extras": "conj=attivare; attiverà = futuro simplice"
+	},
+	{
+		"language": "it",
+		"front": "let's fix this",
+		"back": "correggiamo questo",
+		"whenCreated": "2025-01-03 07:26:06",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "and to activate it",
+		"back": "e per attivarlo",
+		"whenCreated": "2025-01-03 07:22:45",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "each project",
+		"back": "ciascun progetto",
+		"whenCreated": "2025-01-02 16:46:37",
+		"extras": "pr=chass-KOON"
+	},
+	{
+		"language": "it",
 		"front": "this means you will be able to submit your data",
 		"back": "ciò significa che sarai in grado di inviare i tuoi dati",
 		"whenCreated": "2025-01-02 07:56:41",
