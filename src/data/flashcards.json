@@ -582,6 +582,55 @@
 	},
 	{
 		"language": "it",
+		"front": "that this course provides you",
+		"back": "che questo corso ti fornisca",
+		"whenCreated": "2025-01-07 00:17:52",
+		"extras": "pr=for-NEE-skah"
+	},
+	{
+		"language": "it",
+		"front": "I will be there to guide you through every step",
+		"back": "sarò lì per guidarti in ogni fase",
+		"whenCreated": "2025-01-07 00:12:05",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "if you understand these concepts",
+		"back": "se capisci questi concetti",
+		"whenCreated": "2025-01-07 00:08:41",
+		"extras": "pr=kah-PEE-shee"
+	},
+	{
+		"language": "it",
+		"front": "life cycle",
+		"back": "ciclo di vita",
+		"whenCreated": "2025-01-07 00:01:03",
+		"extras": "pr=CHEEK-loh"
+	},
+	{
+		"language": "it",
+		"front": "I will guide you, step by step",
+		"back": "ti guiderò passo dopo passo",
+		"whenCreated": "2025-01-05 03:13:52",
+		"extras": "pr=gwee-dair-OH"
+	},
+	{
+		"language": "it",
+		"front": "we will guide you, step by step",
+		"back": "guideremo, passo dopo passo",
+		"whenCreated": "2025-01-05 03:13:33",
+		"extras": "pr=gwee-dair-RAY-moh"
+	},
+	{
+		"language": "it",
+		"front": "source code",
+		"back": "codice sorgente",
+		"whenCreated": "2025-01-05 03:09:35",
+		"extras": ""
+	},
+	{
+		"language": "it",
 		"front": "easy to maintain",
 		"back": "facili da mantenere",
 		"whenCreated": "2024-12-30 11:44:18",
