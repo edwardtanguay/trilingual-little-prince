@@ -582,6 +582,258 @@
 	},
 	{
 		"language": "it",
+		"front": "code changes",
+		"back": "modifiche al codice",
+		"whenCreated": "2025-01-13 08:20:07",
+		"extras": "moh-DEE-fee-keh"
+	},
+	{
+		"language": "it",
+		"front": "let's take a look at how you can do it",
+		"back": "diamo un'occhiata a come puoi farlo",
+		"whenCreated": "2025-01-13 08:20:01",
+		"extras": "pr=oon-oh-key-AH-tah;conj=dare;diamo = let's give / we give;rule: drop final \"e\", so fare + lo becomes farlo"
+	},
+	{
+		"language": "it",
+		"front": "here are the options you have",
+		"back": "ecco le opzioni che hai",
+		"whenCreated": "2025-01-10 20:19:28",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "we have already seen",
+		"back": "abbiamo già visto",
+		"whenCreated": "2025-01-10 20:17:32",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "this can cause problems",
+		"back": "ciò puo causare problemi",
+		"whenCreated": "2025-01-10 19:29:05",
+		"extras": "pr=choh-POO-oh"
+	},
+	{
+		"language": "it",
+		"front": "Git provides a setting",
+		"back": "Git fornisce un'impostazione",
+		"whenCreated": "2025-01-10 19:16:27",
+		"extras": "pr=for-NEE-shay"
+	},
+	{
+		"language": "it",
+		"front": "they use both a carriage return and a line feed",
+		"back": "loro utilizzano sia un ritorno a capo che un line feed",
+		"whenCreated": "2025-01-10 19:14:01",
+		"extras": "rank=4.95"
+	},
+	{
+		"language": "it",
+		"front": "but it's just nice to know",
+		"back": "ma è solo bello saperlo",
+		"whenCreated": "2025-01-09 17:00:09",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "you can do things like use two asterisks",
+		"back": "puoi fare cose come usare due asterischi",
+		"whenCreated": "2025-01-09 16:57:18",
+		"extras": "pr=puh-OY;pr=ah-stair-REE-skee;conj=potere"
+	},
+	{
+		"language": "it",
+		"front": "this means",
+		"back": "ciò significa",
+		"whenCreated": "2025-01-09 16:52:41",
+		"extras": "pr=CHOH"
+	},
+	{
+		"language": "it",
+		"front": "so anywhere inside our working directory",
+		"back": "quindi ovunque all'interno della nostra directory lavoro",
+		"whenCreated": "2025-01-09 16:41:42",
+		"extras": "pr=oh-VUN-kway"
+	},
+	{
+		"language": "it",
+		"front": "these lines",
+		"back": "queste righe",
+		"whenCreated": "2025-01-09 16:37:47",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "at the same time",
+		"back": "allo stesso tempo",
+		"whenCreated": "2025-01-09 14:59:36",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "that you might use",
+		"back": "che potresti usare",
+		"whenCreated": "2025-01-09 14:45:23",
+		"extras": "conj=potere; potresti = conditional"
+	},
+	{
+		"language": "it",
+		"front": "easy for your team",
+		"back": "facile per il tuo team",
+		"whenCreated": "2025-01-09 14:41:52",
+		"extras": "pr=FACH-ee-lay"
+	},
+	{
+		"language": "it",
+		"front": "as we will see in a minute",
+		"back": "come vedremo tra un minuto",
+		"whenCreated": "2025-01-09 08:25:15",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "those files need to be saved",
+		"back": "quei file devono essere salvati",
+		"whenCreated": "2025-01-09 08:20:17",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "they will commit the file",
+		"back": "eseguiranno il commit del file",
+		"whenCreated": "2025-01-09 08:15:22",
+		"extras": "pr=eh-zeh-gwee-RAH-noh;conj=eseguire;eseguire = to execute"
+	},
+	{
+		"language": "it",
+		"front": "so in this scenario",
+		"back": "quindi in questo scenario",
+		"whenCreated": "2025-01-09 08:12:39",
+		"extras": "pr=sheh-NAR-ee-oh"
+	},
+	{
+		"language": "it",
+		"front": "this may cause commits to be overwritten",
+		"back": "ciò può causare la sovrascrittura dei commit",
+		"whenCreated": "2025-01-09 08:10:40",
+		"extras": "pr=chow-POO-oh"
+	},
+	{
+		"language": "it",
+		"front": "one of the mistakes you need to watch out for",
+		"back": "uno degli errori a cui devi fare attenzione",
+		"whenCreated": "2025-01-09 08:06:36",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "we have made our commit",
+		"back": "abbiamo fatto il nostro commit",
+		"whenCreated": "2025-01-09 01:28:41",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "their changes",
+		"back": "le loro modifiche",
+		"whenCreated": "2025-01-09 00:59:16",
+		"extras": "pr=moh-DEE-fee-keh"
+	},
+	{
+		"language": "it",
+		"front": "they open the file with vim",
+		"back": "aprono il file con vim",
+		"whenCreated": "2025-01-09 00:57:19",
+		"extras": "conj=aprire"
+	},
+	{
+		"language": "it",
+		"front": "user two would also like to edit the file",
+		"back": "l'utente due vorrebbe anche modificare il file",
+		"whenCreated": "2025-01-09 00:54:05",
+		"extras": "conj=volere; vorrebbe = conditional"
+	},
+	{
+		"language": "it",
+		"front": "and it's pretty simple",
+		"back": "e piuttosto semplice",
+		"whenCreated": "2025-01-08 21:16:55",
+		"extras": "pr=SEM-plee-chay"
+	},
+	{
+		"language": "it",
+		"front": "in this scenario",
+		"back": "in questo scenario",
+		"whenCreated": "2025-01-08 21:06:39",
+		"extras": "pr=sheh-NAH-ree-oh"
+	},
+	{
+		"language": "it",
+		"front": "with their team",
+		"back": "con il loro team",
+		"whenCreated": "2025-01-08 21:05:31",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "keep this in mind",
+		"back": "tienilo a mente",
+		"whenCreated": "2025-01-07 22:30:28",
+		"extras": "conj=tenere; tieni = imperative/present"
+	},
+	{
+		"language": "it",
+		"front": "one more thing i should point out",
+		"back": "un'altra cosa che dovrei sottolineare",
+		"whenCreated": "2025-01-07 22:26:50",
+		"extras": "conj=dovere; dovrei = conditional"
+	},
+	{
+		"language": "it",
+		"front": "conj-potere-pres",
+		"back": "posso, puoi, può, possiamo, potete, possono",
+		"whenCreated": "2025-01-07 22:20:04",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "your team can adopt",
+		"back": "il tuo team può adottare",
+		"whenCreated": "2025-01-07 20:08:25",
+		"extras": "conj=potere"
+	},
+	{
+		"language": "it",
+		"front": "from there, we'll talk about conventions",
+		"back": "da lì, parleremo di convenzioni",
+		"whenCreated": "2025-01-07 20:04:28",
+		"extras": "parleremo = futuro semplice;conj=parlare"
+	},
+	{
+		"language": "it",
+		"front": "some practices",
+		"back": "alcune pratiche",
+		"whenCreated": "2025-01-07 20:03:07",
+		"extras": "pr=PRAH-tee-kay"
+	},
+	{
+		"language": "it",
+		"front": "at this point",
+		"back": "a questo punto",
+		"whenCreated": "2025-01-07 19:50:09",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "this chapter will focus on the basics",
+		"back": "questo capitolo concentrerà sulla basi",
+		"whenCreated": "2025-01-07 19:45:55",
+		"extras": "conj=concentrare"
+	},
+	{
+		"language": "it",
 		"front": "that this course provides you",
 		"back": "che questo corso ti fornisca",
 		"whenCreated": "2025-01-07 00:17:52",
@@ -928,6 +1180,125 @@
 		"front": "and for this reason",
 		"back": "e per questo motivo",
 		"whenCreated": "2024-12-17 17:26:10",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "surgical modifications",
+		"back": "modifiche chirurgiche",
+		"whenCreated": "2025-01-13 21:45:34",
+		"extras": "pr=keer-RUHR-gee-keh"
+	},
+	{
+		"language": "it",
+		"front": "by the way",
+		"back": "a proposito",
+		"whenCreated": "2025-01-13 21:42:56",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "you can see it still appears here",
+		"back": "puoi vedere che appare ancora qui",
+		"whenCreated": "2025-01-13 21:42:04",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "without the emojis",
+		"back": "senza gli emoji",
+		"whenCreated": "2025-01-13 21:40:41",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "at the top of this list",
+		"back": "in cima a questo elenco",
+		"whenCreated": "2025-01-13 21:38:18",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "you can choose the school",
+		"back": "puoi scegliere la scuola",
+		"whenCreated": "2025-01-13 21:34:49",
+		"extras": "pr=SHEH-lih-ray"
+	},
+	{
+		"language": "it",
+		"front": "shorter or longer",
+		"back": "più corta o più lunga",
+		"whenCreated": "2025-01-13 21:31:59",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "the length",
+		"back": "la lunghezza",
+		"whenCreated": "2025-01-13 21:30:29",
+		"extras": "pr=loong-GEH-tsa"
+	},
+	{
+		"language": "it",
+		"front": "right here",
+		"back": "proprio qui",
+		"whenCreated": "2025-01-13 21:29:20",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "the area on the left works pretty much the same as normal",
+		"back": "l'area a sinistra funziona più o meno come il normale",
+		"whenCreated": "2025-01-13 21:28:38",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "when you use the arrows",
+		"back": "quando usi le frecce",
+		"whenCreated": "2025-01-13 21:25:51",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "after the first title",
+		"back": "dopo il primo titolo",
+		"whenCreated": "2025-01-13 21:19:37",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "it contains a preview of the results",
+		"back": "contiene un anteprima dei risultati",
+		"whenCreated": "2025-01-13 21:14:26",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "it was a long text",
+		"back": "era un testo lungo",
+		"whenCreated": "2025-01-13 21:05:06",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "the same prompt",
+		"back": "lo stesso prompt",
+		"whenCreated": "2025-01-13 21:04:34",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "first, it will create a new chat",
+		"back": "per prima cosa, creerà una nuova chat",
+		"whenCreated": "2025-01-13 21:03:34",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "and now more than ever",
+		"back": "e ora più che mai",
+		"whenCreated": "2025-01-13 20:40:58",
 		"extras": ""
 	},
 	{
@@ -4558,6 +4929,20 @@
 	},
 	{
 		"language": "fr",
+		"front": "to learn how to design",
+		"back": "pour apprendre à concevoir",
+		"whenCreated": "2025-01-15 08:22:19",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "it is now possible",
+		"back": "il est désormais possible",
+		"whenCreated": "2025-01-14 08:54:58",
+		"extras": ""
+	},
+	{
+		"language": "fr",
 		"front": "I define the first route",
 		"back": "je définis le premiere route",
 		"whenCreated": "2024-12-30 08:42:25",
@@ -4659,6 +5044,216 @@
 		"front": "this in order to make your projects more reliable",
 		"back": "cela afin de fiabiliser vos projets",
 		"whenCreated": "2024-12-18 09:16:07",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "on the one hand it affects",
+		"back": "d'une part ça touche",
+		"whenCreated": "2025-01-12 01:41:56",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "all of the requests",
+		"back": "l'ensemble des requêtes",
+		"whenCreated": "2025-01-12 01:39:44",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "avoid putting display logic inside your controllers",
+		"back": "éviter de mettre de la logique d'affichage au sein de tes contrôleurs",
+		"whenCreated": "2025-01-10 23:03:11",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "it's starting from nothing",
+		"back": "c'est en partent de rien",
+		"whenCreated": "2025-01-10 22:50:06",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "this saves you from having to redevelop",
+		"back": "ça t'évite d'avoir à rédevelopper",
+		"whenCreated": "2025-01-10 22:47:22",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "since these are languages ​​that are compiled",
+		"back": "vu que c'est des langues qui sont compilés",
+		"whenCreated": "2025-01-10 21:41:17",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "a tree view of the folders",
+		"back": "une vue en arbre des dossiers",
+		"whenCreated": "2025-01-10 21:38:15",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "I can hit escape to cancel",
+		"back": "je peux faire échap pour annuler",
+		"whenCreated": "2025-01-10 21:36:18",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "tu as des raccourcis ici",
+		"back": "you have shortcuts here",
+		"whenCreated": "2025-01-10 21:29:40",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "which is displayed",
+		"back": "qui s'affiche",
+		"whenCreated": "2025-01-10 21:27:57",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "as soon as you have it installed",
+		"back": "dès que tu l'as installé",
+		"whenCreated": "2025-01-10 21:27:03",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "is supposed to directly detect",
+		"back": "est censé directement détecter",
+		"whenCreated": "2025-01-10 21:25:52",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "for a whole set of languages",
+		"back": "pour tout un ensemble de langages",
+		"whenCreated": "2025-01-10 21:23:48",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "throughout this training",
+		"back": "tout au long de cette formation",
+		"whenCreated": "2025-01-10 21:11:23",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "you have all the videos",
+		"back": "tu as l'ensemble des videos",
+		"whenCreated": "2025-01-10 21:10:08",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "from then on",
+		"back": "dès lors",
+		"whenCreated": "2025-01-10 21:08:45",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "is my audio off or on",
+		"back": "est-ce que mon audio est activé ou désactivé",
+		"whenCreated": "2025-01-07 08:55:07",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "is my light off or on",
+		"back": "est-ce que ma lumière est éteinte ou allumée",
+		"whenCreated": "2025-01-07 08:54:43",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "maybe I can log in already here",
+		"back": "je peux peut-être déjà me connecter ici",
+		"whenCreated": "2025-01-07 08:24:45",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "we will discover the components",
+		"back": "découvrirons les composants",
+		"whenCreated": "2025-01-07 08:18:57",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "at the same time",
+		"back": "en même temps",
+		"whenCreated": "2025-01-07 08:14:28",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "you are in the right place",
+		"back": "tu es au bon endroit",
+		"whenCreated": "2025-01-07 08:13:52",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "used throughout the world",
+		"back": "utilisé à travers le monde",
+		"whenCreated": "2025-01-07 08:12:09",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "reliable applications",
+		"back": "des applications fiables",
+		"whenCreated": "2025-01-07 08:10:43",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "I don't have to record every phrase",
+		"back": "je n'ai pas besoin d'enregistrer chaque phrase",
+		"whenCreated": "2025-01-07 08:09:54",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "perhaps we could change the number of phrases that are displayed",
+		"back": "peut-être pourrions-nous changer le nombre de phrases affichées",
+		"whenCreated": "2025-01-07 08:07:15",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "I have the browser tab here",
+		"back": "j'ai l'onglet du navigateur ici",
+		"whenCreated": "2025-01-07 08:06:23",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "I have to start the audio over again",
+		"back": "je dois recommencer l'audio",
+		"whenCreated": "2025-01-07 08:04:30",
+		"extras": ""
+	},
+	{
+		"language": "fr",
+		"front": "we have an interview today, we have to remember that",
+		"back": "nous avons une interview aujourd'hui, nous devons nous en souvenir",
+		"whenCreated": "2025-01-07 08:01:46",
+		"extras": "pr=noozeñ"
+	},
+	{
+		"language": "fr",
+		"front": "perhaps it could be a reminder",
+		"back": "peut-être que cela pourrait être un rappel",
+		"whenCreated": "2025-01-07 08:00:30",
 		"extras": ""
 	}
 ]

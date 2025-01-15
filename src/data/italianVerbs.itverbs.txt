@@ -14,7 +14,7 @@ LEARN THESE 6 FIRST, AS THEY ARE PRETTY MUCH ALL YOU NEED:
 
 6. condizionale presente --> CONDITIONAL 
 
-- 1. presente (PRESENT)
+- 1. presente (PRESENT) - pres
 	- a fact that is always true
 		- L'acqua bolle a 100 gradi. / Water boils at 100 degrees
 	- ongoing action in the present
@@ -35,7 +35,7 @@ LEARN THESE 6 FIRST, AS THEY ARE PRETTY MUCH ALL YOU NEED:
 		- L'Italia diventa una nazione nel 1861. / Italy becomes a nation in 1861.
 		- Dieci anni dopo Roma diventa la capitale del nuovo paese. / Ten years later Rome becomes the capital of the new country.
 		
-- 2. passato prossimo (RECENT PAST)
+- 2. passato prossimo (RECENT PAST) - pass
 	- a fact or action that happened in the recent past
 		- Ho appena chiamato. / I just called.
 		- Questa mattina sono uscito presto. / This morning I left early.
@@ -43,7 +43,7 @@ LEARN THESE 6 FIRST, AS THEY ARE PRETTY MUCH ALL YOU NEED:
 		- Mi sono iscritto all'università quattro anni fa. / I entered the university four years ago.
 		- Il Petrarca ha scritto sonetti immortali. / Petrarch wrote enduring sonnets.	
 
-- 3. imperfetto  (HABITUAL PAST)
+- 3. imperfetto  (HABITUAL PAST) - impe
 	- a habitual action in the past 	
 		- Giocavo a calcio ogni pomeriggio. / I played soccer every afternoon.
 	- actions or conditions that lasted an indefinite time in the past
@@ -52,7 +52,7 @@ LEARN THESE 6 FIRST, AS THEY ARE PRETTY MUCH ALL YOU NEED:
 	- facts regarding time, age, and weather in the past
 		- Il cielo era sempre blu. / The sky was always blue.			
 
-- 4. passato remoto --> (preferite)
+- 4. passato remoto --> (preferite) - pasr
 	- completed in the distant past	
 		- Dante scrisse la Divina Commedia. / Dante wrote the Divine Comedy.
 	- in narratives or storytelling
@@ -60,7 +60,7 @@ LEARN THESE 6 FIRST, AS THEY ARE PRETTY MUCH ALL YOU NEED:
 	- in formal or historical contexts
 		- Nel 1492, Cristoforo Colombo scoprì l’America. / In 1492, Christopher Columbus discovered America.
 
-- 5. futuro semplice (FUTURE)
+- 5. futuro semplice (FUTURE) - futu
 	- an action which has yet to happen
 		- Domani andrò al mare. / I'm going to the beach tomorrow.
 		- Partiranno la settimana prossima. / They're leaving next week.
@@ -68,7 +68,7 @@ LEARN THESE 6 FIRST, AS THEY ARE PRETTY MUCH ALL YOU NEED:
 		- Tra tre giorni sarete già in vacanza. / In three days' time you'll already be on holiday.
 		- Alla fine di settembre partirò per Roma. / At the end of September I will leave for Rome.	
 
-- 6. condizionale presente (CONDITIONAL)
+- 6. condizionale presente (CONDITIONAL) - cond
 	- an action which depends on something else
 		- Scriverei a mia madre, ma non ho tempo. / I would write to my mother, but I don't have time.
 		- Mi daresti il biglietto per la partita? / Would you give me a ticket for the game?
