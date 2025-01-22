@@ -1,5 +1,271 @@
 [
 	{
+		"language": "it",
+		"front": "the curly brackets",
+		"back": "le parenthese graffe",
+		"whenCreated": "2025-01-18 16:12:47",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "and what I did here",
+		"back": "e quello che ho fatto qui",
+		"whenCreated": "2025-01-18 16:10:06",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "specify your filters",
+		"back": "specifichi i tuoi filtri",
+		"whenCreated": "2025-01-18 16:08:40",
+		"extras": "pr=speh-CHEE-fee-kee"
+	},
+	{
+		"language": "it",
+		"front": "and in reality",
+		"back": "e in realtà",
+		"whenCreated": "2025-01-18 14:13:46",
+		"extras": "pr=ray-AHL-tah"
+	},
+	{
+		"language": "it",
+		"front": "and what I want to do",
+		"back": "e quello che voglio fare",
+		"whenCreated": "2025-01-18 13:08:45",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "but it was just wrapped in a box",
+		"back": "ma è stato appena avvolto in una scatola",
+		"whenCreated": "2025-01-18 12:59:16",
+		"extras": "pr=SCAH-toh-lah"
+	},
+	{
+		"language": "it",
+		"front": "that comes out of this box",
+		"back": "che esce da questa scatola",
+		"whenCreated": "2025-01-18 12:52:49",
+		"extras": "EH-shay"
+	},
+	{
+		"language": "it",
+		"front": "in case you haven't seen this show yet",
+		"back": "nel caso in cui non hai ancora visto questo programma",
+		"whenCreated": "2025-01-18 10:48:45",
+		"extras": "pr=KAH-zoh"
+	},
+	{
+		"language": "it",
+		"front": "depending on the context",
+		"back": "a seconda del contesto",
+		"whenCreated": "2025-01-18 10:28:18",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "if you click on this link",
+		"back": "se clicchi su questo link",
+		"whenCreated": "2025-01-18 10:24:42",
+		"extras": "pr=KLEE-kee"
+	},
+	{
+		"language": "it",
+		"front": "as I said before",
+		"back": "come ho detto prima",
+		"whenCreated": "2025-01-18 10:23:23",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "what is relevant to you",
+		"back": "ciò che il rilevante per te",
+		"whenCreated": "2025-01-18 10:20:16",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "and since you would be connecting to a system",
+		"back": "e poiché ti connetteresti a un sistema",
+		"whenCreated": "2025-01-18 10:17:55",
+		"extras": "poh-ee-KAY"
+	},
+	{
+		"language": "it",
+		"front": "if you've done all of this",
+		"back": "se hai fatto tutto questo",
+		"whenCreated": "2025-01-18 10:13:44",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "when you visit the page",
+		"back": "i quando visiti la pagina",
+		"whenCreated": "2025-01-18 10:11:34",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "you may not have access",
+		"back": "potresti non avere accesso",
+		"whenCreated": "2025-01-18 10:05:20",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "that are required of us",
+		"back": "che ci sono richiesti",
+		"whenCreated": "2025-01-18 10:03:03",
+		"extras": "ree-kee-ESS-tee"
+	},
+	{
+		"language": "it",
+		"front": "first of all, you need to install the software",
+		"back": "prima di tutto, devi installare il software",
+		"whenCreated": "2025-01-18 10:01:43",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "if you try to use Linux",
+		"back": "se provi a usare Linux",
+		"whenCreated": "2025-01-18 10:00:04",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "make sure you look",
+		"back": "assicurati di guardare",
+		"whenCreated": "2025-01-18 09:58:32",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "so first of all",
+		"back": "quindi, prima di tutto",
+		"whenCreated": "2025-01-18 09:57:11",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "and then on top of this component",
+		"back": "e poi in cima a questo componente",
+		"whenCreated": "2025-01-18 09:55:15",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "which I was referring to previously",
+		"back": "a cui mi riferivo in precedenza",
+		"whenCreated": "2025-01-18 09:49:13",
+		"extras": "pr=pray-chay-DENT-sa"
+	},
+	{
+		"language": "it",
+		"front": "needed to make it work",
+		"back": "necessari per farlo funzionare",
+		"whenCreated": "2025-01-18 09:45:25",
+		"extras": "pr=nay-chess-SAR-ee"
+	},
+	{
+		"language": "it",
+		"front": "if you are new",
+		"back": "se sei nuovo",
+		"whenCreated": "2025-01-18 09:34:26",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "the first reason I chose",
+		"back": "la prima ragione che cui ho scelto",
+		"whenCreated": "2025-01-18 09:31:09",
+		"extras": "pr=rah-JOH-nay;pr=SHEL-toh"
+	},
+	{
+		"language": "it",
+		"front": "which in my case",
+		"back": "che nel mio caso",
+		"whenCreated": "2025-01-18 09:29:55",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "knowledge that is required",
+		"back": "conoscenza che è richiesta",
+		"whenCreated": "2025-01-18 09:29:04",
+		"extras": "koh-noh-SHENT-sa"
+	},
+	{
+		"language": "it",
+		"front": "why are you doing this",
+		"back": "perché lo stai facendo",
+		"whenCreated": "2025-01-18 00:40:41",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "but on the other hand",
+		"back": "ma d'altra parte",
+		"whenCreated": "2025-01-18 00:37:13",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "but more similar to",
+		"back": "ma più simile a",
+		"whenCreated": "2025-01-18 00:35:52",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "and then you can just push the data",
+		"back": "e poi puoi semplicemente spingere i dati",
+		"whenCreated": "2025-01-18 00:32:41",
+		"extras": "pr=SPIN-jerr-ray"
+	},
+	{
+		"language": "it",
+		"front": "it would be really hard to do",
+		"back": "sarebbe davvero difficile da fare",
+		"whenCreated": "2025-01-18 00:27:16",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "know any language",
+		"back": "conoscere alcun linguaggio",
+		"whenCreated": "2025-01-17 22:54:44",
+		"extras": "pr=ko-NOH-sher-ay;pr=leen-GWAH-joh"
+	},
+	{
+		"language": "it",
+		"front": "so I was pretty familiar with this",
+		"back": "quindi ero abbastanza familiare con questo",
+		"whenCreated": "2025-01-17 22:50:51",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "because it is a part of a kit",
+		"back": "poiché si un tratto di un kit",
+		"whenCreated": "2025-01-17 22:44:43",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "that you can see on the screen",
+		"back": "che puoi vedere sullo schermo",
+		"whenCreated": "2025-01-17 22:37:41",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "most of my other videos",
+		"back": "la maggior parte dei miei altri video",
+		"whenCreated": "2025-01-17 22:32:59",
+		"extras": ""
+	},
+	{
 		"language": "es",
 		"front": "GitLab provides us with some variables",
 		"back": "GitLab nos proporciona algunas variables",
@@ -1299,6 +1565,13 @@
 		"front": "and now more than ever",
 		"back": "e ora più che mai",
 		"whenCreated": "2025-01-13 20:40:58",
+		"extras": ""
+	},
+	{
+		"language": "it",
+		"front": "it can be executed",
+		"back": "può essere eseguito",
+		"whenCreated": "2025-01-18 23:50:05",
 		"extras": ""
 	},
 	{
@@ -3686,6 +3959,34 @@
 		"front": "those who want to have a backup of their work",
 		"back": "aquellos que quieran tener un respaldo de su trabajo",
 		"whenCreated": "2024-12-01 00:00:00",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "what happened here is",
+		"back": "lo que sucedió aqui es",
+		"whenCreated": "2025-01-22 05:01:30",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "which would further extend its capabilities",
+		"back": "lo que extenderia aún mas sus capacidades",
+		"whenCreated": "2025-01-22 04:39:25",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "a function can be decorated by more than one decorator",
+		"back": "una función puede ser decorada por más de un decorador",
+		"whenCreated": "2025-01-22 04:37:39",
+		"extras": ""
+	},
+	{
+		"language": "es",
+		"front": "puede hacer uso de un decorador",
+		"back": "you can make use of a decorator",
+		"whenCreated": "2025-01-21 16:28:42",
 		"extras": ""
 	},
 	{
